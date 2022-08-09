@@ -138,7 +138,7 @@ const renderPokemon2 = async (pokemon) => {
         searchPokemon = data2['pokedex_numbers']['0']['entry_number']
     }
     if (options.generation == 'generation-vii') {
-        pokemonDesc.innerHTML = data2['flavor_text_entries']['8']['flavor_text'];
+        pokemonDesc.innerHTML = data2['flavor_text_entries']['7']['flavor_text'];
         input.value = '';
         searchPokemon = data2['pokedex_numbers']['0']['entry_number']
     }
