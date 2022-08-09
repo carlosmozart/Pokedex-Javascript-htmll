@@ -10,6 +10,12 @@ const input = document.querySelector('.input__search');
 const buttonPrev = document.querySelector('.btn-prev');
 const buttonNext = document.querySelector('.btn-next');
 const audio = new Audio('./sound/pokedex_sound.mp3');
+const bulba = new Audio(`./sound/cries/1.WAV`);
+
+//const cry = new Audio('./sound/pokedex_sound.mp3');
+//const cry = new pkmC(`./sound/cries/${cryId.mp3}`);
+let a = 1;
+
 let type1;
 let type2;
 let slot;
@@ -21,7 +27,8 @@ const generations = [
         generation: 'generation-i',
         sprites: {
             game: 'red-blue',
-            type: 'front_transparent'
+            type: 'front_transparent',
+            cry: `${a}.mp3`,
         }
     },
     {
@@ -82,6 +89,13 @@ const generations = [
     }
 
 ]
+
+
+function pokemonCry(){
+    
+    bulba.play();
+}
+
 const fetchPokemon = async (pokemon) => {
     const APIResponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
 
@@ -184,6 +198,9 @@ const renderPokemon = async (pokemon) => {
     if (data['types']['1'] != undefined) {
         type2 = data['types']['1']['type']['name'];
     }
+    a = data.id;
+    const audio2 = new Audio(`./sound/cries/${a}.WAV`);
+    audio2.play();
 
     pokemon_Type1();
     pokemon_Type2();
@@ -387,3 +404,5 @@ renderPokemon(searchPokemon);
 renderPokemon2(searchPokemon);
 pokemon_Type1(type1);
 pokemon_Type2(type2);
+pokemonCry();
+
