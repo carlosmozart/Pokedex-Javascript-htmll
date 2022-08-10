@@ -28,8 +28,8 @@ const generations = [
         sprites: {
             game: 'red-blue',
             type: 'front_transparent',
-            cry: `${a}.mp3`,
         }
+
     },
     {
         ids: [152, 251],
@@ -118,30 +118,30 @@ const renderPokemon2 = async (pokemon) => {
     const data2 = await fetchPokemon2(pokemon);
     let options = getGeneration(data2.id);
     if (options.generation == 'generation-i') {
-        pokemonDesc.innerHTML = data2['flavor_text_entries']['6']['flavor_text'];
+        pokemonDesc.innerHTML = data2['flavor_text_entries']['0']['flavor_text'];
         input.value = '';
         searchPokemon = data2['pokedex_numbers']['0']['entry_number']
     }
 
     if (options.generation == 'generation-ii') {
-        pokemonDesc.innerHTML = data2['flavor_text_entries']['6']['flavor_text'];
+        pokemonDesc.innerHTML = data2['flavor_text_entries']['2']['flavor_text'];
         input.value = '';
         searchPokemon = data2['pokedex_numbers']['0']['entry_number']
     }
     if (options.generation == 'generation-iii') {
-        pokemonDesc.innerHTML = data2['flavor_text_entries']['6']['flavor_text'];
+        pokemonDesc.innerHTML = data2['flavor_text_entries']['2']['flavor_text'];
         input.value = '';
         searchPokemon = data2['pokedex_numbers']['0']['entry_number']
     }
 
     if (options.generation == 'generation-iv') {
-        pokemonDesc.innerHTML = data2['flavor_text_entries']['6']['flavor_text'];
+        pokemonDesc.innerHTML = data2['flavor_text_entries']['3']['flavor_text'];
         input.value = '';
         searchPokemon = data2['pokedex_numbers']['0']['entry_number']
     }
 
     if (options.generation == 'generation-v') {
-        pokemonDesc.innerHTML = data2['flavor_text_entries']['5']['flavor_text'];
+        pokemonDesc.innerHTML = data2['flavor_text_entries']['1']['flavor_text'];
         input.value = '';
         searchPokemon = data2['pokedex_numbers']['0']['entry_number']
     }
