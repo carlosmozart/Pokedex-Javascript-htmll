@@ -10,7 +10,7 @@ const input = document.querySelector('.input__search');
 const buttonPrev = document.querySelector('.btn-prev');
 const buttonNext = document.querySelector('.btn-next');
 const audio = new Audio('./sound/pokedex_sound.mp3');
-const bulba = new Audio(`./sound/cries/1.WAV`);
+const bulba = new Audio(`./sound/cries/1.mp3`);
 
 //const cry = new Audio('./sound/pokedex_sound.mp3');
 //const cry = new pkmC(`./sound/cries/${cryId.mp3}`);
@@ -199,7 +199,7 @@ const renderPokemon = async (pokemon) => {
         type2 = data['types']['1']['type']['name'];
     }
     a = data.id;
-    const audio2 = new Audio(`./sound/cries/${a}.WAV`);
+    const audio2 = new Audio(`./sound/cries/${a}.mp3`);
     audio2.play();
 
     pokemon_Type1();
