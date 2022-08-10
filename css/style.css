@@ -25,6 +25,12 @@ main{
     
 }
 
+.ost{
+    position: absolute;
+    left: 30%;
+    
+}
+
 .pokemon__image{
     position: absolute;
     bottom: 41%;
