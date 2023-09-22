@@ -3,3 +3,5 @@ Uma Pokedex feita em java script + css + html para fins de estudo e exercitar os
 
 English
 A Pokedex made in java script + css + html for study purposes and to exercise my knowledge. It is currently at v2.6.2 but will soon receive new functions.
+
+[Link para testar o projeto](https://carlosmozart.github.io/Pokedex-Javascript-htmll/)
