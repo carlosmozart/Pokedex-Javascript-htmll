@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Moderna</title>
+    <link rel="icon" href="./favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+    <!-- Background dinâmico baseado no tipo -->
+    <div id="dynamic-bg" class="type-normal"></div>
+
+    <main class="app-container">
+        <!-- Header: Título, Tema e Busca -->
+        <header class="app-header">
+            <div class="header-top">
+                <h1 class="logo">Pokédex</h1>
+                <div class="header-actions">
+                    <button id="theme-toggle" class="btn-icon" aria-label="Alternar Tema" title="Modo Claro/Escuro">☀️</button>
+                    <button id="btn-open-grid" class="btn-icon" title="Modo Grade">🗂️</button>
+                </div>
+            </div>
+            
+            <div class="header-options">
+                <!-- Sprite Style Select -->
+                <select id="sprite-select" class="input-select" title="Estilo de Sprite">
+                    <option value="classic">Clássico 2D</option>
+                    <option value="3d">Animado 3D</option>
+                </select>
+
+                <select id="lang-select" class="input-select" title="Idioma">
+                    <option value="pt">PT / BR</option>
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            
+            <form class="search-form">
+                <select id="generation-select" class="input-select">
+                    <option value="1">Gen I (Kanto)</option>
+                    <option value="2">Gen II (Johto)</option>
+                    <option value="3">Gen III (Hoenn)</option>
+                    <option value="4">Gen IV (Sinnoh)</option>
+                    <option value="5">Gen V (Unova)</option>
+                    <option value="6">Gen VI (Kalos)</option>
+                    <option value="7">Gen VII (Alola)</option>
+                    <option value="8">Gen VIII (Galar/Hisui)</option>
+                    <option value="9">Gen IX (Paldea/Z-A)</option>
+                </select>
+                <div class="search-input-wrapper">
+                    <input type="search" class="input-search" placeholder="Nome ou Nº..." required autocomplete="off">
+                    <button type="submit" class="btn-search" title="Buscar">🔍</button>
+                    <ul id="autocomplete-list" class="autocomplete-list hidden"></ul>
+                </div>
+            </form>
+        </header>
+
+        <!-- Glass Card Principal -->
+        <div class="pokemon-card glass">
+            <!-- Loading overlay -->
+            <div id="loading-overlay" class="loading-overlay">
+                <div class="spinner"></div>
+            </div>
+
+            <!-- Identificação -->
+            <div class="pokemon-header">
+                <span class="pokemon-number">#000</span>
+                <h2 class="pokemon-name">Carregando...</h2>
+                <div class="pokemon-category">Pokémon</div>
+            </div>
+
+            <!-- Sprite Principal -->
+            <div class="pokemon-image-container">
+                <img src="./images/miss.png" alt="pokemon" class="pokemon-image">
+                <div class="image-controls">
+                    <button id="btn-fav" class="btn-icon btn-fav" title="Favoritar">🤍</button>
+                    <button id="btn-shiny" class="btn-icon" title="Alternar Shiny">✨</button>
+                    <button id="btn-cry" class="btn-icon" title="Tocar Cry">🔊</button>
+                </div>
+            </div>
+
+            <!-- Tipos -->
+            <div class="pokemon-types">
+                <span class="pokemon-type-badge badge1">Tipo</span>
+                <span class="pokemon-type-badge badge2">Tipo</span>
+            </div>
+
+            <!-- Medidas (Altura / Peso) e Habilidade -->
+            <div class="pokemon-info">
+                <div class="info-item">
+                    <span class="info-label">Altura</span>
+                    <span class="info-value pokemon-height">-- m</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Peso</span>
+                    <span class="info-value pokemon-weight">-- kg</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Habilidade</span>
+                    <span class="info-value pokemon-ability">--</span>
+                </div>
+            </div>
+
+            <!-- Descrição Pokedex -->
+            <div class="pokemon-description">
+                Aguardando dados da PokéAPI...
+            </div>
+
+            <!-- TABS (Abas) -->
+            <div class="tabs-container">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-target="tab-stats">Estatísticas</button>
+                    <button class="tab-btn" data-target="tab-matchups">Fraquezas</button>
+                    <button class="tab-btn" data-target="tab-evolution">Evoluções</button>
+                </div>
+                <div class="tabs-body">
+                    <!-- Tab: Stats Base -->
+                    <div id="tab-stats" class="tab-content active">
+                        <div class="pokemon-stats">
+                            <div class="stat-row">
+                                <span class="stat-label">HP</span>
+                                <span class="stat-value hp-val">0</span>
+                                <div class="stat-bar"><div class="stat-fill stat-hp" style="width: 0%;"></div></div>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">ATK</span>
+                                <span class="stat-value atk-val">0</span>
+                                <div class="stat-bar"><div class="stat-fill stat-atk" style="width: 0%;"></div></div>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">DEF</span>
+                                <span class="stat-value def-val">0</span>
+                                <div class="stat-bar"><div class="stat-fill stat-def" style="width: 0%;"></div></div>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">SPA</span>
+                                <span class="stat-value spa-val">0</span>
+                                <div class="stat-bar"><div class="stat-fill stat-spa" style="width: 0%;"></div></div>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">SPD</span>
+                                <span class="stat-value spd-val">0</span>
+                                <div class="stat-bar"><div class="stat-fill stat-spd" style="width: 0%;"></div></div>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">SPE</span>
+                                <span class="stat-value spe-val">0</span>
+                                <div class="stat-bar"><div class="stat-fill stat-spe" style="width: 0%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tab: Type Matchups (Fraquezas e Vantagens) -->
+                    <div id="tab-matchups" class="tab-content">
+                        <div class="matchups-container">
+                            <!-- Preenchido via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Tab: Evolution Chain -->
+                    <div id="tab-evolution" class="tab-content">
+                        <div class="evolution-container">
+                            <!-- Preenchido via JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pokemon-controls">
+                <button class="btn-nav btn-prev">❮</button>
+                <button class="btn-nav btn-random" title="Aleatório">🎲</button>
+                <button class="btn-nav btn-next">❯</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Grid Modal -->
+    <div id="grid-modal" class="grid-modal hidden">
+        <div class="grid-modal-content glass">
+            <div class="grid-modal-header">
+                <h2>Galeria de Pokémons (Gen <span id="grid-gen-number">1</span>)</h2>
+                <button id="btn-close-grid" class="btn-icon">✖️</button>
+            </div>
+            <div class="grid-container" id="grid-container">
+                <!-- Preenchido via JS (Lazy Load) -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
