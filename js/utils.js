@@ -17,7 +17,7 @@ export const playCry = (data) => {
 
 export const getPokemonSprite = (data, shiny) => {
     let spriteUrl = null;
-    if (state.spriteMode === '3d') {
+    if (state.spriteMode === '3d' && data.sprites.other && data.sprites.other.showdown) {
         spriteUrl = shiny ? data.sprites.other.showdown.front_shiny : data.sprites.other.showdown.front_default;
     } 
     
@@ -35,7 +35,7 @@ export const getPokemonSprite = (data, shiny) => {
         };
         
         const genInfo = genMap[state.currentGenId];
-        if (genInfo && data.sprites.versions[genInfo[0]] && data.sprites.versions[genInfo[0]][genInfo[1]]) {
+        if (genInfo && data.sprites.versions && data.sprites.versions[genInfo[0]] && data.sprites.versions[genInfo[0]][genInfo[1]]) {
             const versionSprites = data.sprites.versions[genInfo[0]][genInfo[1]];
             
             if (shiny) {
@@ -53,9 +53,13 @@ export const getPokemonSprite = (data, shiny) => {
 
     // Fallback final para official-artwork
     if (!spriteUrl) {
-        spriteUrl = shiny ? 
-            (data.sprites.other['official-artwork'].front_shiny || data.sprites.front_shiny) :
-            (data.sprites.other['official-artwork'].front_default || data.sprites.front_default);
+        if (data.sprites.other && data.sprites.other['official-artwork']) {
+            spriteUrl = shiny ? 
+                (data.sprites.other['official-artwork'].front_shiny || data.sprites.front_shiny) :
+                (data.sprites.other['official-artwork'].front_default || data.sprites.front_default);
+        } else {
+            spriteUrl = data.sprites.front_default;
+        }
     }
     return spriteUrl;
 };
