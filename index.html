@@ -7,6 +7,7 @@
     <title>Pokédex Moderna</title>
     <link rel="icon" href="./favicons/favicon-16x16.png">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="manifest" href="./manifest.json">
     
     <!-- Ultra-Premium CDNs -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
@@ -116,6 +117,7 @@
                     <button class="tab-btn active" data-target="tab-stats" role="tab" aria-selected="true" aria-controls="tab-stats">Estatísticas</button>
                     <button class="tab-btn" data-target="tab-matchups" role="tab" aria-selected="false" aria-controls="tab-matchups">Fraquezas</button>
                     <button class="tab-btn" data-target="tab-evolution" role="tab" aria-selected="false" aria-controls="tab-evolution">Evoluções</button>
+                    <button class="tab-btn" data-target="tab-moves" role="tab" aria-selected="false" aria-controls="tab-moves">Golpes</button>
                 </div>
                 <div class="tabs-body">
                     <!-- Tab: Stats Base -->
@@ -135,6 +137,13 @@
                     <!-- Tab: Evolution Chain -->
                     <div id="tab-evolution" class="tab-content">
                         <div class="evolution-container">
+                            <!-- Preenchido via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Tab: Moves -->
+                    <div id="tab-moves" class="tab-content">
+                        <div class="moves-container">
                             <!-- Preenchido via JS -->
                         </div>
                     </div>

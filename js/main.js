@@ -55,7 +55,12 @@ dom.btnShiny?.addEventListener('click', () => {
 dom.btnVoice?.addEventListener('click', () => {
     if ('speechSynthesis' in window && state.currentPokemonData) {
         window.speechSynthesis.cancel();
-        const textToRead = `${dom.pokemonName.textContent}. ${dom.pokemonDesc.textContent}`;
+        
+        let genus = dom.pokemonCategory.textContent;
+        const name = dom.pokemonName.textContent;
+        const desc = dom.pokemonDesc.textContent;
+        
+        const textToRead = `${name}, o Pokémon ${genus}. ${desc}`;
         const utterance = new SpeechSynthesisUtterance(textToRead);
         
         if (state.currentLang === 'pt') utterance.lang = 'pt-BR';
@@ -259,10 +264,18 @@ dom.genSelect?.addEventListener('change', (event) => {
 });
 
 document.addEventListener('keydown', (event) => {
-    if (document.activeElement === dom.input) return;
-    if (event.key === 'ArrowLeft') dom.btnPrev.click();
-    if (event.key === 'ArrowRight') dom.btnNext.click();
+    if (event.key === 'ArrowLeft') dom.btnPrev?.click();
+    if (event.key === 'ArrowRight') dom.btnNext?.click();
 });
+
+// PWA Service Worker Registration
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+            .then(reg => console.log('Service Worker registrado:', reg.scope))
+            .catch(err => console.log('Erro no Service Worker:', err));
+    });
+}
 
 // Swipe Gestures
 let touchStartX = 0;

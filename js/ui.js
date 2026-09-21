@@ -48,6 +48,7 @@ export const dom = {
     
     matchupsContainer: document.querySelector('.matchups-container'),
     evolutionContainer: document.querySelector('.evolution-container'),
+    movesContainer: document.querySelector('.moves-container'),
     tabBtns: document.querySelectorAll('.tab-btn'),
     tabContents: document.querySelectorAll('.tab-content')
 };
@@ -279,6 +280,75 @@ export const renderEvolutions = async (speciesData, pokemonData) => {
     });
 };
 
+export const renderMoves = (pokemonData) => {
+    if (!dom.movesContainer) return;
+    
+    if (!pokemonData || !pokemonData._rawLocal || !pokemonData._rawLocal.golpes) {
+        dom.movesContainer.innerHTML = '<span>Nenhum dado de golpes disponível (PokéAPI).</span>';
+        return;
+    }
+    
+    const golpesMap = pokemonData._rawLocal.golpes;
+    // Pega a chave da geração atual (ex: 'sun-moon', 'ultra-sun-ultra-moon')
+    const availableVersions = Object.keys(golpesMap);
+    if (availableVersions.length === 0) {
+        dom.movesContainer.innerHTML = '<span>Nenhum golpe encontrado para esta geração.</span>';
+        return;
+    }
+    
+    // Pega a versão mais recente da array
+    const versionKey = availableVersions[availableVersions.length - 1];
+    const moves = golpesMap[versionKey] || [];
+    
+    // Filtra para mostrar apenas golpes que se aprende subindo de nível (level-up) ou machine, ordenados
+    const levelUpMoves = moves.filter(m => m.m === 'level-up').sort((a, b) => a.l - b.l);
+    const tmHmMoves = moves.filter(m => m.m === 'machine' || m.m === 'tutor');
+    
+    let html = `
+        <div style="max-height: 250px; overflow-y: auto; padding-right: 10px;" class="moves-scroll">
+            <h4 style="margin-bottom: 10px; color: var(--text-color);">Por Nível (Level-up)</h4>
+            <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 0.85rem; text-align: left;">
+                <tr style="border-bottom: 1px solid var(--border-color); color: var(--text-muted);">
+                    <th style="padding: 5px;">Nv.</th>
+                    <th style="padding: 5px;">Golpe</th>
+                </tr>
+    `;
+    
+    if (levelUpMoves.length > 0) {
+        levelUpMoves.forEach(m => {
+            html += `
+                <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                    <td style="padding: 5px; font-weight: bold; color: var(--text-color);">${m.l}</td>
+                    <td style="padding: 5px; text-transform: capitalize;">${m.n.replace('-', ' ')}</td>
+                </tr>
+            `;
+        });
+    } else {
+        html += `<tr><td colspan="2" style="padding: 5px;">Nenhum</td></tr>`;
+    }
+    html += `</table>`;
+    
+    html += `
+            <h4 style="margin-bottom: 10px; color: var(--text-color);">TM / Tutor</h4>
+            <table style="width: 100%; border-collapse: collapse; font-size: 0.85rem; text-align: left;">
+    `;
+    if (tmHmMoves.length > 0) {
+        tmHmMoves.forEach(m => {
+            html += `
+                <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                    <td style="padding: 5px; font-weight: bold; color: var(--text-muted);">${m.m === 'machine' ? 'TM' : 'Tutor'}</td>
+                    <td style="padding: 5px; text-transform: capitalize;">${m.n.replace('-', ' ')}</td>
+                </tr>
+            `;
+        });
+    } else {
+        html += `<tr><td colspan="2" style="padding: 5px;">Nenhum</td></tr>`;
+    }
+    
+    html += `</table></div>`;
+    dom.movesContainer.innerHTML = html;
+};
+
 export const resetUI = () => {
     dom.pokemonName.innerHTML = 'Não Encontrado';
     dom.pokemonNumber.innerHTML = '#???';
@@ -295,6 +365,7 @@ export const resetUI = () => {
     renderStats([{base_stat:0},{base_stat:0},{base_stat:0},{base_stat:0},{base_stat:0},{base_stat:0}]);
     dom.matchupsContainer.innerHTML = '';
     dom.evolutionContainer.innerHTML = '';
+    if (dom.movesContainer) dom.movesContainer.innerHTML = '';
     dom.btnFav.textContent = '🤍';
     dom.btnFav.classList.remove('active');
 };
@@ -412,6 +483,7 @@ export const renderPokemon = async (pokemon) => {
             renderStats(data.stats || []);
             renderTypeMatchups(data.types || []);
             renderEvolutions(speciesData, data);
+            renderMoves(data);
             
             skeletonElements.forEach(el => { if (el) el.classList.remove('skeleton'); });
             

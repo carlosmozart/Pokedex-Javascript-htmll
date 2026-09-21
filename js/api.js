@@ -54,7 +54,8 @@ const adaptLocalToPokeAPI = (local) => {
         cries: local.cries || null,
         sprites: { front_default: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${local.id}.png` },
         _isLocal: true,
-        _localEvolutions: local.evolucoes || []
+        _localEvolutions: local.evolucoes || [],
+        _rawLocal: local
     };
 };
 

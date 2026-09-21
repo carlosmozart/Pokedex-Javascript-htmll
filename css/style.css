@@ -538,3 +538,39 @@ body {
     opacity: 0;
     pointer-events: none;
 }
+
+/* Sparkle Animation for Shiny Mode */
+.sparkle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: radial-gradient(circle, #fff 20%, transparent 60%);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: shinySparkle 1.2s ease-in-out forwards;
+    opacity: 0;
+    z-index: 10;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8), 0 0 20px 5px rgba(255, 215, 0, 0.6);
+}
+
+@keyframes shinySparkle {
+    0% { transform: scale(0) rotate(0deg); opacity: 0; }
+    50% { transform: scale(1.5) rotate(180deg); opacity: 1; }
+    100% { transform: scale(0) rotate(360deg); opacity: 0; }
+}
+
+/* Scrollbar for Moves Tab */
+.moves-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+.moves-scroll::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.moves-scroll::-webkit-scrollbar-thumb {
+    background: var(--btn-bg);
+    border-radius: 4px;
+}
+.moves-scroll::-webkit-scrollbar-thumb:hover {
+    background: var(--type-normal);
+}
