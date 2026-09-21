@@ -1,0 +1,2626 @@
+{
+  "overview": {
+    "title": "Battle Tree & Battle Agency",
+    "desc": "Alola não tem Battle Frontier. Depois da Liga, o desafio é a <b>Battle Tree</b>, a oeste do Poni Gauntlet: partidas seguidas em simples, duplas ou multi, com os oponentes sempre no nível 50. Cada vitória rende Battle Points, e na vigésima batalha do curso normal — ou na quinquagésima do curso Super — quem espera é um <b>Battle Legend</b>: Red nas simples, Blue nas duplas, os dois juntos nas multi. Ultra Sun e Ultra Moon somam a <b>Battle Agency</b>, no Festival Plaza, onde você não leva o seu time: aluga um Pokémon, convida dois treinadores da praça e sobe de grau, com um chefe a cada dez.",
+    "image": "img/Battle_Tree.png",
+    "en": {
+      "title": "Battle Tree & Battle Agency",
+      "desc": "Alola has no Battle Frontier. After the League the challenge is the <b>Battle Tree</b>, west of the Poni Gauntlet: back-to-back Single, Double or Multi Battles, with opponents always at level 50. Every win pays Battle Points, and on the twentieth battle of the normal course — or the fiftieth of the Super course — a <b>Battle Legend</b> is waiting: Red in Singles, Blue in Doubles, both at once in Multi Battles. Ultra Sun and Ultra Moon add the <b>Battle Agency</b>, in Festival Plaza, where you do not bring your own team: you rent a Pokémon, invite two Trainers from the plaza and climb the grades, with a boss every ten."
+    }
+  },
+  "symbolLabel": "Prêmio:",
+  "en": {
+    "symbolLabel": "Reward:"
+  },
+  "facilities": [
+    {
+      "name": "Battle Tree",
+      "ptName": "Batalhas simples",
+      "desc": "Três Pokémon de cada lado. O curso normal tem vinte batalhas e termina em Red; vencê-lo abre o curso Super, que só acaba quando você perde e traz Red de volta na quinquagésima. Red monta o time dele com três destes dez conjuntos, sempre no nível 50.",
+      "brain": "Red",
+      "brainTitle": "Battle Legend",
+      "brainSprite": "img/trainers/gen7/Spr_SM_Red.png",
+      "symbol": "Battle Tree Great Ribbon e Battle Tree Master Ribbon",
+      "silverLabel": "🥈 Curso normal — 20ª batalha",
+      "silverReq": "20 BP pela vitória; libera o curso Super",
+      "silverTeam": [
+        {
+          "id": 3,
+          "level": 50,
+          "name": "Venusaur",
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "item": "Big Root",
+          "ability": "",
+          "abilities": [
+            "Overgrow"
+          ],
+          "nature": "Calm",
+          "moves": [
+            "Leech Seed",
+            "Toxic",
+            "Synthesis",
+            "Ingrain"
+          ]
+        },
+        {
+          "id": 6,
+          "level": 50,
+          "name": "Charizard",
+          "types": [
+            "fire",
+            "flying"
+          ],
+          "item": "Salac Berry",
+          "ability": "",
+          "abilities": [
+            "Blaze"
+          ],
+          "nature": "Careful",
+          "moves": [
+            "Dragon Claw",
+            "Fire Fang",
+            "Belly Drum",
+            "Shadow Claw"
+          ]
+        },
+        {
+          "id": 9,
+          "level": 50,
+          "name": "Blastoise",
+          "types": [
+            "water"
+          ],
+          "item": "Zoom Lens",
+          "ability": "",
+          "abilities": [
+            "Torrent"
+          ],
+          "nature": "Quiet",
+          "moves": [
+            "Aqua Ring",
+            "Rock Slide",
+            "Aqua Tail",
+            "Iron Defense"
+          ]
+        },
+        {
+          "id": 131,
+          "level": 50,
+          "name": "Lapras",
+          "types": [
+            "water",
+            "ice"
+          ],
+          "item": "Damp Rock",
+          "ability": "",
+          "abilities": [
+            "Water Absorb",
+            "Shell Armor"
+          ],
+          "nature": "Quiet",
+          "moves": [
+            "Rain Dance",
+            "Thunder",
+            "Ice Shard",
+            "Confuse Ray"
+          ]
+        },
+        {
+          "id": 143,
+          "level": 50,
+          "name": "Snorlax",
+          "types": [
+            "normal"
+          ],
+          "item": "Sitrus Berry",
+          "ability": "",
+          "abilities": [
+            "Immunity",
+            "Thick Fat"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Return",
+            "Wild Charge",
+            "Counter",
+            "Recycle"
+          ]
+        },
+        {
+          "id": 3,
+          "level": 50,
+          "name": "Venusaur",
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "item": "Grassium Z",
+          "ability": "",
+          "abilities": [
+            "Overgrow"
+          ],
+          "nature": "Brave",
+          "moves": [
+            "Roar",
+            "Venoshock",
+            "Power Whip",
+            "Earthquake"
+          ]
+        },
+        {
+          "id": 6,
+          "level": 50,
+          "name": "Charizard",
+          "types": [
+            "fire",
+            "flying"
+          ],
+          "item": "Charti Berry",
+          "ability": "",
+          "abilities": [
+            "Blaze"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Dragon Claw",
+            "Shadow Claw",
+            "Rock Slide",
+            "Dragon Dance"
+          ]
+        },
+        {
+          "id": 9,
+          "level": 50,
+          "name": "Blastoise",
+          "types": [
+            "water"
+          ],
+          "item": "Blastoisinite",
+          "ability": "",
+          "abilities": [
+            "Torrent"
+          ],
+          "nature": "Quiet",
+          "moves": [
+            "Water Pulse",
+            "Aura Sphere",
+            "Dark Pulse",
+            "Dragon Pulse"
+          ]
+        },
+        {
+          "id": 131,
+          "level": 50,
+          "name": "Lapras",
+          "types": [
+            "water",
+            "ice"
+          ],
+          "item": "Normalium Z",
+          "ability": "",
+          "abilities": [
+            "Water Absorb",
+            "Shell Armor"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Surf",
+            "Ice Beam",
+            "Rest",
+            "Sleep Talk"
+          ]
+        },
+        {
+          "id": 143,
+          "level": 50,
+          "name": "Snorlax",
+          "types": [
+            "normal"
+          ],
+          "item": "Sitrus Berry",
+          "ability": "",
+          "abilities": [
+            "Immunity",
+            "Thick Fat"
+          ],
+          "nature": "Brave",
+          "moves": [
+            "Return",
+            "Protect",
+            "Crunch",
+            "Belly Drum"
+          ]
+        }
+      ],
+      "goldLabel": "🥇 Curso Super — 50ª batalha",
+      "goldReq": "50 BP pela vitória; a sequência continua depois dela",
+      "goldTeam": [
+        {
+          "id": 3,
+          "level": 50,
+          "name": "Venusaur",
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "item": "Salac Berry",
+          "ability": "",
+          "abilities": [
+            "Overgrow"
+          ],
+          "nature": "Timid",
+          "moves": [
+            "Energy Ball",
+            "Sludge Bomb",
+            "Grass Knot",
+            "Protect"
+          ]
+        },
+        {
+          "id": 6,
+          "level": 50,
+          "name": "Charizard",
+          "types": [
+            "fire",
+            "flying"
+          ],
+          "item": "Charizardite Y",
+          "ability": "",
+          "abilities": [
+            "Blaze"
+          ],
+          "nature": "Timid",
+          "moves": [
+            "Heat Wave",
+            "Solar Beam",
+            "Air Slash",
+            "Focus Blast"
+          ]
+        },
+        {
+          "id": 9,
+          "level": 50,
+          "name": "Blastoise",
+          "types": [
+            "water"
+          ],
+          "item": "Leftovers",
+          "ability": "",
+          "abilities": [
+            "Torrent"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Fake Out",
+            "Earthquake",
+            "Aqua Tail",
+            "Rock Slide"
+          ]
+        },
+        {
+          "id": 131,
+          "level": 50,
+          "name": "Lapras",
+          "types": [
+            "water",
+            "ice"
+          ],
+          "item": "Bright Powder",
+          "ability": "",
+          "abilities": [
+            "Water Absorb",
+            "Shell Armor"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Surf",
+            "Ice Beam",
+            "Thunderbolt",
+            "Psychic"
+          ]
+        },
+        {
+          "id": 143,
+          "level": 50,
+          "name": "Snorlax",
+          "types": [
+            "normal"
+          ],
+          "item": "Life Orb",
+          "ability": "",
+          "abilities": [
+            "Immunity",
+            "Thick Fat"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Double-Edge",
+            "Earthquake",
+            "Crunch",
+            "Protect"
+          ]
+        },
+        {
+          "id": 3,
+          "level": 50,
+          "name": "Venusaur",
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "item": "Venusaurite",
+          "ability": "",
+          "abilities": [
+            "Overgrow"
+          ],
+          "nature": "Bold",
+          "moves": [
+            "Synthesis",
+            "Substitute",
+            "Sludge Bomb",
+            "Giga Drain"
+          ]
+        },
+        {
+          "id": 6,
+          "level": 50,
+          "name": "Charizard",
+          "types": [
+            "fire",
+            "flying"
+          ],
+          "item": "Charizardite X",
+          "ability": "",
+          "abilities": [
+            "Blaze"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Dragon Rush",
+            "Flare Blitz",
+            "Dragon Dance",
+            "Rock Slide"
+          ]
+        },
+        {
+          "id": 9,
+          "level": 50,
+          "name": "Blastoise",
+          "types": [
+            "water"
+          ],
+          "item": "Custap Berry",
+          "ability": "",
+          "abilities": [
+            "Torrent"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Yawn",
+            "Hydro Pump",
+            "Blizzard",
+            "Dark Pulse"
+          ]
+        },
+        {
+          "id": 131,
+          "level": 50,
+          "name": "Lapras",
+          "types": [
+            "water",
+            "ice"
+          ],
+          "item": "Psychium Z",
+          "ability": "",
+          "abilities": [
+            "Water Absorb",
+            "Shell Armor"
+          ],
+          "nature": "Quiet",
+          "moves": [
+            "Blizzard",
+            "Hydro Pump",
+            "Psychic",
+            "Ice Shard"
+          ]
+        },
+        {
+          "id": 143,
+          "level": 50,
+          "name": "Snorlax",
+          "types": [
+            "normal"
+          ],
+          "item": "Assault Vest",
+          "ability": "",
+          "abilities": [
+            "Immunity",
+            "Thick Fat"
+          ],
+          "nature": "Careful",
+          "moves": [
+            "Body Slam",
+            "Fissure",
+            "Earthquake",
+            "Crunch"
+          ]
+        }
+      ],
+      "en": {
+        "ptName": "Single Battles",
+        "desc": "Three Pokémon a side. The normal course runs twenty battles and ends with Red; clearing it opens the Super course, which only ends when you lose and brings Red back on the fiftieth. Red builds his team from three of these ten sets, always at level 50.",
+        "brainTitle": "Battle Legend",
+        "symbol": "Battle Tree Great Ribbon and Battle Tree Master Ribbon",
+        "silverLabel": "🥈 Normal course — 20th battle",
+        "silverReq": "20 BP for the win; unlocks the Super course",
+        "goldLabel": "🥇 Super course — 50th battle",
+        "goldReq": "50 BP for the win; the streak carries on past it"
+      }
+    },
+    {
+      "name": "Battle Tree",
+      "ptName": "Batalhas duplas",
+      "desc": "Quatro Pokémon de cada lado, dois em campo. Blue é o Battle Legend das duplas e escolhe quatro destes conjuntos. Dois deles mudam de golpes entre Sun/Moon e Ultra Sun/Ultra Moon: a lista abaixo já mostra só o do jogo selecionado.",
+      "brain": "Blue",
+      "brainTitle": "Battle Legend",
+      "brainSprite": "img/trainers/gen7/Spr_SM_Blue.png",
+      "symbol": "Battle Tree Great Ribbon e Battle Tree Master Ribbon",
+      "silverLabel": "🥈 Curso normal — 20ª batalha",
+      "silverReq": "20 BP pela vitória; libera o curso Super",
+      "silverTeam": [
+        {
+          "id": 18,
+          "level": 50,
+          "name": "Pidgeot",
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "item": "Charti Berry",
+          "ability": "",
+          "abilities": [
+            "Keen Eye",
+            "Tangled Feet"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Aerial Ace",
+            "Steel Wing",
+            "Thief",
+            "Roost"
+          ]
+        },
+        {
+          "id": 65,
+          "level": 50,
+          "name": "Alakazam",
+          "types": [
+            "psychic"
+          ],
+          "item": "Twisted Spoon",
+          "ability": "",
+          "abilities": [
+            "Synchronize",
+            "Inner Focus"
+          ],
+          "nature": "Timid",
+          "moves": [
+            "Energy Ball",
+            "Psychic",
+            "Telekinesis",
+            "Guard Split"
+          ]
+        },
+        {
+          "id": 68,
+          "level": 50,
+          "name": "Machamp",
+          "types": [
+            "fighting"
+          ],
+          "item": "Rawst Berry",
+          "ability": "",
+          "abilities": [
+            "Guts",
+            "No Guard"
+          ],
+          "nature": "Brave",
+          "moves": [
+            "Dynamic Punch",
+            "Payback",
+            "Foresight",
+            "Wide Guard"
+          ]
+        },
+        {
+          "id": 142,
+          "level": 50,
+          "name": "Aerodactyl",
+          "types": [
+            "rock",
+            "flying"
+          ],
+          "item": "Choice Scarf",
+          "ability": "",
+          "abilities": [
+            "Rock Head",
+            "Pressure"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Rock Slide"
+          ],
+          "versions": [
+            "sun-moon"
+          ]
+        },
+        {
+          "id": 142,
+          "level": 50,
+          "name": "Aerodactyl",
+          "types": [
+            "rock",
+            "flying"
+          ],
+          "item": "Choice Scarf",
+          "ability": "",
+          "abilities": [
+            "Rock Head",
+            "Pressure"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Rock Slide",
+            "Iron Head",
+            "Earthquake",
+            "Ice Fang"
+          ],
+          "versions": [
+            "ultra-sun-ultra-moon"
+          ]
+        },
+        {
+          "id": 103,
+          "level": 50,
+          "name": "Exeggutor",
+          "types": [
+            "grass",
+            "psychic"
+          ],
+          "item": "Petaya Berry",
+          "ability": "",
+          "abilities": [
+            "Chlorophyll"
+          ],
+          "nature": "Mild",
+          "moves": [
+            "Psyshock",
+            "Grass Knot",
+            "Light Screen",
+            "Synthesis"
+          ]
+        },
+        {
+          "id": 464,
+          "level": 50,
+          "name": "Rhyperior",
+          "types": [
+            "ground",
+            "rock"
+          ],
+          "item": "Zoom Lens",
+          "ability": "",
+          "abilities": [
+            "Lightning Rod",
+            "Solid Rock"
+          ],
+          "nature": "Brave",
+          "moves": [
+            "Payback",
+            "Rock Blast",
+            "Stone Edge",
+            "Protect"
+          ]
+        },
+        {
+          "id": 130,
+          "level": 50,
+          "name": "Gyarados",
+          "types": [
+            "water",
+            "flying"
+          ],
+          "item": "Muscle Band",
+          "ability": "",
+          "abilities": [
+            "Intimidate"
+          ],
+          "nature": "Lonely",
+          "moves": [
+            "Ice Fang",
+            "Aqua Tail",
+            "Thunder Wave",
+            "Dragon Dance"
+          ]
+        },
+        {
+          "id": 59,
+          "level": 50,
+          "name": "Arcanine",
+          "types": [
+            "fire"
+          ],
+          "item": "Firium Z",
+          "ability": "",
+          "abilities": [
+            "Intimidate",
+            "Flash Fire"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Flamethrower",
+            "Solar Beam",
+            "Burn Up",
+            "Sunny Day"
+          ]
+        },
+        {
+          "id": 248,
+          "level": 50,
+          "name": "Tyranitar",
+          "types": [
+            "rock",
+            "dark"
+          ],
+          "item": "Iron Ball",
+          "ability": "",
+          "abilities": [
+            "Sand Stream"
+          ],
+          "nature": "Impish",
+          "moves": [
+            "Rock Slide",
+            "Stealth Rock",
+            "Thunder Wave",
+            "Fling"
+          ]
+        },
+        {
+          "id": 18,
+          "level": 50,
+          "name": "Pidgeot",
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "item": "Flyinium Z",
+          "ability": "",
+          "abilities": [
+            "Keen Eye",
+            "Tangled Feet"
+          ],
+          "nature": "Quiet",
+          "moves": [
+            "Mirror Move",
+            "Twister",
+            "Sand Attack",
+            "Double Team"
+          ]
+        },
+        {
+          "id": 65,
+          "level": 50,
+          "name": "Alakazam",
+          "types": [
+            "psychic"
+          ],
+          "item": "Focus Sash",
+          "ability": "",
+          "abilities": [
+            "Synchronize",
+            "Inner Focus"
+          ],
+          "nature": "Timid",
+          "moves": [
+            "Psych Up",
+            "Encore",
+            "Protect",
+            "Psychic"
+          ]
+        },
+        {
+          "id": 68,
+          "level": 50,
+          "name": "Machamp",
+          "types": [
+            "fighting"
+          ],
+          "item": "Expert Belt",
+          "ability": "",
+          "abilities": [
+            "Guts",
+            "No Guard"
+          ],
+          "nature": "Brave",
+          "moves": [
+            "Ice Punch",
+            "Cross Chop",
+            "Fire Punch",
+            "Focus Energy"
+          ]
+        },
+        {
+          "id": 142,
+          "level": 50,
+          "name": "Aerodactyl",
+          "types": [
+            "rock",
+            "flying"
+          ],
+          "item": "Passho Berry",
+          "ability": "",
+          "abilities": [
+            "Rock Head",
+            "Pressure"
+          ],
+          "nature": "Naive",
+          "moves": [
+            "Crunch",
+            "Rock Slide",
+            "Roost",
+            "Sky Drop"
+          ]
+        },
+        {
+          "id": 464,
+          "level": 50,
+          "name": "Rhyperior",
+          "types": [
+            "ground",
+            "rock"
+          ],
+          "item": "Hard Stone",
+          "ability": "",
+          "abilities": [
+            "Lightning Rod",
+            "Solid Rock"
+          ],
+          "nature": "Lonely",
+          "moves": [
+            "Rock Wrecker",
+            "Rock Polish"
+          ],
+          "versions": [
+            "sun-moon"
+          ]
+        },
+        {
+          "id": 464,
+          "level": 50,
+          "name": "Rhyperior",
+          "types": [
+            "ground",
+            "rock"
+          ],
+          "item": "Hard Stone",
+          "ability": "",
+          "abilities": [
+            "Lightning Rod",
+            "Solid Rock"
+          ],
+          "nature": "Lonely",
+          "moves": [
+            "Rock Wrecker",
+            "Rock Polish",
+            "Earthquake",
+            "Ice Punch"
+          ],
+          "versions": [
+            "ultra-sun-ultra-moon"
+          ]
+        },
+        {
+          "id": 130,
+          "level": 50,
+          "name": "Gyarados",
+          "types": [
+            "water",
+            "flying"
+          ],
+          "item": "Normalium Z",
+          "ability": "",
+          "abilities": [
+            "Intimidate"
+          ],
+          "nature": "Naughty",
+          "moves": [
+            "Waterfall",
+            "Rest",
+            "Bulldoze",
+            "Giga Impact"
+          ]
+        },
+        {
+          "id": 59,
+          "level": 50,
+          "name": "Arcanine",
+          "types": [
+            "fire"
+          ],
+          "item": "Weakness Policy",
+          "ability": "",
+          "abilities": [
+            "Intimidate",
+            "Flash Fire"
+          ],
+          "nature": "Naughty",
+          "moves": [
+            "Extreme Speed",
+            "Crunch",
+            "Overheat",
+            "Roar"
+          ]
+        },
+        {
+          "id": 248,
+          "level": 50,
+          "name": "Tyranitar",
+          "types": [
+            "rock",
+            "dark"
+          ],
+          "item": "King's Rock",
+          "ability": "",
+          "abilities": [
+            "Sand Stream"
+          ],
+          "nature": "Hasty",
+          "moves": [
+            "Rock Slide",
+            "Crunch",
+            "Ice Beam",
+            "Dragon Dance"
+          ]
+        }
+      ],
+      "goldLabel": "🥇 Curso Super — 50ª batalha",
+      "goldReq": "50 BP pela vitória; a sequência continua depois dela",
+      "goldTeam": [
+        {
+          "id": 18,
+          "level": 50,
+          "name": "Pidgeot",
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "item": "Pidgeotite",
+          "ability": "",
+          "abilities": [
+            "Keen Eye",
+            "Tangled Feet"
+          ],
+          "nature": "Timid",
+          "moves": [
+            "Hurricane",
+            "Hyper Beam",
+            "Tailwind",
+            "Quick Attack"
+          ]
+        },
+        {
+          "id": 65,
+          "level": 50,
+          "name": "Alakazam",
+          "types": [
+            "psychic"
+          ],
+          "item": "Alakazite",
+          "ability": "",
+          "abilities": [
+            "Synchronize",
+            "Inner Focus"
+          ],
+          "nature": "Timid",
+          "moves": [
+            "Psychic",
+            "Focus Blast",
+            "Shadow Ball",
+            "Grass Knot"
+          ]
+        },
+        {
+          "id": 68,
+          "level": 50,
+          "name": "Machamp",
+          "types": [
+            "fighting"
+          ],
+          "item": "Choice Scarf",
+          "ability": "",
+          "abilities": [
+            "Guts",
+            "No Guard"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Dynamic Punch",
+            "Ice Punch",
+            "Rock Slide",
+            "Earthquake"
+          ]
+        },
+        {
+          "id": 142,
+          "level": 50,
+          "name": "Aerodactyl",
+          "types": [
+            "rock",
+            "flying"
+          ],
+          "item": "Aerodactylite",
+          "ability": "",
+          "abilities": [
+            "Rock Head",
+            "Pressure"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Sky Drop",
+            "Iron Head",
+            "Fire Fang",
+            "Thunder Fang"
+          ]
+        },
+        {
+          "id": 103,
+          "level": 50,
+          "name": "Exeggutor",
+          "types": [
+            "grass",
+            "psychic"
+          ],
+          "item": "Grassium Z",
+          "ability": "",
+          "abilities": [
+            "Chlorophyll"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Leaf Storm",
+            "Psychic",
+            "Sludge Bomb",
+            "Grassy Terrain"
+          ]
+        },
+        {
+          "id": 464,
+          "level": 50,
+          "name": "Rhyperior",
+          "types": [
+            "ground",
+            "rock"
+          ],
+          "item": "Focus Sash",
+          "ability": "",
+          "abilities": [
+            "Lightning Rod",
+            "Solid Rock"
+          ],
+          "nature": "Impish",
+          "moves": [
+            "Horn Drill",
+            "Reversal",
+            "Payback",
+            "Metal Burst"
+          ]
+        },
+        {
+          "id": 130,
+          "level": 50,
+          "name": "Gyarados",
+          "types": [
+            "water",
+            "flying"
+          ],
+          "item": "Wacan Berry",
+          "ability": "",
+          "abilities": [
+            "Intimidate"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Dragon Dance",
+            "Waterfall",
+            "Ice Fang",
+            "Earthquake"
+          ]
+        },
+        {
+          "id": 59,
+          "level": 50,
+          "name": "Arcanine",
+          "types": [
+            "fire"
+          ],
+          "item": "White Herb",
+          "ability": "",
+          "abilities": [
+            "Intimidate",
+            "Flash Fire"
+          ],
+          "nature": "Timid",
+          "moves": [
+            "Overheat",
+            "Sunny Day",
+            "Solar Beam",
+            "Extreme Speed"
+          ]
+        },
+        {
+          "id": 248,
+          "level": 50,
+          "name": "Tyranitar",
+          "types": [
+            "rock",
+            "dark"
+          ],
+          "item": "Chople Berry",
+          "ability": "",
+          "abilities": [
+            "Sand Stream"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Rock Slide",
+            "Crunch",
+            "Earthquake",
+            "Dragon Dance"
+          ]
+        },
+        {
+          "id": 18,
+          "level": 50,
+          "name": "Pidgeot",
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "item": "Pidgeotite",
+          "ability": "",
+          "abilities": [
+            "Keen Eye",
+            "Tangled Feet"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Hurricane",
+            "Feather Dance",
+            "Roost",
+            "Hyper Beam"
+          ]
+        },
+        {
+          "id": 65,
+          "level": 50,
+          "name": "Alakazam",
+          "types": [
+            "psychic"
+          ],
+          "item": "Choice Specs",
+          "ability": "",
+          "abilities": [
+            "Synchronize",
+            "Inner Focus"
+          ],
+          "nature": "Timid",
+          "moves": [
+            "Psychic",
+            "Focus Blast",
+            "Dazzling Gleam",
+            "Trick"
+          ]
+        },
+        {
+          "id": 68,
+          "level": 50,
+          "name": "Machamp",
+          "types": [
+            "fighting"
+          ],
+          "item": "Flame Orb",
+          "ability": "",
+          "abilities": [
+            "Guts",
+            "No Guard"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Protect",
+            "Earthquake",
+            "Close Combat",
+            "Payback"
+          ]
+        },
+        {
+          "id": 142,
+          "level": 50,
+          "name": "Aerodactyl",
+          "types": [
+            "rock",
+            "flying"
+          ],
+          "item": "Choice Band",
+          "ability": "",
+          "abilities": [
+            "Rock Head",
+            "Pressure"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Stone Edge",
+            "Aerial Ace",
+            "Earthquake",
+            "Crunch"
+          ]
+        },
+        {
+          "id": 464,
+          "level": 50,
+          "name": "Rhyperior",
+          "types": [
+            "ground",
+            "rock"
+          ],
+          "item": "Rockium Z",
+          "ability": "",
+          "abilities": [
+            "Lightning Rod",
+            "Solid Rock"
+          ],
+          "nature": "Brave",
+          "moves": [
+            "Rock Slide",
+            "Hammer Arm",
+            "Earthquake",
+            "Protect"
+          ]
+        },
+        {
+          "id": 130,
+          "level": 50,
+          "name": "Gyarados",
+          "types": [
+            "water",
+            "flying"
+          ],
+          "item": "Gyaradosite",
+          "ability": "",
+          "abilities": [
+            "Intimidate"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Dragon Dance",
+            "Waterfall",
+            "Stone Edge",
+            "Crunch"
+          ]
+        },
+        {
+          "id": 59,
+          "level": 50,
+          "name": "Arcanine",
+          "types": [
+            "fire"
+          ],
+          "item": "Fightinium Z",
+          "ability": "",
+          "abilities": [
+            "Intimidate",
+            "Flash Fire"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Close Combat",
+            "Flare Blitz",
+            "Crunch",
+            "Extreme Speed"
+          ]
+        },
+        {
+          "id": 248,
+          "level": 50,
+          "name": "Tyranitar",
+          "types": [
+            "rock",
+            "dark"
+          ],
+          "item": "Tyranitarite",
+          "ability": "",
+          "abilities": [
+            "Sand Stream"
+          ],
+          "nature": "Brave",
+          "moves": [
+            "Stone Edge",
+            "Earthquake",
+            "Ice Fang",
+            "Payback"
+          ]
+        }
+      ],
+      "en": {
+        "ptName": "Double Battles",
+        "desc": "Four Pokémon a side, two on the field. Blue is the Battle Legend of the Double course and picks four of these sets. Two of them have different moves in Sun/Moon and Ultra Sun/Ultra Moon: the list below already shows only the selected game's.",
+        "brainTitle": "Battle Legend",
+        "symbol": "Battle Tree Great Ribbon and Battle Tree Master Ribbon",
+        "silverLabel": "🥈 Normal course — 20th battle",
+        "silverReq": "20 BP for the win; unlocks the Super course",
+        "goldLabel": "🥇 Super course — 50th battle",
+        "goldReq": "50 BP for the win; the streak carries on past it"
+      }
+    },
+    {
+      "name": "Battle Tree",
+      "ptName": "Parceira padrão das multi",
+      "desc": "Nas multi cada lado usa dois Pokémon por treinador, e Red e Blue aparecem juntos no fim do curso. Sem um amigo por perto, a parceira de fábrica é a criadora Rada. Para ter outros parceiros, recrute (Scout) um adversário já vencido por 10 BP: ele entra na lista com os dois Pokémon que abriram o time dele naquela batalha, até 50 treinadores. Os Battle Legends não podem ser recrutados.",
+      "brain": "Rada",
+      "brainTitle": "Pokémon Breeder",
+      "brainSprite": "img/trainers/gen7/Spr_SM_Pokémon_Breeder_F.png",
+      "symbol": "",
+      "silverLabel": "🤝 Time da parceira",
+      "silverReq": "Disponível desde a primeira multi, sem custo",
+      "silverTeam": [
+        {
+          "id": 689,
+          "level": 50,
+          "name": "Barbaracle",
+          "types": [
+            "rock",
+            "water"
+          ],
+          "item": "Bright Powder",
+          "ability": "",
+          "abilities": [
+            "Tough Claws",
+            "Sniper"
+          ],
+          "nature": "",
+          "moves": [
+            "Stone Edge",
+            "Razor Shell",
+            "Shell Smash",
+            "Double Team"
+          ]
+        },
+        {
+          "id": 701,
+          "level": 50,
+          "name": "Hawlucha",
+          "types": [
+            "fighting",
+            "flying"
+          ],
+          "item": "Salac Berry",
+          "ability": "",
+          "abilities": [
+            "Limber",
+            "Unburden"
+          ],
+          "nature": "",
+          "moves": [
+            "Acrobatics",
+            "High Jump Kick",
+            "Feather Dance",
+            "Taunt"
+          ]
+        }
+      ],
+      "en": {
+        "ptName": "Default Multi partner",
+        "desc": "In Multi Battles each side uses two Pokémon per Trainer, and Red and Blue show up together at the end of the course. With no friend around, the built-in partner is Breeder Rada. For more partners, Scout an opponent you have beaten for 10 BP: they join the list with the two Pokémon that led their team in that battle, up to 50 Trainers. Battle Legends cannot be scouted.",
+        "brainTitle": "Pokémon Breeder",
+        "silverLabel": "🤝 Partner's team",
+        "silverReq": "Available from the first Multi Battle, at no cost"
+      }
+    },
+    {
+      "name": "Battle Tree",
+      "ptName": "Lillie como parceira",
+      "desc": "Só em Ultra Sun e Ultra Moon. Depois do Episode RR, fale com Lillie no laboratório do Professor Kukui, na Rota 1, para tê-la como parceira de multi. O time dela é de apoio, com foco em Fairy.",
+      "brain": "Lillie",
+      "brainTitle": "Pokémon Trainer",
+      "brainSprite": "img/trainers/gen7/Spr_USUM_Lillie.png",
+      "symbol": "",
+      "silverLabel": "🤝 Time da parceira",
+      "silverReq": "Depois do Episode RR, falando com ela na Rota 1",
+      "silverTeam": [
+        {
+          "id": 743,
+          "level": 50,
+          "name": "Ribombee",
+          "types": [
+            "bug",
+            "fairy"
+          ],
+          "item": "Light Clay",
+          "ability": "",
+          "abilities": [
+            "Honey Gather",
+            "Shield Dust"
+          ],
+          "nature": "",
+          "moves": [
+            "Pollen Puff",
+            "Reflect",
+            "Light Screen",
+            "U-turn"
+          ]
+        },
+        {
+          "id": 764,
+          "level": 50,
+          "name": "Comfey",
+          "types": [
+            "fairy"
+          ],
+          "item": "Grassium Z",
+          "ability": "",
+          "abilities": [
+            "Flower Veil",
+            "Triage"
+          ],
+          "nature": "",
+          "moves": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Grassy Terrain",
+            "Floral Healing"
+          ]
+        }
+      ],
+      "versions": [
+        "ultra-sun-ultra-moon"
+      ],
+      "en": {
+        "ptName": "Lillie as a partner",
+        "desc": "Ultra Sun and Ultra Moon only. After Episode RR, talk to Lillie at Professor Kukui's lab on Route 1 to take her as a Multi Battle partner. Her team is a support set built around Fairy types.",
+        "brainTitle": "Pokémon Trainer",
+        "silverLabel": "🤝 Partner's team",
+        "silverReq": "After Episode RR, by talking to her on Route 1"
+      }
+    },
+    {
+      "name": "Battle Agency",
+      "ptName": "Chefe até o Episode RR",
+      "desc": "No Festival Plaza, liberada ao vencer a prova do Sophocles. Você aluga um dos três Pokémon do painel e convida dois treinadores da praça: são três batalhas por desafio, em simples. O grau do agente define o nível de todo mundo (grau 0 é nível 50, grau 50 é nível 100) e sobe a cada desafio vencido. A partir do grau 9, a terceira batalha do último desafio antes de subir é contra um chefe; derrotá-lo dá uma Gold Bottle Cap no balcão.",
+      "brain": "Sophocles",
+      "brainTitle": "Chefe da Agência",
+      "brainSprite": "img/trainers/gen7/Spr_SM_Sophocles.png",
+      "symbol": "Gold Bottle Cap a cada chefe derrotado",
+      "silverLabel": "⚡ Time do chefe",
+      "silverReq": "Três destes dez conjuntos, no nível do seu grau",
+      "silverTeam": [
+        {
+          "id": 738,
+          "level": "59 a 99",
+          "name": "Vikavolt",
+          "types": [
+            "bug",
+            "electric"
+          ],
+          "item": "Electrium Z",
+          "ability": "",
+          "abilities": [
+            "Levitate"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Thunderbolt",
+            "Mud Shot",
+            "Flash Cannon",
+            "Volt Switch"
+          ]
+        },
+        {
+          "id": 777,
+          "level": "59 a 99",
+          "name": "Togedemaru",
+          "types": [
+            "electric",
+            "steel"
+          ],
+          "item": "Red Card",
+          "ability": "",
+          "abilities": [
+            "Iron Barbs",
+            "Lightning Rod"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Zing Zap",
+            "Nuzzle",
+            "Fell Stinger",
+            "Poison Jab"
+          ]
+        },
+        {
+          "id": 466,
+          "level": "59 a 99",
+          "name": "Electivire",
+          "types": [
+            "electric"
+          ],
+          "item": "Expert Belt",
+          "ability": "",
+          "abilities": [
+            "Motor Drive"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Wild Charge",
+            "Earthquake",
+            "Fire Punch",
+            "Ice Punch"
+          ]
+        },
+        {
+          "id": 738,
+          "level": "59 a 99",
+          "name": "Vikavolt",
+          "types": [
+            "bug",
+            "electric"
+          ],
+          "item": "Groundium Z",
+          "ability": "",
+          "abilities": [
+            "Levitate"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Mud Shot",
+            "Thunder",
+            "Bug Buzz",
+            "Guillotine"
+          ]
+        },
+        {
+          "id": 777,
+          "level": "59 a 99",
+          "name": "Togedemaru",
+          "types": [
+            "electric",
+            "steel"
+          ],
+          "item": "Electrium Z",
+          "ability": "",
+          "abilities": [
+            "Iron Barbs",
+            "Lightning Rod"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Endeavor",
+            "Zing Zap",
+            "U-turn",
+            "Spiky Shield"
+          ]
+        },
+        {
+          "id": 10111,
+          "level": "59 a 99",
+          "name": "Golem (Alola)",
+          "types": [
+            "rock",
+            "electric"
+          ],
+          "item": "Air Balloon",
+          "ability": "",
+          "abilities": [
+            "Magnet Pull",
+            "Sturdy"
+          ],
+          "nature": "Brave",
+          "moves": [
+            "Wild Charge",
+            "Double-Edge",
+            "Rock Blast",
+            "Earthquake"
+          ]
+        },
+        {
+          "id": 462,
+          "level": "59 a 99",
+          "name": "Magnezone",
+          "types": [
+            "electric",
+            "steel"
+          ],
+          "item": "Bright Powder",
+          "ability": "",
+          "abilities": [
+            "Magnet Pull",
+            "Sturdy"
+          ],
+          "nature": "Timid",
+          "moves": [
+            "Thunder",
+            "Flash Cannon",
+            "Magnet Rise",
+            "Thunder Wave"
+          ]
+        },
+        {
+          "id": 10111,
+          "level": "59 a 99",
+          "name": "Golem (Alola)",
+          "types": [
+            "rock",
+            "electric"
+          ],
+          "item": "Weakness Policy",
+          "ability": "",
+          "abilities": [
+            "Magnet Pull",
+            "Sturdy"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Rock Slide",
+            "Earthquake",
+            "Explosion",
+            "Rock Polish"
+          ]
+        },
+        {
+          "id": 462,
+          "level": "59 a 99",
+          "name": "Magnezone",
+          "types": [
+            "electric",
+            "steel"
+          ],
+          "item": "Assault Vest",
+          "ability": "",
+          "abilities": [
+            "Magnet Pull",
+            "Sturdy"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Thunderbolt",
+            "Flash Cannon",
+            "Tri Attack",
+            "Volt Switch"
+          ]
+        },
+        {
+          "id": 466,
+          "level": "59 a 99",
+          "name": "Electivire",
+          "types": [
+            "electric"
+          ],
+          "item": "Life Orb",
+          "ability": "",
+          "abilities": [
+            "Motor Drive"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Wild Charge",
+            "Feint",
+            "Ice Punch",
+            "Cross Chop"
+          ]
+        }
+      ],
+      "versions": [
+        "ultra-sun-ultra-moon"
+      ],
+      "en": {
+        "ptName": "Boss before Episode RR",
+        "desc": "In Festival Plaza, unlocked by clearing Sophocles's trial. You rent one of the three Pokémon on the screen and invite two Trainers from the plaza: three Single Battles per challenge. The agent's grade sets everyone's level (grade 0 is level 50, grade 50 is level 100) and rises with each cleared challenge. From grade 9 on, the third battle of the last challenge before a grade-up is against a boss; beating one earns a Gold Bottle Cap at the desk.",
+        "brainTitle": "Agency boss",
+        "symbol": "A Gold Bottle Cap for every boss defeated",
+        "silverLabel": "⚡ Boss team",
+        "silverReq": "Three of these ten sets, at your grade's level"
+      }
+    },
+    {
+      "name": "Battle Agency",
+      "ptName": "Chefe depois do Episode RR",
+      "desc": "Começado o Episode RR, o programa do chefe passa a ser uma réplica de Giovanni, com o time de Kanto. No prólogo do episódio, a Agência ainda obriga uma batalha contra um grunt do Team Rainbow Rocket: nela todo mundo conta como grau 0, no nível 50.",
+      "brain": "Giovanni",
+      "brainTitle": "Chefe da Agência",
+      "brainSprite": "img/trainers/gen7/Spr_USUM_Giovanni.png",
+      "symbol": "Gold Bottle Cap a cada chefe derrotado",
+      "silverLabel": "⚡ Time do chefe",
+      "silverReq": "Três destes onze conjuntos, no nível do seu grau",
+      "silverTeam": [
+        {
+          "id": 105,
+          "level": "59 a 99",
+          "name": "Marowak",
+          "types": [
+            "ground"
+          ],
+          "item": "Red Card",
+          "ability": "",
+          "abilities": [
+            "Rock Head",
+            "Lightning Rod"
+          ],
+          "nature": "Sassy",
+          "moves": [
+            "Bone Rush",
+            "Double Kick",
+            "Endeavor",
+            "Smack Down"
+          ]
+        },
+        {
+          "id": 103,
+          "level": "59 a 99",
+          "name": "Exeggutor",
+          "types": [
+            "grass",
+            "psychic"
+          ],
+          "item": "Petaya Berry",
+          "ability": "",
+          "abilities": [
+            "Chlorophyll"
+          ],
+          "nature": "Mild",
+          "moves": [
+            "Psyshock",
+            "Grass Knot",
+            "Light Screen",
+            "Synthesis"
+          ]
+        },
+        {
+          "id": 51,
+          "level": "59 a 99",
+          "name": "Dugtrio",
+          "types": [
+            "ground"
+          ],
+          "item": "Bright Powder",
+          "ability": "",
+          "abilities": [
+            "Sand Veil",
+            "Arena Trap"
+          ],
+          "nature": "Timid",
+          "moves": [
+            "Fissure",
+            "Toxic",
+            "Substitute",
+            "Sandstorm"
+          ]
+        },
+        {
+          "id": 105,
+          "level": "59 a 99",
+          "name": "Marowak",
+          "types": [
+            "ground"
+          ],
+          "item": "Thick Club",
+          "ability": "",
+          "abilities": [
+            "Rock Head",
+            "Lightning Rod"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Earthquake",
+            "Stone Edge",
+            "Brick Break",
+            "Brutal Swing"
+          ]
+        },
+        {
+          "id": 115,
+          "level": "59 a 99",
+          "name": "Kangaskhan",
+          "types": [
+            "normal"
+          ],
+          "item": "Kangaskhanite",
+          "ability": "",
+          "abilities": [
+            "Early Bird",
+            "Scrappy"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Fake Out",
+            "Facade",
+            "Rock Slide",
+            "Sucker Punch"
+          ]
+        },
+        {
+          "id": 103,
+          "level": "59 a 99",
+          "name": "Exeggutor",
+          "types": [
+            "grass",
+            "psychic"
+          ],
+          "item": "Grassium Z",
+          "ability": "",
+          "abilities": [
+            "Chlorophyll"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Leaf Storm",
+            "Psychic",
+            "Sludge Bomb",
+            "Grassy Terrain"
+          ]
+        },
+        {
+          "id": 130,
+          "level": "59 a 99",
+          "name": "Gyarados",
+          "types": [
+            "water",
+            "flying"
+          ],
+          "item": "Wacan Berry",
+          "ability": "",
+          "abilities": [
+            "Intimidate"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Dragon Dance",
+            "Waterfall",
+            "Ice Fang",
+            "Earthquake"
+          ]
+        },
+        {
+          "id": 59,
+          "level": "59 a 99",
+          "name": "Arcanine",
+          "types": [
+            "fire"
+          ],
+          "item": "White Herb",
+          "ability": "",
+          "abilities": [
+            "Intimidate",
+            "Flash Fire"
+          ],
+          "nature": "Timid",
+          "moves": [
+            "Overheat",
+            "Sunny Day",
+            "Solar Beam",
+            "Extreme Speed"
+          ]
+        },
+        {
+          "id": 115,
+          "level": "59 a 99",
+          "name": "Kangaskhan",
+          "types": [
+            "normal"
+          ],
+          "item": "Kangaskhanite",
+          "ability": "",
+          "abilities": [
+            "Early Bird",
+            "Scrappy"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Fake Out",
+            "Double-Edge",
+            "Earthquake",
+            "Sucker Punch"
+          ]
+        },
+        {
+          "id": 130,
+          "level": "59 a 99",
+          "name": "Gyarados",
+          "types": [
+            "water",
+            "flying"
+          ],
+          "item": "Gyaradosite",
+          "ability": "",
+          "abilities": [
+            "Intimidate"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Dragon Dance",
+            "Waterfall",
+            "Stone Edge",
+            "Crunch"
+          ]
+        },
+        {
+          "id": 59,
+          "level": "59 a 99",
+          "name": "Arcanine",
+          "types": [
+            "fire"
+          ],
+          "item": "Fightinium Z",
+          "ability": "",
+          "abilities": [
+            "Intimidate",
+            "Flash Fire"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Close Combat",
+            "Flare Blitz",
+            "Crunch",
+            "Extreme Speed"
+          ]
+        }
+      ],
+      "goldLabel": "🚀 Grunt do prólogo do Episode RR",
+      "goldReq": "Time fixo, sempre no nível 50, em ordem sorteada",
+      "goldTeam": [
+        {
+          "id": 20,
+          "level": 50,
+          "name": "Raticate",
+          "types": [
+            "normal"
+          ],
+          "item": "Oran Berry",
+          "ability": "",
+          "abilities": [
+            "Run Away",
+            "Guts"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Super Fang",
+            "Quick Attack",
+            "Bite",
+            "Focus Energy"
+          ]
+        },
+        {
+          "id": 24,
+          "level": 50,
+          "name": "Arbok",
+          "types": [
+            "poison"
+          ],
+          "item": "Lum Berry",
+          "ability": "",
+          "abilities": [
+            "Intimidate",
+            "Shed Skin"
+          ],
+          "nature": "Mild",
+          "moves": [
+            "Poison Sting",
+            "Bite",
+            "Glare",
+            "Wrap"
+          ]
+        },
+        {
+          "id": 42,
+          "level": 50,
+          "name": "Golbat",
+          "types": [
+            "poison",
+            "flying"
+          ],
+          "item": "Rocky Helmet",
+          "ability": "",
+          "abilities": [
+            "Inner Focus"
+          ],
+          "nature": "Quiet",
+          "moves": [
+            "Screech",
+            "Bite",
+            "Wing Attack",
+            "Toxic"
+          ]
+        }
+      ],
+      "versions": [
+        "ultra-sun-ultra-moon"
+      ],
+      "en": {
+        "ptName": "Boss after Episode RR",
+        "desc": "Once Episode RR begins, the boss program becomes a replica of Giovanni, with his Kanto team. During the episode's prologue the Agency also forces a battle against a Team Rainbow Rocket Grunt: there everyone counts as grade 0, at level 50.",
+        "brainTitle": "Agency boss",
+        "symbol": "A Gold Bottle Cap for every boss defeated",
+        "silverLabel": "⚡ Boss team",
+        "silverReq": "Three of these eleven sets, at your grade's level",
+        "goldLabel": "🚀 Episode RR prologue Grunt",
+        "goldReq": "A fixed team, always at level 50, sent out in random order"
+      }
+    }
+  ],
+  "shops": [
+    {
+      "title": "Exchange Service Corner — atendente da esquerda",
+      "desc": "Itens de evolução, todos por 32 BP.",
+      "items": [
+        {
+          "name": "King's Rock",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Deep Sea Tooth",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Deep Sea Scale",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Dragon Scale",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Up-Grade",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Dubious Disc",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Protector",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Electirizer",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Magmarizer",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Reaper Cloth",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Whipped Dream",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Sachet",
+          "cost": "32 BP"
+        }
+      ],
+      "en": {
+        "title": "Exchange Service Corner — left attendant",
+        "desc": "Evolution items, all at 32 BP."
+      }
+    },
+    {
+      "title": "Exchange Service Corner — atendente do meio",
+      "desc": "Itens de batalha, de 16 a 48 BP.",
+      "items": [
+        {
+          "name": "Toxic Orb",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Flame Orb",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Iron Ball",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Ring Target",
+          "cost": "16 BP"
+        },
+        {
+          "name": "White Herb",
+          "cost": "24 BP"
+        },
+        {
+          "name": "Mental Herb",
+          "cost": "24 BP"
+        },
+        {
+          "name": "Power Herb",
+          "cost": "24 BP"
+        },
+        {
+          "name": "Focus Sash",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Air Balloon",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Red Card",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Eject Button",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Weakness Policy",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Choice Band",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Choice Specs",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Choice Scarf",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Life Orb",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Rocky Helmet",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Assault Vest",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Safety Goggles",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Terrain Extender",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Protective Pads",
+          "cost": "48 BP"
+        }
+      ],
+      "en": {
+        "title": "Exchange Service Corner — middle attendant",
+        "desc": "Battle items, from 16 to 48 BP."
+      }
+    },
+    {
+      "title": "Exchange Service Corner — atendente da direita",
+      "desc": "Mega Stones a 64 BP. Sun e Moon vendem dezesseis; Ultra Sun e Ultra Moon, quarenta e duas.",
+      "items": [
+        {
+          "name": "Gengarite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Scizorite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Pinsirite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Aerodactylite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Lucarionite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Kangaskhanite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Gyaradosite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Absolite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Alakazite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Garchompite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Sablenite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Metagrossite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Sharpedonite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Slowbronite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Glalitite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Salamencite",
+          "cost": "64 BP"
+        }
+      ],
+      "versions": [
+        "sun-moon"
+      ],
+      "en": {
+        "title": "Exchange Service Corner — right attendant",
+        "desc": "Mega Stones at 64 BP. Sun and Moon sell sixteen; Ultra Sun and Ultra Moon, forty-two."
+      }
+    },
+    {
+      "title": "Exchange Service Corner — atendente da direita",
+      "desc": "Mega Stones a 64 BP. Sun e Moon vendem dezesseis; Ultra Sun e Ultra Moon, quarenta e duas.",
+      "items": [
+        {
+          "name": "Absolite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Galladite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Glalitite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Pinsirite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Garchompite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Kangaskhanite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Gyaradosite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Mawilite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Gengarite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Gardevoirite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Sharpedonite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Sceptilite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Banettite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Beedrillite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Audinite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Medichamite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Altarianite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Ampharosite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Steelixite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Cameruptite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Blazikenite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Scizorite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Tyranitarite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Pidgeotite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Alakazite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Aerodactylite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Heracronite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Houndoominite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Salamencite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Aggronite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Lopunnite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Mewtwonite X",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Mewtwonite Y",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Metagrossite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Slowbronite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Sablenite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Abomasite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Manectite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Swampertite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Latiasite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Latiosite",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Lucarionite",
+          "cost": "64 BP"
+        }
+      ],
+      "versions": [
+        "ultra-sun-ultra-moon"
+      ],
+      "en": {
+        "title": "Exchange Service Corner — right attendant",
+        "desc": "Mega Stones at 64 BP. Sun and Moon sell sixteen; Ultra Sun and Ultra Moon, forty-two."
+      }
+    },
+    {
+      "title": "Balcão da Battle Tree — prêmios por sequência",
+      "desc": "Entregues pela recepcionista ao alcançar a marca de vitórias seguidas, uma vez cada. Sun e Moon dão Ability Capsule às 50; Ultra Sun e Ultra Moon, Gold Bottle Cap. Vencer Red (ou Blue, em USUM) na árvore rende ainda as Mega Stones de Venusaur, Charizard e Blastoise.",
+      "items": [
+        {
+          "name": "Moomoo Milk",
+          "cost": "5 vitórias"
+        },
+        {
+          "name": "PP Up",
+          "cost": "10 vitórias"
+        },
+        {
+          "name": "Rare Candy",
+          "cost": "20 vitórias"
+        },
+        {
+          "name": "Bottle Cap",
+          "cost": "30 vitórias"
+        },
+        {
+          "name": "PP Max",
+          "cost": "40 vitórias"
+        },
+        {
+          "name": "Ability Capsule",
+          "cost": "50 vitórias",
+          "versions": [
+            "sun-moon"
+          ]
+        },
+        {
+          "name": "Gold Bottle Cap",
+          "cost": "50 vitórias",
+          "versions": [
+            "ultra-sun-ultra-moon"
+          ]
+        },
+        {
+          "name": "Lansat Berry",
+          "cost": "100 vitórias"
+        },
+        {
+          "name": "Starf Berry",
+          "cost": "200 vitórias"
+        }
+      ],
+      "en": {
+        "title": "Battle Tree desk — streak prizes",
+        "desc": "Handed over by the receptionist when you hit each streak mark, once each. Sun and Moon give an Ability Capsule at 50; Ultra Sun and Ultra Moon, a Gold Bottle Cap. Beating Red (or Blue, in USUM) in the tree proper also earns the Venusaur, Charizard and Blastoise Mega Stones.",
+        "items": [
+          {
+            "name": "Moomoo Milk",
+            "cost": "5 wins"
+          },
+          {
+            "name": "PP Up",
+            "cost": "10 wins"
+          },
+          {
+            "name": "Rare Candy",
+            "cost": "20 wins"
+          },
+          {
+            "name": "Bottle Cap",
+            "cost": "30 wins"
+          },
+          {
+            "name": "PP Max",
+            "cost": "40 wins"
+          },
+          {
+            "name": "Ability Capsule",
+            "cost": "50 wins",
+            "versions": [
+              "sun-moon"
+            ]
+          },
+          {
+            "name": "Gold Bottle Cap",
+            "cost": "50 wins",
+            "versions": [
+              "ultra-sun-ultra-moon"
+            ]
+          },
+          {
+            "name": "Lansat Berry",
+            "cost": "100 wins"
+          },
+          {
+            "name": "Starf Berry",
+            "cost": "200 wins"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Balcão da Battle Agency — prêmios por grau",
+      "desc": "Entregues ao subir de grau: Rare Candy até o grau 9, duas até o 49, cinco ao chegar ao 50 e uma a cada desafio vencido depois disso. Cada chefe derrotado dá uma Gold Bottle Cap, e o grau 30 dá os Agent Sunglasses.",
+      "items": [
+        {
+          "name": "Rare Candy",
+          "cost": "a cada grau, até o 9"
+        },
+        {
+          "name": "Rare Candy",
+          "cost": "×2 a cada grau, do 10 ao 49"
+        },
+        {
+          "name": "Rare Candy",
+          "cost": "×5 ao chegar ao grau 50"
+        },
+        {
+          "name": "Rare Candy",
+          "cost": "a cada desafio vencido no grau 50"
+        },
+        {
+          "name": "Gold Bottle Cap",
+          "cost": "a cada chefe derrotado"
+        },
+        {
+          "name": "Agent Sunglasses",
+          "cost": "ao chegar ao grau 30"
+        }
+      ],
+      "versions": [
+        "ultra-sun-ultra-moon"
+      ],
+      "en": {
+        "title": "Battle Agency desk — grade prizes",
+        "desc": "Handed over on each grade-up: a Rare Candy up to grade 9, two up to 49, five on reaching 50 and one per cleared challenge after that. Every boss defeated gives a Gold Bottle Cap, and grade 30 gives the Agent Sunglasses.",
+        "items": [
+          {
+            "name": "Rare Candy",
+            "cost": "every grade, up to 9"
+          },
+          {
+            "name": "Rare Candy",
+            "cost": "×2 every grade, from 10 to 49"
+          },
+          {
+            "name": "Rare Candy",
+            "cost": "×5 on reaching grade 50"
+          },
+          {
+            "name": "Rare Candy",
+            "cost": "per cleared challenge at grade 50"
+          },
+          {
+            "name": "Gold Bottle Cap",
+            "cost": "for every boss defeated"
+          },
+          {
+            "name": "Agent Sunglasses",
+            "cost": "on reaching grade 30"
+          }
+        ]
+      }
+    }
+  ],
+  "tutors": [
+    {
+      "title": "Tutor da Battle Tree",
+      "desc": "Só em Ultra Sun e Ultra Moon, no mesmo corredor das lojas: dezoito golpes pagos em BP.",
+      "items": [
+        {
+          "name": "Liquidation",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Gastro Acid",
+          "cost": "8 BP"
+        },
+        {
+          "name": "Foul Play",
+          "cost": "12 BP"
+        },
+        {
+          "name": "Super Fang",
+          "cost": "12 BP"
+        },
+        {
+          "name": "Outrage",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Sky Attack",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Throat Chop",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Stomping Tantrum",
+          "cost": "12 BP"
+        },
+        {
+          "name": "Skill Swap",
+          "cost": "8 BP"
+        },
+        {
+          "name": "Earth Power",
+          "cost": "12 BP"
+        },
+        {
+          "name": "Gunk Shot",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Dual Chop",
+          "cost": "12 BP"
+        },
+        {
+          "name": "Drain Punch",
+          "cost": "8 BP"
+        },
+        {
+          "name": "Heat Wave",
+          "cost": "12 BP"
+        },
+        {
+          "name": "Hyper Voice",
+          "cost": "12 BP"
+        },
+        {
+          "name": "Superpower",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Knock Off",
+          "cost": "12 BP"
+        },
+        {
+          "name": "Dragon Pulse",
+          "cost": "12 BP"
+        }
+      ],
+      "versions": [
+        "ultra-sun-ultra-moon"
+      ],
+      "en": {
+        "title": "Battle Tree Move Tutor",
+        "desc": "Ultra Sun and Ultra Moon only, in the same hall as the shops: eighteen moves paid in BP."
+      }
+    }
+  ],
+  "special_pokemon": [],
+  "_meta": {
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Battle_Tree",
+      "https://bulbapedia.bulbagarden.net/wiki/Battle_Agency"
+    ],
+    "lido_em": "2026-09-21"
+  }
+}

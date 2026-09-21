@@ -1,0 +1,1103 @@
+{
+  "overview": {
+    "title": "Battle Subway & PWT",
+    "desc": "Unova não tem Battle Frontier. O desafio pós-Liga é o Battle Subway, em Nimbasa City, com trens de sete batalhas seguidas; Black 2 e White 2 somam o Pokémon World Tournament, em Driftveil City. Os dois pagam em Battle Points, trocados por TMs e itens no Exchange Service Corner.",
+    "image": "img/Battle_Subway.png",
+    "en": {
+      "title": "Battle Subway & PWT",
+      "desc": "Unova has no Battle Frontier. The post-League challenge is the Battle Subway, in Nimbasa City, with trains of seven straight battles; Black 2 and White 2 add the Pokémon World Tournament, in Driftveil City. Both pay in Battle Points, spent on TMs and items at the Exchange Service Corner."
+    }
+  },
+  "symbolLabel": "Prêmio:",
+  "en": {
+    "symbolLabel": "Prize:"
+  },
+  "facilities": [
+    {
+      "name": "Battle Subway",
+      "ptName": "Single Trains",
+      "desc": "Sete linhas de trem em Nimbasa City: Single, Double e Multi, e as versões Super de cada uma, liberadas ao vencer o chefe da linha comum. Cada viagem tem sete batalhas; o Subway Boss aparece no 21º e no 49º vagão seguido.",
+      "brain": "Ingo",
+      "brainTitle": "Subway Boss",
+      "brainSprite": "img/trainers/Spr_B2W2_Ingo.png",
+      "symbol": "",
+      "silverReq": "21ª batalha seguida, no Single Train",
+      "silverTeam": [
+        {
+          "id": 558,
+          "level": 50,
+          "name": "Crustle",
+          "types": [
+            "bug",
+            "rock"
+          ],
+          "item": "Rocky Helmet",
+          "ability": "",
+          "abilities": [
+            "Sturdy",
+            "Shell Armor"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Stone Edge",
+            "X-Scissor",
+            "Earthquake",
+            "Flail"
+          ]
+        },
+        {
+          "id": 601,
+          "level": 50,
+          "name": "Klinklang",
+          "types": [
+            "steel"
+          ],
+          "item": "Occa Berry",
+          "ability": "",
+          "abilities": [
+            "Plus",
+            "Minus"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Shift Gear",
+            "Gear Grind",
+            "Volt Switch",
+            "Giga Impact"
+          ]
+        },
+        {
+          "id": 569,
+          "level": 50,
+          "name": "Garbodor",
+          "types": [
+            "poison"
+          ],
+          "item": "Black Sludge",
+          "ability": "",
+          "abilities": [
+            "Stench",
+            "Weak Armor"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Venoshock",
+            "Psychic",
+            "Focus Blast",
+            "Toxic"
+          ]
+        }
+      ],
+      "goldReq": "49ª batalha seguida, no Super Single Train",
+      "goldTeam": [
+        {
+          "id": 530,
+          "level": 50,
+          "name": "Excadrill",
+          "types": [
+            "ground",
+            "steel"
+          ],
+          "item": "Life Orb",
+          "ability": "",
+          "abilities": [
+            "Sand Rush",
+            "Sand Force"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Earthquake",
+            "Aerial Ace",
+            "Poison Jab",
+            "Rock Slide"
+          ]
+        },
+        {
+          "id": 612,
+          "level": 50,
+          "name": "Haxorus",
+          "types": [
+            "dragon"
+          ],
+          "item": "Yache Berry",
+          "ability": "",
+          "abilities": [
+            "Rivalry",
+            "Mold Breaker"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Dragon Dance",
+            "Dragon Claw",
+            "Dragon Tail",
+            "Earthquake"
+          ]
+        },
+        {
+          "id": 609,
+          "level": 50,
+          "name": "Chandelure",
+          "types": [
+            "ghost",
+            "fire"
+          ],
+          "item": "White Herb",
+          "ability": "",
+          "abilities": [
+            "Flash Fire",
+            "Flame Body"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Overheat",
+            "Shadow Ball",
+            "Protect",
+            "Will-O-Wisp"
+          ]
+        }
+      ],
+      "versions": [
+        "black-white",
+        "black-2-white-2"
+      ],
+      "en": {
+        "ptName": "Single Trains",
+        "desc": "Seven train lines in Nimbasa City: Single, Double and Multi, and a Super version of each, unlocked by beating the boss of the regular line. Each ride is seven battles; the Subway Boss appears on the 21st and 49th consecutive car.",
+        "brainTitle": "Subway Boss",
+        "symbol": "",
+        "silverReq": "21st consecutive battle, Single Train",
+        "goldReq": "49th consecutive battle, Super Single Train"
+      }
+    },
+    {
+      "name": "Battle Subway",
+      "ptName": "Double Trains",
+      "desc": "Sete linhas de trem em Nimbasa City: Single, Double e Multi, e as versões Super de cada uma, liberadas ao vencer o chefe da linha comum. Cada viagem tem sete batalhas; o Subway Boss aparece no 21º e no 49º vagão seguido.",
+      "brain": "Emmet",
+      "brainTitle": "Subway Boss",
+      "brainSprite": "img/trainers/Spr_B2W2_Emmet.png",
+      "symbol": "",
+      "silverReq": "21ª batalha seguida, no Double Train",
+      "silverTeam": [
+        {
+          "id": 558,
+          "level": 50,
+          "name": "Crustle",
+          "types": [
+            "bug",
+            "rock"
+          ],
+          "item": "Rocky Helmet",
+          "ability": "",
+          "abilities": [
+            "Sturdy",
+            "Shell Armor"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Stone Edge",
+            "X-Scissor",
+            "Earthquake",
+            "Flail"
+          ]
+        },
+        {
+          "id": 601,
+          "level": 50,
+          "name": "Klinklang",
+          "types": [
+            "steel"
+          ],
+          "item": "Steel Gem",
+          "ability": "",
+          "abilities": [
+            "Plus",
+            "Minus"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Flash Cannon",
+            "Thunderbolt",
+            "Protect",
+            "Toxic"
+          ]
+        },
+        {
+          "id": 569,
+          "level": 50,
+          "name": "Garbodor",
+          "types": [
+            "poison"
+          ],
+          "item": "Black Sludge",
+          "ability": "",
+          "abilities": [
+            "Stench",
+            "Weak Armor"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Venoshock",
+            "Psychic",
+            "Focus Blast",
+            "Toxic"
+          ]
+        },
+        {
+          "id": 632,
+          "level": 50,
+          "name": "Durant",
+          "types": [
+            "bug",
+            "steel"
+          ],
+          "item": "Occa Berry",
+          "ability": "",
+          "abilities": [
+            "Swarm",
+            "Hustle"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "X-Scissor",
+            "Iron Head",
+            "Rock Slide",
+            "Shadow Claw"
+          ]
+        }
+      ],
+      "goldReq": "49ª batalha seguida, no Super Double Train",
+      "goldTeam": [
+        {
+          "id": 530,
+          "level": 50,
+          "name": "Excadrill",
+          "types": [
+            "ground",
+            "steel"
+          ],
+          "item": "Life Orb",
+          "ability": "",
+          "abilities": [
+            "Sand Rush",
+            "Sand Force"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Earthquake",
+            "Aerial Ace",
+            "Poison Jab",
+            "Rock Slide"
+          ]
+        },
+        {
+          "id": 612,
+          "level": 50,
+          "name": "Haxorus",
+          "types": [
+            "dragon"
+          ],
+          "item": "Yache Berry",
+          "ability": "",
+          "abilities": [
+            "Rivalry",
+            "Mold Breaker"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Dragon Dance",
+            "Dragon Claw",
+            "Dragon Tail",
+            "Earthquake"
+          ]
+        },
+        {
+          "id": 609,
+          "level": 50,
+          "name": "Chandelure",
+          "types": [
+            "ghost",
+            "fire"
+          ],
+          "item": "White Herb",
+          "ability": "",
+          "abilities": [
+            "Flash Fire",
+            "Flame Body"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Overheat",
+            "Shadow Ball",
+            "Protect",
+            "Will-O-Wisp"
+          ]
+        },
+        {
+          "id": 604,
+          "level": 50,
+          "name": "Eelektross",
+          "types": [
+            "electric"
+          ],
+          "item": "Magnet",
+          "ability": "",
+          "abilities": [
+            "Levitate"
+          ],
+          "nature": "Quiet",
+          "moves": [
+            "Discharge",
+            "Gastro Acid",
+            "Thunderbolt",
+            "Thunder Wave"
+          ]
+        }
+      ],
+      "versions": [
+        "black-white",
+        "black-2-white-2"
+      ],
+      "en": {
+        "ptName": "Double Trains",
+        "desc": "Seven train lines in Nimbasa City: Single, Double and Multi, and a Super version of each, unlocked by beating the boss of the regular line. Each ride is seven battles; the Subway Boss appears on the 21st and 49th consecutive car.",
+        "brainTitle": "Subway Boss",
+        "symbol": "",
+        "silverReq": "21st consecutive battle, Double Train",
+        "goldReq": "49th consecutive battle, Super Double Train"
+      }
+    },
+    {
+      "name": "Battle Subway",
+      "ptName": "Multi Trains — Ingo",
+      "desc": "No Multi Train, Ingo e Emmet lutam juntos contra a dupla do jogador. Ingo usa os dois primeiros Pokémon de cada equipe registrada; a divisão é a mesma em Black, White, Black 2 e White 2.",
+      "brain": "Ingo",
+      "brainTitle": "Subway Boss",
+      "brainSprite": "img/trainers/Spr_B2W2_Ingo.png",
+      "symbol": "",
+      "silverReq": "21ª batalha seguida, no Multi Train",
+      "silverTeam": [
+        {
+          "id": 569,
+          "level": 50,
+          "name": "Garbodor",
+          "types": [
+            "poison"
+          ],
+          "item": "Black Sludge",
+          "ability": "",
+          "abilities": [
+            "Stench",
+            "Weak Armor"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Venoshock",
+            "Psychic",
+            "Focus Blast",
+            "Toxic"
+          ]
+        },
+        {
+          "id": 601,
+          "level": 50,
+          "name": "Klinklang",
+          "types": [
+            "steel"
+          ],
+          "item": "Occa Berry",
+          "ability": "",
+          "abilities": [
+            "Plus",
+            "Minus"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Shift Gear",
+            "Gear Grind",
+            "Volt Switch",
+            "Giga Impact"
+          ]
+        }
+      ],
+      "goldReq": "49ª batalha seguida, no Super Multi Train",
+      "goldTeam": [
+        {
+          "id": 530,
+          "level": 50,
+          "name": "Excadrill",
+          "types": [
+            "ground",
+            "steel"
+          ],
+          "item": "Life Orb",
+          "ability": "",
+          "abilities": [
+            "Sand Rush",
+            "Sand Force"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Earthquake",
+            "Aerial Ace",
+            "Poison Jab",
+            "Rock Slide"
+          ]
+        },
+        {
+          "id": 612,
+          "level": 50,
+          "name": "Haxorus",
+          "types": [
+            "dragon"
+          ],
+          "item": "Yache Berry",
+          "ability": "",
+          "abilities": [
+            "Rivalry",
+            "Mold Breaker"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Dragon Dance",
+            "Dragon Claw",
+            "Dragon Tail",
+            "Earthquake"
+          ]
+        }
+      ],
+      "versions": [
+        "black-white",
+        "black-2-white-2"
+      ],
+      "en": {
+        "ptName": "Multi Trains — Ingo",
+        "desc": "On the Multi Train, Ingo and Emmet team up against the player’s pair. Ingo uses the first two Pokémon in each recorded team; the split is identical in Black, White, Black 2 and White 2.",
+        "brainTitle": "Subway Boss",
+        "symbol": "",
+        "silverReq": "21st consecutive battle, Multi Train",
+        "goldReq": "49th consecutive battle, Super Multi Train"
+      }
+    },
+    {
+      "name": "Battle Subway",
+      "ptName": "Multi Trains — Emmet",
+      "desc": "No Multi Train, Ingo e Emmet lutam juntos contra a dupla do jogador. Emmet usa os dois últimos Pokémon de cada equipe registrada; a divisão é a mesma em Black, White, Black 2 e White 2.",
+      "brain": "Emmet",
+      "brainTitle": "Subway Boss",
+      "brainSprite": "img/trainers/Spr_B2W2_Emmet.png",
+      "symbol": "",
+      "silverReq": "21ª batalha seguida, no Multi Train",
+      "silverTeam": [
+        {
+          "id": 632,
+          "level": 50,
+          "name": "Durant",
+          "types": [
+            "bug",
+            "steel"
+          ],
+          "item": "Occa Berry",
+          "ability": "",
+          "abilities": [
+            "Swarm",
+            "Hustle"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "X-Scissor",
+            "Iron Head",
+            "Rock Slide",
+            "Shadow Claw"
+          ]
+        },
+        {
+          "id": 596,
+          "level": 50,
+          "name": "Galvantula",
+          "types": [
+            "bug",
+            "electric"
+          ],
+          "item": "Scope Lens",
+          "ability": "",
+          "abilities": [
+            "Compound Eyes",
+            "Unnerve"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "X-Scissor",
+            "Wild Charge",
+            "Cross Poison",
+            "Thunder Wave"
+          ]
+        }
+      ],
+      "goldReq": "49ª batalha seguida, no Super Multi Train",
+      "goldTeam": [
+        {
+          "id": 604,
+          "level": 50,
+          "name": "Eelektross",
+          "types": [
+            "electric"
+          ],
+          "item": "Magnet",
+          "ability": "",
+          "abilities": [
+            "Levitate"
+          ],
+          "nature": "Quiet",
+          "moves": [
+            "Discharge",
+            "Gastro Acid",
+            "Thunderbolt",
+            "Thunder Wave"
+          ]
+        },
+        {
+          "id": 567,
+          "level": 50,
+          "name": "Archeops",
+          "types": [
+            "rock",
+            "flying"
+          ],
+          "item": "Sitrus Berry",
+          "ability": "",
+          "abilities": [
+            "Defeatist"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Rock Slide",
+            "Earthquake",
+            "Aerial Ace",
+            "Protect"
+          ]
+        }
+      ],
+      "versions": [
+        "black-white",
+        "black-2-white-2"
+      ],
+      "en": {
+        "ptName": "Multi Trains — Emmet",
+        "desc": "On the Multi Train, Ingo and Emmet team up against the player’s pair. Emmet uses the last two Pokémon in each recorded team; the split is identical in Black, White, Black 2 and White 2.",
+        "brainTitle": "Subway Boss",
+        "symbol": "",
+        "silverReq": "21st consecutive battle, Multi Train",
+        "goldReq": "49th consecutive battle, Super Multi Train"
+      }
+    },
+    {
+      "name": "Pokémon World Tournament",
+      "ptName": "Pokémon World Tournament",
+      "desc": "Torneios de oito treinadores em Driftveil City, só em Black 2 e White 2. Não há chefe fixo: cada torneio reúne um grupo de adversários, e os de líderes e campeões trazem os de todas as regiões. Torneios: Driftveil, Rental, Mix, Download, Unova Leaders, Kanto Leaders, Johto Leaders, Hoenn Leaders, Sinnoh Leaders, World Leaders, Champions, Rental Master, Mix Master, Type Expert.",
+      "brain": "",
+      "brainTitle": "",
+      "brainSprite": "",
+      "symbol": "",
+      "silverReq": "",
+      "silverTeam": [],
+      "goldReq": "",
+      "goldTeam": [],
+      "versions": [
+        "black-2-white-2"
+      ],
+      "en": {
+        "ptName": "Pokémon World Tournament",
+        "desc": "Eight-trainer tournaments in Driftveil City, in Black 2 and White 2 only. There is no fixed boss: each tournament gathers a group of opponents, and the Leader and Champion ones bring those of every region. Tournaments: Driftveil, Rental, Mix, Download, Unova Leaders, Kanto Leaders, Johto Leaders, Hoenn Leaders, Sinnoh Leaders, World Leaders, Champions, Rental Master, Mix Master, Type Expert.",
+        "brainTitle": "",
+        "symbol": "",
+        "silverReq": "",
+        "goldReq": ""
+      }
+    }
+  ],
+  "shops": [
+    {
+      "title": "Exchange Service Corner — itens e vitaminas",
+      "desc": "Nas plataformas do Battle Subway. Itens de competição, vitaminas e Rare Candy.",
+      "items": [
+        {
+          "name": "Protein",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Calcium",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Iron",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Zinc",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Carbos",
+          "cost": "1 BP"
+        },
+        {
+          "name": "HP Up",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Power Bracer",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Belt",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Lens",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Band",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Anklet",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Weight",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Toxic Orb",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Flame Orb",
+          "cost": "16 BP"
+        },
+        {
+          "name": "White Herb",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Power Herb",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Absorb Bulb",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Cell Battery",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Red Card",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Eject Button",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Wise Glasses",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Choice Specs",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Scope Lens",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Zoom Lens",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Wide Lens",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Muscle Band",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Focus Band",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Choice Band",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Choice Scarf",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Focus Sash",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Razor Claw",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Razor Fang",
+          "cost": "48 BP"
+        },
+        {
+          "name": "BrightPowder",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Life Orb",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Iron Ball",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Air Balloon",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Binding Band",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Rare Candy",
+          "cost": "48 BP"
+        }
+      ],
+      "versions": [
+        "black-white"
+      ],
+      "en": {
+        "title": "Exchange Service Corner — items and vitamins",
+        "desc": "On the Battle Subway platforms. Competitive held items, vitamins and Rare Candy."
+      }
+    },
+    {
+      "title": "Exchange Service Corner — TMs",
+      "desc": "10 TMs, nas plataformas do Battle Subway.",
+      "items": [
+        {
+          "name": "TM23 Smack Down",
+          "cost": "36 BP"
+        },
+        {
+          "name": "TM48 Round",
+          "cost": "36 BP"
+        },
+        {
+          "name": "TM87 Swagger",
+          "cost": "36 BP"
+        },
+        {
+          "name": "TM88 Pluck",
+          "cost": "36 BP"
+        },
+        {
+          "name": "TM34 Sludge Wave",
+          "cost": "48 BP"
+        },
+        {
+          "name": "TM51 Ally Switch",
+          "cost": "48 BP"
+        },
+        {
+          "name": "TM59 Incinerate",
+          "cost": "48 BP"
+        },
+        {
+          "name": "TM60 Quash",
+          "cost": "48 BP"
+        },
+        {
+          "name": "TM64 Explosion",
+          "cost": "48 BP"
+        },
+        {
+          "name": "TM77 Psych Up",
+          "cost": "48 BP"
+        }
+      ],
+      "versions": [
+        "black-white"
+      ],
+      "en": {
+        "title": "Exchange Service Corner — TMs",
+        "desc": "10 TMs, on the Battle Subway platforms."
+      }
+    },
+    {
+      "title": "Exchange Service Corner — itens, pedras e vitaminas",
+      "desc": "A mesma loja no Battle Subway e no PWT, com preços menores que os de Black e White e as pedras de evolução.",
+      "items": [
+        {
+          "name": "Protein",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Calcium",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Iron",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Zinc",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Carbos",
+          "cost": "1 BP"
+        },
+        {
+          "name": "HP Up",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Fire Stone",
+          "cost": "3 BP"
+        },
+        {
+          "name": "Thunderstone",
+          "cost": "3 BP"
+        },
+        {
+          "name": "Water Stone",
+          "cost": "3 BP"
+        },
+        {
+          "name": "Leaf Stone",
+          "cost": "3 BP"
+        },
+        {
+          "name": "Scope Lens",
+          "cost": "8 BP"
+        },
+        {
+          "name": "Wide Lens",
+          "cost": "8 BP"
+        },
+        {
+          "name": "Muscle Band",
+          "cost": "8 BP"
+        },
+        {
+          "name": "Wise Glasses",
+          "cost": "8 BP"
+        },
+        {
+          "name": "Razor Claw",
+          "cost": "8 BP"
+        },
+        {
+          "name": "Razor Fang",
+          "cost": "8 BP"
+        },
+        {
+          "name": "Binding Band",
+          "cost": "8 BP"
+        },
+        {
+          "name": "Focus Band",
+          "cost": "12 BP"
+        },
+        {
+          "name": "Zoom Lens",
+          "cost": "12 BP"
+        },
+        {
+          "name": "Iron Ball",
+          "cost": "12 BP"
+        },
+        {
+          "name": "Air Balloon",
+          "cost": "12 BP"
+        },
+        {
+          "name": "Power Bracer",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Belt",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Lens",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Band",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Anklet",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Weight",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Toxic Orb",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Flame Orb",
+          "cost": "16 BP"
+        },
+        {
+          "name": "White Herb",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Herb",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Absorb Bulb",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Cell Battery",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Red Card",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Eject Button",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Choice Band",
+          "cost": "24 BP"
+        },
+        {
+          "name": "Choice Specs",
+          "cost": "24 BP"
+        },
+        {
+          "name": "Choice Scarf",
+          "cost": "24 BP"
+        },
+        {
+          "name": "Focus Sash",
+          "cost": "24 BP"
+        },
+        {
+          "name": "Life Orb",
+          "cost": "24 BP"
+        },
+        {
+          "name": "Rare Candy",
+          "cost": "24 BP"
+        }
+      ],
+      "versions": [
+        "black-2-white-2"
+      ],
+      "en": {
+        "title": "Exchange Service Corner — items, stones and vitamins",
+        "desc": "The same shop at the Battle Subway and the PWT, cheaper than in Black and White, and with evolution stones."
+      }
+    },
+    {
+      "title": "Exchange Service Corner — TMs",
+      "desc": "18 TMs, no Battle Subway e no PWT.",
+      "items": [
+        {
+          "name": "TM17 Protect",
+          "cost": "6 BP"
+        },
+        {
+          "name": "TM20 Safeguard",
+          "cost": "6 BP"
+        },
+        {
+          "name": "TM32 Double Team",
+          "cost": "6 BP"
+        },
+        {
+          "name": "TM59 Incinerate",
+          "cost": "6 BP"
+        },
+        {
+          "name": "TM31 Brick Break",
+          "cost": "12 BP"
+        },
+        {
+          "name": "TM79 Frost Breath",
+          "cost": "12 BP"
+        },
+        {
+          "name": "TM89 U-turn",
+          "cost": "12 BP"
+        },
+        {
+          "name": "TM10 Hidden Power",
+          "cost": "18 BP"
+        },
+        {
+          "name": "TM23 Smack Down",
+          "cost": "18 BP"
+        },
+        {
+          "name": "TM48 Round",
+          "cost": "18 BP"
+        },
+        {
+          "name": "TM75 Swords Dance",
+          "cost": "18 BP"
+        },
+        {
+          "name": "TM87 Swagger",
+          "cost": "18 BP"
+        },
+        {
+          "name": "TM88 Pluck",
+          "cost": "18 BP"
+        },
+        {
+          "name": "TM34 Sludge Wave",
+          "cost": "24 BP"
+        },
+        {
+          "name": "TM51 Ally Switch",
+          "cost": "24 BP"
+        },
+        {
+          "name": "TM60 Quash",
+          "cost": "24 BP"
+        },
+        {
+          "name": "TM64 Explosion",
+          "cost": "24 BP"
+        },
+        {
+          "name": "TM77 Psych Up",
+          "cost": "24 BP"
+        }
+      ],
+      "versions": [
+        "black-2-white-2"
+      ],
+      "en": {
+        "title": "Exchange Service Corner — TMs",
+        "desc": "18 TMs, at the Battle Subway and the PWT."
+      }
+    }
+  ],
+  "tutors": [],
+  "special_pokemon": []
+}

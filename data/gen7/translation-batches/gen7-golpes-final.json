@@ -1,0 +1,7 @@
+{
+  "moves": {
+    "wish": "Um turno depois do uso, o HP do usuário ou de seu substituto é restaurado em metade do HP máximo do usuário.",
+    "wrap": "Um corpo longo, vinhas ou algo semelhante envolve e aperta o alvo por quatro ou cinco turnos.",
+    "zing-zap": "Uma forte descarga elétrica cai sobre o alvo e o eletrocuta. Também pode fazê-lo recuar."
+  }
+}

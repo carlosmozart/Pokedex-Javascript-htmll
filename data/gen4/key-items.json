@@ -1,0 +1,574 @@
+{
+  "sinnoh": [
+    {
+      "category": "Treinamento & Batalha",
+      "en": {
+        "category": "Training & Battle"
+      },
+      "items": [
+        {
+          "name": "Exp. Share",
+          "desc": "Na guarita norte da Rota 206, com o pai do Lucas/Dawn, depois de ver 35 Pokémon. Também sai na Loteria da Jubilife TV, acertando 3 dígitos.",
+          "en": {
+            "desc": "Route 206 (from Dawn/Lucas's father in the northern gate after seeing 35 Pokémon) / Jubilife TV Pokémon Lottery Corner (3 digits)"
+          }
+        },
+        {
+          "name": "Amulet Coin",
+          "desc": "No chão da Amity Square, em Hearthome City.",
+          "en": {
+            "desc": "Amity Square"
+          }
+        },
+        {
+          "name": "Macho Brace",
+          "desc": "No chão de Pastoria City.",
+          "en": {
+            "desc": "Pastoria City"
+          }
+        },
+        {
+          "name": "Master Ball",
+          "desc": "Com o Cyrus, no QG da Team Galactic, depois de vencê-lo. Também sai na Loteria da Jubilife TV, acertando os 5 dígitos.",
+          "en": {
+            "desc": "Team Galactic HQ (from Cyrus after defeating him) / Jubilife TV (match all 5 digits in the Pokémon Lottery Corner)"
+          }
+        },
+        {
+          "name": "Vs. Seeker",
+          "desc": "Na Rota 207, com o Lucas/Dawn, assistente do Professor Rowan.",
+          "en": {
+            "desc": "Route 207 (from Rowan's assistant Lucas/Dawn)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Varas de Pescar",
+      "en": {
+        "category": "Fishing Rods"
+      },
+      "items": [
+        {
+          "name": "Old Rod",
+          "desc": "Com um Pescador, na guarita entre Jubilife City e a Rota 218.",
+          "en": {
+            "desc": "Gate between Jubilife City and Route 218 (from a Fisherman)"
+          }
+        },
+        {
+          "name": "Good Rod",
+          "desc": "Com um Pescador na Rota 209, perto da entrada de Hearthome City.",
+          "en": {
+            "desc": "Route 209 (from a Fisherman near Hearthome City's entrance)"
+          }
+        },
+        {
+          "name": "Super Rod",
+          "desc": "Com um Pescador, na Fight Area.",
+          "en": {
+            "desc": "Fight Area (from a Fisherman)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Locomoção & Exploração",
+      "en": {
+        "category": "Getting Around & Exploring"
+      },
+      "items": [
+        {
+          "name": "Bicycle",
+          "desc": "Na loja do Rad Rickshaw, em Eterna City, com o próprio dono, depois de salvá-lo da Team Galactic.",
+          "en": {
+            "desc": "Rad Rickshaw's Cycle Shop in Eterna City (from owner after saving him from Team Galactic)"
+          }
+        },
+        {
+          "name": "Town Map",
+          "desc": "Na Trainers’ School de Jubilife City, quando você entrega o Parcel ao Barry.",
+          "en": {
+            "desc": "Jubilife City Trainers' School (upon delivering the Parcel to the Barry)"
+          }
+        },
+        {
+          "name": "Explorer Kit",
+          "desc": "Em Eterna City, com o Underground Man. É ele que abre o subsolo para você.",
+          "en": {
+            "desc": "Eterna City (from Underground Man)"
+          }
+        },
+        {
+          "name": "Poké Radar",
+          "desc": "Em Sandgem Town, com o Professor Rowan, depois de completar a Pokédex de Sinnoh.",
+          "en": {
+            "desc": "Sandgem Town (from Professor Oak when the Sinnoh Pokédex has been completed)"
+          }
+        },
+        {
+          "name": "Sprayduck",
+          "desc": "Na floricultura Pick a Peck of Colors, em Floaroma, com uma das funcionárias. É o regador das bagas.",
+          "en": {
+            "desc": "Pick a Peck of Colors Flower Shop (from one of the workers)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Chaves e Itens de História",
+      "en": {
+        "category": "Keys and Story Items"
+      },
+      "items": [
+        {
+          "name": "Parcel",
+          "desc": "Em Twinleaf Town, com a mãe do Barry. Dentro vêm dois Town Maps: um para ele e um para você.",
+          "en": {
+            "desc": "Twinleaf Town (from Barry's mother)"
+          }
+        },
+        {
+          "name": "Works Key",
+          "desc": "No Floaroma Meadow, com o Honey Man, depois de derrotar o recruta da Team Galactic.",
+          "en": {
+            "desc": "Floaroma Meadow (from Honey Man after defeating the Team Galactic Grunt)"
+          }
+        },
+        {
+          "name": "Storage Key",
+          "desc": "Em Diamond e Pearl, cai de um recruta da Team Galactic em frente ao prédio deles em Veilstone, depois do encontro com a Jupiter no Lake Acuity. Em Platinum não existe.",
+          "en": {
+            "desc": "D/P: Veilstone City (from a Team Galactic Grunt in front of the Galactic Veilstone Building after encountering Jupiter at Lake Acuity) · Pt: Unobtainable"
+          }
+        },
+        {
+          "name": "Galactic Key",
+          "desc": "No subsolo do QG da Team Galactic.",
+          "en": {
+            "desc": "Team Galactic HQ (basement)"
+          }
+        },
+        {
+          "name": "Secret Potion",
+          "desc": "No Valor Lakefront, com a Cynthia. É o remédio do Psyduck que bloqueia a Rota 210.",
+          "en": {
+            "desc": "Valor Lakefront (from Cynthia)"
+          }
+        },
+        {
+          "name": "Suite Key",
+          "desc": "Escondida na Rota 213 — abre a suíte do Hotel Grand Lake.",
+          "en": {
+            "desc": "Route 213 (hidden)"
+          }
+        },
+        {
+          "name": "Old Charm",
+          "desc": "Na Rota 210, com a Cynthia, para levar até a avó dela em Celestic Town.",
+          "en": {
+            "desc": "Route 210 (from Cynthia)"
+          }
+        },
+        {
+          "name": "Secret Key",
+          "desc": "Só por evento de Mystery Gift. Libera as formas alternativas do Rotom.",
+          "en": {
+            "desc": "Available only by Mystery Gift event"
+          }
+        },
+        {
+          "name": "Lunar Wing",
+          "desc": "Na Fullmoon Island, deixada para trás pela Cresselia quando ela foge. Cura o pesadelo do garoto em Canalave.",
+          "en": {
+            "desc": "Fullmoon Island (left behind by Cresselia when it flees)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Itens de Evento",
+      "en": {
+        "category": "Event Items"
+      },
+      "items": [
+        {
+          "name": "Member Card",
+          "desc": "Só por evento de Mystery Gift. Dá acesso à pousada de Canalave, de onde se chega à Newmoon Island do Darkrai.",
+          "en": {
+            "desc": "Available only by Mystery Gift event"
+          }
+        },
+        {
+          "name": "Oak's Letter",
+          "desc": "Só por evento de Mystery Gift. Leva você à Rota 224 e de lá ao Flower Paradise do Shaymin.",
+          "en": {
+            "desc": "Available only by Mystery Gift event"
+          }
+        },
+        {
+          "name": "Gracidea",
+          "desc": "Em Floaroma Town, com um Shaymin de evento na equipe. É a flor que muda o Shaymin para a Forma Céu.",
+          "en": {
+            "desc": "Floaroma Town (requires a fateful encounter Shaymin in the party)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Coleção & Conveniência",
+      "en": {
+        "category": "Collecting & Convenience"
+      },
+      "items": [
+        {
+          "name": "Coin Case",
+          "desc": "Em Veilstone City, com o Palhaço numa casa ao sul do Ginásio.",
+          "en": {
+            "desc": "Veilstone City (from a Clown in a house south of the Gym)"
+          }
+        },
+        {
+          "name": "Seal Case",
+          "desc": "Em Solaceon Town, de presente com uma moradora. Guarda os selos das Poké Balls.",
+          "en": {
+            "desc": "Solaceon Town (gift from a woman)"
+          }
+        },
+        {
+          "name": "Poffin Case",
+          "desc": "Em Hearthome City, com o presidente do Pokémon Fan Club.",
+          "en": {
+            "desc": "Hearthome City (from Pokémon Fan Club Chairman)"
+          }
+        },
+        {
+          "name": "Fashion Case",
+          "desc": "Em Jubilife City, de presente depois de expulsar a Team Galactic de lá.",
+          "en": {
+            "desc": "Jubilife City (gift after the player has defeated Team Galactic there)"
+          }
+        },
+        {
+          "name": "Pal Pad",
+          "desc": "No subsolo de qualquer Centro Pokémon, com a atendente, depois da insígnia de Oreburgh.",
+          "en": {
+            "desc": "Pokémon Center basement (from the attendant after earning the Coal)"
+          }
+        },
+        {
+          "name": "Point Card",
+          "desc": "Ao entrar no Battle Park pela primeira vez.",
+          "en": {
+            "desc": "Battle Park"
+          }
+        },
+        {
+          "name": "Journal",
+          "desc": "Em Twinleaf Town, com a Johanna. Ele anota sozinho o que você fez no dia.",
+          "en": {
+            "desc": "Twinleaf Town (from Johanna)"
+          }
+        }
+      ]
+    }
+  ],
+  "johto": [
+    {
+      "category": "Treinamento & Batalha",
+      "en": {
+        "category": "Training & Battle"
+      },
+      "items": [
+        {
+          "name": "Exp. Share",
+          "desc": "Na Rota 30, com o Mr. Pokémon, em troca da Red Scale. Também sai na Loteria da Goldenrod Radio Tower, acertando 3 dígitos.",
+          "en": {
+            "desc": "Route 30 (from Mr. Pokémon in exchange for the Red Scale) / Goldenrod Radio Tower Pokémon Lottery Corner (3 digits)"
+          }
+        },
+        {
+          "name": "Amulet Coin",
+          "desc": "No subsolo da Goldenrod Department Store.",
+          "en": {
+            "desc": "Goldenrod Department Store Basement"
+          }
+        },
+        {
+          "name": "Macho Brace",
+          "desc": "Na Goldenrod Department Store, segurado pelo Machop da troca no jogo.",
+          "en": {
+            "desc": "Goldenrod Department Store (held by in-game trade Machop)"
+          }
+        },
+        {
+          "name": "Master Ball",
+          "desc": "Em New Bark Town, com o Professor Elm, depois das oito insígnias de Johto. Também sai no Lucky Channel da Goldenrod Radio Tower, acertando os 5 dígitos.",
+          "en": {
+            "desc": "New Bark Town (from Professor Elm after earning all eight Johto Badges) / Goldenrod Radio Tower (match all 5 digits in the Lucky Channel)"
+          }
+        },
+        {
+          "name": "Vs. Recorder",
+          "desc": "Na guarita da Rota 31, com o Ethan/Lyra.",
+          "en": {
+            "desc": "Route 31 gate (from Ethan/Lyra)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Varas de Pescar",
+      "en": {
+        "category": "Fishing Rods"
+      },
+      "items": [
+        {
+          "name": "Old Rod",
+          "desc": "No Centro Pokémon da Rota 32, com um Pescador.",
+          "en": {
+            "desc": "Route 32 Pokémon Center (from a Fisherman)"
+          }
+        },
+        {
+          "name": "Good Rod",
+          "desc": "Em Olivine City, com um Pescador.",
+          "en": {
+            "desc": "Olivine City (from a Fisherman)"
+          }
+        },
+        {
+          "name": "Super Rod",
+          "desc": "Na Rota 12, com os Irmãos Pescadores.",
+          "en": {
+            "desc": "Route 12 (from Fishing Brothers)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Locomoção & Exploração",
+      "en": {
+        "category": "Getting Around & Exploring"
+      },
+      "items": [
+        {
+          "name": "Bicycle",
+          "desc": "Na loja de bicicletas de Goldenrod City, com o dono.",
+          "en": {
+            "desc": "Bike Shop in Goldenrod City (from owner)"
+          }
+        },
+        {
+          "name": "Dowsing MCHN",
+          "desc": "Em Ecruteak City, com um morador da casa ao lado do Ginásio. Serve para achar item escondido.",
+          "en": {
+            "desc": "Ecruteak City (from a person in a house next to the Gym)"
+          },
+          "sprites": [
+            "Dowsing Machine"
+          ]
+        },
+        {
+          "name": "Squirt Bottle",
+          "desc": "Na floricultura de Goldenrod City, depois de vencer a Whitney. É o regador que acorda o Sudowoodo.",
+          "en": {
+            "desc": "Goldenrod City Flower Shop (after defeating Whitney)"
+          }
+        },
+        {
+          "name": "Pass",
+          "desc": "Em Saffron City, com a Copycat, depois de devolver o Lost Item. Dá acesso ao trem-bala.",
+          "en": {
+            "desc": "Saffron City (from Copycat after returning the Lost Item)"
+          }
+        },
+        {
+          "name": "S.S. Ticket",
+          "desc": "Em New Bark Town, com o Professor Elm, depois de entrar no Hall da Fama.",
+          "en": {
+            "desc": "New Bark Town (from Professor Elm after entering the Hall of Fame)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Chaves e Itens de História",
+      "en": {
+        "category": "Keys and Story Items"
+      },
+      "items": [
+        {
+          "name": "Mystery Egg",
+          "desc": "Na Rota 30, com o Mr. Pokémon. É o ovo do Togepi.",
+          "en": {
+            "desc": "Route 30 (from Mr. Pokémon)"
+          }
+        },
+        {
+          "name": "Red Scale",
+          "desc": "No Lake of Rage, ao capturar ou derrotar o Gyarados vermelho.",
+          "en": {
+            "desc": "Lake of Rage (after capturing or defeating the Red Gyarados)"
+          }
+        },
+        {
+          "name": "Card Key",
+          "desc": "No Goldenrod Tunnel, com o diretor da rádio, depois de resgatá-lo.",
+          "en": {
+            "desc": "Goldenrod Tunnel (from director after rescuing him)"
+          }
+        },
+        {
+          "name": "Basement Key",
+          "desc": "Na Goldenrod Radio Tower, tomada do Petrel depois de vencê-lo.",
+          "en": {
+            "desc": "Goldenrod Radio Tower (taken from Petrel after defeating him)"
+          }
+        },
+        {
+          "name": "Machine Part",
+          "desc": "Escondida no Ginásio de Cerulean, dentro de uma das boias da fileira mais próxima do pedestal da Misty.",
+          "en": {
+            "desc": "Cerulean Gym (hidden inside one of the flotation tubes in the row of tubes closest to Misty's pedestal)"
+          }
+        },
+        {
+          "name": "Lost Item",
+          "desc": "No Pokémon Fan Club de Vermilion City, com um sócio, depois de ouvir sobre a boneca perdida da Copycat.",
+          "en": {
+            "desc": "Vermilion City Pokémon Fan Club (from a club member after hearing about Copycat's missing doll)"
+          }
+        },
+        {
+          "name": "Secret Potion",
+          "desc": "Na farmácia de Cianwood City, com o farmacêutico. Cura o Ampharos do farol de Olivine.",
+          "en": {
+            "desc": "Cianwood City (from pharmacist)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Chamando os Lendários",
+      "en": {
+        "category": "Calling the Legendaries"
+      },
+      "items": [
+        {
+          "name": "Rainbow Wing",
+          "desc": "Com o diretor da Goldenrod Radio Tower, depois de livrar a torre da Team Rocket, ou com o velho perto da entrada da Rota 3, em Pewter City — qual dos dois depende da versão. Chama o Ho-Oh na Bell Tower.",
+          "en": {
+            "desc": "Goldenrod Radio Tower (from director after saving the tower from Team Rocket) / Pewter City (from an old man near the entrance to Route 3)"
+          }
+        },
+        {
+          "name": "Silver Wing",
+          "desc": "Com o diretor da Goldenrod Radio Tower, depois de livrar a torre da Team Rocket, ou com o velho perto da entrada da Rota 3, em Pewter City — qual dos dois depende da versão. Chama o Lugia nas Whirl Islands.",
+          "en": {
+            "desc": "Goldenrod Radio Tower (from director after saving the tower from Team Rocket) / Pewter City (from an old man near the entrance to Route 3)"
+          }
+        },
+        {
+          "name": "Clear Bell",
+          "desc": "Em Ecruteak City, por vencer as Kimono Girls. Em HeartGold, ela e a Rainbow Wing são as duas exigidas para o Ho-Oh aparecer.",
+          "en": {
+            "desc": "Ecruteak City (reward for defeating the Kimono Girls)"
+          }
+        },
+        {
+          "name": "Tidal Bell",
+          "desc": "Em Ecruteak City, por vencer as Kimono Girls. Em SoulSilver, ela e a Silver Wing são as duas exigidas para o Lugia aparecer.",
+          "en": {
+            "desc": "Ecruteak City (reward for defeating the Kimono Girls)"
+          }
+        },
+        {
+          "name": "Red Orb",
+          "desc": "Na Rota 30, com o Mr. Pokémon, depois da Pokédex Nacional e de pegar um inicial de Kanto com o Professor Oak. Chama o Kyogre na Embedded Tower.",
+          "en": {
+            "desc": "Route 30 (from Mr. Pokémon after both the National Pokédex and a Kanto first partner Pokémon has been obtained from Professor Oak)."
+          }
+        },
+        {
+          "name": "Blue Orb",
+          "desc": "Na Rota 30, com o Mr. Pokémon, depois da Pokédex Nacional e de pegar um inicial de Kanto com o Professor Oak. Chama o Groudon na Embedded Tower.",
+          "en": {
+            "desc": "Route 30 (from Mr. Pokémon after both the National Pokédex and a Kanto first partner Pokémon has been obtained from Professor Oak)."
+          }
+        },
+        {
+          "name": "Jade Orb",
+          "desc": "Em Pallet Town, com o Professor Oak, mostrando a ele um Kyogre e um Groudon capturados em HeartGold ou SoulSilver. Chama o Rayquaza.",
+          "en": {
+            "desc": "Pallet Town (from Professor Oak if he is shown a Kyogre from HeartGold and SoulSilver and a Groudon from HeartGold and SoulSilver)"
+          }
+        },
+        {
+          "name": "Enigma Stone",
+          "desc": "Só por evento de Mystery Gift. Leva ao Latias ou ao Latios, conforme a versão.",
+          "en": {
+            "desc": "Available only by Mystery Gift event"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Coleção & Conveniência",
+      "en": {
+        "category": "Collecting & Convenience"
+      },
+      "items": [
+        {
+          "name": "Coin Case",
+          "desc": "Com o Mr. Game, no Game Corner de Goldenrod ou de Celadon. Na versão japonesa, fica no trecho sul do Goldenrod Tunnel.",
+          "en": {
+            "desc": "Goldenrod Game Corner or Celadon Game Corner (from Mr. Game)* / Goldenrod Tunnel (southern part)*"
+          }
+        },
+        {
+          "name": "Apricorn Box",
+          "desc": "Na Rota 30, na casa mais perto de Cherrygrove City. Guarda os Apricorns que viram Poké Ball.",
+          "en": {
+            "desc": "Route 30 (house closest to Cherrygrove City)"
+          }
+        },
+        {
+          "name": "Berry Pots",
+          "desc": "Na Rota 36, com a funcionária da floricultura, por capturar ou derrotar o Sudowoodo. Planta baga em qualquer lugar.",
+          "en": {
+            "desc": "Route 36 (from a flower shop employee for catching or defeating Sudowoodo)"
+          }
+        },
+        {
+          "name": "Blue Card",
+          "desc": "Na Goldenrod Radio Tower, com a Buena. Junta pontos no programa dela.",
+          "en": {
+            "desc": "Goldenrod Radio Tower (from Buena)"
+          }
+        },
+        {
+          "name": "GB Sounds",
+          "desc": "Nos Celadon Condominiums, com o funcionário da Game Freak em frente ao globo, depois das 16 insígnias. Troca a trilha pela do Game Boy.",
+          "en": {
+            "desc": "Celadon Condominiums (from the Game Freak employee in front of the globe after obtaining all 16 Badges)"
+          }
+        },
+        {
+          "name": "Unown Report",
+          "desc": "Nas Ruins of Alph, depois de resolver o primeiro quebra-cabeça de parede.",
+          "en": {
+            "desc": "Ruins of Alph (after solving the first wall puzzle)"
+          }
+        },
+        {
+          "name": "Rage Candy Bar",
+          "desc": "Comprada em Mahogany Town, com o homem que barra o caminho para a Rota 44.",
+          "en": {
+            "desc": "Mahogany Town (purchase from man who stops the player from going to Route 44)"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "sun-moon": [
+    {
+      "category": "Desafio das Ilhas",
+      "en": {
+        "category": "Island Challenge"
+      },
+      "items": [
+        {
+          "name": "Z-Ring",
+          "desc": "Iki Town (com o Hala, depois de vencer o Hau no festival).",
+          "en": {
+            "desc": "Iki Town (from Hala after defeating Hau during the festival)."
+          }
+        },
+        {
+          "name": "Sparkling Stone",
+          "desc": "Mahalo Trail (Plank Bridge; com a Lillie, depois de salvar o Nebby dos Spearow).",
+          "en": {
+            "desc": "Mahalo Trail (Plank Bridge; from Lillie after saving Nebby from the Spearow)."
+          }
+        },
+        {
+          "name": "Fishing Rod",
+          "desc": "Brooklet Hill (com a Lana, por concluir a prova).",
+          "en": {
+            "desc": "Brooklet Hill (from Lana for completing the trial)."
+          }
+        },
+        {
+          "name": "Forage Bag",
+          "desc": "Lush Jungle (com a Mallow, no começo da prova).",
+          "en": {
+            "desc": "Lush Jungle (from Mallow at the beginning of the trial)."
+          }
+        }
+      ]
+    },
+    {
+      "category": "História e pós-jogo",
+      "en": {
+        "category": "Story and post-game"
+      },
+      "items": [
+        {
+          "name": "Sun Flute",
+          "desc": "Exeggutor Island (Sun).",
+          "en": {
+            "desc": "Exeggutor Island (Sun)."
+          }
+        },
+        {
+          "name": "Moon Flute",
+          "desc": "Exeggutor Island (Moon).",
+          "en": {
+            "desc": "Exeggutor Island (Moon)."
+          }
+        },
+        {
+          "name": "Enigmatic Card",
+          "desc": "Rota 1 (Hau'oli Outskirts; com um homem, depois do Hall of Fame).",
+          "en": {
+            "desc": "Route 1 (Hau'oli Outskirts; from a man after entering the Hall of Fame)."
+          }
+        },
+        {
+          "name": "Professor's Mask",
+          "desc": "Hokulani Observatory (com o Molayne, depois de concluir a prova do Sophocles).",
+          "en": {
+            "desc": "Hokulani Observatory (from Molayne after completing Sophocles's trial)."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Lendários e formas",
+      "en": {
+        "category": "Legendaries and forms"
+      },
+      "items": [
+        {
+          "name": "Zygarde Cube",
+          "desc": "Heahea City (com o Dexio (Sun) ou a Sina (Moon), depois de vencê-lo em batalha).",
+          "en": {
+            "desc": "Heahea City (from Dexio after defeating him (Sun)/Sina (Moon) in a battle)."
+          }
+        },
+        {
+          "name": "Key Stone",
+          "desc": "Ancient Poni Path (com o Dexio, depois de vencê-lo em batalha).",
+          "en": {
+            "desc": "Ancient Poni Path (from Dexio after defeating him in a battle)."
+          }
+        },
+        {
+          "name": "DNA Splicers",
+          "desc": "Aether Paradise (Secret Lab A; com um funcionário da Aether Foundation).",
+          "en": {
+            "desc": "Aether Paradise (Secret Lab A; from an Aether Foundation Employee)."
+          }
+        },
+        {
+          "name": "Reveal Glass",
+          "desc": "Heahea City (Dimensional Research Lab; com a Professora Burnet, depois de vencer a Olivia).",
+          "en": {
+            "desc": "Heahea City (Dimensional Research Lab; from Professor Burnet after defeating Olivia)."
+          }
+        },
+        {
+          "name": "Prison Bottle",
+          "desc": "Aether Paradise (Secret Lab A; com um funcionário da Aether Foundation).",
+          "en": {
+            "desc": "Aether Paradise (Secret Lab A; from an Aether Foundation Employee)."
+          }
+        },
+        {
+          "name": "Gracidea",
+          "desc": "Hau'oli City (com o atendente da loja Gracidea, no shopping).",
+          "en": {
+            "desc": "Hau'oli City (from the secondary attendant in the mall store Gracidea)."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Treino e coleção",
+      "en": {
+        "category": "Training and collecting"
+      },
+      "items": [
+        {
+          "name": "Exp. Share",
+          "desc": "Rota 1 (Hau'oli Outskirts; com o Professor Kukui, na frente da Trainers' School, na primeira visita).",
+          "en": {
+            "desc": "Route 1 (Hau'oli Outskirts; from Professor Kukui outside the Trainers' School on the player's first visit)."
+          }
+        },
+        {
+          "name": "Oval Charm",
+          "desc": "Heahea City (no prédio à esquerda do Dimensional Research Lab; com o Morimoto, da GAME FREAK, depois de vencê-lo em batalha).",
+          "en": {
+            "desc": "Heahea City (building to the left of the Dimensional Research Lab; from GAME FREAK Morimoto after defeating him in a battle)."
+          }
+        },
+        {
+          "name": "Shiny Charm",
+          "desc": "Heahea City (no prédio à esquerda do Dimensional Research Lab; com o diretor do jogo, depois de mostrar a Pokédex de Alola completa, sem contar os Míticos).",
+          "en": {
+            "desc": "Heahea City (building to the left of the Dimensional Research Lab; from game director after showing him a completed Alola Pokédex, excluding Mythical Pokémon)."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Aparência",
+      "en": {
+        "category": "Appearance"
+      },
+      "items": [
+        {
+          "name": "Lens Case",
+          "desc": "Hau'oli City (com a Lillie, na frente da loja de roupas).",
+          "en": {
+            "desc": "Hau'oli City (from Lillie, outside the apparel shop)."
+          }
+        },
+        {
+          "name": "Makeup Bag",
+          "desc": "Hau'oli City (com a Lillie, na frente da loja de roupas, se a protagonista for menina).",
+          "en": {
+            "desc": "Hau'oli City (from Lillie, outside the apparel shop, if the player is female)."
+          }
+        }
+      ]
+    }
+  ],
+  "ultra-sun-ultra-moon": [
+    {
+      "category": "Desafio das Ilhas",
+      "en": {
+        "category": "Island Challenge"
+      },
+      "items": [
+        {
+          "name": "Z-Power Ring",
+          "desc": "Iki Town (com o Hala, depois de vencer o Hau no festival).",
+          "en": {
+            "desc": "Iki Town (from Hala after defeating Hau during the festival)."
+          }
+        },
+        {
+          "name": "Sparkling Stone",
+          "desc": "Mahalo Trail (Plank Bridge; com a Lillie, depois de salvar o Nebby dos Spearow).",
+          "en": {
+            "desc": "Mahalo Trail (Plank Bridge; from Lillie after saving Nebby from the Spearow)."
+          }
+        },
+        {
+          "name": "Fishing Rod",
+          "desc": "Brooklet Hill (com a Lana, por concluir a prova).",
+          "en": {
+            "desc": "Brooklet Hill (from Lana for completing the trial)."
+          }
+        },
+        {
+          "name": "Forage Bag",
+          "desc": "Lush Jungle (com a Mallow, no começo da prova).",
+          "en": {
+            "desc": "Lush Jungle (from Mallow at the beginning of the trial)."
+          }
+        },
+        {
+          "name": "Ilima's Normalium Z",
+          "desc": "Hau'oli City (com o Ilima, no quarto dele, depois de você virar Campeão).",
+          "en": {
+            "desc": "Hau'oli City (from Ilima in his room after becoming Champion)."
+          }
+        },
+        {
+          "name": "Rainbow Flower",
+          "desc": "Seafolk Village (durante a prova da Mina, depois de juntar as sete pétalas).",
+          "en": {
+            "desc": "Seafolk Village (during Mina's trial, from Mina after collecting all seven petals)."
+          }
+        },
+        {
+          "name": "Red Petal",
+          "desc": "Wela Volcano Park (durante a prova da Mina, depois de vencer Kiawe).",
+          "en": {
+            "desc": "Wela Volcano Park (during Mina's trial, after defeating Kiawe)."
+          }
+        },
+        {
+          "name": "Orange Petal",
+          "desc": "Hau'oli Cemetery (durante a prova da Mina, depois de vencer Ilima).",
+          "en": {
+            "desc": "Hau'oli Cemetery (during Mina's trial, after defeating Ilima)."
+          }
+        },
+        {
+          "name": "Yellow Petal",
+          "desc": "Hokulani Observatory (durante a prova da Mina, vencendo (Ultra Sun) ou falando com (Ultra Moon) Sophocles).",
+          "en": {
+            "desc": "Hokulani Observatory (during Mina's trial, after defeating (Ultra Sun)/talking to (Ultra Moon) Sophocles)."
+          }
+        },
+        {
+          "name": "Green Petal",
+          "desc": "Lush Jungle (durante a prova da Mina, depois de vencer Mallow (Ultra Sun)/Lana (Ultra Moon)).",
+          "en": {
+            "desc": "Lush Jungle (during Mina's trial, after defeating Mallow (Ultra Sun)/Lana (Ultra Moon))."
+          }
+        },
+        {
+          "name": "Blue Petal",
+          "desc": "Lush Jungle (durante a prova da Mina, depois de vencer Mallow (Ultra Sun)/Lana (Ultra Moon)).",
+          "en": {
+            "desc": "Lush Jungle (during Mina's trial, after defeating Mallow (Ultra Sun)/Lana (Ultra Moon))."
+          }
+        },
+        {
+          "name": "Purple Petal",
+          "desc": "Aether House (durante a prova da Mina, falando com (Ultra Sun) ou vencendo (Ultra Moon) Nanu).",
+          "en": {
+            "desc": "Aether House (during Mina's trial, after talking to (Ultra Sun)/defeating (Ultra Moon) Nanu)."
+          }
+        },
+        {
+          "name": "Pink Petal",
+          "desc": "Seafolk Village (durante a prova da Mina, depois de vencê-la).",
+          "en": {
+            "desc": "Seafolk Village (during Mina's trial, after defeating her)."
+          }
+        },
+        {
+          "name": "Surge Badge",
+          "desc": "Kantonian Gym (depois de vencer o líder do Kantonian Gym).",
+          "en": {
+            "desc": "Kantonian Gym (from the Kantonian Gym after defeating him)."
+          }
+        }
+      ]
+    },
+    {
+      "category": "História e pós-jogo",
+      "en": {
+        "category": "Story and post-game"
+      },
+      "items": [
+        {
+          "name": "Sun Flute",
+          "desc": "Exeggutor Island (Ultra Sun).",
+          "en": {
+            "desc": "Exeggutor Island (Ultra Sun)."
+          }
+        },
+        {
+          "name": "Moon Flute",
+          "desc": "Exeggutor Island (Ultra Moon).",
+          "en": {
+            "desc": "Exeggutor Island (Ultra Moon)."
+          }
+        },
+        {
+          "name": "N-Solarizer",
+          "desc": "Mount Lanakila (com o Colress, depois de capturar o Necrozma).",
+          "en": {
+            "desc": "Mount Lanakila (from Colress after catching Necrozma)."
+          }
+        },
+        {
+          "name": "N-Lunarizer",
+          "desc": "Mount Lanakila (com o Colress, depois de capturar o Necrozma).",
+          "en": {
+            "desc": "Mount Lanakila (from Colress after catching Necrozma)."
+          }
+        },
+        {
+          "name": "Professor's Mask",
+          "desc": "Hokulani Observatory (com o Molayne, depois de concluir a prova do Sophocles).",
+          "en": {
+            "desc": "Hokulani Observatory (from Molayne after completing Sophocles's trial)."
+          }
+        },
+        {
+          "name": "Left Poké Ball",
+          "desc": "Aether Office, em Heahea City.",
+          "en": {
+            "desc": "Heahea City Aether Office."
+          }
+        },
+        {
+          "name": "Galactic Key",
+          "desc": "Team Rocket's Castle (com o Cyrus, depois de vencê-lo).",
+          "en": {
+            "desc": "Team Rocket's Castle (from Cyrus after defeating him)."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Lendários e formas",
+      "en": {
+        "category": "Legendaries and forms"
+      },
+      "items": [
+        {
+          "name": "Zygarde Cube",
+          "desc": "Rota 16 (vença o Dexio, depois de capturar o Zygarde na Resolution Cave).",
+          "en": {
+            "desc": "Route 16 (defeat Dexio, after catching Zygarde in Resolution Cave)."
+          }
+        },
+        {
+          "name": "Key Stone",
+          "desc": "Poni Plains (com o Dexio, depois de vencê-lo em batalha).",
+          "en": {
+            "desc": "Poni Plains (from Dexio after defeating him in a battle)."
+          }
+        },
+        {
+          "name": "DNA Splicers",
+          "desc": "Aether Paradise (Secret Lab A; com um funcionário da Aether Foundation).",
+          "en": {
+            "desc": "Aether Paradise (Secret Lab A; from an Aether Foundation Employee)."
+          }
+        },
+        {
+          "name": "Reveal Glass",
+          "desc": "Heahea City (Dimensional Research Lab; com a Professora Burnet, depois de vencer a Olivia).",
+          "en": {
+            "desc": "Heahea City (Dimensional Research Lab; from Professor Burnet after defeating Olivia)."
+          }
+        },
+        {
+          "name": "Prison Bottle",
+          "desc": "Aether Paradise (Secret Lab A; com um funcionário da Aether Foundation).",
+          "en": {
+            "desc": "Aether Paradise (Secret Lab A; from an Aether Foundation Employee)."
+          }
+        },
+        {
+          "name": "Gracidea",
+          "desc": "Hau'oli City (com o atendente da loja Gracidea, no shopping).",
+          "en": {
+            "desc": "Hau'oli City (from the secondary attendant in the mall store Gracidea)."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Treino e coleção",
+      "en": {
+        "category": "Training and collecting"
+      },
+      "items": [
+        {
+          "name": "Exp. Share",
+          "desc": "Rota 1 (Hau'oli Outskirts; com o Professor Kukui, na frente da Trainers' School, na primeira visita).",
+          "en": {
+            "desc": "Route 1 (Hau'oli Outskirts; from Professor Kukui outside the Trainers' School on the player's first visit)."
+          }
+        },
+        {
+          "name": "Oval Charm",
+          "desc": "Heahea City (no prédio à esquerda do Dimensional Research Lab; com o Morimoto, da GAME FREAK, depois de vencer ele e o Iwao numa Batalha Múltipla).",
+          "en": {
+            "desc": "Heahea City (building to the left of the Dimensional Research Lab; from GAME FREAK Morimoto after defeating him and Iwao in a Multi Battle)."
+          }
+        },
+        {
+          "name": "Shiny Charm",
+          "desc": "Heahea City (no prédio à esquerda do Dimensional Research Lab; com o diretor do jogo, depois de mostrar a Pokédex de Alola completa, sem contar os Míticos).",
+          "en": {
+            "desc": "Heahea City (building to the left of the Dimensional Research Lab; from game director after showing him a completed Alola Pokédex, excluding Mythical Pokémon)."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Aparência",
+      "en": {
+        "category": "Appearance"
+      },
+      "items": [
+        {
+          "name": "Lens Case",
+          "desc": "Hau'oli City (com a Lillie, na frente da loja de roupas).",
+          "en": {
+            "desc": "Hau'oli City (from Lillie, outside the apparel shop)."
+          }
+        },
+        {
+          "name": "Makeup Bag",
+          "desc": "Hau'oli City (com a Lillie, na frente da loja de roupas, se a protagonista for menina).",
+          "en": {
+            "desc": "Hau'oli City (from Lillie, outside the apparel shop, if the player is female)."
+          }
+        }
+      ]
+    }
+  ]
+}

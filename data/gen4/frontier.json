@@ -1,0 +1,1146 @@
+{
+  "overview": {
+    "title": "Battle Frontier",
+    "desc": "Depois da Liga, o jogo muda de pergunta: não é mais vencer, é vencer sem parar. Em Diamond e Pearl isso se resume à Battle Tower. Platinum constrói a Battle Frontier inteira ao norte do Fight Area, com cinco instalações e cinco Frontier Brains; HeartGold e SoulSilver a levam para oeste de Olivine City, com entrada pela Frontier Access. Cada vitória rende Battle Points, a moeda de TM, tutor e item que os guias citam, e cada Brain derrotado deixa a sua print de prata e, na revanche, a de ouro.",
+    "image": "img/Battle_Frontier_Gen4.png",
+    "en": {
+      "title": "Battle Frontier",
+      "desc": "After the League the question changes: it is no longer winning, it is winning without stopping. In Diamond and Pearl that comes down to the Battle Tower. Platinum builds the whole Battle Frontier north of the Fight Area, with five facilities and five Frontier Brains; HeartGold and SoulSilver move it west of Olivine City, through the Frontier Access. Every win earns Battle Points, the currency for the TMs, tutors and items the guides cite, and every Brain defeated leaves their silver print and, in the rematch, the gold one."
+    }
+  },
+  "symbolLabel": "Prêmio:",
+  "en": {
+    "symbolLabel": "Reward:"
+  },
+  "facilities": [
+    {
+      "name": "Battle Tower",
+      "ptName": "Torre de Batalha",
+      "desc": "Batalhas tradicionais com o seu próprio time: simples 3 × 3 ou duplas 4 × 4, sete adversários por sala, e o sétimo é o chefe. Há ainda o desafio multi, com um parceiro do jogo ou um amigo. Em Diamond e Pearl é a única instalação: fica no Battle Park, pelo Fight Area da Battle Zone.",
+      "brain": "Palmer",
+      "brainTitle": "Tower Tycoon",
+      "brainSprite": "img/trainers/Frontier_Pt_Palmer.png",
+      "symbol": "Ability Ribbon e Great Ability Ribbon",
+      "silverReq": "21ª batalha seguida, em simples",
+      "silverTeam": [
+        {
+          "id": 350,
+          "level": 50,
+          "name": "Milotic",
+          "types": [
+            "water"
+          ],
+          "item": "Salac Berry",
+          "ability": "",
+          "abilities": [
+            "Marvel Scale"
+          ],
+          "nature": "Timid",
+          "moves": [
+            "Hydro Pump",
+            "Dragon Pulse",
+            "Recover",
+            "Hypnosis"
+          ]
+        },
+        {
+          "id": 464,
+          "level": 50,
+          "name": "Rhyperior",
+          "types": [
+            "ground",
+            "rock"
+          ],
+          "item": "Expert Belt",
+          "ability": "",
+          "abilities": [
+            "Lightning Rod",
+            "Solid Rock"
+          ],
+          "nature": "Quiet",
+          "moves": [
+            "Rock Wrecker",
+            "Ice Beam",
+            "Thunderbolt",
+            "Flamethrower"
+          ]
+        },
+        {
+          "id": 149,
+          "level": 50,
+          "name": "Dragonite",
+          "types": [
+            "dragon",
+            "flying"
+          ],
+          "item": "Wide Lens",
+          "ability": "",
+          "abilities": [
+            "Inner Focus"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Dragon Rush",
+            "Aqua Tail",
+            "Iron Tail",
+            "Stone Edge"
+          ]
+        }
+      ],
+      "goldReq": "49ª batalha seguida, em simples",
+      "goldTeam": [
+        {
+          "id": 486,
+          "level": 50,
+          "name": "Regigigas",
+          "types": [
+            "normal"
+          ],
+          "item": "Chople Berry",
+          "ability": "",
+          "abilities": [
+            "Slow Start"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Crush Grip",
+            "Ice Punch",
+            "Stone Edge",
+            "Brick Break"
+          ]
+        },
+        {
+          "id": 485,
+          "level": 50,
+          "name": "Heatran",
+          "types": [
+            "fire",
+            "steel"
+          ],
+          "item": "BrightPowder",
+          "ability": "",
+          "abilities": [
+            "Flash Fire"
+          ],
+          "nature": "Quiet",
+          "moves": [
+            "Explosion",
+            "Magma Storm",
+            "Dark Pulse",
+            "Flash Cannon"
+          ]
+        },
+        {
+          "id": 488,
+          "level": 50,
+          "name": "Cresselia",
+          "types": [
+            "psychic"
+          ],
+          "item": "Leftovers",
+          "ability": "",
+          "abilities": [
+            "Levitate"
+          ],
+          "nature": "Bold",
+          "moves": [
+            "Calm Mind",
+            "Moonlight",
+            "Psychic",
+            "Shadow Ball"
+          ]
+        }
+      ],
+      "versions": [
+        "diamond-pearl"
+      ],
+      "en": {
+        "ptName": "Standard battles",
+        "desc": "Traditional battles with your own team: 3-on-3 Singles or 4-on-4 Doubles, seven opponents per room, the seventh being the boss. There is also a Multi challenge, with an in-game partner or a friend. In Diamond and Pearl it is the only facility: it stands in the Battle Park, through the Fight Area of the Battle Zone.",
+        "brainTitle": "Tower Tycoon",
+        "symbol": "Ability Ribbon and Great Ability Ribbon",
+        "silverReq": "21st consecutive Single Battle",
+        "goldReq": "49th consecutive Single Battle"
+      }
+    },
+    {
+      "name": "Battle Tower",
+      "ptName": "Torre de Batalha",
+      "desc": "Batalhas tradicionais com o seu próprio time: simples 3 × 3 ou duplas 4 × 4, sete adversários por sala, e o sétimo é o chefe. Há ainda o desafio multi, com um parceiro do jogo ou um amigo.",
+      "brain": "Palmer",
+      "brainTitle": "Tower Tycoon",
+      "brainSprite": "img/trainers/Frontier_Pt_Palmer.png",
+      "symbol": "Print da Battle Tower, de prata e de ouro",
+      "silverReq": "21ª batalha seguida, em simples",
+      "silverTeam": [
+        {
+          "id": 350,
+          "level": 50,
+          "name": "Milotic",
+          "types": [
+            "water"
+          ],
+          "item": "Shell Bell",
+          "ability": "",
+          "abilities": [
+            "Marvel Scale"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Surf",
+            "Ice Beam",
+            "Attract",
+            "Hypnosis"
+          ]
+        },
+        {
+          "id": 464,
+          "level": 50,
+          "name": "Rhyperior",
+          "types": [
+            "ground",
+            "rock"
+          ],
+          "item": "Focus Band",
+          "ability": "",
+          "abilities": [
+            "Lightning Rod",
+            "Solid Rock"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Rock Wrecker",
+            "Earthquake",
+            "Crunch",
+            "Roar"
+          ]
+        },
+        {
+          "id": 149,
+          "level": 50,
+          "name": "Dragonite",
+          "types": [
+            "dragon",
+            "flying"
+          ],
+          "item": "Lum Berry",
+          "ability": "",
+          "abilities": [
+            "Inner Focus"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Dragon Claw",
+            "Aerial Ace",
+            "Thunder Wave",
+            "Dragon Dance"
+          ]
+        }
+      ],
+      "goldReq": "49ª batalha seguida, em simples",
+      "goldTeam": [
+        {
+          "id": 486,
+          "level": 50,
+          "name": "Regigigas",
+          "types": [
+            "normal"
+          ],
+          "item": "BrightPowder",
+          "ability": "",
+          "abilities": [
+            "Slow Start"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Crush Grip",
+            "Earthquake",
+            "Stone Edge",
+            "Drain Punch"
+          ]
+        },
+        {
+          "id": 485,
+          "level": 50,
+          "name": "Heatran",
+          "types": [
+            "fire",
+            "steel"
+          ],
+          "item": "Focus Sash",
+          "ability": "",
+          "abilities": [
+            "Flash Fire"
+          ],
+          "nature": "Quiet",
+          "moves": [
+            "Magma Storm",
+            "Flash Cannon",
+            "Earth Power",
+            "Explosion"
+          ]
+        },
+        {
+          "id": 488,
+          "level": 50,
+          "name": "Cresselia",
+          "types": [
+            "psychic"
+          ],
+          "item": "Leftovers",
+          "ability": "",
+          "abilities": [
+            "Levitate"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Psychic",
+            "Ice Beam",
+            "Signal Beam",
+            "Moonlight"
+          ]
+        }
+      ],
+      "versions": [
+        "platinum",
+        "heartgold-soulsilver"
+      ],
+      "en": {
+        "ptName": "Standard battles",
+        "desc": "Traditional battles with your own team: 3-on-3 Singles or 4-on-4 Doubles, seven opponents per room, the seventh being the boss. There is also a Multi challenge, with an in-game partner or a friend.",
+        "brainTitle": "Tower Tycoon",
+        "symbol": "Battle Tower print, silver and gold",
+        "silverReq": "21st consecutive Single Battle",
+        "goldReq": "49th consecutive Single Battle"
+      }
+    },
+    {
+      "name": "Battle Factory",
+      "ptName": "Fábrica de Batalha",
+      "desc": "Você entrega o seu time e aluga três de seis Pokémon sorteados, no nível 50 ou 100. Depois de cada vitória pode trocar um deles por um do adversário, sem ver o status antes de aceitar.",
+      "brain": "Thorton",
+      "brainTitle": "Factory Head",
+      "brainSprite": "img/trainers/Frontier_Pt_Thorton.png",
+      "symbol": "Print da Battle Factory, de prata e de ouro",
+      "silverReq": "21ª batalha seguida, em simples",
+      "silverTeam": [],
+      "goldReq": "49ª batalha seguida, em simples",
+      "goldTeam": [],
+      "versions": [
+        "platinum",
+        "heartgold-soulsilver"
+      ],
+      "en": {
+        "ptName": "Rental battles",
+        "desc": "You hand over your team and rent three of six random Pokémon, at level 50 or 100. After each win you may swap one for one of the opponent’s, without seeing its stats before you accept.",
+        "brainTitle": "Factory Head",
+        "symbol": "Battle Factory print, silver and gold",
+        "silverReq": "21st consecutive Single Battle",
+        "goldReq": "49th consecutive Single Battle",
+        "silverNote": "Thorton also uses rental Pokémon, drawn from the same pool — with fixed IVs of 12 in this battle.",
+        "goldNote": "The same rentals, now with IVs of 31, the maximum."
+      },
+      "silverNote": "O Thorton também usa Pokémon alugados, sorteados do mesmo acervo — com IVs fixos de 12 nesta batalha.",
+      "goldNote": "Os mesmos alugados, agora com IVs 31, o máximo."
+    },
+    {
+      "name": "Battle Arcade",
+      "ptName": "Fliperama de Batalha",
+      "desc": "Antes de cada batalha uma roleta decide a condição: um bônus para você, um castigo para o rival, ou algo que atinge os dois. Itens retirados e time no nível 50.",
+      "brain": "Dahlia",
+      "brainTitle": "Arcade Star",
+      "brainSprite": "img/trainers/Frontier_Pt_Dahlia.png",
+      "symbol": "Print da Battle Arcade, de prata e de ouro",
+      "silverReq": "21ª batalha seguida, em simples",
+      "silverTeam": [
+        {
+          "id": 477,
+          "level": 50,
+          "name": "Dusknoir",
+          "types": [
+            "ghost"
+          ],
+          "item": "",
+          "ability": "",
+          "abilities": [
+            "Pressure"
+          ],
+          "nature": "Brave",
+          "moves": [
+            "Shadow Punch",
+            "Fling",
+            "Will-O-Wisp",
+            "Trick Room"
+          ],
+          "itemNote": "Nenhum (a roleta do Arcade dá itens)",
+          "en": {
+            "itemNote": "None (the Arcade roulette hands out items)"
+          }
+        },
+        {
+          "id": 308,
+          "level": 50,
+          "name": "Medicham",
+          "types": [
+            "fighting",
+            "psychic"
+          ],
+          "item": "",
+          "ability": "",
+          "abilities": [
+            "Pure Power"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Zen Headbutt",
+            "Reversal",
+            "Endure",
+            "Fake Out"
+          ],
+          "itemNote": "Nenhum (a roleta do Arcade dá itens)",
+          "en": {
+            "itemNote": "None (the Arcade roulette hands out items)"
+          }
+        },
+        {
+          "id": 272,
+          "level": 50,
+          "name": "Ludicolo",
+          "types": [
+            "water",
+            "grass"
+          ],
+          "item": "",
+          "ability": "",
+          "abilities": [
+            "Swift Swim",
+            "Rain Dish"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Waterfall",
+            "Razor Leaf",
+            "Drain Punch",
+            "Swords Dance"
+          ],
+          "itemNote": "Nenhum (a roleta do Arcade dá itens)",
+          "en": {
+            "itemNote": "None (the Arcade roulette hands out items)"
+          }
+        }
+      ],
+      "goldReq": "49ª batalha seguida, em simples",
+      "goldTeam": [
+        {
+          "id": 145,
+          "level": 50,
+          "name": "Zapdos",
+          "types": [
+            "electric",
+            "flying"
+          ],
+          "item": "",
+          "ability": "",
+          "abilities": [
+            "Pressure"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Thunderbolt",
+            "Air Cutter",
+            "Heat Wave",
+            "Signal Beam"
+          ],
+          "itemNote": "Nenhum (a roleta do Arcade dá itens)",
+          "en": {
+            "itemNote": "None (the Arcade roulette hands out items)"
+          }
+        },
+        {
+          "id": 257,
+          "level": 50,
+          "name": "Blaziken",
+          "types": [
+            "fire",
+            "fighting"
+          ],
+          "item": "",
+          "ability": "",
+          "abilities": [
+            "Blaze"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Flare Blitz",
+            "Superpower",
+            "ThunderPunch",
+            "Night Slash"
+          ],
+          "itemNote": "Nenhum (a roleta do Arcade dá itens)",
+          "en": {
+            "itemNote": "None (the Arcade roulette hands out items)"
+          }
+        },
+        {
+          "id": 468,
+          "level": 50,
+          "name": "Togekiss",
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "item": "",
+          "ability": "",
+          "abilities": [
+            "Hustle",
+            "Serene Grace"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Hyper Beam",
+            "Air Slash",
+            "Aura Sphere",
+            "Psychic"
+          ],
+          "itemNote": "Nenhum (a roleta do Arcade dá itens)",
+          "en": {
+            "itemNote": "None (the Arcade roulette hands out items)"
+          }
+        }
+      ],
+      "versions": [
+        "platinum",
+        "heartgold-soulsilver"
+      ],
+      "en": {
+        "ptName": "Roulette battles",
+        "desc": "Before each battle a roulette decides the condition: a boost for you, a penalty for the rival, or something that hits both. Items removed and the team at level 50.",
+        "brainTitle": "Arcade Star",
+        "symbol": "Battle Arcade print, silver and gold",
+        "silverReq": "21st consecutive Single Battle",
+        "goldReq": "49th consecutive Single Battle"
+      }
+    },
+    {
+      "name": "Battle Castle",
+      "ptName": "Castelo de Batalha",
+      "desc": "Vence-se com Castle Points: eles pagam cura, bagas para a próxima luta, espiar o time do rival e até mudar o nível dele em 5. Itens retirados e time no nível 50.",
+      "brain": "Darach",
+      "brainTitle": "Castle Valet",
+      "brainSprite": "img/trainers/Frontier_Pt_Darach.png",
+      "symbol": "Print da Battle Castle, de prata e de ouro",
+      "silverReq": "21ª batalha seguida, em simples",
+      "silverTeam": [
+        {
+          "id": 229,
+          "level": 50,
+          "name": "Houndoom",
+          "types": [
+            "dark",
+            "fire"
+          ],
+          "item": "Focus Sash",
+          "ability": "",
+          "abilities": [
+            "Early Bird",
+            "Flash Fire"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Fire Fang",
+            "Crunch",
+            "Roar",
+            "Counter"
+          ]
+        },
+        {
+          "id": 395,
+          "level": 50,
+          "name": "Empoleon",
+          "types": [
+            "water",
+            "steel"
+          ],
+          "item": "Razor Claw",
+          "ability": "",
+          "abilities": [
+            "Torrent"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Waterfall",
+            "Metal Claw",
+            "Brick Break",
+            "Knock Off"
+          ]
+        },
+        {
+          "id": 398,
+          "level": 50,
+          "name": "Staraptor",
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "item": "King's Rock",
+          "ability": "",
+          "abilities": [
+            "Intimidate"
+          ],
+          "nature": "Jolly",
+          "moves": [
+            "Return",
+            "Aerial Ace",
+            "Double Team",
+            "Roost"
+          ]
+        }
+      ],
+      "goldReq": "49ª batalha seguida, em simples",
+      "goldTeam": [
+        {
+          "id": 244,
+          "level": 50,
+          "name": "Entei",
+          "types": [
+            "fire"
+          ],
+          "item": "Shuca Berry",
+          "ability": "",
+          "abilities": [
+            "Pressure"
+          ],
+          "nature": "Modest",
+          "moves": [
+            "Fire Blast",
+            "SolarBeam",
+            "Hyper Beam",
+            "Sunny Day"
+          ]
+        },
+        {
+          "id": 395,
+          "level": 50,
+          "name": "Empoleon",
+          "types": [
+            "water",
+            "steel"
+          ],
+          "item": "Quick Claw",
+          "ability": "",
+          "abilities": [
+            "Torrent"
+          ],
+          "nature": "Brave",
+          "moves": [
+            "Surf",
+            "Earthquake",
+            "Blizzard",
+            "Signal Beam"
+          ]
+        },
+        {
+          "id": 475,
+          "level": 50,
+          "name": "Gallade",
+          "types": [
+            "psychic",
+            "fighting"
+          ],
+          "item": "Scope Lens",
+          "ability": "",
+          "abilities": [
+            "Steadfast"
+          ],
+          "nature": "Adamant",
+          "moves": [
+            "Psycho Cut",
+            "Stone Edge",
+            "Aerial Ace",
+            "X-Scissor"
+          ]
+        }
+      ],
+      "versions": [
+        "platinum",
+        "heartgold-soulsilver"
+      ],
+      "en": {
+        "ptName": "Castle Points",
+        "desc": "You win with Castle Points: they buy healing, Berries for the next fight, a look at the rival’s team and even a 5-level change to it. Items removed and the team at level 50.",
+        "brainTitle": "Castle Valet",
+        "symbol": "Battle Castle print, silver and gold",
+        "silverReq": "21st consecutive Single Battle",
+        "goldReq": "49th consecutive Single Battle"
+      }
+    },
+    {
+      "name": "Battle Hall",
+      "ptName": "Salão de Batalha",
+      "desc": "Um Pokémon só, contra um de cada vez, em rodadas de dez batalhas. Você escolhe o tipo do próximo adversário numa grade, e trocar de Pokémon entre rodadas zera a sequência.",
+      "brain": "Argenta",
+      "brainTitle": "Hall Matron",
+      "brainSprite": "img/trainers/Frontier_Pt_Argenta.png",
+      "symbol": "Print da Battle Hall, de prata e de ouro",
+      "silverReq": "50ª batalha seguida — a única que não é na 21ª",
+      "silverTeam": [],
+      "goldReq": "170ª batalha seguida",
+      "goldTeam": [],
+      "versions": [
+        "platinum",
+        "heartgold-soulsilver"
+      ],
+      "en": {
+        "ptName": "One-on-one",
+        "desc": "A single Pokémon, against one at a time, in rounds of ten battles. You pick the type of the next opponent from a grid, and switching Pokémon between rounds resets the streak.",
+        "brainTitle": "Hall Matron",
+        "symbol": "Battle Hall print, silver and gold",
+        "silverReq": "50th consecutive battle — the only one not on the 21st",
+        "goldReq": "170th consecutive battle",
+        "silverNote": "Argenta has no fixed team: she draws one of the Battle Hall’s own Pokémon, by the base stat total band of yours — below 340, 340 to 439, 440 to 499, or 500 and above.",
+        "goldNote": "Drawn from the strongest group, and always at the same level as yours."
+      },
+      "silverNote": "A Argenta não tem time fixo: sorteia um dos Pokémon da própria Battle Hall, pela faixa de total de status base do seu — abaixo de 340, de 340 a 439, de 440 a 499, ou 500 e acima.",
+      "goldNote": "Sorteado do grupo mais forte, e sempre no mesmo nível do seu."
+    }
+  ],
+  "shops": [
+    {
+      "title": "Exchange Service Corner — itens e vitaminas",
+      "desc": "Itens de competição, vitaminas e Rare Candy. Em Diamond e Pearl, os mesmos itens estão à venda na própria Battle Tower.",
+      "items": [
+        {
+          "name": "Protein",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Calcium",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Iron",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Zinc",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Carbos",
+          "cost": "1 BP"
+        },
+        {
+          "name": "HP Up",
+          "cost": "1 BP"
+        },
+        {
+          "name": "Rare Candy",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Power Bracer",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Belt",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Lens",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Band",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Anklet",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Power Weight",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Toxic Orb",
+          "cost": "16 BP"
+        },
+        {
+          "name": "Flame Orb",
+          "cost": "16 BP"
+        },
+        {
+          "name": "White Herb",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Power Herb",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Bright Powder",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Focus Band",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Focus Sash",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Choice Band",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Choice Scarf",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Scope Lens",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Muscle Band",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Razor Claw",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Razor Fang",
+          "cost": "48 BP"
+        }
+      ],
+      "en": {
+        "title": "Exchange Service Corner — items and vitamins",
+        "desc": "Competitive held items, vitamins and Rare Candy. In Diamond and Pearl the same items are sold at the Battle Tower itself."
+      }
+    },
+    {
+      "title": "Exchange Service Corner — TMs",
+      "desc": "Quinze TMs em Platinum, dezesseis em HeartGold e SoulSilver: a TM89, U-turn, só existe lá.",
+      "items": [
+        {
+          "name": "TM40 Aerial Ace",
+          "cost": "40 BP"
+        },
+        {
+          "name": "TM31 Brick Break",
+          "cost": "40 BP"
+        },
+        {
+          "name": "TM89 U-turn",
+          "cost": "40 BP",
+          "versions": [
+            "heartgold-soulsilver"
+          ]
+        },
+        {
+          "name": "TM81 X-Scissor",
+          "cost": "64 BP"
+        },
+        {
+          "name": "TM71 Stone Edge",
+          "cost": "80 BP"
+        },
+        {
+          "name": "TM26 Earthquake",
+          "cost": "80 BP"
+        },
+        {
+          "name": "TM30 Shadow Ball",
+          "cost": "64 BP"
+        },
+        {
+          "name": "TM53 Energy Ball",
+          "cost": "64 BP"
+        },
+        {
+          "name": "TM36 Sludge Bomb",
+          "cost": "80 BP"
+        },
+        {
+          "name": "TM59 Dragon Pulse",
+          "cost": "80 BP"
+        },
+        {
+          "name": "TM06 Toxic",
+          "cost": "32 BP"
+        },
+        {
+          "name": "TM73 Thunder Wave",
+          "cost": "32 BP"
+        },
+        {
+          "name": "TM61 Will-O-Wisp",
+          "cost": "32 BP"
+        },
+        {
+          "name": "TM45 Attract",
+          "cost": "32 BP"
+        },
+        {
+          "name": "TM08 Bulk Up",
+          "cost": "48 BP"
+        },
+        {
+          "name": "TM04 Calm Mind",
+          "cost": "48 BP"
+        }
+      ],
+      "en": {
+        "title": "Exchange Service Corner — TMs",
+        "desc": "Fifteen TMs in Platinum, sixteen in HeartGold and SoulSilver: TM89, U-turn, only exists there."
+      }
+    }
+  ],
+  "tutors": [
+    {
+      "title": "Tutor da Frontier Access — balcão de cima, à esquerda",
+      "desc": "Em HeartGold e SoulSilver os tutores cobram BP. Platinum não tem tutor pago em BP: os de lá cobram shards, e estão no guia de tutores.",
+      "items": [
+        {
+          "name": "Air Cutter",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Bug Bite",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Dive",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Fire Punch",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Fury Cutter",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Ice Punch",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Icy Wind",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Knock Off",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Ominous Wind",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Sucker Punch",
+          "cost": "40 BP"
+        },
+        {
+          "name": "ThunderPunch",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Trick",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Vacuum Wave",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Zen Headbutt",
+          "cost": "64 BP"
+        }
+      ],
+      "versions": [
+        "heartgold-soulsilver"
+      ],
+      "en": {
+        "title": "Frontier Access tutor — top-left counter",
+        "desc": "In HeartGold and SoulSilver the tutors charge BP. Platinum has no BP tutor: its tutors charge Shards, and are in the tutors guide."
+      }
+    },
+    {
+      "title": "Tutor da Frontier Access — balcão de cima, à direita",
+      "desc": "Em HeartGold e SoulSilver os tutores cobram BP. Platinum não tem tutor pago em BP: os de lá cobram shards, e estão no guia de tutores.",
+      "items": [
+        {
+          "name": "AncientPower",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Aqua Tail",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Bounce",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Earth Power",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Endeavor",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Gastro Acid",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Gunk Shot",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Heat Wave",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Iron Defense",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Iron Head",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Low Kick",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Mud-Slap",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Outrage",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Pain Split",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Rollout",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Seed Bomb",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Signal Beam",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Sky Attack",
+          "cost": "64 BP"
+        },
+        {
+          "name": "Super Fang",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Superpower",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Twister",
+          "cost": "40 BP"
+        }
+      ],
+      "versions": [
+        "heartgold-soulsilver"
+      ],
+      "en": {
+        "title": "Frontier Access tutor — top-right counter",
+        "desc": "In HeartGold and SoulSilver the tutors charge BP. Platinum has no BP tutor: its tutors charge Shards, and are in the tutors guide."
+      }
+    },
+    {
+      "title": "Tutor da Frontier Access — balcão de baixo, à direita",
+      "desc": "Em HeartGold e SoulSilver os tutores cobram BP. Platinum não tem tutor pago em BP: os de lá cobram shards, e estão no guia de tutores.",
+      "items": [
+        {
+          "name": "Block",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Gravity",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Heal Bell",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Helping Hand",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Last Resort",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Magic Coat",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Magnet Rise",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Role Play",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Snore",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Spite",
+          "cost": "40 BP"
+        },
+        {
+          "name": "String Shot",
+          "cost": "32 BP"
+        },
+        {
+          "name": "Swift",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Synthesis",
+          "cost": "40 BP"
+        },
+        {
+          "name": "Tailwind",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Uproar",
+          "cost": "48 BP"
+        },
+        {
+          "name": "Worry Seed",
+          "cost": "32 BP"
+        }
+      ],
+      "versions": [
+        "heartgold-soulsilver"
+      ],
+      "en": {
+        "title": "Frontier Access tutor — bottom-right counter",
+        "desc": "In HeartGold and SoulSilver the tutors charge BP. Platinum has no BP tutor: its tutors charge Shards, and are in the tutors guide."
+      }
+    }
+  ],
+  "special_pokemon": []
+}

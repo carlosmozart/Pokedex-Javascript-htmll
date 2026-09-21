@@ -1,0 +1,576 @@
+{
+  "x-y": [
+    {
+      "category": "Tutores gratuitos",
+      "desc": "Os golpes supremos dos iniciais e os Pledge, ensinados de graça em Kalos e em Hoenn.",
+      "en": {
+        "category": "Free tutors",
+        "desc": "The first partners' ultimate moves and the Pledge moves, taught for free in Kalos and Hoenn."
+      },
+      "tutors": [
+        {
+          "move": "fire-pledge",
+          "cost": "Grátis",
+          "location": "Laverre City",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Laverre City"
+          }
+        },
+        {
+          "move": "grass-pledge",
+          "cost": "Grátis",
+          "location": "Laverre City",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Laverre City"
+          }
+        },
+        {
+          "move": "water-pledge",
+          "cost": "Grátis",
+          "location": "Laverre City",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Laverre City"
+          }
+        },
+        {
+          "move": "draco-meteor",
+          "cost": "Grátis",
+          "location": "Rota 21",
+          "type": "dragon",
+          "en": {
+            "cost": "Free",
+            "location": "Route 21"
+          }
+        },
+        {
+          "move": "blast-burn",
+          "cost": "Grátis",
+          "location": "Snowbelle City",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Snowbelle City"
+          }
+        },
+        {
+          "move": "frenzy-plant",
+          "cost": "Grátis",
+          "location": "Snowbelle City",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Snowbelle City"
+          }
+        },
+        {
+          "move": "hydro-cannon",
+          "cost": "Grátis",
+          "location": "Snowbelle City",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Snowbelle City"
+          }
+        },
+        {
+          "move": "relic-song",
+          "cost": "Grátis",
+          "location": "Snowbelle City",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Snowbelle City"
+          }
+        },
+        {
+          "move": "secret-sword",
+          "cost": "Grátis",
+          "location": "Snowbelle City",
+          "type": "fighting",
+          "en": {
+            "cost": "Free",
+            "location": "Snowbelle City"
+          }
+        }
+      ]
+    }
+  ],
+  "omega-ruby-alpha-sapphire": [
+    {
+      "category": "Tutores de BP (Battle Resort)",
+      "desc": "Em Omega Ruby/Alpha Sapphire, os quatro tutores do Battle Resort cobram Battle Points.",
+      "en": {
+        "category": "BP tutors (Battle Resort)",
+        "desc": "In Omega Ruby/Alpha Sapphire, the four Battle Resort tutors charge Battle Points."
+      },
+      "tutors": [
+        {
+          "move": "aqua-tail",
+          "cost": "12 BP",
+          "location": "Battle Resort",
+          "type": "water",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "bind",
+          "cost": "4 BP",
+          "location": "Battle Resort",
+          "type": "normal",
+          "en": {
+            "cost": "4 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "bounce",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "flying",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "bug-bite",
+          "cost": "4 BP",
+          "location": "Battle Resort",
+          "type": "bug",
+          "en": {
+            "cost": "4 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "covet",
+          "cost": "4 BP",
+          "location": "Battle Resort",
+          "type": "normal",
+          "en": {
+            "cost": "4 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "dragon-pulse",
+          "cost": "12 BP",
+          "location": "Battle Resort",
+          "type": "dragon",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "drain-punch",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "fighting",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "drill-run",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "ground",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "dual-chop",
+          "cost": "12 BP",
+          "location": "Battle Resort",
+          "type": "dragon",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "earth-power",
+          "cost": "12 BP",
+          "location": "Battle Resort",
+          "type": "ground",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "endeavor",
+          "cost": "16 BP",
+          "location": "Battle Resort",
+          "type": "normal",
+          "en": {
+            "cost": "16 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "fire-punch",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "fire",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "focus-punch",
+          "cost": "16 BP",
+          "location": "Battle Resort",
+          "type": "fighting",
+          "en": {
+            "cost": "16 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "foul-play",
+          "cost": "12 BP",
+          "location": "Battle Resort",
+          "type": "dark",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "giga-drain",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "grass",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "gunk-shot",
+          "cost": "16 BP",
+          "location": "Battle Resort",
+          "type": "poison",
+          "en": {
+            "cost": "16 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "heat-wave",
+          "cost": "12 BP",
+          "location": "Battle Resort",
+          "type": "fire",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "ice-punch",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "ice",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "iron-head",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "steel",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "iron-tail",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "steel",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "knock-off",
+          "cost": "12 BP",
+          "location": "Battle Resort",
+          "type": "dark",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "last-resort",
+          "cost": "12 BP",
+          "location": "Battle Resort",
+          "type": "normal",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "low-kick",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "fighting",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "outrage",
+          "cost": "16 BP",
+          "location": "Battle Resort",
+          "type": "dragon",
+          "en": {
+            "cost": "16 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "seed-bomb",
+          "cost": "12 BP",
+          "location": "Battle Resort",
+          "type": "grass",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "shock-wave",
+          "cost": "4 BP",
+          "location": "Battle Resort",
+          "type": "electric",
+          "en": {
+            "cost": "4 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "signal-beam",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "bug",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "sky-attack",
+          "cost": "16 BP",
+          "location": "Battle Resort",
+          "type": "flying",
+          "en": {
+            "cost": "16 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "snore",
+          "cost": "4 BP",
+          "location": "Battle Resort",
+          "type": "normal",
+          "en": {
+            "cost": "4 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "super-fang",
+          "cost": "12 BP",
+          "location": "Battle Resort",
+          "type": "normal",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "superpower",
+          "cost": "16 BP",
+          "location": "Battle Resort",
+          "type": "fighting",
+          "en": {
+            "cost": "16 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "thunder-punch",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "electric",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "uproar",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "normal",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "water-pulse",
+          "cost": "4 BP",
+          "location": "Battle Resort",
+          "type": "water",
+          "en": {
+            "cost": "4 BP",
+            "location": "Battle Resort"
+          }
+        },
+        {
+          "move": "zen-headbutt",
+          "cost": "8 BP",
+          "location": "Battle Resort",
+          "type": "psychic",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Resort"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Tutores gratuitos",
+      "desc": "Os golpes supremos dos iniciais e os Pledge, ensinados de graça em Kalos e em Hoenn.",
+      "en": {
+        "category": "Free tutors",
+        "desc": "The first partners' ultimate moves and the Pledge moves, taught for free in Kalos and Hoenn."
+      },
+      "tutors": [
+        {
+          "move": "blast-burn",
+          "cost": "Grátis",
+          "location": "Mauville City",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Mauville City"
+          }
+        },
+        {
+          "move": "fire-pledge",
+          "cost": "Grátis",
+          "location": "Mauville City",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Mauville City"
+          }
+        },
+        {
+          "move": "frenzy-plant",
+          "cost": "Grátis",
+          "location": "Mauville City",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Mauville City"
+          }
+        },
+        {
+          "move": "grass-pledge",
+          "cost": "Grátis",
+          "location": "Mauville City",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Mauville City"
+          }
+        },
+        {
+          "move": "hydro-cannon",
+          "cost": "Grátis",
+          "location": "Mauville City",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Mauville City"
+          }
+        },
+        {
+          "move": "relic-song",
+          "cost": "Grátis",
+          "location": "Mauville City",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Mauville City"
+          }
+        },
+        {
+          "move": "secret-sword",
+          "cost": "Grátis",
+          "location": "Mauville City",
+          "type": "fighting",
+          "en": {
+            "cost": "Free",
+            "location": "Mauville City"
+          }
+        },
+        {
+          "move": "water-pledge",
+          "cost": "Grátis",
+          "location": "Mauville City",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Mauville City"
+          }
+        },
+        {
+          "move": "dragon-ascent",
+          "cost": "Grátis",
+          "location": "Meteor Falls",
+          "type": "flying",
+          "en": {
+            "cost": "Free",
+            "location": "Meteor Falls"
+          }
+        },
+        {
+          "move": "draco-meteor",
+          "cost": "Grátis",
+          "location": "Sootopolis City",
+          "type": "dragon",
+          "en": {
+            "cost": "Free",
+            "location": "Sootopolis City"
+          }
+        }
+      ]
+    }
+  ]
+}

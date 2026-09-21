@@ -1,0 +1,744 @@
+{
+  "black-white": {
+    "gifts": [
+      {
+        "id": 495,
+        "name": "Snivy",
+        "types": [
+          "grass"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais, com a Professora Juniper em Nuvema Town.",
+        "en": {
+          "desc": "From Professor Juniper at Nuvema Town, level 5. First partner Pokémon."
+        }
+      },
+      {
+        "id": 498,
+        "name": "Tepig",
+        "types": [
+          "fire"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais, com a Professora Juniper em Nuvema Town.",
+        "en": {
+          "desc": "From Professor Juniper at Nuvema Town, level 5. First partner Pokémon."
+        }
+      },
+      {
+        "id": 501,
+        "name": "Oshawott",
+        "types": [
+          "water"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais, com a Professora Juniper em Nuvema Town.",
+        "en": {
+          "desc": "From Professor Juniper at Nuvema Town, level 5. First partner Pokémon."
+        }
+      },
+      {
+        "id": 511,
+        "name": "Pansage",
+        "types": [
+          "grass"
+        ],
+        "level": 10,
+        "desc": "Com uma garota no Dreamyard. Só um dos três macacos: o Pansage vem se você escolheu Tepig.",
+        "en": {
+          "desc": "From Unnamed girl at Dreamyard, level 10. Only one. Will receive Pansage if the player chose Tepig. Will receive Pansear if the player chose Oshawott. Will receive Panpour if the player chose Snivy."
+        }
+      },
+      {
+        "id": 513,
+        "name": "Pansear",
+        "types": [
+          "fire"
+        ],
+        "level": 10,
+        "desc": "Com uma garota no Dreamyard. Só um dos três macacos: o Pansear vem se você escolheu Oshawott.",
+        "en": {
+          "desc": "From Unnamed girl at Dreamyard, level 10. Only one. Will receive Pansage if the player chose Tepig. Will receive Pansear if the player chose Oshawott. Will receive Panpour if the player chose Snivy."
+        }
+      },
+      {
+        "id": 515,
+        "name": "Panpour",
+        "types": [
+          "water"
+        ],
+        "level": 10,
+        "desc": "Com uma garota no Dreamyard. Só um dos três macacos: o Panpour vem se você escolheu Snivy.",
+        "en": {
+          "desc": "From Unnamed girl at Dreamyard, level 10. Only one. Will receive Pansage if the player chose Tepig. Will receive Pansear if the player chose Oshawott. Will receive Panpour if the player chose Snivy."
+        }
+      },
+      {
+        "id": 570,
+        "name": "Zorua",
+        "types": [
+          "dark"
+        ],
+        "level": 10,
+        "desc": "No térreo da Game Freak, em Castelia City: fale com o garoto calado tendo na equipe um Celebi de evento. Sempre macho.",
+        "en": {
+          "desc": "From Unnamed boy at Game Freak HQ 1F in Castelia City, level 10. Joins by talking to the silent boy with a fateful encounter Celebi in party. Always male (Cannot be shiny)."
+        }
+      },
+      {
+        "id": 564,
+        "name": "Tirtouga",
+        "types": [
+          "water",
+          "rock"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum a partir do Cover Fossil, que um Backpacker oferece no Relic Castle (escolha entre ele e o Plume Fossil).",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Backpacker in the Relic Castle. Choice between Cover Fossil or Plume Fossil."
+        }
+      },
+      {
+        "id": 566,
+        "name": "Archen",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum a partir do Plume Fossil, que um Backpacker oferece no Relic Castle (escolha entre ele e o Cover Fossil).",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Backpacker in the Relic Castle. Choice between Cover Fossil or Plume Fossil."
+        }
+      },
+      {
+        "id": 138,
+        "name": "Omanyte",
+        "types": [
+          "rock",
+          "water"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Helix Fossil sai com um Worker na Twist Mountain depois de derrotar o Ghetsis: um fóssil aleatório por dia.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain after defeating Ghetsis. One random fossil per day."
+        }
+      },
+      {
+        "id": 140,
+        "name": "Kabuto",
+        "types": [
+          "rock",
+          "water"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Dome Fossil sai com um Worker na Twist Mountain depois de derrotar o Ghetsis: um fóssil aleatório por dia.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain after defeating Ghetsis. One random fossil per day."
+        }
+      },
+      {
+        "id": 142,
+        "name": "Aerodactyl",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Old Amber sai com um Worker na Twist Mountain depois de derrotar o Ghetsis: um fóssil aleatório por dia.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain after defeating Ghetsis. One random fossil per day."
+        }
+      },
+      {
+        "id": 345,
+        "name": "Lileep",
+        "types": [
+          "rock",
+          "grass"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Root Fossil sai com um Worker na Twist Mountain depois de derrotar o Ghetsis: um fóssil aleatório por dia.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain after defeating Ghetsis. One random fossil per day."
+        }
+      },
+      {
+        "id": 347,
+        "name": "Anorith",
+        "types": [
+          "rock",
+          "bug"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Claw Fossil sai com um Worker na Twist Mountain depois de derrotar o Ghetsis: um fóssil aleatório por dia.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain after defeating Ghetsis. One random fossil per day."
+        }
+      },
+      {
+        "id": 408,
+        "name": "Cranidos",
+        "types": [
+          "rock"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Skull Fossil sai com um Worker na Twist Mountain depois de derrotar o Ghetsis: um fóssil aleatório por dia.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain after defeating Ghetsis. One random fossil per day."
+        }
+      },
+      {
+        "id": 410,
+        "name": "Shieldon",
+        "types": [
+          "rock",
+          "steel"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Armor Fossil sai com um Worker na Twist Mountain depois de derrotar o Ghetsis: um fóssil aleatório por dia.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain after defeating Ghetsis. One random fossil per day."
+        }
+      },
+      {
+        "id": 636,
+        "name": "Larvesta",
+        "types": [
+          "bug",
+          "fire"
+        ],
+        "level": 1,
+        "desc": "Ovo dado por um caçador de tesouros na casa de descanso da Rota 18. Nasce no nível 1.",
+        "en": {
+          "desc": "From Pokémon Ranger at Route 18 rest house, level 1."
+        }
+      }
+    ],
+    "events": [],
+    "trades": [
+      {
+        "id": 548,
+        "name": "Petilil",
+        "types": [
+          "grass"
+        ],
+        "item": "Cheri Berry",
+        "ability": "Chlorophyll",
+        "nature": "Modest",
+        "desc": "Em Pokémon Black. Nacrene City: entregue Cottonee e receba Lillil, o Petilil de Dye, no nível 15. Depois dá para enfrentar esse treinador com o Pokémon que você entregou.",
+        "en": {
+          "desc": "Pokémon Black. Nacrene City: trade Cottonee for Dye’s Petilil, Lillil, at level 15. You can later battle this trainer and the Pokémon you traded."
+        }
+      },
+      {
+        "id": 546,
+        "name": "Cottonee",
+        "types": [
+          "grass"
+        ],
+        "item": "Cheri Berry",
+        "ability": "Prankster",
+        "nature": "Modest",
+        "desc": "Em Pokémon White. Nacrene City: entregue Petilil e receba Fluffee, o Cottonee de Dye, no nível 15. Depois dá para enfrentar esse treinador com o Pokémon que você entregou.",
+        "en": {
+          "desc": "Pokémon White. Nacrene City: trade Petilil for Dye’s Cottonee, Fluffee, at level 15. You can later battle this trainer and the Pokémon you traded."
+        }
+      },
+      {
+        "id": 550,
+        "name": "Basculin",
+        "types": [
+          "water"
+        ],
+        "item": "Sitrus Berry",
+        "ability": "Reckless",
+        "nature": "Adamant",
+        "desc": "Em Pokémon Black. Driftveil City: entregue Minccino e receba Redeye, o Basculin de Kyle, no nível 25. Depois dá para enfrentar esse treinador com o Pokémon que você entregou.",
+        "en": {
+          "desc": "Pokémon Black. Driftveil City: trade Minccino for Kyle’s Basculin, Redeye, at level 25. You can later battle this trainer and the Pokémon you traded."
+        }
+      },
+      {
+        "id": 550,
+        "name": "Basculin",
+        "types": [
+          "water"
+        ],
+        "item": "Sitrus Berry",
+        "ability": "Rock Head",
+        "nature": "Adamant",
+        "desc": "Em Pokémon White. Driftveil City: entregue Minccino e receba Blueeye, o Basculin de Kyle, no nível 25. Depois dá para enfrentar esse treinador com o Pokémon que você entregou.",
+        "en": {
+          "desc": "Pokémon White. Driftveil City: trade Minccino for Kyle’s Basculin, Blueeye, at level 25. You can later battle this trainer and the Pokémon you traded."
+        }
+      },
+      {
+        "id": 587,
+        "name": "Emolga",
+        "types": [
+          "electric",
+          "flying"
+        ],
+        "item": "Lum Berry",
+        "ability": "Static",
+        "nature": "Lax",
+        "desc": "Rota 7: entregue Boldore e receba Minipete, o Emolga de Manny, no nível 30.",
+        "en": {
+          "desc": "Route 7: trade Boldore for Manny’s Emolga, Minipete, at level 30."
+        }
+      },
+      {
+        "id": 479,
+        "name": "Rotom",
+        "types": [
+          "electric",
+          "ghost"
+        ],
+        "item": "Max Elixir",
+        "ability": "Levitate",
+        "nature": "Gentle",
+        "desc": "Rota 15: entregue Ditto e receba Eeks, o Rotom de Lillian, no nível 60.",
+        "en": {
+          "desc": "Route 15: trade Ditto for Lillian’s Rotom, Eeks, at level 60."
+        }
+      },
+      {
+        "id": 446,
+        "name": "Munchlax",
+        "types": [
+          "normal"
+        ],
+        "item": "Leftovers",
+        "ability": "Thick Fat",
+        "nature": "Serious",
+        "desc": "Undella Town (só no verão): entregue Cinccino e receba Gorge, o Munchlax de Ander, no nível 60.",
+        "en": {
+          "desc": "Undella Town (summer): trade Cinccino for Ander’s Munchlax, Gorge, at level 60."
+        }
+      }
+    ],
+    "missing": [
+      {
+        "id": 647,
+        "name": "Keldeo",
+        "types": [
+          "water",
+          "fighting"
+        ],
+        "desc": "Não aparece na natureza, nem como presente ou troca, em Black, White, Black 2 e White 2: só por evento de distribuição.",
+        "en": {
+          "desc": "Not found in the wild, nor as a gift or trade, in Black, White, Black 2 and White 2: distribution event only."
+        }
+      },
+      {
+        "id": 648,
+        "name": "Meloetta",
+        "types": [
+          "normal",
+          "psychic"
+        ],
+        "desc": "Não aparece na natureza, nem como presente ou troca, em Black, White, Black 2 e White 2: só por evento de distribuição.",
+        "en": {
+          "desc": "Not found in the wild, nor as a gift or trade, in Black, White, Black 2 and White 2: distribution event only."
+        }
+      },
+      {
+        "id": 649,
+        "name": "Genesect",
+        "types": [
+          "bug",
+          "steel"
+        ],
+        "desc": "Não aparece na natureza, nem como presente ou troca, em Black, White, Black 2 e White 2: só por evento de distribuição.",
+        "en": {
+          "desc": "Not found in the wild, nor as a gift or trade, in Black, White, Black 2 and White 2: distribution event only."
+        }
+      }
+    ],
+    "notes": []
+  },
+  "black-2-white-2": {
+    "gifts": [
+      {
+        "id": 495,
+        "name": "Snivy",
+        "types": [
+          "grass"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais, com a Bianca em Aspertia City.",
+        "en": {
+          "desc": "From Bianca at Aspertia City, level 5. First partner Pokémon."
+        }
+      },
+      {
+        "id": 498,
+        "name": "Tepig",
+        "types": [
+          "fire"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais, com a Bianca em Aspertia City.",
+        "en": {
+          "desc": "From Bianca at Aspertia City, level 5. First partner Pokémon."
+        }
+      },
+      {
+        "id": 501,
+        "name": "Oshawott",
+        "types": [
+          "water"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais, com a Bianca em Aspertia City.",
+        "en": {
+          "desc": "From Bianca at Aspertia City, level 5. First partner Pokémon."
+        }
+      },
+      {
+        "id": 570,
+        "name": "N's / N",
+        "types": [
+          "dark"
+        ],
+        "level": 25,
+        "desc": "O Zorua do N, recompensa do Rood em Driftveil City por vencê-lo. Sempre macho, nature Hasty, IVs 30 em todos os atributos.",
+        "en": {
+          "desc": "From Rood at Driftveil City, level 25. Reward from Rood for defeating him. Always male, Nature is Hasty, IVs are 30/30/30/30/30/30 (Cannot be shiny)."
+        }
+      },
+      {
+        "id": 585,
+        "name": "Deerling",
+        "types": [
+          "normal",
+          "grass"
+        ],
+        "level": 30,
+        "desc": "Com um pesquisador do Weather Institute, na Rota 6. Tem a habilidade oculta, Serene Grace.",
+        "en": {
+          "desc": "From Institute researcher at Route 6 Weather Institute, level 30. Has its Hidden Ability (Serene Grace) (Cannot be shiny)."
+        }
+      },
+      {
+        "id": 133,
+        "name": "Eevee",
+        "types": [
+          "normal"
+        ],
+        "level": 10,
+        "desc": "Com a Amanita em Castelia City, depois de entrar no Hall da Fama. Sempre macho, com a habilidade oculta, Anticipation.",
+        "en": {
+          "desc": "From Amanita at Castelia City, level 10. After entering the Hall of Fame. Always male, has its Hidden Ability (Anticipation) (Cannot be shiny)."
+        }
+      },
+      {
+        "id": 564,
+        "name": "Tirtouga",
+        "types": [
+          "water",
+          "rock"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum a partir do Cover Fossil, que a Lenora oferece no museu (escolha entre ele e o Plume Fossil). Também sai nas pedras da Antique Shop da Join Avenue, depois de derrotar a Iris.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by Lenora in the Nacrene Museum. Choice between Cover Fossil or Plume Fossil. Also be found in rocks sold by Antique Shop on Join Avenue after defeating Iris (Join Avenue must have reached Rank 15)."
+        }
+      },
+      {
+        "id": 566,
+        "name": "Archen",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum a partir do Plume Fossil, que a Lenora oferece no museu (escolha entre ele e o Cover Fossil). Também sai nas pedras da Antique Shop da Join Avenue, depois de derrotar a Iris.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by Lenora in the Nacrene Museum. Choice between Cover Fossil or Plume Fossil. Also be found in rocks sold by Antique Shop on Join Avenue after defeating Iris (Join Avenue must have reached Rank 15)."
+        }
+      },
+      {
+        "id": 138,
+        "name": "Omanyte",
+        "types": [
+          "rock",
+          "water"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Helix Fossil sai com um Worker na Twist Mountain, um aleatório por dia, e nas pedras da Antique Shop da Join Avenue depois de derrotar a Iris.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain. One random fossil per day. Also be found in rocks sold by Antique Shop on Join Avenue after defeating Iris (Join Avenue must have reached Rank 15)."
+        }
+      },
+      {
+        "id": 140,
+        "name": "Kabuto",
+        "types": [
+          "rock",
+          "water"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Dome Fossil sai com um Worker na Twist Mountain, um aleatório por dia, e nas pedras da Antique Shop da Join Avenue depois de derrotar a Iris.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain. One random fossil per day. Also be found in rocks sold by Antique Shop on Join Avenue after defeating Iris (Join Avenue must have reached Rank 15)."
+        }
+      },
+      {
+        "id": 142,
+        "name": "Aerodactyl",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Old Amber sai com um Worker na Twist Mountain, um aleatório por dia, e nas pedras da Antique Shop da Join Avenue depois de derrotar a Iris.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain. One random fossil per day. Also be found in rocks sold by Antique Shop on Join Avenue after defeating Iris (Join Avenue must have reached Rank 15)."
+        }
+      },
+      {
+        "id": 345,
+        "name": "Lileep",
+        "types": [
+          "rock",
+          "grass"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Root Fossil sai com um Worker na Twist Mountain, um aleatório por dia, e nas pedras da Antique Shop da Join Avenue depois de derrotar a Iris.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain. One random fossil per day. Also be found in rocks sold by Antique Shop on Join Avenue after defeating Iris (Join Avenue must have reached Rank 15)."
+        }
+      },
+      {
+        "id": 347,
+        "name": "Anorith",
+        "types": [
+          "rock",
+          "bug"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Claw Fossil sai com um Worker na Twist Mountain, um aleatório por dia, e nas pedras da Antique Shop da Join Avenue depois de derrotar a Iris.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain. One random fossil per day. Also be found in rocks sold by Antique Shop on Join Avenue after defeating Iris (Join Avenue must have reached Rank 15)."
+        }
+      },
+      {
+        "id": 408,
+        "name": "Cranidos",
+        "types": [
+          "rock"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Skull Fossil sai com um Worker na Twist Mountain, um aleatório por dia, e nas pedras da Antique Shop da Join Avenue depois de derrotar a Iris.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain. One random fossil per day. Also be found in rocks sold by Antique Shop on Join Avenue after defeating Iris (Join Avenue must have reached Rank 15)."
+        }
+      },
+      {
+        "id": 410,
+        "name": "Shieldon",
+        "types": [
+          "rock",
+          "steel"
+        ],
+        "level": 25,
+        "desc": "Revivido no Nacrene City Museum. O Armor Fossil sai com um Worker na Twist Mountain, um aleatório por dia, e nas pedras da Antique Shop da Join Avenue depois de derrotar a Iris.",
+        "en": {
+          "desc": "From Unnamed woman at Nacrene City Museum, level 25. Fossils offered by a Worker in Twist Mountain. One random fossil per day. Also be found in rocks sold by Antique Shop on Join Avenue after defeating Iris (Join Avenue must have reached Rank 15)."
+        }
+      },
+      {
+        "id": 440,
+        "name": "Happiny",
+        "types": [
+          "normal"
+        ],
+        "level": 1,
+        "desc": "Ovo dado por uma Pokémon Breeder no portão leste de Nacrene City. Nasce no nível 1.",
+        "en": {
+          "desc": "From Unnamed Pokémon Breeder at Nacrene City east gate, level 1."
+        }
+      },
+      {
+        "id": 147,
+        "name": "Dratini",
+        "types": [
+          "dragon"
+        ],
+        "level": 1,
+        "desc": "Só em White 2: shiny, com o Benga em Floccesy Town depois de vencê-lo na White Treehollow. Segura uma Exp. Share.",
+        "en": {
+          "desc": "From Benga at Floccesy Town, level 1. White 2 only. After defeating Benga at White Treehollow. Holding an Exp. Share."
+        }
+      },
+      {
+        "id": 443,
+        "name": "Gible",
+        "types": [
+          "dragon",
+          "ground"
+        ],
+        "level": 1,
+        "desc": "Só em Black 2: shiny, com o Benga em Floccesy Town depois de vencê-lo na Black Tower. Segura uma Exp. Share.",
+        "en": {
+          "desc": "From Benga at Floccesy Town, level 1. Black 2 only. After defeating Benga at Black Tower. Holding an Exp. Share."
+        }
+      }
+    ],
+    "events": [],
+    "trades": [
+      {
+        "id": 548,
+        "name": "Petilil",
+        "types": [
+          "grass"
+        ],
+        "item": "Power Anklet",
+        "ability": "Own Tempo",
+        "nature": "Timid",
+        "desc": "Em Pokémon Black 2. Rota 4: entregue Cottonee e receba Petulia, o Petilil de Calla, no nível 20.",
+        "en": {
+          "desc": "Pokémon Black 2. Route 4: trade Cottonee for Calla’s Petilil, Petulia, at level 20."
+        }
+      },
+      {
+        "id": 546,
+        "name": "Cottonee",
+        "types": [
+          "grass"
+        ],
+        "item": "Power Weight",
+        "ability": "Prankster",
+        "nature": "Modest",
+        "desc": "Em Pokémon White 2. Rota 4: entregue Petilil e receba Fluffee, o Cottonee de Cotton, no nível 20.",
+        "en": {
+          "desc": "Pokémon White 2. Route 4: trade Petilil for Cotton’s Cottonee, Fluffee, at level 20."
+        }
+      },
+      {
+        "id": 526,
+        "name": "Gigalith",
+        "types": [
+          "rock"
+        ],
+        "item": "Leppa Berry",
+        "ability": "Sturdy",
+        "nature": "Adamant",
+        "desc": "Rota 7: entregue Emolga e receba Gigalith, o Gigalith de Manny, no nível 35.",
+        "en": {
+          "desc": "Route 7: trade Emolga for Manny’s Gigalith, Gigalith, at level 35."
+        }
+      },
+      {
+        "id": 465,
+        "name": "Tangrowth",
+        "types": [
+          "grass"
+        ],
+        "item": "Sitrus Berry",
+        "ability": "Chlorophyll",
+        "nature": "Hardy",
+        "desc": "Humilau City: entregue Mantine e receba Tangles, o Tangrowth de Slick, no nível 45.",
+        "en": {
+          "desc": "Humilau City: trade Mantine for Slick’s Tangrowth, Tangles, at level 45."
+        }
+      },
+      {
+        "id": 479,
+        "name": "Rotom",
+        "types": [
+          "electric",
+          "ghost"
+        ],
+        "item": "Max Elixir",
+        "ability": "Levitate",
+        "nature": "Calm",
+        "desc": "Rota 15: entregue Ditto e receba Bucky, o Rotom de Lillian, no nível 60.",
+        "en": {
+          "desc": "Route 15: trade Ditto for Lillian’s Rotom, Bucky, at level 60."
+        }
+      },
+      {
+        "id": 424,
+        "name": "Ambipom",
+        "types": [
+          "normal"
+        ],
+        "item": "Sitrus Berry",
+        "ability": "Pickup",
+        "nature": "Jolly",
+        "desc": "Accumula Town: entregue Excadrill e receba Ambidexter, o Ambipom de Diana, no nível 40. Depois dá para enfrentar esse treinador com o Pokémon que você entregou.",
+        "en": {
+          "desc": "Accumula Town: trade Excadrill for Diana’s Ambipom, Ambidexter, at level 40. You can later battle this trainer and the Pokémon you traded."
+        }
+      },
+      {
+        "id": 65,
+        "name": "Alakazam",
+        "types": [
+          "psychic"
+        ],
+        "item": "Lum Berry",
+        "ability": "Synchronize",
+        "nature": "Timid",
+        "desc": "Accumula Town: entregue Hippowdon e receba Beardy, o Alakazam de Diana, no nível 40. Depois dá para enfrentar esse treinador com o Pokémon que você entregou.",
+        "en": {
+          "desc": "Accumula Town: trade Hippowdon for Diana’s Alakazam, Beardy, at level 40. You can later battle this trainer and the Pokémon you traded."
+        }
+      }
+    ],
+    "missing": [
+      {
+        "id": 647,
+        "name": "Keldeo",
+        "types": [
+          "water",
+          "fighting"
+        ],
+        "desc": "Não aparece na natureza, nem como presente ou troca, em Black, White, Black 2 e White 2: só por evento de distribuição.",
+        "en": {
+          "desc": "Not found in the wild, nor as a gift or trade, in Black, White, Black 2 and White 2: distribution event only."
+        }
+      },
+      {
+        "id": 648,
+        "name": "Meloetta",
+        "types": [
+          "normal",
+          "psychic"
+        ],
+        "desc": "Não aparece na natureza, nem como presente ou troca, em Black, White, Black 2 e White 2: só por evento de distribuição.",
+        "en": {
+          "desc": "Not found in the wild, nor as a gift or trade, in Black, White, Black 2 and White 2: distribution event only."
+        }
+      },
+      {
+        "id": 649,
+        "name": "Genesect",
+        "types": [
+          "bug",
+          "steel"
+        ],
+        "desc": "Não aparece na natureza, nem como presente ou troca, em Black, White, Black 2 e White 2: só por evento de distribuição.",
+        "en": {
+          "desc": "Not found in the wild, nor as a gift or trade, in Black, White, Black 2 and White 2: distribution event only."
+        }
+      }
+    ],
+    "notes": [
+      {
+        "id": 202,
+        "name": "Yancy / Curtis",
+        "types": [
+          "psychic"
+        ],
+        "desc": "Em Nimbasa City, depois de devolver o Dropped Item e ligar 15 vezes para o dono, a Yancy (jogando com o Nate) ou o Curtis (com a Rosa) troca um Pokémon diferente por dia, sempre no nível 50 e com a habilidade oculta. Yancy: Meowth, Wobbuffet, Ralts, Shieldon, Rhyhorn, Shellos, Mawile, Spiritomb, Snorlax, Teddiursa, Spinda, Togepi. Curtis: Mankey, Wobbuffet, Ralts, Cranidos, Rhyhorn, Shellos, Sableye, Spiritomb, Snorlax, Phanpy, Spinda, Togepi.",
+        "en": {
+          "desc": "In Nimbasa City, after returning the Dropped Item and calling its owner 15 times, Yancy (playing as Nate) or Curtis (as Rosa) trades a different Pokémon each day, always at level 50 and with its Hidden Ability. Yancy: Meowth, Wobbuffet, Ralts, Shieldon, Rhyhorn, Shellos, Mawile, Spiritomb, Snorlax, Teddiursa, Spinda, Togepi. Curtis: Mankey, Wobbuffet, Ralts, Cranidos, Rhyhorn, Shellos, Sableye, Spiritomb, Snorlax, Phanpy, Spinda, Togepi."
+        }
+      }
+    ]
+  }
+}

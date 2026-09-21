@@ -1,0 +1,162 @@
+{
+  "diamond-pearl": {
+    "gifts": [
+      {"id":387,"name":"Turtwig","types":["grass"],"level":5,"desc":"Uma das três escolhas do Professor Rowan em Lake Verity.","en":{"desc":"One of Professor Rowan's three choices at Lake Verity."}},
+      {"id":390,"name":"Chimchar","types":["fire"],"level":5,"desc":"Uma das três escolhas do Professor Rowan em Lake Verity.","en":{"desc":"One of Professor Rowan's three choices at Lake Verity."}},
+      {"id":393,"name":"Piplup","types":["water"],"level":5,"desc":"Uma das três escolhas do Professor Rowan em Lake Verity.","en":{"desc":"One of Professor Rowan's three choices at Lake Verity."}},
+      {"id":440,"name":"Happiny","types":["normal"],"level":1,"desc":"Ovo entregue por um Hiker na guarita oeste de Hearthome City.","en":{"desc":"Egg given by a Hiker at Hearthome City's west gate."}},
+      {"id":133,"name":"Eevee","types":["normal"],"level":5,"desc":"Com Bebe em Hearthome City, depois da Pokédex Nacional.","en":{"desc":"Received from Bebe in Hearthome City after obtaining the National Pokédex."}},
+      {"id":447,"name":"Riolu","types":["fighting"],"level":1,"desc":"Ovo de Riley em Iron Island, após ajudar a expulsar a Team Galactic.","en":{"desc":"Egg from Riley on Iron Island after helping clear out Team Galactic."}}
+    ],
+    "events": [
+      {"id":490,"name":"Manaphy","types":["water"],"level":1,"desc":"Ovo obtido pela missão especial de Pokémon Ranger; a distribuição original não está mais ativa.","en":{"desc":"Egg obtained through the Pokémon Ranger special mission; the original distribution is no longer active."}},
+      {"id":491,"name":"Darkrai","types":["dark"],"level":40,"item":"Member Card","desc":"O Member Card de evento libera a pousada de Canalave e Newmoon Island.","en":{"desc":"The event Member Card opens the Canalave inn and Newmoon Island."}},
+      {"id":492,"name":"Shaymin","types":["grass"],"level":30,"item":"Oak's Letter","desc":"Oak's Letter de evento abre o caminho da Rota 224 até Flower Paradise.","en":{"desc":"The event Oak's Letter opens the Route 224 path to Flower Paradise."}},
+      {"id":493,"name":"Arceus","types":["normal"],"level":80,"item":"Azure Flute","desc":"A Azure Flute levaria ao Hall of Origin, mas nunca foi distribuída oficialmente.","en":{"desc":"The Azure Flute would lead to the Hall of Origin, but it was never officially distributed."}}
+    ],
+    "trades": [
+      {"id":63,"name":"Abra","types":["psychic"],"item":"Oran Berry","ability":"Synchronize","desc":"Oreburgh City: entregue Machop e receba Kazza, um Abra de Hilary.","en":{"desc":"Oreburgh City: trade a Machop for Hilary's Abra, Kazza."}},
+      {"id":441,"name":"Chatot","types":["normal","flying"],"item":"Leppa Berry","ability":"Tangled Feet","desc":"Eterna Condominiums: entregue Buizel e receba Charap, de Norton.","en":{"desc":"Eterna Condominiums: trade a Buizel for Norton's Chatot, Charap."}},
+      {"id":93,"name":"Haunter","types":["ghost","poison"],"item":"Everstone","ability":"Levitate","desc":"Snowpoint City: entregue Medicham e receba Gaspar. A Everstone impede a evolução para Gengar.","en":{"desc":"Snowpoint City: trade a Medicham for Gaspar. Its Everstone prevents evolution into Gengar."}},
+      {"id":129,"name":"Magikarp","types":["water"],"item":"Lum Berry","ability":"Swift Swim","desc":"Rota 226: entregue Finneon e receba Foppa, de origem estrangeira.","en":{"desc":"Route 226: trade a Finneon for Foppa, a foreign-origin Magikarp."}}
+    ],
+    "missing": [
+      {"id":408,"name":"Cranidos","types":["rock"],"desc":"O Skull Fossil é exclusivo de Diamond; em Pearl, obtenha-o por troca.","en":{"desc":"The Skull Fossil is Diamond-exclusive; trade for it in Pearl."}},
+      {"id":410,"name":"Shieldon","types":["rock","steel"],"desc":"O Armor Fossil é exclusivo de Pearl; em Diamond, obtenha-o por troca.","en":{"desc":"The Armor Fossil is Pearl-exclusive; trade for it in Diamond."}},
+      {"id":430,"name":"Honchkrow","types":["dark","flying"],"desc":"Murkrow, sua pré-evolução, é exclusivo de Diamond.","en":{"desc":"Its pre-evolution Murkrow is Diamond-exclusive."}},
+      {"id":429,"name":"Mismagius","types":["ghost"],"desc":"Misdreavus, sua pré-evolução, é exclusivo de Pearl.","en":{"desc":"Its pre-evolution Misdreavus is Pearl-exclusive."}},
+      {"id":434,"name":"Stunky","types":["poison","dark"],"desc":"Exclusivo de Diamond; em Pearl, depende de troca.","en":{"desc":"Diamond-exclusive; requires a trade in Pearl."}},
+      {"id":431,"name":"Glameow","types":["normal"],"desc":"Exclusivo de Pearl; em Diamond, depende de troca.","en":{"desc":"Pearl-exclusive; requires a trade in Diamond."}},
+      {"id":483,"name":"Dialga","types":["steel","dragon"],"desc":"Lendário da história de Diamond; Pearl exige troca ou transferência.","en":{"desc":"Diamond's story Legendary; Pearl requires a trade or transfer."}},
+      {"id":484,"name":"Palkia","types":["water","dragon"],"desc":"Lendário da história de Pearl; Diamond exige troca ou transferência.","en":{"desc":"Pearl's story Legendary; Diamond requires a trade or transfer."}},
+      {"id":151,"name":"Mew","types":["psychic"],"desc":"Não é encontrado normalmente. Só por distribuição ou transferência da Geração 3 pelo Pal Park.","en":{"desc":"Not found normally. Distribution or a Generation 3 Pal Park transfer only."}},
+      {"id":251,"name":"Celebi","types":["psychic","grass"],"desc":"Somente distribuição de evento ou transferência de geração anterior.","en":{"desc":"Event distribution or transfer from an earlier generation only."}},
+      {"id":59,"name":"Arcanine","types":["fire"],"desc":"Growlithe só aparece em Diamond; Pearl depende de troca ou migração.","en":{"desc":"Growlithe is found only in Diamond; Pearl requires a trade or migration."}},
+      {"id":87,"name":"Dewgong","types":["water","ice"],"desc":"A linha de Seel aparece apenas em Pearl.","en":{"desc":"The Seel line is found only in Pearl."}},
+      {"id":123,"name":"Scyther","types":["bug","flying"],"desc":"Scyther aparece apenas em Diamond; Scizor ainda requer troca com Metal Coat.","en":{"desc":"Scyther is found only in Diamond; Scizor still requires a Metal Coat trade."}},
+      {"id":127,"name":"Pinsir","types":["bug"],"desc":"Pinsir aparece apenas em Pearl.","en":{"desc":"Pinsir is found only in Pearl."}},
+      {"id":466,"name":"Electivire","types":["electric"],"desc":"A linha de Elekid é exclusiva de Diamond; Electivire requer troca com Electirizer.","en":{"desc":"The Elekid line is Diamond-exclusive; Electivire requires an Electirizer trade."}},
+      {"id":467,"name":"Magmortar","types":["fire"],"desc":"A linha de Magby é exclusiva de Pearl; Magmortar requer troca com Magmarizer.","en":{"desc":"The Magby line is Pearl-exclusive; Magmortar requires a Magmarizer trade."}},
+      {"id":248,"name":"Tyranitar","types":["rock","dark"],"desc":"A linha de Larvitar aparece apenas em Diamond.","en":{"desc":"The Larvitar line is found only in Diamond."}},
+      {"id":373,"name":"Salamence","types":["dragon","flying"],"desc":"A linha de Bagon aparece apenas em Pearl.","en":{"desc":"The Bagon line is found only in Pearl."}},
+      {"id":262,"name":"Mightyena","types":["dark"],"desc":"A linha de Poochyena aparece apenas em Diamond.","en":{"desc":"The Poochyena line is found only in Diamond."}},
+      {"id":306,"name":"Aggron","types":["steel","rock"],"desc":"A linha de Aron aparece apenas em Diamond.","en":{"desc":"The Aron line is found only in Diamond."}},
+      {"id":352,"name":"Kecleon","types":["normal"],"desc":"Kecleon aparece apenas em Diamond.","en":{"desc":"Kecleon is found only in Diamond."}},
+      {"id":199,"name":"Slowking","types":["water","psychic"],"desc":"A linha de Slowpoke aparece apenas em Pearl.","en":{"desc":"The Slowpoke line is found only in Pearl."}},
+      {"id":229,"name":"Houndoom","types":["dark","fire"],"desc":"A linha de Houndour aparece apenas em Pearl.","en":{"desc":"The Houndour line is found only in Pearl."}},
+      {"id":234,"name":"Stantler","types":["normal"],"desc":"Stantler aparece apenas em Pearl.","en":{"desc":"Stantler is found only in Pearl."}},
+      {"id":365,"name":"Walrein","types":["ice","water"],"desc":"A linha de Spheal aparece apenas em Pearl.","en":{"desc":"The Spheal line is found only in Pearl."}}
+    ],
+    "notes": [
+      {"id":408,"name":"Fósseis de Sinnoh","types":["rock"],"desc":"No Underground, Skull Fossil só é achado em Diamond e Armor Fossil só em Pearl. Cada fóssil revive Cranidos ou Shieldon no Oreburgh Mining Museum.","en":{"desc":"In the Underground, the Skull Fossil is found only in Diamond and the Armor Fossil only in Pearl. Each is revived into Cranidos or Shieldon at the Oreburgh Mining Museum."}},
+      {"id":252,"name":"Dual Slot (GBA)","types":["grass"],"desc":"Após a Pokédex Nacional, iniciar o jogo com Ruby, Sapphire, FireRed, LeafGreen ou Emerald no Slot 2 libera encontros extras em Sinnoh. DSi e 3DS não têm esse slot.","en":{"desc":"After the National Pokédex, starting with Ruby, Sapphire, FireRed, LeafGreen, or Emerald in Slot 2 unlocks extra Sinnoh encounters. DSi and 3DS do not have that slot."}},
+      {"id":151,"name":"Pal Park","types":["psychic"],"desc":"Transfere seis Pokémon por vez dos jogos de GBA para a Gen 4; a migração é sem volta e os cartuchos precisam ter o mesmo idioma.","en":{"desc":"Transfers six Pokémon at a time from GBA games to Generation IV; migration is one-way and cartridges must use the same language."}}
+    ]
+  },
+  "platinum": {
+    "gifts": [
+      {"id":387,"name":"Turtwig","types":["grass"],"level":5,"desc":"Uma das três escolhas do Professor Rowan na Rota 201.","en":{"desc":"One of Professor Rowan's three choices on Route 201."}},
+      {"id":390,"name":"Chimchar","types":["fire"],"level":5,"desc":"Uma das três escolhas do Professor Rowan na Rota 201.","en":{"desc":"One of Professor Rowan's three choices on Route 201."}},
+      {"id":393,"name":"Piplup","types":["water"],"level":5,"desc":"Uma das três escolhas do Professor Rowan na Rota 201.","en":{"desc":"One of Professor Rowan's three choices on Route 201."}},
+      {"id":175,"name":"Togepi","types":["normal"],"level":1,"desc":"Ovo dado por Cynthia em Eterna City, após vencer Jupiter.","en":{"desc":"Egg given by Cynthia in Eterna City after defeating Jupiter."}},
+      {"id":133,"name":"Eevee","types":["normal"],"level":20,"desc":"Com Bebe em Hearthome City; em Platinum pode ser recebido sem a Pokédex Nacional.","en":{"desc":"Received from Bebe in Hearthome City; Platinum does not require the National Pokédex."}},
+      {"id":137,"name":"Porygon","types":["normal"],"level":25,"desc":"Presente de um Pokéfan em Veilstone City.","en":{"desc":"Gift from a Pokéfan in Veilstone City."}},
+      {"id":447,"name":"Riolu","types":["fighting"],"level":1,"desc":"Ovo de Riley em Iron Island, após ajudar a expulsar a Team Galactic.","en":{"desc":"Egg from Riley on Iron Island after helping clear out Team Galactic."}}
+    ],
+    "events": [
+      {"id":490,"name":"Manaphy","types":["water"],"level":1,"desc":"Ovo obtido pela missão especial de Pokémon Ranger; a distribuição original não está mais ativa.","en":{"desc":"Egg obtained through the Pokémon Ranger special mission; the original distribution is no longer active."}},
+      {"id":491,"name":"Darkrai","types":["dark"],"level":50,"item":"Member Card","desc":"O Member Card de evento libera a pousada de Canalave e Newmoon Island.","en":{"desc":"The event Member Card opens the Canalave inn and Newmoon Island."}},
+      {"id":492,"name":"Shaymin","types":["grass"],"level":30,"item":"Oak's Letter","desc":"Oak's Letter de evento abre o caminho da Rota 224 até Flower Paradise.","en":{"desc":"The event Oak's Letter opens the Route 224 path to Flower Paradise."}},
+      {"id":493,"name":"Arceus","types":["normal"],"level":80,"item":"Azure Flute","desc":"A Azure Flute levaria ao Hall of Origin, mas nunca foi distribuída oficialmente.","en":{"desc":"The Azure Flute would lead to the Hall of Origin, but it was never officially distributed."}}
+    ],
+    "trades": [
+      {"id":63,"name":"Abra","types":["psychic"],"item":"Oran Berry","ability":"Synchronize","desc":"Oreburgh City: entregue Machop e receba Kazza, um Abra de Hilary.","en":{"desc":"Oreburgh City: trade a Machop for Hilary's Abra, Kazza."}},
+      {"id":441,"name":"Chatot","types":["normal","flying"],"item":"Leppa Berry","ability":"Tangled Feet","desc":"Eterna Condominiums: entregue Buizel e receba Charap, de Norton.","en":{"desc":"Eterna Condominiums: trade a Buizel for Norton's Chatot, Charap."}},
+      {"id":93,"name":"Haunter","types":["ghost","poison"],"item":"Everstone","ability":"Levitate","desc":"Snowpoint City: entregue Medicham e receba Gaspar. A Everstone impede a evolução para Gengar.","en":{"desc":"Snowpoint City: trade a Medicham for Gaspar. Its Everstone prevents evolution into Gengar."}},
+      {"id":129,"name":"Magikarp","types":["water"],"item":"Lum Berry","ability":"Swift Swim","desc":"Rota 226: entregue Finneon e receba Foppa, de origem estrangeira.","en":{"desc":"Route 226: trade a Finneon for Foppa, a foreign-origin Magikarp."}}
+    ],
+    "missing": [
+      {"id":151,"name":"Mew","types":["psychic"],"desc":"Não é encontrado normalmente. Só por distribuição ou transferência da Geração 3 pelo Pal Park.","en":{"desc":"Not found normally. Distribution or a Generation 3 Pal Park transfer only."}},
+      {"id":251,"name":"Celebi","types":["psychic","grass"],"desc":"Somente distribuição de evento ou transferência de geração anterior.","en":{"desc":"Event distribution or transfer from an earlier generation only."}},
+      {"id":385,"name":"Jirachi","types":["steel","psychic"],"desc":"Somente distribuição de evento ou transferência da Geração 3.","en":{"desc":"Event distribution or Generation 3 transfer only."}},
+      {"id":386,"name":"Deoxys","types":["psychic"],"desc":"Somente distribuição de evento ou transferência da Geração 3.","en":{"desc":"Event distribution or Generation 3 transfer only."}},
+      {"id":490,"name":"Manaphy","types":["water"],"desc":"Não aparece em estado selvagem: vinha do Egg de Pokémon Ranger ou de distribuição; Phione pode ser criado com Manaphy e Ditto.","en":{"desc":"It does not appear in the wild: it came from the Pokémon Ranger Egg or a distribution; Phione can be bred from Manaphy and Ditto."}}
+    ],
+    "notes": [
+      {"id":408,"name":"Fósseis de Sinnoh","types":["rock"],"desc":"Com a Pokédex Nacional, os fósseis de Kanto e Hoenn também podem surgir no Underground. Cranidos e Shieldon deixam de ser uma escolha exclusiva entre Diamond e Pearl em Platinum.","en":{"desc":"With the National Pokédex, Kanto and Hoenn fossils can also appear in the Underground. Cranidos and Shieldon are no longer an exclusive Diamond-or-Pearl choice in Platinum."}},
+      {"id":252,"name":"Dual Slot (GBA)","types":["grass"],"desc":"Depois da Pokédex Nacional, os cartuchos de GBA no Slot 2 liberam espécies extras em Sinnoh. A lista muda conforme o cartucho e só funciona em um DS ou DS Lite.","en":{"desc":"After the National Pokédex, a GBA cartridge in Slot 2 unlocks extra Sinnoh species. The list changes by cartridge and works only on a DS or DS Lite."}},
+      {"id":151,"name":"Pal Park","types":["psychic"],"desc":"Migra Pokémon de Ruby, Sapphire, Emerald, FireRed e LeafGreen para Platinum em grupos de seis; não há caminho de volta para a Gen 3.","en":{"desc":"Migrates Pokémon from Ruby, Sapphire, Emerald, FireRed, and LeafGreen to Platinum in groups of six; there is no return path to Generation III."}}
+    ]
+  },
+  "heartgold-soulsilver": {
+    "gifts": [
+      {"id":152,"name":"Chikorita","types":["grass"],"level":5,"desc":"Uma das três escolhas do Professor Elm em New Bark Town.","en":{"desc":"One of Professor Elm's three choices in New Bark Town."}},
+      {"id":155,"name":"Cyndaquil","types":["fire"],"level":5,"desc":"Uma das três escolhas do Professor Elm em New Bark Town.","en":{"desc":"One of Professor Elm's three choices in New Bark Town."}},
+      {"id":158,"name":"Totodile","types":["water"],"level":5,"desc":"Uma das três escolhas do Professor Elm em New Bark Town.","en":{"desc":"One of Professor Elm's three choices in New Bark Town."}},
+      {"id":175,"name":"Togepi","types":["normal"],"level":1,"desc":"O Mystery Egg choca em Togepi depois de vencer Falkner; ele conhece Extrasensory.","en":{"desc":"The Mystery Egg hatches into Togepi after defeating Falkner; it knows Extrasensory."}},
+      {"id":133,"name":"Eevee","types":["normal"],"level":5,"desc":"Presente de Bill em Goldenrod City, depois de encontrá-lo no Centro Pokémon de Ecruteak.","en":{"desc":"Gift from Bill in Goldenrod City after meeting him at Ecruteak's Pokémon Center."}},
+      {"id":147,"name":"Dratini","types":["dragon"],"level":15,"desc":"Do Master na Dragon's Den; responda corretamente para receber ExtremeSpeed.","en":{"desc":"From the Master in Dragon's Den; answer correctly to receive ExtremeSpeed."}},
+      {"id":236,"name":"Tyrogue","types":["fighting"],"level":10,"desc":"Kiyo entrega Tyrogue no Mt. Mortar após ser derrotado; a evolução depende dos status.","en":{"desc":"Kiyo gives Tyrogue in Mt. Mortar after his defeat; its evolution depends on its stats."}},
+      {"id":1,"name":"Bulbasaur","types":["grass","poison"],"level":5,"desc":"Uma das escolhas do Professor Oak depois de derrotar Red.","en":{"desc":"One of Professor Oak's choices after defeating Red."}},
+      {"id":4,"name":"Charmander","types":["fire"],"level":5,"desc":"Uma das escolhas do Professor Oak depois de derrotar Red.","en":{"desc":"One of Professor Oak's choices after defeating Red."}},
+      {"id":7,"name":"Squirtle","types":["water"],"level":5,"desc":"Uma das escolhas do Professor Oak depois de derrotar Red.","en":{"desc":"One of Professor Oak's choices after defeating Red."}},
+      {"id":252,"name":"Treecko","types":["grass"],"level":5,"desc":"Uma das escolhas de Steven na Silph Co., depois do inicial de Kanto.","en":{"desc":"One of Steven's choices at Silph Co., after receiving the Kanto starter."}},
+      {"id":255,"name":"Torchic","types":["fire"],"level":5,"desc":"Uma das escolhas de Steven na Silph Co., depois do inicial de Kanto.","en":{"desc":"One of Steven's choices at Silph Co., after receiving the Kanto starter."}},
+      {"id":258,"name":"Mudkip","types":["water"],"level":5,"desc":"Uma das escolhas de Steven na Silph Co., depois do inicial de Kanto.","en":{"desc":"One of Steven's choices at Silph Co., after receiving the Kanto starter."}}
+    ],
+    "events": [
+      {"id":251,"name":"Celebi","types":["psychic","grass"],"level":30,"desc":"Celebi de distribuição ativa a cena do Giovanni na Ilex Forest.","en":{"desc":"A distribution Celebi activates the Giovanni scene in Ilex Forest."}},
+      {"id":172,"name":"Pichu","types":["electric"],"level":30,"desc":"O Pichu de Pikachu-colored Pichu ativa o encontro da Spiky-eared Pichu no Ilex Shrine.","en":{"desc":"The Pikachu-colored Pichu activates the Spiky-eared Pichu encounter at Ilex Shrine."}},
+      {"id":385,"name":"Jirachi","types":["steel","psychic"],"level":5,"desc":"Jirachi foi distribuído por Mystery Gift em eventos da época.","en":{"desc":"Jirachi was distributed through Mystery Gift during period events."}},
+      {"id":380,"name":"Latias","types":["dragon","psychic"],"level":40,"item":"Enigma Stone","desc":"A Enigma Stone de evento permite encontrar Latias ou Latios, conforme a versão.","en":{"desc":"The event Enigma Stone allows a Latias or Latios encounter, depending on version."}}
+    ],
+    "trades": [
+      {"id":95,"name":"Onix","types":["rock","ground"],"item":"Persim Berry","ability":"Sturdy","desc":"Violet City: entregue Bellsprout e receba Rocky, de Rudy.","en":{"desc":"Violet City: trade a Bellsprout for Rudy's Onix, Rocky."}},
+      {"id":66,"name":"Machop","types":["fighting"],"item":"Macho Brace","ability":"Guts","desc":"Goldenrod Department Store: entregue Drowzee e receba Muscle, de Jose.","en":{"desc":"Goldenrod Department Store: trade a Drowzee for Jose's Machop, Muscle."}},
+      {"id":100,"name":"Voltorb","types":["electric"],"item":"Cheri Berry","ability":"Static","desc":"Olivine City: entregue Krabby e receba Billy, de Richard.","en":{"desc":"Olivine City: trade a Krabby for Richard's Voltorb, Billy."}},
+      {"id":85,"name":"Dodrio","types":["normal","flying"],"item":"Smoke Ball","ability":"Run Away","desc":"Blackthorn City: entregue uma Dragonair fêmea e receba Doris, de Ayana.","en":{"desc":"Blackthorn City: trade a female Dragonair for Ayana's Dodrio, Doris."}},
+      {"id":82,"name":"Magneton","types":["electric","steel"],"item":"Metal Coat","ability":"Magnet Pull","desc":"Power Plant: entregue Dugtrio e receba Maggie, de Lorenzo.","en":{"desc":"Power Plant: trade a Dugtrio for Lorenzo's Magneton, Maggie."}},
+      {"id":178,"name":"Xatu","types":["psychic","flying"],"item":"Wacan Berry","ability":"Synchronize","desc":"Pewter City: entregue Haunter e receba Paul, de Mondo.","en":{"desc":"Pewter City: trade a Haunter for Mondo's Xatu, Paul."}},
+      {"id":25,"name":"Pikachu","types":["electric"],"item":"Yellow Shard","ability":"Static","desc":"Saffron City: Lt. Surge troca um Pikachu de Viridian Forest por Volty, de origem estrangeira.","en":{"desc":"Saffron City: Lt. Surge trades a Viridian Forest Pikachu for the foreign-origin Volty."}},
+      {"id":374,"name":"Beldum","types":["steel","psychic"],"item":"Dawn Stone","ability":"Clear Body","desc":"Silph Co.: entregue Forretress e receba Iron, de Steven.","en":{"desc":"Silph Co.: trade a Forretress for Steven's Beldum, Iron."}},
+      {"id":111,"name":"Rhyhorn","types":["ground","rock"],"item":"Passho Berry","ability":"Lightningrod","desc":"Diglett's Cave: aos sábados, entregue Bonsly a Brock e receba Hornlette com Thunder Fang.","en":{"desc":"Diglett's Cave: on Saturdays, trade Brock a Bonsly for Hornlette with Thunder Fang."}},
+      {"id":208,"name":"Steelix","types":["steel","ground"],"item":"Soothe Bell","ability":"Rock Head","desc":"Olivine Gym: depois da revanche, Jasmine aceita qualquer Pokémon por Rusty.","en":{"desc":"Olivine Gym: after the rematch, Jasmine accepts any Pokémon for Rusty."}}
+    ],
+    "missing": [
+      {"id":249,"name":"Lugia","types":["psychic","flying"],"desc":"É o lendário principal de SoulSilver; em HeartGold precisa de troca ou do pós-jogo com a Wing correta.","en":{"desc":"SoulSilver's main Legendary; HeartGold needs a trade or the correct post-game Wing."}},
+      {"id":250,"name":"Ho-Oh","types":["fire","flying"],"desc":"É o lendário principal de HeartGold; em SoulSilver precisa de troca ou do pós-jogo com a Wing correta.","en":{"desc":"HeartGold's main Legendary; SoulSilver needs a trade or the correct post-game Wing."}},
+      {"id":382,"name":"Kyogre","types":["water"],"desc":"O encontro da Embedded Tower é exclusivo de HeartGold.","en":{"desc":"The Embedded Tower encounter is HeartGold-exclusive."}},
+      {"id":383,"name":"Groudon","types":["ground"],"desc":"O encontro da Embedded Tower é exclusivo de SoulSilver.","en":{"desc":"The Embedded Tower encounter is SoulSilver-exclusive."}},
+      {"id":151,"name":"Mew","types":["psychic"],"desc":"Somente distribuição de evento ou transferência de geração anterior.","en":{"desc":"Event distribution or transfer from an earlier generation only."}},
+      {"id":386,"name":"Deoxys","types":["psychic"],"desc":"Somente distribuição de evento ou transferência de geração anterior.","en":{"desc":"Event distribution or transfer from an earlier generation only."}},
+      {"id":490,"name":"Manaphy","types":["water"],"desc":"Não aparece em estado selvagem: vinha do Egg de Pokémon Ranger ou de distribuição; Phione pode ser criado com Manaphy e Ditto.","en":{"desc":"It does not appear in the wild: it came from the Pokémon Ranger Egg or a distribution; Phione can be bred from Manaphy and Ditto."}},
+      {"id":168,"name":"Ariados","types":["bug","poison"],"desc":"A linha de Spinarak aparece somente em HeartGold.","en":{"desc":"The Spinarak line appears only in HeartGold."}},
+      {"id":166,"name":"Ledian","types":["bug","flying"],"desc":"A linha de Ledyba aparece somente em SoulSilver.","en":{"desc":"The Ledyba line appears only in SoulSilver."}},
+      {"id":472,"name":"Gliscor","types":["ground","flying"],"desc":"Gligar aparece somente em HeartGold; Gliscor requer Razor Fang à noite.","en":{"desc":"Gligar appears only in HeartGold; Gliscor requires a Razor Fang at night."}},
+      {"id":217,"name":"Ursaring","types":["normal"],"desc":"A linha de Teddiursa aparece somente em SoulSilver.","en":{"desc":"The Teddiursa line appears only in SoulSilver."}},
+      {"id":227,"name":"Skarmory","types":["steel","flying"],"desc":"Skarmory aparece somente em SoulSilver.","en":{"desc":"Skarmory appears only in SoulSilver."}},
+      {"id":380,"name":"Latias","types":["dragon","psychic"],"desc":"Após a National Pokédex, Latias vaga por Kanto em HeartGold; em SoulSilver o errante é Latios.","en":{"desc":"After the National Pokédex, Latias roams Kanto in HeartGold; SoulSilver's roamer is Latios."}},
+      {"id":381,"name":"Latios","types":["dragon","psychic"],"desc":"Após a National Pokédex, Latios vaga por Kanto em SoulSilver; em HeartGold o errante é Latias.","en":{"desc":"After the National Pokédex, Latios roams Kanto in SoulSilver; HeartGold's roamer is Latias."}},
+      {"id":57,"name":"Primeape","types":["fighting"],"desc":"A linha de Mankey aparece somente em HeartGold.","en":{"desc":"The Mankey line appears only in HeartGold."}},
+      {"id":59,"name":"Arcanine","types":["fire"],"desc":"A linha de Growlithe aparece somente em HeartGold.","en":{"desc":"The Growlithe line appears only in HeartGold."}},
+      {"id":139,"name":"Omastar","types":["rock","water"],"desc":"O Helix Fossil e a linha de Omanyte são exclusivos de HeartGold.","en":{"desc":"The Helix Fossil and Omanyte line are HeartGold-exclusive."}},
+      {"id":226,"name":"Mantine","types":["water","flying"],"desc":"Mantine e Mantyke aparecem somente em HeartGold.","en":{"desc":"Mantine and Mantyke appear only in HeartGold."}},
+      {"id":232,"name":"Donphan","types":["ground"],"desc":"A linha de Phanpy aparece somente em HeartGold.","en":{"desc":"The Phanpy line appears only in HeartGold."}},
+      {"id":302,"name":"Sableye","types":["dark","ghost"],"desc":"Sableye aparece somente em HeartGold fora de rotas especiais do Pokéwalker.","en":{"desc":"Sableye appears only in HeartGold outside special Pokéwalker courses."}},
+      {"id":344,"name":"Claydol","types":["ground","psychic"],"desc":"A linha de Baltoy aparece somente em HeartGold.","en":{"desc":"The Baltoy line appears only in HeartGold."}},
+      {"id":348,"name":"Armaldo","types":["rock","bug"],"desc":"O Claw Fossil e a linha de Anorith são exclusivos de HeartGold.","en":{"desc":"The Claw Fossil and Anorith line are HeartGold-exclusive."}},
+      {"id":38,"name":"Ninetales","types":["fire"],"desc":"A linha de Vulpix aparece somente em SoulSilver.","en":{"desc":"The Vulpix line appears only in SoulSilver."}},
+      {"id":53,"name":"Persian","types":["normal"],"desc":"A linha de Meowth aparece somente em SoulSilver fora de rota especial do Pokéwalker.","en":{"desc":"The Meowth line appears only in SoulSilver outside a special Pokéwalker course."}},
+      {"id":141,"name":"Kabutops","types":["rock","water"],"desc":"O Dome Fossil e a linha de Kabuto são exclusivos de SoulSilver.","en":{"desc":"The Dome Fossil and Kabuto line are SoulSilver-exclusive."}},
+      {"id":225,"name":"Delibird","types":["ice","flying"],"desc":"Delibird aparece somente em SoulSilver.","en":{"desc":"Delibird appears only in SoulSilver."}},
+      {"id":303,"name":"Mawile","types":["steel"],"desc":"Mawile aparece somente em SoulSilver.","en":{"desc":"Mawile appears only in SoulSilver."}},
+      {"id":317,"name":"Swalot","types":["poison"],"desc":"A linha de Gulpin aparece somente em SoulSilver.","en":{"desc":"The Gulpin line appears only in SoulSilver."}},
+      {"id":346,"name":"Cradily","types":["rock","grass"],"desc":"O Root Fossil e a linha de Lileep são exclusivos de SoulSilver.","en":{"desc":"The Root Fossil and Lileep line are SoulSilver-exclusive."}}
+    ],
+    "notes": [
+      {"id":25,"name":"Pokéwalker","types":["electric"],"desc":"As rotas do acessório desbloqueiam encontros e itens extras. Yellow Forest, Winner's Path e rotas de evento dependiam de distribuição; os Pokémon voltam para HG/SS pelo próprio Pokéwalker.","en":{"desc":"Accessory routes unlock extra encounters and items. Yellow Forest, Winner's Path, and event routes required distribution; Pokémon return to HG/SS through the Pokéwalker itself."}},
+      {"id":151,"name":"Pal Park","types":["psychic"],"desc":"Em Fuchsia City, transfere seis Pokémon por vez dos jogos de GBA. A migração é sem volta; isso permite trazer espécies ausentes de Johto e Kanto.","en":{"desc":"In Fuchsia City, it transfers six Pokémon at a time from GBA games. Migration is one-way; this allows species absent from Johto and Kanto to be brought in."}},
+      {"id":249,"name":"Asas de Lugia e Ho-Oh","types":["psychic","flying"],"desc":"Lugia é o encontro principal de SoulSilver e Ho-Oh o de HeartGold, mas a asa obtida no pós-jogo permite capturar o outro lendário na versão oposta.","en":{"desc":"Lugia is SoulSilver's main encounter and Ho-Oh is HeartGold's, but the post-game Wing lets the other Legendary be caught in the opposite version."}}
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 import { state } from './state.js';
 import { typeTranslations, generationsConfig } from './config.js';
 import { getPokemonSprite, parseEvolutionLinks, playCry } from './utils.js';
-import { fetchPokemonData, fetchSpeciesData, fetchTypeData, fetchWithCache } from './api.js';
+import { fetchPokemonData, fetchSpeciesData, fetchTypeData, fetchWithCache, allPokemonNames } from './api.js';
 
 export const dom = {
     pokemonName: document.querySelector('.pokemon-name'),
@@ -173,8 +173,60 @@ export const renderTypeMatchups = async (types) => {
     dom.matchupsContainer.innerHTML = html || '<span>Sem fraquezas/vantagens notáveis.</span>';
 };
 
-export const renderEvolutions = async (speciesData) => {
+export const renderEvolutions = async (speciesData, pokemonData) => {
     dom.evolutionContainer.innerHTML = '<div class="spinner"></div>';
+    
+    // Suporte aos dados locais offline (array embutido)
+    if (pokemonData && pokemonData._isLocal && pokemonData._localEvolutions) {
+        if (pokemonData._localEvolutions.length === 0) {
+            dom.evolutionContainer.innerHTML = '<span>Sem evolução.</span>';
+            return;
+        }
+
+        let html = '<div style="display:flex; flex-wrap: wrap; justify-content: center; gap: 15px; width: 100%;">';
+        
+        for (let link of pokemonData._localEvolutions) {
+            const fromId = link.de;
+            const toId = link.para;
+            const fromNameObj = allPokemonNames.find(p => p.id === fromId);
+            const toNameObj = allPokemonNames.find(p => p.id === toId);
+            const fromName = fromNameObj ? fromNameObj.name : `Pokémon ${fromId}`;
+            const toName = toNameObj ? toNameObj.name : `Pokémon ${toId}`;
+            
+            const fromSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${fromId}.png`;
+            const toSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${toId}.png`;
+            const methodStr = link.nivel ? `Lvl ${link.nivel}` : (link.gatilho || 'Evolui');
+            
+            html += `
+                <div style="display:flex; align-items:center; justify-content: center; gap: 10px; background: var(--stat-bar-bg); padding: 10px; border-radius: 10px;">
+                    <div class="evo-item" data-id="${fromId}">
+                        <img src="${fromSprite}" class="evo-img">
+                        <span class="evo-name">${fromName}</span>
+                    </div>
+                    
+                    <div style="display:flex; flex-direction:column; align-items:center; font-size: 0.75rem; color: var(--text-muted); font-weight: bold; width: 80px; text-align: center;">
+                        <span>➔</span>
+                        <span>${methodStr}</span>
+                    </div>
+
+                    <div class="evo-item" data-id="${toId}">
+                        <img src="${toSprite}" class="evo-img">
+                        <span class="evo-name">${toName}</span>
+                    </div>
+                </div>
+            `;
+        }
+        html += '</div>';
+        dom.evolutionContainer.innerHTML = html;
+        
+        dom.evolutionContainer.querySelectorAll('.evo-item').forEach(item => {
+            item.addEventListener('click', () => {
+                renderPokemon(item.dataset.id);
+            });
+        });
+        return;
+    }
+
     if (!speciesData || !speciesData.evolution_chain) {
         dom.evolutionContainer.innerHTML = '<span>Sem evolução.</span>';
         return;
@@ -350,7 +402,7 @@ export const renderPokemon = async (pokemon) => {
 
         renderStats(data.stats);
         renderTypeMatchups(data.types);
-        renderEvolutions(speciesData);
+        renderEvolutions(speciesData, data);
         
         skeletonElements.forEach(el => { if (el) el.classList.remove('skeleton'); });
         

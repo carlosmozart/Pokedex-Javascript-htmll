@@ -1,0 +1,926 @@
+{
+  "ultra-sun-ultra-moon": [
+    {
+      "category": "Tutores de BP",
+      "desc": "Em Ultra Sun/Ultra Moon, os tutores das praias de Alola e da Battle Tree cobram Battle Points.",
+      "en": {
+        "category": "BP tutors",
+        "desc": "In Ultra Sun/Ultra Moon, the tutors on the Alolan beaches and at the Battle Tree charge Battle Points."
+      },
+      "tutors": [
+        {
+          "move": "dragon-pulse",
+          "cost": "12 BP",
+          "location": "Battle Tree",
+          "type": "dragon",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "drain-punch",
+          "cost": "8 BP",
+          "location": "Battle Tree",
+          "type": "fighting",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "dual-chop",
+          "cost": "12 BP",
+          "location": "Battle Tree",
+          "type": "dragon",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "earth-power",
+          "cost": "12 BP",
+          "location": "Battle Tree",
+          "type": "ground",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "foul-play",
+          "cost": "12 BP",
+          "location": "Battle Tree",
+          "type": "dark",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "gastro-acid",
+          "cost": "8 BP",
+          "location": "Battle Tree",
+          "type": "poison",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "gunk-shot",
+          "cost": "16 BP",
+          "location": "Battle Tree",
+          "type": "poison",
+          "en": {
+            "cost": "16 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "heat-wave",
+          "cost": "12 BP",
+          "location": "Battle Tree",
+          "type": "fire",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "hyper-voice",
+          "cost": "12 BP",
+          "location": "Battle Tree",
+          "type": "normal",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "knock-off",
+          "cost": "12 BP",
+          "location": "Battle Tree",
+          "type": "dark",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "liquidation",
+          "cost": "16 BP",
+          "location": "Battle Tree",
+          "type": "water",
+          "en": {
+            "cost": "16 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "outrage",
+          "cost": "16 BP",
+          "location": "Battle Tree",
+          "type": "dragon",
+          "en": {
+            "cost": "16 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "skill-swap",
+          "cost": "8 BP",
+          "location": "Battle Tree",
+          "type": "psychic",
+          "en": {
+            "cost": "8 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "sky-attack",
+          "cost": "16 BP",
+          "location": "Battle Tree",
+          "type": "flying",
+          "en": {
+            "cost": "16 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "stomping-tantrum",
+          "cost": "12 BP",
+          "location": "Battle Tree",
+          "type": "ground",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "super-fang",
+          "cost": "12 BP",
+          "location": "Battle Tree",
+          "type": "normal",
+          "en": {
+            "cost": "12 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "superpower",
+          "cost": "16 BP",
+          "location": "Battle Tree",
+          "type": "fighting",
+          "en": {
+            "cost": "16 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "throat-chop",
+          "cost": "16 BP",
+          "location": "Battle Tree",
+          "type": "dark",
+          "en": {
+            "cost": "16 BP",
+            "location": "Battle Tree"
+          }
+        },
+        {
+          "move": "bind",
+          "cost": "4 BP",
+          "location": "Big Wave Beach",
+          "type": "normal",
+          "en": {
+            "cost": "4 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "block",
+          "cost": "8 BP",
+          "location": "Big Wave Beach",
+          "type": "normal",
+          "en": {
+            "cost": "8 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "bug-bite",
+          "cost": "4 BP",
+          "location": "Big Wave Beach",
+          "type": "bug",
+          "en": {
+            "cost": "4 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "covet",
+          "cost": "4 BP",
+          "location": "Big Wave Beach",
+          "type": "normal",
+          "en": {
+            "cost": "4 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "defog",
+          "cost": "8 BP",
+          "location": "Big Wave Beach",
+          "type": "flying",
+          "en": {
+            "cost": "8 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "electroweb",
+          "cost": "8 BP",
+          "location": "Big Wave Beach",
+          "type": "electric",
+          "en": {
+            "cost": "8 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "heal-bell",
+          "cost": "8 BP",
+          "location": "Big Wave Beach",
+          "type": "normal",
+          "en": {
+            "cost": "8 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "helping-hand",
+          "cost": "8 BP",
+          "location": "Big Wave Beach",
+          "type": "normal",
+          "en": {
+            "cost": "8 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "last-resort",
+          "cost": "12 BP",
+          "location": "Big Wave Beach",
+          "type": "normal",
+          "en": {
+            "cost": "12 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "low-kick",
+          "cost": "8 BP",
+          "location": "Big Wave Beach",
+          "type": "fighting",
+          "en": {
+            "cost": "8 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "recycle",
+          "cost": "8 BP",
+          "location": "Big Wave Beach",
+          "type": "normal",
+          "en": {
+            "cost": "8 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "shock-wave",
+          "cost": "4 BP",
+          "location": "Big Wave Beach",
+          "type": "electric",
+          "en": {
+            "cost": "4 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "snatch",
+          "cost": "8 BP",
+          "location": "Big Wave Beach",
+          "type": "dark",
+          "en": {
+            "cost": "8 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "snore",
+          "cost": "4 BP",
+          "location": "Big Wave Beach",
+          "type": "normal",
+          "en": {
+            "cost": "4 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "uproar",
+          "cost": "8 BP",
+          "location": "Big Wave Beach",
+          "type": "normal",
+          "en": {
+            "cost": "8 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "worry-seed",
+          "cost": "8 BP",
+          "location": "Big Wave Beach",
+          "type": "grass",
+          "en": {
+            "cost": "8 BP",
+            "location": "Big Wave Beach"
+          }
+        },
+        {
+          "move": "after-you",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "normal",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "ally-switch",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "psychic",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "bounce",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "flying",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "fire-punch",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "fire",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "giga-drain",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "grass",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "gravity",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "psychic",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "iron-defense",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "steel",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "iron-tail",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "steel",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "magnet-rise",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "electric",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "role-play",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "psychic",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "signal-beam",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "bug",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "spite",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "ghost",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "stealth-rock",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "rock",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "synthesis",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "grass",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "telekinesis",
+          "cost": "8 BP",
+          "location": "Heahea Beach",
+          "type": "psychic",
+          "en": {
+            "cost": "8 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "water-pulse",
+          "cost": "4 BP",
+          "location": "Heahea Beach",
+          "type": "water",
+          "en": {
+            "cost": "4 BP",
+            "location": "Heahea Beach"
+          }
+        },
+        {
+          "move": "aqua-tail",
+          "cost": "12 BP",
+          "location": "Ula'ula Beach",
+          "type": "water",
+          "en": {
+            "cost": "12 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "drill-run",
+          "cost": "8 BP",
+          "location": "Ula'ula Beach",
+          "type": "ground",
+          "en": {
+            "cost": "8 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "endeavor",
+          "cost": "16 BP",
+          "location": "Ula'ula Beach",
+          "type": "normal",
+          "en": {
+            "cost": "16 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "focus-punch",
+          "cost": "16 BP",
+          "location": "Ula'ula Beach",
+          "type": "fighting",
+          "en": {
+            "cost": "16 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "ice-punch",
+          "cost": "8 BP",
+          "location": "Ula'ula Beach",
+          "type": "ice",
+          "en": {
+            "cost": "8 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "icy-wind",
+          "cost": "12 BP",
+          "location": "Ula'ula Beach",
+          "type": "ice",
+          "en": {
+            "cost": "12 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "iron-head",
+          "cost": "8 BP",
+          "location": "Ula'ula Beach",
+          "type": "steel",
+          "en": {
+            "cost": "8 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "laser-focus",
+          "cost": "12 BP",
+          "location": "Ula'ula Beach",
+          "type": "normal",
+          "en": {
+            "cost": "12 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "magic-coat",
+          "cost": "8 BP",
+          "location": "Ula'ula Beach",
+          "type": "psychic",
+          "en": {
+            "cost": "8 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "magic-room",
+          "cost": "8 BP",
+          "location": "Ula'ula Beach",
+          "type": "psychic",
+          "en": {
+            "cost": "8 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "pain-split",
+          "cost": "8 BP",
+          "location": "Ula'ula Beach",
+          "type": "normal",
+          "en": {
+            "cost": "8 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "seed-bomb",
+          "cost": "12 BP",
+          "location": "Ula'ula Beach",
+          "type": "grass",
+          "en": {
+            "cost": "12 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "tailwind",
+          "cost": "8 BP",
+          "location": "Ula'ula Beach",
+          "type": "flying",
+          "en": {
+            "cost": "8 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "thunder-punch",
+          "cost": "8 BP",
+          "location": "Ula'ula Beach",
+          "type": "electric",
+          "en": {
+            "cost": "8 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "trick",
+          "cost": "8 BP",
+          "location": "Ula'ula Beach",
+          "type": "psychic",
+          "en": {
+            "cost": "8 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "wonder-room",
+          "cost": "8 BP",
+          "location": "Ula'ula Beach",
+          "type": "psychic",
+          "en": {
+            "cost": "8 BP",
+            "location": "Ula'ula Beach"
+          }
+        },
+        {
+          "move": "zen-headbutt",
+          "cost": "8 BP",
+          "location": "Ula'ula Beach",
+          "type": "psychic",
+          "en": {
+            "cost": "8 BP",
+            "location": "Ula'ula Beach"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Tutores gratuitos",
+      "desc": "Golpes ensinados sem custo, como os supremos dos iniciais de Alola e o Dragon Ascent.",
+      "en": {
+        "category": "Free tutors",
+        "desc": "Moves taught at no cost, such as the Alolan first partners' ultimate moves and Dragon Ascent."
+      },
+      "tutors": [
+        {
+          "move": "relic-song",
+          "cost": "Grátis",
+          "location": "Hano Grand Resort",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Hano Grand Resort"
+          }
+        },
+        {
+          "move": "secret-sword",
+          "cost": "Grátis",
+          "location": "Hano Grand Resort",
+          "type": "fighting",
+          "en": {
+            "cost": "Free",
+            "location": "Hano Grand Resort"
+          }
+        },
+        {
+          "move": "volt-tackle",
+          "cost": "Grátis",
+          "location": "Hano Grand Resort",
+          "type": "electric",
+          "en": {
+            "cost": "Free",
+            "location": "Hano Grand Resort"
+          }
+        },
+        {
+          "move": "blast-burn",
+          "cost": "Grátis",
+          "location": "Hau'oli City",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Hau'oli City"
+          }
+        },
+        {
+          "move": "fire-pledge",
+          "cost": "Grátis",
+          "location": "Hau'oli City",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Hau'oli City"
+          }
+        },
+        {
+          "move": "frenzy-plant",
+          "cost": "Grátis",
+          "location": "Hau'oli City",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Hau'oli City"
+          }
+        },
+        {
+          "move": "grass-pledge",
+          "cost": "Grátis",
+          "location": "Hau'oli City",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Hau'oli City"
+          }
+        },
+        {
+          "move": "hydro-cannon",
+          "cost": "Grátis",
+          "location": "Hau'oli City",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Hau'oli City"
+          }
+        },
+        {
+          "move": "water-pledge",
+          "cost": "Grátis",
+          "location": "Hau'oli City",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Hau'oli City"
+          }
+        },
+        {
+          "move": "draco-meteor",
+          "cost": "Grátis",
+          "location": "Seafolk Village",
+          "type": "dragon",
+          "en": {
+            "cost": "Free",
+            "location": "Seafolk Village"
+          }
+        },
+        {
+          "move": "dragon-ascent",
+          "cost": "Grátis",
+          "location": "Seafolk Village",
+          "type": "flying",
+          "en": {
+            "cost": "Free",
+            "location": "Seafolk Village"
+          }
+        }
+      ]
+    }
+  ],
+  "sun-moon": [
+    {
+      "category": "Tutores gratuitos",
+      "desc": "Golpes ensinados sem custo, como os supremos dos iniciais de Alola e o Dragon Ascent.",
+      "en": {
+        "category": "Free tutors",
+        "desc": "Moves taught at no cost, such as the Alolan first partners' ultimate moves and Dragon Ascent."
+      },
+      "tutors": [
+        {
+          "move": "relic-song",
+          "cost": "Grátis",
+          "location": "Hano Grand Resort",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Hano Grand Resort"
+          }
+        },
+        {
+          "move": "secret-sword",
+          "cost": "Grátis",
+          "location": "Hano Grand Resort",
+          "type": "fighting",
+          "en": {
+            "cost": "Free",
+            "location": "Hano Grand Resort"
+          }
+        },
+        {
+          "move": "blast-burn",
+          "cost": "Grátis",
+          "location": "Hau'oli City",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Hau'oli City"
+          }
+        },
+        {
+          "move": "fire-pledge",
+          "cost": "Grátis",
+          "location": "Hau'oli City",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Hau'oli City"
+          }
+        },
+        {
+          "move": "frenzy-plant",
+          "cost": "Grátis",
+          "location": "Hau'oli City",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Hau'oli City"
+          }
+        },
+        {
+          "move": "grass-pledge",
+          "cost": "Grátis",
+          "location": "Hau'oli City",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Hau'oli City"
+          }
+        },
+        {
+          "move": "hydro-cannon",
+          "cost": "Grátis",
+          "location": "Hau'oli City",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Hau'oli City"
+          }
+        },
+        {
+          "move": "water-pledge",
+          "cost": "Grátis",
+          "location": "Hau'oli City",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Hau'oli City"
+          }
+        },
+        {
+          "move": "volt-tackle",
+          "cost": "Grátis",
+          "location": "Konikoni City",
+          "type": "electric",
+          "en": {
+            "cost": "Free",
+            "location": "Konikoni City"
+          }
+        },
+        {
+          "move": "draco-meteor",
+          "cost": "Grátis",
+          "location": "Seafolk Village",
+          "type": "dragon",
+          "en": {
+            "cost": "Free",
+            "location": "Seafolk Village"
+          }
+        },
+        {
+          "move": "dragon-ascent",
+          "cost": "Grátis",
+          "location": "Seafolk Village",
+          "type": "flying",
+          "en": {
+            "cost": "Free",
+            "location": "Seafolk Village"
+          }
+        }
+      ]
+    }
+  ]
+}

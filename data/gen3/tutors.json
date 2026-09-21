@@ -1,0 +1,464 @@
+{
+  "emerald": [
+    {
+      "category": "Tutores de BP (Battle Frontier)",
+      "desc": "Ataques ensinados em troca de Battle Points nas barracas da Battle Frontier.",
+      "tutors": [
+        {
+          "move": "Softboiled",
+          "cost": "16 BP",
+          "type": "normal"
+        },
+        {
+          "move": "Seismic Toss",
+          "cost": "24 BP",
+          "type": "fighting"
+        },
+        {
+          "move": "Dream Eater",
+          "cost": "24 BP",
+          "type": "psychic"
+        },
+        {
+          "move": "Mega Punch",
+          "cost": "24 BP",
+          "type": "normal"
+        },
+        {
+          "move": "Mega Kick",
+          "cost": "48 BP",
+          "type": "normal"
+        },
+        {
+          "move": "Body Slam",
+          "cost": "48 BP",
+          "type": "normal"
+        },
+        {
+          "move": "Rock Slide",
+          "cost": "48 BP",
+          "type": "rock"
+        },
+        {
+          "move": "Counter",
+          "cost": "48 BP",
+          "type": "fighting"
+        },
+        {
+          "move": "Thunder Wave",
+          "cost": "48 BP",
+          "type": "electric"
+        },
+        {
+          "move": "Swords Dance",
+          "cost": "48 BP",
+          "type": "normal"
+        },
+        {
+          "move": "Defense Curl",
+          "cost": "16 BP",
+          "type": "normal"
+        },
+        {
+          "move": "Snore",
+          "cost": "24 BP",
+          "type": "normal"
+        },
+        {
+          "move": "Mud-Slap",
+          "cost": "24 BP",
+          "type": "ground"
+        },
+        {
+          "move": "Swift",
+          "cost": "24 BP",
+          "type": "normal"
+        },
+        {
+          "move": "Icy Wind",
+          "cost": "24 BP",
+          "type": "ice"
+        },
+        {
+          "move": "Endure",
+          "cost": "48 BP",
+          "type": "normal"
+        },
+        {
+          "move": "Psych Up",
+          "cost": "48 BP",
+          "type": "normal"
+        },
+        {
+          "move": "Ice Punch",
+          "cost": "48 BP",
+          "type": "ice"
+        },
+        {
+          "move": "ThunderPunch",
+          "cost": "48 BP",
+          "type": "electric"
+        },
+        {
+          "move": "Fire Punch",
+          "cost": "48 BP",
+          "type": "fire"
+        }
+      ],
+      "en": {
+        "category": "BP tutors (Battle Frontier)",
+        "desc": "Moves taught in exchange for Battle Points at the Battle Frontier stalls."
+      }
+    },
+    {
+      "category": "Tutores Gratuitos (Uso Único)",
+      "desc": "Personagens espalhados por Hoenn que ensinam golpes importantes uma única vez.",
+      "tutors": [
+        {
+          "move": "Rollout",
+          "cost": "Grátis",
+          "location": "Mauville City",
+          "type": "rock",
+          "en": {
+            "cost": "Free",
+            "location": "Mauville City"
+          }
+        },
+        {
+          "move": "Fury Cutter",
+          "cost": "Grátis",
+          "location": "Verdanturf Town",
+          "type": "bug",
+          "en": {
+            "cost": "Free",
+            "location": "Verdanturf Town"
+          }
+        },
+        {
+          "move": "Swagger",
+          "cost": "Grátis",
+          "location": "Slateport City",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Slateport City"
+          }
+        },
+        {
+          "move": "DynamicPunch",
+          "cost": "Grátis",
+          "location": "Mossdeep City",
+          "type": "fighting",
+          "en": {
+            "cost": "Free",
+            "location": "Mossdeep City"
+          }
+        },
+        {
+          "move": "Sleep Talk",
+          "cost": "Grátis",
+          "location": "Fortree City",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Fortree City"
+          }
+        },
+        {
+          "move": "Double-Edge",
+          "cost": "Grátis",
+          "location": "Sootopolis City",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Sootopolis City"
+          }
+        },
+        {
+          "move": "Explosion",
+          "cost": "Grátis",
+          "location": "Pacifidlog Town",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Pacifidlog Town"
+          }
+        },
+        {
+          "move": "Mimic",
+          "cost": "Grátis",
+          "location": "Lavaridge Town",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Lavaridge Town"
+          }
+        },
+        {
+          "move": "Substitute",
+          "cost": "Grátis",
+          "location": "Lilycove City",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Lilycove City"
+          }
+        },
+        {
+          "move": "Metronome",
+          "cost": "Grátis",
+          "location": "Fallarbor Town",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Fallarbor Town"
+          }
+        }
+      ],
+      "en": {
+        "category": "Free tutors (one use only)",
+        "desc": "Characters around Hoenn who each teach an important move once."
+      }
+    },
+    {
+      "category": "Relembrar e esquecer golpes",
+      "desc": "O <b>Move Relearner</b> fica em Fallarbor Town e reensina um golpe de nível por um Heart Scale. O <b>Move Deleter</b> fica em Lilycove City, na casa a leste da loja de departamentos, e apaga qualquer golpe, até HM.",
+      "tutors": [],
+      "en": {
+        "category": "Relearning and forgetting moves",
+        "desc": "The <b>Move Relearner</b> in Fallarbor Town brings back a level-up move for a Heart Scale. The <b>Move Deleter</b> in Lilycove City, in the house east of the department store, erases any move, even an HM."
+      }
+    }
+  ],
+  "ruby-sapphire": [
+    {
+      "category": "Sem tutores de golpe",
+      "desc": "Ruby e Sapphire não têm tutores de golpe: os de Mauville, Verdanturf, Slateport e Mossdeep só existem em Emerald. Golpes fora do level-up vêm de TMs, HMs e criação.",
+      "tutors": [],
+      "en": {
+        "category": "No move tutors",
+        "desc": "Ruby and Sapphire have no move tutors: the ones in Mauville, Verdanturf, Slateport and Mossdeep exist only in Emerald. Moves outside level-up come from TMs, HMs and breeding."
+      }
+    },
+    {
+      "category": "Relembrar e esquecer golpes",
+      "desc": "O <b>Move Relearner</b> fica em Fallarbor Town e reensina um golpe de nível por um Heart Scale. O <b>Move Deleter</b> fica em Lilycove City, na casa a leste da loja de departamentos, e apaga qualquer golpe, até HM.",
+      "tutors": [],
+      "en": {
+        "category": "Relearning and forgetting moves",
+        "desc": "The <b>Move Relearner</b> in Fallarbor Town brings back a level-up move for a Heart Scale. The <b>Move Deleter</b> in Lilycove City, in the house east of the department store, erases any move, even an HM."
+      }
+    }
+  ],
+  "firered-leafgreen": [
+    {
+      "category": "Tutores Gratuitos (Uso Único)",
+      "desc": "Personagens espalhados por Kanto e Ilhas Sevii que ensinam golpes raros (muitos foram TMs na Geração 1).",
+      "tutors": [
+        {
+          "move": "Mega Punch",
+          "cost": "Grátis",
+          "location": "Route 4",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Route 4"
+          }
+        },
+        {
+          "move": "Mega Kick",
+          "cost": "Grátis",
+          "location": "Route 4",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Route 4"
+          }
+        },
+        {
+          "move": "Seismic Toss",
+          "cost": "Grátis",
+          "location": "Pewter Museum",
+          "type": "fighting",
+          "en": {
+            "cost": "Free",
+            "location": "Pewter Museum"
+          }
+        },
+        {
+          "move": "Rock Slide",
+          "cost": "Grátis",
+          "location": "Rock Tunnel",
+          "type": "rock",
+          "en": {
+            "cost": "Free",
+            "location": "Rock Tunnel"
+          }
+        },
+        {
+          "move": "Counter",
+          "cost": "Grátis",
+          "location": "Celadon Dept. Store",
+          "type": "fighting",
+          "en": {
+            "cost": "Free",
+            "location": "Celadon Dept. Store"
+          }
+        },
+        {
+          "move": "Softboiled",
+          "cost": "Grátis",
+          "location": "Celadon City",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Celadon City"
+          }
+        },
+        {
+          "move": "Mimic",
+          "cost": "Grátis",
+          "location": "Saffron City",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Saffron City"
+          }
+        },
+        {
+          "move": "Thunder Wave",
+          "cost": "Grátis",
+          "location": "Silph Co.",
+          "type": "electric",
+          "en": {
+            "cost": "Free",
+            "location": "Silph Co."
+          }
+        },
+        {
+          "move": "Substitute",
+          "cost": "Grátis",
+          "location": "Fuchsia City",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Fuchsia City"
+          }
+        },
+        {
+          "move": "Dream Eater",
+          "cost": "Grátis",
+          "location": "Viridian City",
+          "type": "psychic",
+          "en": {
+            "cost": "Free",
+            "location": "Viridian City"
+          }
+        },
+        {
+          "move": "Double-Edge",
+          "cost": "Grátis",
+          "location": "Victory Road",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Victory Road"
+          }
+        },
+        {
+          "move": "Swords Dance",
+          "cost": "Grátis",
+          "location": "Seven Island",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Seven Island"
+          }
+        },
+        {
+          "move": "Body Slam",
+          "cost": "Grátis",
+          "location": "Four Island",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Four Island"
+          }
+        },
+        {
+          "move": "Explosion",
+          "cost": "Grátis",
+          "location": "Mt. Ember",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Mt. Ember"
+          }
+        },
+        {
+          "move": "Metronome",
+          "cost": "Grátis",
+          "location": "Cinnabar Island (Pokémon Lab)",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Cinnabar Island (Pokémon Lab)"
+          }
+        }
+      ],
+      "en": {
+        "category": "Free tutors (one use only)",
+        "desc": "Characters around Kanto and the Sevii Islands who teach rare moves (many were TMs in Generation 1)."
+      }
+    },
+    {
+      "category": "Tutores Especiais",
+      "desc": "Ataques exclusivos. A tutora de Cape Brink (Two Island) só ensina se o Pokémon estiver com amizade máxima.",
+      "tutors": [
+        {
+          "move": "Frenzy Plant",
+          "cost": "Grátis",
+          "location": "Cape Brink (Apenas Venusaur)",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Cape Brink (Venusaur only)"
+          }
+        },
+        {
+          "move": "Blast Burn",
+          "cost": "Grátis",
+          "location": "Cape Brink (Apenas Charizard)",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Cape Brink (Charizard only)"
+          }
+        },
+        {
+          "move": "Hydro Cannon",
+          "cost": "Grátis",
+          "location": "Cape Brink (Apenas Blastoise)",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Cape Brink (Blastoise only)"
+          }
+        }
+      ],
+      "en": {
+        "category": "Special tutors",
+        "desc": "Exclusive moves. The Cape Brink tutor (Two Island) only teaches a Pokémon with maximum friendship."
+      }
+    },
+    {
+      "category": "Relembrar e esquecer golpes",
+      "desc": "O <b>Move Maniac</b> de Two Island (casa ao lado do Game Corner) reensina um golpe de nível por um Big Mushroom ou dois TinyMushrooms. O <b>Move Deleter</b> fica em Fuchsia City, na casa ao lado do Pokémon Center, e apaga qualquer golpe, até HM.",
+      "tutors": [],
+      "en": {
+        "category": "Relearning and forgetting moves",
+        "desc": "The <b>Move Maniac</b> on Two Island (the house next to the Game Corner) brings back a level-up move for a Big Mushroom or two TinyMushrooms. The <b>Move Deleter</b> in Fuchsia City, in the house next to the Pokémon Center, erases any move, even an HM."
+      }
+    }
+  ]
+}

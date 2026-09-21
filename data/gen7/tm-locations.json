@@ -1,0 +1,408 @@
+{
+  "_meta": {
+    "status": "complete",
+    "description": "Localização de cada TM em Sun/Moon e Ultra Sun/Ultra Moon.",
+    "source": "https://bulbapedia.bulbagarden.net/w/index.php?title=List_of_TM_locations_in_Generation_VII&action=raw",
+    "verified": "2026-09-19"
+  },
+  "TM01": {
+    "sun-moon": "Route 1 - Trainers' School",
+    "ultra-sun-ultra-moon": "Route 1 - Trainers' School"
+  },
+  "TM02": {
+    "sun-moon": "Vast Poni Canyon",
+    "ultra-sun-ultra-moon": "Vast Poni Canyon"
+  },
+  "TM03": {
+    "sun-moon": "Lake of the Sunne/Lake of the Moone",
+    "ultra-sun-ultra-moon": "Lake of the Sunne/Lake of the Moone"
+  },
+  "TM04": {
+    "sun-moon": "Seafolk Village Poké Mart",
+    "ultra-sun-ultra-moon": "Seafolk Village Poké Mart"
+  },
+  "TM05": {
+    "sun-moon": "Kala'e Bay",
+    "ultra-sun-ultra-moon": "Kala'e Bay"
+  },
+  "TM06": {
+    "sun-moon": "Aether Paradise",
+    "ultra-sun-ultra-moon": "Aether Paradise"
+  },
+  "TM07": {
+    "sun-moon": "Royal Avenue Poké Mart",
+    "ultra-sun-ultra-moon": "Royal Avenue Poké Mart"
+  },
+  "TM08": {
+    "sun-moon": "Konikoni City TM Shop",
+    "ultra-sun-ultra-moon": "Royal Avenue"
+  },
+  "TM09": {
+    "sun-moon": "Konikoni City TM Shop",
+    "ultra-sun-ultra-moon": "Konikoni City TM Shop"
+  },
+  "TM10": {
+    "sun-moon": "Paniola Ranch - Pokémon Nursery",
+    "ultra-sun-ultra-moon": "Paniola Ranch - Pokémon Nursery"
+  },
+  "TM100": {
+    "sun-moon": "Hau'oli Cemetery",
+    "ultra-sun-ultra-moon": "Hau'oli Cemetery"
+  },
+  "TM11": {
+    "sun-moon": "Royal Avenue Poké Mart",
+    "ultra-sun-ultra-moon": "Royal Avenue Poké Mart"
+  },
+  "TM12": {
+    "sun-moon": "Route 13",
+    "ultra-sun-ultra-moon": "Route 13"
+  },
+  "TM13": {
+    "sun-moon": "Mount Lanakila",
+    "ultra-sun-ultra-moon": "Mount Lanakila"
+  },
+  "TM14": {
+    "sun-moon": "Seafolk Village Poké Mart",
+    "ultra-sun-ultra-moon": "Seafolk Village Poké Mart"
+  },
+  "TM15": {
+    "sun-moon": "Seafolk Village Poké Mart",
+    "ultra-sun-ultra-moon": "Seafolk Village Poké Mart"
+  },
+  "TM16": {
+    "sun-moon": "Heahea City Poké Mart",
+    "ultra-sun-ultra-moon": "Heahea City Poké Mart"
+  },
+  "TM17": {
+    "sun-moon": "Heahea City Poké Mart",
+    "ultra-sun-ultra-moon": "Heahea City Poké Mart"
+  },
+  "TM18": {
+    "sun-moon": "Royal Avenue Poké Mart",
+    "ultra-sun-ultra-moon": "Royal Avenue Poké Mart"
+  },
+  "TM19": {
+    "sun-moon": "Malie City Poké Mart",
+    "ultra-sun-ultra-moon": "Route 3"
+  },
+  "TM20": {
+    "sun-moon": "Heahea City Poké Mart",
+    "ultra-sun-ultra-moon": "Heahea City Poké Mart"
+  },
+  "TM21": {
+    "sun-moon": "Malie City",
+    "ultra-sun-ultra-moon": "Malie City"
+  },
+  "TM22": {
+    "sun-moon": "Seafolk Village Poké Mart",
+    "ultra-sun-ultra-moon": "Seafolk Village Poké Mart"
+  },
+  "TM23": {
+    "sun-moon": "Malie City Poké Mart",
+    "ultra-sun-ultra-moon": "Ten Carat Hill"
+  },
+  "TM24": {
+    "sun-moon": "Poni Plains",
+    "ultra-sun-ultra-moon": "Sandy Cave"
+  },
+  "TM25": {
+    "sun-moon": "Seafolk Village Poké Mart",
+    "ultra-sun-ultra-moon": "Seafolk Village Poké Mart"
+  },
+  "TM26": {
+    "sun-moon": "Resolution Cave",
+    "ultra-sun-ultra-moon": "Resolution Cave"
+  },
+  "TM27": {
+    "sun-moon": "Malie City",
+    "ultra-sun-ultra-moon": "Malie City"
+  },
+  "TM28": {
+    "sun-moon": "Akala Outskirts",
+    "ultra-sun-ultra-moon": "Akala Outskirts"
+  },
+  "TM29": {
+    "sun-moon": "Aether Paradise",
+    "ultra-sun-ultra-moon": "Aether Paradise"
+  },
+  "TM30": {
+    "sun-moon": "Route 14",
+    "ultra-sun-ultra-moon": "Route 14"
+  },
+  "TM31": {
+    "sun-moon": "Verdant Cavern",
+    "ultra-sun-ultra-moon": "Verdant Cavern"
+  },
+  "TM32": {
+    "sun-moon": "Konikoni City TM Shop",
+    "ultra-sun-ultra-moon": "Route 7"
+  },
+  "TM33": {
+    "sun-moon": "Heahea City Poké Mart",
+    "ultra-sun-ultra-moon": "Heahea City Poké Mart"
+  },
+  "TM34": {
+    "sun-moon": "Seafolk Village Poké Mart",
+    "ultra-sun-ultra-moon": "Seafolk Village Poké Mart"
+  },
+  "TM35": {
+    "sun-moon": "Vast Poni Canyon",
+    "ultra-sun-ultra-moon": "Vast Poni Canyon"
+  },
+  "TM36": {
+    "sun-moon": "Shady House",
+    "ultra-sun-ultra-moon": "Shady House"
+  },
+  "TM37": {
+    "sun-moon": "Royal Avenue Poké Mart",
+    "ultra-sun-ultra-moon": "Royal Avenue Poké Mart"
+  },
+  "TM38": {
+    "sun-moon": "Seafolk Village Poké Mart",
+    "ultra-sun-ultra-moon": "Seafolk Village Poké Mart"
+  },
+  "TM39": {
+    "sun-moon": "Wela Volcano Park",
+    "ultra-sun-ultra-moon": "Wela Volcano Park"
+  },
+  "TM40": {
+    "sun-moon": "Malie City Poké Mart",
+    "ultra-sun-ultra-moon": "Konikoni City TM Shop"
+  },
+  "TM41": {
+    "sun-moon": "Route 5",
+    "ultra-sun-ultra-moon": "Route 5"
+  },
+  "TM42": {
+    "sun-moon": "Malie City Poké Mart",
+    "ultra-sun-ultra-moon": "Malie City Poké Mart"
+  },
+  "TM43": {
+    "sun-moon": "Route 8",
+    "ultra-sun-ultra-moon": "Route 8"
+  },
+  "TM44": {
+    "sun-moon": "[[Royal Avenue",
+    "ultra-sun-ultra-moon": "Thrifty Megamart]]"
+  },
+  "TM45": {
+    "sun-moon": "Hano Grand Resort",
+    "ultra-sun-ultra-moon": "Hano Grand Resort"
+  },
+  "TM46": {
+    "sun-moon": "Verdant Cavern",
+    "ultra-sun-ultra-moon": "Verdant Cavern"
+  },
+  "TM47": {
+    "sun-moon": "Konikoni City TM Shop",
+    "ultra-sun-ultra-moon": "Konikoni City TM Shop"
+  },
+  "TM48": {
+    "sun-moon": "Hau'oli City",
+    "ultra-sun-ultra-moon": "Hau'oli City"
+  },
+  "TM49": {
+    "sun-moon": "Hau'oli City",
+    "ultra-sun-ultra-moon": "Hau'oli City"
+  },
+  "TM50": {
+    "sun-moon": "Poni Meadow",
+    "ultra-sun-ultra-moon": "Poni Meadow"
+  },
+  "TM51": {
+    "sun-moon": "Malie City Poké Mart",
+    "ultra-sun-ultra-moon": "Konikoni City TM Shop"
+  },
+  "TM52": {
+    "sun-moon": "Seafolk Village Poké Mart",
+    "ultra-sun-ultra-moon": "Seafolk Village Poké Mart"
+  },
+  "TM53": {
+    "sun-moon": "Route 8",
+    "ultra-sun-ultra-moon": "Route 8"
+  },
+  "TM54": {
+    "sun-moon": "Iki Town",
+    "ultra-sun-ultra-moon": "Iki Town"
+  },
+  "TM55": {
+    "sun-moon": "Brooklet Hill",
+    "ultra-sun-ultra-moon": "Ancient Poni Path"
+  },
+  "TM56": {
+    "sun-moon": "Hau'oli Cemetery",
+    "ultra-sun-ultra-moon": "Hau'oli Cemetery"
+  },
+  "TM57": {
+    "sun-moon": "Route 5",
+    "ultra-sun-ultra-moon": "Brooklet Hill"
+  },
+  "TM58": {
+    "sun-moon": "Route 8",
+    "ultra-sun-ultra-moon": "Route 8"
+  },
+  "TM59": {
+    "sun-moon": "Route 5",
+    "ultra-sun-ultra-moon": "Route 5"
+  },
+  "TM60": {
+    "sun-moon": "Poni Plains",
+    "ultra-sun-ultra-moon": "Poni Plains"
+  },
+  "TM61": {
+    "sun-moon": "Konikoni City",
+    "ultra-sun-ultra-moon": "Konikoni City"
+  },
+  "TM62": {
+    "sun-moon": "Ten Carat Hill",
+    "ultra-sun-ultra-moon": "Route 15"
+  },
+  "TM63": {
+    "sun-moon": "Blush Mountain",
+    "ultra-sun-ultra-moon": "Blush Mountain"
+  },
+  "TM64": {
+    "sun-moon": "Ten Carat Hill",
+    "ultra-sun-ultra-moon": "Ten Carat Hill"
+  },
+  "TM65": {
+    "sun-moon": "Konikoni City TM Shop",
+    "ultra-sun-ultra-moon": "Malie City Poké Mart"
+  },
+  "TM66": {
+    "sun-moon": "Malie City Poké Mart",
+    "ultra-sun-ultra-moon": "Route 11"
+  },
+  "TM67": {
+    "sun-moon": "Lush Jungle",
+    "ultra-sun-ultra-moon": "Lush Jungle"
+  },
+  "TM68": {
+    "sun-moon": "Seafolk Village Poké Mart",
+    "ultra-sun-ultra-moon": "Seafolk Village Poké Mart"
+  },
+  "TM69": {
+    "sun-moon": "Malie City Poké Mart",
+    "ultra-sun-ultra-moon": "Malie City Poké Mart"
+  },
+  "TM70": {
+    "sun-moon": "Heahea City Poké Mart",
+    "ultra-sun-ultra-moon": "Heahea City Poké Mart"
+  },
+  "TM71": {
+    "sun-moon": "Seafolk Village Poké Mart",
+    "ultra-sun-ultra-moon": "Seafolk Village Poké Mart"
+  },
+  "TM72": {
+    "sun-moon": "Mount Hokulani",
+    "ultra-sun-ultra-moon": "Mount Hokulani"
+  },
+  "TM73": {
+    "sun-moon": "Route 7",
+    "ultra-sun-ultra-moon": "Malie Garden"
+  },
+  "TM74": {
+    "sun-moon": "Route 11",
+    "ultra-sun-ultra-moon": "Route 11"
+  },
+  "TM75": {
+    "sun-moon": "Malie City Poké Mart",
+    "ultra-sun-ultra-moon": "Poni Meadow"
+  },
+  "TM76": {
+    "sun-moon": "[[Malie City",
+    "ultra-sun-ultra-moon": "Malie Library]]"
+  },
+  "TM77": {
+    "sun-moon": "Route 12",
+    "ultra-sun-ultra-moon": "Malie City Poké Mart"
+  },
+  "TM78": {
+    "sun-moon": "Malie City Poké Mart",
+    "ultra-sun-ultra-moon": "Konikoni City TM Shop"
+  },
+  "TM79": {
+    "sun-moon": "Ancient Poni Path",
+    "ultra-sun-ultra-moon": "Seaward Cave"
+  },
+  "TM80": {
+    "sun-moon": "Melemele Sea",
+    "ultra-sun-ultra-moon": "Route 17"
+  },
+  "TM81": {
+    "sun-moon": "Route 16",
+    "ultra-sun-ultra-moon": "Route 16"
+  },
+  "TM82": {
+    "sun-moon": "Konikoni City TM Shop",
+    "ultra-sun-ultra-moon": "Route 12"
+  },
+  "TM83": {
+    "sun-moon": "Route 3",
+    "ultra-sun-ultra-moon": "Route 3"
+  },
+  "TM84": {
+    "sun-moon": "Route 17",
+    "ultra-sun-ultra-moon": "Mount Lanakila"
+  },
+  "TM85": {
+    "sun-moon": "Haina Desert",
+    "ultra-sun-ultra-moon": "Haina Desert"
+  },
+  "TM86": {
+    "sun-moon": "Lush Jungle",
+    "ultra-sun-ultra-moon": "Lush Jungle"
+  },
+  "TM87": {
+    "sun-moon": "Route 2",
+    "ultra-sun-ultra-moon": "Route 2"
+  },
+  "TM88": {
+    "sun-moon": "Paniola Town",
+    "ultra-sun-ultra-moon": "Paniola Town"
+  },
+  "TM89": {
+    "sun-moon": "Malie City Poké Mart",
+    "ultra-sun-ultra-moon": "Malie City Poké Mart"
+  },
+  "TM90": {
+    "sun-moon": "[[Alola Route 1",
+    "ultra-sun-ultra-moon": "Professor Kukui's Lab]]"
+  },
+  "TM91": {
+    "sun-moon": "Seafolk Village",
+    "ultra-sun-ultra-moon": "Seafolk Village"
+  },
+  "TM92": {
+    "sun-moon": "Hano Grand Resort",
+    "ultra-sun-ultra-moon": "Hano Grand Resort"
+  },
+  "TM93": {
+    "sun-moon": "Route 15",
+    "ultra-sun-ultra-moon": "Vast Poni Canyon"
+  },
+  "TM94": {
+    "sun-moon": "Poni Breaker Coast",
+    "ultra-sun-ultra-moon": "Poni Breaker Coast"
+  },
+  "TM95": {
+    "sun-moon": "Mount Hokulani",
+    "ultra-sun-ultra-moon": "Mount Hokulani"
+  },
+  "TM96": {
+    "sun-moon": "Route 5",
+    "ultra-sun-ultra-moon": "Route 5"
+  },
+  "TM97": {
+    "sun-moon": "Poni Coast",
+    "ultra-sun-ultra-moon": "Poni Coast"
+  },
+  "TM98": {
+    "sun-moon": "Poni Breaker Coast",
+    "ultra-sun-ultra-moon": "Poni Breaker Coast"
+  },
+  "TM99": {
+    "sun-moon": "Vast Poni Canyon",
+    "ultra-sun-ultra-moon": "Vast Poni Canyon"
+  }
+}

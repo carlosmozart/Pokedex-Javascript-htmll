@@ -1,0 +1,2929 @@
+{
+  "pages": [
+    {
+      "slug": "visao-geral",
+      "title": "Visão Geral · Ruby/Sapphire",
+      "menuLabel": "Visão Geral",
+      "description": "Logo, datas, novidades e melhorias de Ruby/Sapphire.",
+      "visible": true,
+      "versions": [
+        "ruby-sapphire"
+      ],
+      "en": {
+        "title": "Overview · Ruby/Sapphire",
+        "menuLabel": "Overview",
+        "description": "Logo, release dates, new features and improvements of Ruby/Sapphire."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "cards": [
+            {
+              "title": "Ruby/Sapphire",
+              "content": "<img src=\"img/overview/logo-ruby.png\" alt=\"Ruby/Sapphire\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-sapphire.png\" alt=\"Ruby/Sapphire\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>A estreia da Geração 3 e do Game Boy Advance. Uma região nova, Hoenn, 135 Pokémon inéditos e as mecânicas que o resto da série herdou: habilidades, natures e batalhas duplas.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Plataforma",
+                  "value": "Game Boy Advance",
+                  "en": {
+                    "label": "Platform",
+                    "value": "Game Boy Advance"
+                  }
+                },
+                {
+                  "label": "Geração",
+                  "value": "III",
+                  "en": {
+                    "label": "Generation",
+                    "value": "III"
+                  }
+                },
+                {
+                  "label": "Região",
+                  "value": "Hoenn",
+                  "en": {
+                    "label": "Region",
+                    "value": "Hoenn"
+                  }
+                },
+                {
+                  "label": "Mascotes",
+                  "value": "Groudon (Ruby) e Kyogre (Sapphire)",
+                  "en": {
+                    "label": "Mascots",
+                    "value": "Groudon (Ruby) and Kyogre (Sapphire)"
+                  }
+                },
+                {
+                  "label": "Vendas",
+                  "value": "16,22 milhões (até 31/03/2013)",
+                  "en": {
+                    "label": "Sales",
+                    "value": "16.22 million (as of March 31, 2013)"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Ruby/Sapphire",
+                "content": "<img src=\"img/overview/logo-ruby.png\" alt=\"Ruby/Sapphire\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-sapphire.png\" alt=\"Ruby/Sapphire\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>The debut of Generation 3 and the Game Boy Advance. A new region, Hoenn, 135 brand-new Pokémon and the mechanics the rest of the series inherited: Abilities, Natures and Double Battles.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Lançamento",
+              "content": "<p>Datas de chegada às lojas em cada região.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Japão",
+                  "value": "21 de novembro de 2002",
+                  "en": {
+                    "label": "Japan",
+                    "value": "November 21, 2002"
+                  }
+                },
+                {
+                  "label": "América do Norte",
+                  "value": "19 de março de 2003",
+                  "en": {
+                    "label": "North America",
+                    "value": "March 19, 2003"
+                  }
+                },
+                {
+                  "label": "Austrália",
+                  "value": "3 de abril de 2003",
+                  "en": {
+                    "label": "Australia",
+                    "value": "April 3, 2003"
+                  }
+                },
+                {
+                  "label": "Europa",
+                  "value": "25 de julho de 2003",
+                  "en": {
+                    "label": "Europe",
+                    "value": "July 25, 2003"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Release",
+                "content": "<p>Store release dates in each region.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Capas",
+              "content": "<img src=\"img/overview/box-ruby.png\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-sapphire.png\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Box art",
+                "content": "<img src=\"img/overview/box-ruby.png\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-sapphire.png\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                383,
+                382
+              ],
+              "pokemonLayout": "row"
+            },
+            {
+              "title": "Novidades desta versão",
+              "content": "<ul><li><b>135 Pokémon novos</b>, chegando a 386 no total.</li><li><b>Habilidades</b> e <b>natures</b> para todos os Pokémon.</li><li><b>Batalhas duplas</b>, contra dois treinadores ou contra um com dois Pokémon.</li><li><b>Concursos Pokémon</b> em cinco categorias, com Pokéblocks feitos de berries, e as <b>fitas</b>.</li><li><b>Bases Secretas</b>, montadas e decoradas pelo jogador.</li><li>O <b>PokéNav</b>, com mapa, condição dos Pokémon e aviso de revanches.</li><li><b>Clima</b> no mapa que continua na batalha, e o novo clima granizo.</li><li>Berries plantáveis em terra fofa e sete Poké Balls novas (Timer, Repeat, Nest, Net, Dive, Luxury e Premier).</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "What this version introduced",
+                "content": "<ul><li><b>135 new Pokémon</b>, bringing the total to 386.</li><li><b>Abilities</b> and <b>Natures</b> for every Pokémon.</li><li><b>Double Battles</b>, against two Trainers or one with two Pokémon.</li><li><b>Pokémon Contests</b> in five categories, with Pokéblocks made from Berries, and <b>Ribbons</b>.</li><li><b>Secret Bases</b>, built and decorated by the player.</li><li>The <b>PokéNav</b>, with a map, Pokémon condition and rematch alerts.</li><li>Overworld <b>weather</b> that carries into battle, and the new hail weather.</li><li>Berries planted in soft soil and seven new Poké Balls (Timer, Repeat, Nest, Net, Dive, Luxury and Premier).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Melhorias em relação a Gold, Silver e Crystal",
+              "content": "<ul><li>IVs vão de 0 a 31 (antes, de 0 a 15) e o gênero deixa de depender do IV de Ataque.</li><li>Os EVs viram pontos de esforço com teto de 255 por atributo e 510 no total.</li><li>O PC ganha uma interface gráfica, com ícone próprio para cada espécie.</li><li>Gráficos e som do Game Boy Advance.</li><li>Em troca, não conversa com os jogos de Game Boy e Game Boy Color: não há troca com as gerações anteriores.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Improvements over Gold, Silver and Crystal",
+                "content": "<ul><li>IVs range from 0 to 31 (previously 0 to 15) and gender no longer depends on the Attack IV.</li><li>EVs become effort points capped at 255 per stat and 510 in total.</li><li>The PC gets a graphical interface, with its own icon for every species.</li><li>Game Boy Advance graphics and sound.</li><li>In exchange, it cannot talk to the Game Boy and Game Boy Color games: no trading with earlier generations.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Tela de título",
+              "content": "<img src=\"img/overview/title-ruby.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\"><img src=\"img/overview/title-sapphire.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Title screen",
+                "content": "<img src=\"img/overview/title-ruby.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\"><img src=\"img/overview/title-sapphire.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Hoenn",
+              "content": "<p>Uma região tropical inspirada em Kyushu, com mar aberto, vulcão e deserto. Oito ginásios, a Liga em Ever Grande City e o campeão Steven.</p>",
+              "image": "img/Hoenn_Map.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "ground",
+              "link": "#map",
+              "linkLabel": "Abrir Mapa Múndi",
+              "fields": [],
+              "en": {
+                "title": "Hoenn",
+                "content": "<p>A tropical region inspired by Kyushu, with open sea, a volcano and a desert. Eight Gyms, the League in Ever Grande City and Champion Steven.</p>",
+                "linkLabel": "Open World Map"
+              }
+            }
+          ],
+          "en": {
+            "label": "Content"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "visao-geral",
+      "title": "Visão Geral · Emerald",
+      "menuLabel": "Visão Geral",
+      "description": "Logo, datas, novidades e melhorias de Emerald.",
+      "visible": true,
+      "versions": [
+        "emerald"
+      ],
+      "en": {
+        "title": "Overview · Emerald",
+        "menuLabel": "Overview",
+        "description": "Logo, release dates, new features and improvements of Emerald."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "cards": [
+            {
+              "title": "Emerald",
+              "content": "<img src=\"img/overview/logo-emerald.png\" alt=\"Emerald\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>A terceira versão de Hoenn. Junta Team Magma e Team Aqua na mesma história, põe o Rayquaza no centro e troca a Battle Tower por uma Battle Frontier inteira.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Plataforma",
+                  "value": "Game Boy Advance",
+                  "en": {
+                    "label": "Platform",
+                    "value": "Game Boy Advance"
+                  }
+                },
+                {
+                  "label": "Geração",
+                  "value": "III",
+                  "en": {
+                    "label": "Generation",
+                    "value": "III"
+                  }
+                },
+                {
+                  "label": "Região",
+                  "value": "Hoenn",
+                  "en": {
+                    "label": "Region",
+                    "value": "Hoenn"
+                  }
+                },
+                {
+                  "label": "Mascote",
+                  "value": "Rayquaza",
+                  "en": {
+                    "label": "Mascot",
+                    "value": "Rayquaza"
+                  }
+                },
+                {
+                  "label": "Vendas",
+                  "value": "6,32 milhões (até 31/03/2007)",
+                  "en": {
+                    "label": "Sales",
+                    "value": "6.32 million (as of March 31, 2007)"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Emerald",
+                "content": "<img src=\"img/overview/logo-emerald.png\" alt=\"Emerald\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>The third Hoenn version. It puts Team Magma and Team Aqua in the same story, places Rayquaza at its heart and swaps the Battle Tower for a whole Battle Frontier.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Lançamento",
+              "content": "<p>Datas de chegada às lojas em cada região.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Japão",
+                  "value": "16 de setembro de 2004",
+                  "en": {
+                    "label": "Japan",
+                    "value": "September 16, 2004"
+                  }
+                },
+                {
+                  "label": "América do Norte",
+                  "value": "1 de maio de 2005",
+                  "en": {
+                    "label": "North America",
+                    "value": "May 1, 2005"
+                  }
+                },
+                {
+                  "label": "Austrália",
+                  "value": "9 de junho de 2005",
+                  "en": {
+                    "label": "Australia",
+                    "value": "June 9, 2005"
+                  }
+                },
+                {
+                  "label": "Europa",
+                  "value": "21 de outubro de 2005",
+                  "en": {
+                    "label": "Europe",
+                    "value": "October 21, 2005"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Release",
+                "content": "<p>Store release dates in each region.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Capas",
+              "content": "<img src=\"img/overview/box-emerald.jpg\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Box art",
+                "content": "<img src=\"img/overview/box-emerald.jpg\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                384
+              ],
+              "pokemonLayout": "row"
+            },
+            {
+              "title": "Novidades desta versão",
+              "content": "<ul><li>A <b>Battle Frontier</b>, com sete instalações e os Frontier Brains.</li><li><b>Battle Tents</b> no lugar de três Contest Halls, e o <b>Trainer Hill</b> no pós-jogo.</li><li>O <b>Match Call</b> no PokéNav, com ligações, e <b>revanches dos líderes</b> em batalhas duplas.</li><li>Groudon e Kyogre na <b>Terra Cave</b> e na <b>Marine Cave</b>, que mudam de lugar conforme o clima.</li><li>Um inicial de Johto com o Professor Birch ao completar a Pokédex de Hoenn.</li><li>Sprites de batalha animados e trechos novos, como a Mirage Tower e o Desert Underpass.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "What this version introduced",
+                "content": "<ul><li>The <b>Battle Frontier</b>, with seven facilities and the Frontier Brains.</li><li><b>Battle Tents</b> replacing three Contest Halls, and <b>Trainer Hill</b> in the post-game.</li><li><b>Match Call</b> in the PokéNav, with phone calls, and <b>Gym Leader rematches</b> in Double Battles.</li><li>Groudon and Kyogre in <b>Terra Cave</b> and <b>Marine Cave</b>, which move with the weather.</li><li>A Johto starter from Professor Birch for completing the Hoenn Pokédex.</li><li>Animated battle sprites and new areas such as the Mirage Tower and the Desert Underpass.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Melhorias em relação a Ruby e Sapphire",
+              "content": "<ul><li>Everstone na mãe ou no Ditto passa a nature em 50% dos ovos.</li><li>Magma Armor e Flame Body no time aceleram a chocagem.</li><li>Berries que baixam EVs e aumentam a amizade.</li><li>Mais batalhas duplas, com dois treinadores avistando você ao mesmo tempo.</li><li>A Safari Zone ganha áreas com 16 linhas evolutivas de Johto.</li><li>Traz de FireRed/LeafGreen o suporte ao Wireless Adapter.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Improvements over Ruby and Sapphire",
+                "content": "<ul><li>An Everstone on the mother or Ditto passes on the Nature in 50% of Eggs.</li><li>Magma Armor and Flame Body in the party speed up hatching.</li><li>Berries that lower EVs and raise friendship.</li><li>More Double Battles, with two Trainers spotting you at once.</li><li>The Safari Zone gains areas with 16 Johto evolution lines.</li><li>Wireless Adapter support carried over from FireRed/LeafGreen.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Tela de título",
+              "content": "<img src=\"img/overview/title-emerald.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Title screen",
+                "content": "<img src=\"img/overview/title-emerald.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Hoenn",
+              "content": "<p>O mesmo mapa de Ruby e Sapphire, com a Battle Frontier no lugar da antiga Battle Tower e novos trechos no deserto e em Jagged Pass.</p>",
+              "image": "img/emerald-map.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "ground",
+              "link": "#map",
+              "linkLabel": "Abrir Mapa Múndi",
+              "fields": [],
+              "en": {
+                "title": "Hoenn",
+                "content": "<p>The same map as Ruby and Sapphire, with the Battle Frontier in place of the old Battle Tower and new areas in the desert and Jagged Pass.</p>",
+                "linkLabel": "Open World Map"
+              }
+            }
+          ],
+          "en": {
+            "label": "Content"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "visao-geral",
+      "title": "Visão Geral · FireRed/LeafGreen",
+      "menuLabel": "Visão Geral",
+      "description": "Logo, datas, novidades e melhorias de FireRed/LeafGreen.",
+      "visible": true,
+      "versions": [
+        "firered-leafgreen"
+      ],
+      "en": {
+        "title": "Overview · FireRed/LeafGreen",
+        "menuLabel": "Overview",
+        "description": "Logo, release dates, new features and improvements of FireRed/LeafGreen."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "cards": [
+            {
+              "title": "FireRed/LeafGreen",
+              "content": "<img src=\"img/overview/logo-firered.png\" alt=\"FireRed/LeafGreen\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-leafgreen.png\" alt=\"FireRed/LeafGreen\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>O remake de Red e Green no Game Boy Advance. Kanto com as mecânicas da Geração 3 e um pós-jogo novo nas Sevii Islands.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Plataforma",
+                  "value": "Game Boy Advance; relançado no Nintendo Switch (eShop) em 2026",
+                  "en": {
+                    "label": "Platform",
+                    "value": "Game Boy Advance; re-released on Nintendo Switch (eShop) in 2026"
+                  }
+                },
+                {
+                  "label": "Geração",
+                  "value": "III",
+                  "en": {
+                    "label": "Generation",
+                    "value": "III"
+                  }
+                },
+                {
+                  "label": "Região",
+                  "value": "Kanto e Sevii Islands",
+                  "en": {
+                    "label": "Region",
+                    "value": "Kanto and the Sevii Islands"
+                  }
+                },
+                {
+                  "label": "Mascotes",
+                  "value": "Charizard (FireRed) e Venusaur (LeafGreen)",
+                  "en": {
+                    "label": "Mascots",
+                    "value": "Charizard (FireRed) and Venusaur (LeafGreen)"
+                  }
+                },
+                {
+                  "label": "Vendas",
+                  "value": "12 milhões (até 31/03/2013)",
+                  "en": {
+                    "label": "Sales",
+                    "value": "12 million (as of March 31, 2013)"
+                  }
+                }
+              ],
+              "en": {
+                "title": "FireRed/LeafGreen",
+                "content": "<img src=\"img/overview/logo-firered.png\" alt=\"FireRed/LeafGreen\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-leafgreen.png\" alt=\"FireRed/LeafGreen\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>The Game Boy Advance remake of Red and Green. Kanto with Generation 3 mechanics and a brand-new post-game in the Sevii Islands.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Lançamento",
+              "content": "<p>Datas de chegada às lojas em cada região.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Japão",
+                  "value": "29 de janeiro de 2004",
+                  "en": {
+                    "label": "Japan",
+                    "value": "January 29, 2004"
+                  }
+                },
+                {
+                  "label": "América do Norte",
+                  "value": "9 de setembro de 2004",
+                  "en": {
+                    "label": "North America",
+                    "value": "September 9, 2004"
+                  }
+                },
+                {
+                  "label": "Austrália",
+                  "value": "23 de setembro de 2004",
+                  "en": {
+                    "label": "Australia",
+                    "value": "September 23, 2004"
+                  }
+                },
+                {
+                  "label": "Europa",
+                  "value": "1 de outubro de 2004",
+                  "en": {
+                    "label": "Europe",
+                    "value": "October 1, 2004"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Release",
+                "content": "<p>Store release dates in each region.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Capas",
+              "content": "<img src=\"img/overview/box-firered.png\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-leafgreen.png\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Box art",
+                "content": "<img src=\"img/overview/box-firered.png\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-leafgreen.png\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                6,
+                3
+              ],
+              "pokemonLayout": "row"
+            },
+            {
+              "title": "Novidades desta versão",
+              "content": "<ul><li><b>Leaf</b>, a primeira personagem feminina jogável em Kanto.</li><li>As <b>Sevii Islands</b>, com Pokémon de Johto e uma trama nova da Team Rocket.</li><li>O <b>Vs. Seeker</b> para revanches e o <b>Fame Checker</b> com a história dos personagens.</li><li>Resumo ao continuar o jogo, ajuda pelos botões L/R e a Teachy TV.</li><li>Vinha com o <b>Wireless Adapter</b>, usado também no Joyful Game Corner de Two Island.</li><li>Tutores de golpe, incluindo Blast Burn, Frenzy Plant e Hydro Cannon em Cape Brink.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "What this version introduced",
+                "content": "<ul><li><b>Leaf</b>, the first playable female character in Kanto.</li><li>The <b>Sevii Islands</b>, with Johto Pokémon and a new Team Rocket plot.</li><li>The <b>Vs. Seeker</b> for rematches and the <b>Fame Checker</b> with character stories.</li><li>A recap when you continue, L/R help and the Teachy TV.</li><li>It shipped with the <b>Wireless Adapter</b>, also used at the Joyful Game Corner on Two Island.</li><li>Move Tutors, including Blast Burn, Frenzy Plant and Hydro Cannon at Cape Brink.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Melhorias em relação a Red e Green",
+              "content": "<ul><li>Mecânicas da Geração 3: natures, habilidades, gêneros e itens segurados.</li><li>Golpes e tipos atualizados: Bite é Sombrio e Magnemite é Elétrico/Aço.</li><li>Evoluções das gerações II e III, liberadas com a Pokédex Nacional.</li><li>A Liga fica mais forte depois da missão das Sevii Islands, e a Cerulean Cave passa a exigir o pós-jogo.</li><li>Day Care com criação em Four Island.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Improvements over Red and Green",
+                "content": "<ul><li>Generation 3 mechanics: Natures, Abilities, genders and held items.</li><li>Updated moves and types: Bite is Dark and Magnemite is Electric/Steel.</li><li>Generation II and III evolutions, unlocked with the National Pokédex.</li><li>The League gets stronger after the Sevii Islands quest, and Cerulean Cave now needs the post-game.</li><li>A Day Care with breeding on Four Island.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Tela de título",
+              "content": "<img src=\"img/overview/title-firered.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\"><img src=\"img/overview/title-leafgreen.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Title screen",
+                "content": "<img src=\"img/overview/title-firered.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\"><img src=\"img/overview/title-leafgreen.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Kanto e Sevii Islands",
+              "content": "<p>Kanto como em 1996, com as sete ilhas ao sul que abrem depois da Volcano Badge e crescem no pós-jogo.</p>",
+              "image": "img/frlg_map.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "ground",
+              "link": "#map",
+              "linkLabel": "Abrir Mapa Múndi",
+              "fields": [],
+              "en": {
+                "title": "Kanto and the Sevii Islands",
+                "content": "<p>Kanto as in 1996, with the seven southern islands that open after the Volcano Badge and grow in the post-game.</p>",
+                "linkLabel": "Open World Map"
+              }
+            },
+            {
+              "title": "Sevii Islands",
+              "content": "<img src=\"img/sevii_map.png\" alt=\"Sevii Islands\" loading=\"lazy\" style=\"max-width:min(100%, 360px); height:auto;\"><p>Veja o <a href=\"#guides/sevii\">Guia das Sevii Islands</a>.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Sevii Islands",
+                "content": "<img src=\"img/sevii_map.png\" alt=\"Sevii Islands\" loading=\"lazy\" style=\"max-width:min(100%, 360px); height:auto;\"><p>See the <a href=\"#guides/sevii\">Sevii Islands guide</a>.</p>",
+                "linkLabel": "Open"
+              }
+            }
+          ],
+          "en": {
+            "label": "Content"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "roteiro-principal",
+      "title": "Roteiro Principal · Ruby/Sapphire",
+      "menuLabel": "Roteiro Principal",
+      "description": "Da escolha do inicial ao pós-jogo, com checkpoints, HMs e alertas de conteúdo perdível.",
+      "visible": true,
+      "versions": [
+        "ruby-sapphire"
+      ],
+      "en": {
+        "title": "Main Walkthrough · Ruby/Sapphire",
+        "menuLabel": "Main Walkthrough",
+        "description": "From picking your starter to the post-game, with checkpoints, HMs and warnings about missable content."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "cards": [
+            {
+              "title": "Como usar este roteiro",
+              "content": "<p>Siga os cards na ordem. Cada etapa separa o que avança a história do que é opcional. Consulte o <strong>Mapa Múndi</strong> para encontros e porcentagens por área.</p><p class=\"story-note\">Ruby usa a Team Magma e Groudon; Sapphire usa a Team Aqua e Kyogre. Quando o caminho divergir, a diferença estará destacada.</p>",
+              "image": "img/Hoenn_Map.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "water",
+              "link": "#map",
+              "linkLabel": "Abrir Mapa Múndi",
+              "fields": [],
+              "en": {
+                "title": "How to use this walkthrough",
+                "content": "<p>Follow the cards in order. Each step separates what advances the story from what is optional. Check the <strong>Region Map</strong> for encounters and per-area rates.</p><p class=\"story-note\">Ruby has Team Magma and Groudon; Sapphire has Team Aqua and Kyogre. Wherever the path diverges, the difference is highlighted.</p>",
+                "linkLabel": "Open the Region Map"
+              }
+            },
+            {
+              "title": "1. Primeiro Pokémon e Petalburg",
+              "content": "<p class=\"story-route\">Littleroot → Routes 101–103 → Petalburg</p><ul class=\"story-checklist\"><li>Ajuste o relógio, salve o Professor Birch na Rota 101 e escolha Treecko, Torchic ou Mudkip.</li><li>Vença May/Brendan na Rota 103, receba a Pokédex e as Poké Balls no laboratório.</li><li>Em Petalburg, ajude Wally a capturar Ralts. Norman manda você seguir para Rustboro.</li></ul>",
+              "image": "",
+              "pokemonId": 252,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Pokédex liberada",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Pokédex unlocked"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Encontro com Norman",
+                  "en": {
+                    "label": "Required",
+                    "value": "Meeting with Norman"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Potion no PC e itens das Routes 102/104",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Potion in the PC and items on Routes 102/104"
+                  }
+                }
+              ],
+              "en": {
+                "title": "1. First Pokémon and Petalburg",
+                "content": "<p class=\"story-route\">Littleroot → Routes 101–103 → Petalburg</p><ul class=\"story-checklist\"><li>Set the clock, rescue Professor Birch on Route 101 and choose Treecko, Torchic or Mudkip.</li><li>Beat May/Brendan on Route 103, then collect the Pokédex and Poké Balls at the lab.</li><li>In Petalburg, help Wally catch a Ralts. Norman sends you on to Rustboro.</li></ul>",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                252,
+                255,
+                258
+              ],
+              "pokemonLayout": "row"
+            },
+            {
+              "title": "2. Rustboro e a Stone Badge",
+              "content": "<p class=\"story-route\">Rota 104 → Petalburg Woods → Rustboro → Rota 116</p><ul class=\"story-checklist\"><li>Proteja o funcionário da Devon em Petalburg Woods e recupere os Devon Goods.</li><li>Derrote Roxanne; depois persiga o recruta até Rusturf Tunnel e resgate Peeko.</li><li>Volte à Devon Corp.: receba PokéNav, Letter para Steven e Devon Goods para Stern.</li></ul>",
+              "image": "",
+              "pokemonId": 299,
+              "item": "",
+              "layout": "vertical",
+              "accent": "rock",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Stone Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Stone Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer Roxanne",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Roxanne"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "HM01 Cut na casa do Cutter; Exp. Share após entregar a Letter",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "HM01 Cut at the Cutter’s house; Exp. Share after delivering the Letter"
+                  }
+                }
+              ],
+              "en": {
+                "title": "2. Rustboro and the Stone Badge",
+                "content": "<p class=\"story-route\">Route 104 → Petalburg Woods → Rustboro → Route 116</p><ul class=\"story-checklist\"><li>Protect the Devon employee in Petalburg Woods and recover the Devon Goods.</li><li>Beat Roxanne, then chase the grunt into Rusturf Tunnel and rescue Peeko.</li><li>Return to Devon Corp. for the PokéNav, the Letter for Steven and the Devon Goods for Stern.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "3. Dewford, Brawly e Steven",
+              "content": "<p class=\"story-route\">Mr. Briney → Dewford → Granite Cave → Slateport</p><ul class=\"story-checklist\"><li>Viaje com Mr. Briney. Pegue a Old Rod e desafie Brawly.</li><li>Receba HM05 Flash e entregue a Letter a Steven na Granite Cave.</li><li>Navegue a Slateport, fale com Dock e entregue os Devon Goods a Stern no Oceanic Museum.</li></ul>",
+              "image": "",
+              "pokemonId": 296,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fighting",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Knuckle Badge e entrega concluída",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Knuckle Badge and delivery completed"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Letter para Steven e Devon Goods",
+                  "en": {
+                    "label": "Required",
+                    "value": "Letter for Steven and Devon Goods"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Brawly pode ser adiado, mas as quatro primeiras Badges são exigidas por Norman",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Brawly can wait, but Norman requires the first four Badges"
+                  }
+                }
+              ],
+              "en": {
+                "title": "3. Dewford, Brawly and Steven",
+                "content": "<p class=\"story-route\">Mr. Briney → Dewford → Granite Cave → Slateport</p><ul class=\"story-checklist\"><li>Sail with Mr. Briney. Pick up the Old Rod and challenge Brawly.</li><li>Get HM05 Flash and deliver the Letter to Steven in Granite Cave.</li><li>Sail to Slateport, talk to Dock and deliver the Devon Goods to Stern at the Oceanic Museum.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "4. Mauville e a Dynamo Badge",
+              "content": "<p class=\"story-route\">Rota 110 → Mauville → Verdanturf</p><ul class=\"story-checklist\"><li>Vença May/Brendan na Rota 110 e receba o Itemfinder.</li><li>Derrote Wally diante do Gym e vença Wattson.</li><li>Pegue HM06 Rock Smash; em Rusturf Tunnel, quebre as pedras e receba HM04 Strength.</li></ul>",
+              "image": "",
+              "pokemonId": 82,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Dynamo Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Dynamo Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer Wattson",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Wattson"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Bike em Rydel’s Cycles e Game Corner",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Bike at Rydel’s Cycles and the Game Corner"
+                  }
+                }
+              ],
+              "en": {
+                "title": "4. Mauville and the Dynamo Badge",
+                "content": "<p class=\"story-route\">Route 110 → Mauville → Verdanturf</p><ul class=\"story-checklist\"><li>Beat May/Brendan on Route 110 and receive the Itemfinder.</li><li>Beat Wally in front of the Gym, then beat Wattson.</li><li>Pick up HM06 Rock Smash; in Rusturf Tunnel, break the rocks to receive HM04 Strength.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "5. Meteor Falls e Lavaridge",
+              "content": "<p class=\"story-route\">Routes 111–114 → Meteor Falls → Mt. Chimney → Jagged Pass</p><ul class=\"story-checklist\"><li>Use Fiery Path para chegar a Fallarbor e encontre a equipe vilã em Meteor Falls.</li><li>Retorne pelo teleférico, derrote a equipe no Mt. Chimney e recupere o Meteorite.</li><li>Desça Jagged Pass e vença Flannery em Lavaridge; receba Go-Goggles.</li></ul>",
+              "image": "",
+              "pokemonId": 324,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Heat Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Heat Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a equipe no Mt. Chimney e Flannery",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat the team on Mt. Chimney and Flannery"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Escolha um fóssil no deserto; o outro não pode ser obtido nesse save de R/S",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Pick one fossil in the desert; the other cannot be obtained on this R/S save"
+                  }
+                }
+              ],
+              "en": {
+                "title": "5. Meteor Falls and Lavaridge",
+                "content": "<p class=\"story-route\">Routes 111–114 → Meteor Falls → Mt. Chimney → Jagged Pass</p><ul class=\"story-checklist\"><li>Take Fiery Path to Fallarbor and run into the villainous team at Meteor Falls.</li><li>Ride the cable car back, beat the team on Mt. Chimney and recover the Meteorite.</li><li>Head down Jagged Pass and beat Flannery in Lavaridge; you get the Go-Goggles.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "6. Norman e Surf",
+              "content": "<p class=\"story-route\">Petalburg → Routes aquáticas opcionais → Rota 118</p><ul class=\"story-checklist\"><li>Volte a Petalburg e atravesse pelo menos três salas do Gym.</li><li>Vença Norman. Na casa de Wally, receba HM03 Surf.</li><li>Cruze o rio da Rota 118 e encontre Steven para abrir o caminho ao leste.</li></ul>",
+              "image": "",
+              "pokemonId": 289,
+              "item": "",
+              "layout": "vertical",
+              "accent": "normal",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Balance Badge e HM03",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Balance Badge and HM03"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer Norman",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Norman"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "New Mauville, Abandoned Ship e áreas antigas acessíveis por Surf",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "New Mauville, the Abandoned Ship and old areas reachable with Surf"
+                  }
+                }
+              ],
+              "en": {
+                "title": "6. Norman and Surf",
+                "content": "<p class=\"story-route\">Petalburg → optional water routes → Route 118</p><ul class=\"story-checklist\"><li>Go back to Petalburg and clear at least three rooms of the Gym.</li><li>Beat Norman. At Wally’s house, you receive HM03 Surf.</li><li>Cross the river on Route 118 and meet Steven to open the way east.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "7. Weather Institute e Fortree",
+              "content": "<p class=\"story-route\">Routes 118–120 → Weather Institute → Fortree</p><ul class=\"story-checklist\"><li>Suba a Rota 119 e liberte o Weather Institute; receba Castform.</li><li>Vença May/Brendan e receba HM02 Fly.</li><li>Na Rota 120, receba o Devon Scope de Steven; revele Kecleon e desafie Winona.</li></ul>",
+              "image": "",
+              "pokemonId": 334,
+              "item": "",
+              "layout": "vertical",
+              "accent": "flying",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Feather Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Feather Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Devon Scope e vitória sobre Winona",
+                  "en": {
+                    "label": "Required",
+                    "value": "Devon Scope and a win over Winona"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Safari Zone e Scorched Slab",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Safari Zone and Scorched Slab"
+                  }
+                }
+              ],
+              "en": {
+                "title": "7. Weather Institute and Fortree",
+                "content": "<p class=\"story-route\">Routes 118–120 → Weather Institute → Fortree</p><ul class=\"story-checklist\"><li>Head up Route 119 and free the Weather Institute; you receive Castform.</li><li>Beat May/Brendan and receive HM02 Fly.</li><li>On Route 120, get the Devon Scope from Steven; reveal Kecleon and challenge Winona.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "8. Mt. Pyre e o esconderijo",
+              "content": "<p class=\"story-route\">Routes 121–123 → Mt. Pyre → Slateport → Lilycove</p><ul class=\"story-checklist\"><li>Suba o exterior de Mt. Pyre e testemunhe o roubo do Red Orb ou Blue Orb.</li><li>Vá ao porto de Slateport: a equipe rouba o Submarine Explorer 1.</li><li>Invada o esconderijo de Lilycove e force a retirada da equipe.</li></ul><p class=\"story-alert\"><strong>Atenção:</strong> Pegue a <strong>Master Ball</strong> antes de vencer Tate &amp; Liza. Depois da Mind Badge, o esconderijo é selado.</p>",
+              "image": "",
+              "pokemonId": 323,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Wailmer deixam a costa",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "The Wailmer leave the coast"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Concluir Mt. Pyre, Slateport e o hideout",
+                  "en": {
+                    "label": "Required",
+                    "value": "Clear Mt. Pyre, Slateport and the hideout"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Nugget e Master Ball no esconderijo",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Nugget and Master Ball in the hideout"
+                  }
+                }
+              ],
+              "en": {
+                "title": "8. Mt. Pyre and the hideout",
+                "content": "<p class=\"story-route\">Routes 121–123 → Mt. Pyre → Slateport → Lilycove</p><ul class=\"story-checklist\"><li>Climb the outside of Mt. Pyre and witness the theft of the Red Orb or Blue Orb.</li><li>Head to the Slateport harbour: the team steals the Submarine Explorer 1.</li><li>Break into the Lilycove hideout and drive the team out.</li></ul><p class=\"story-alert\"><strong>Careful:</strong> Grab the <strong>Master Ball</strong> before beating Tate &amp; Liza. Once you have the Mind Badge, the hideout is sealed.</p>",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                323,
+                319
+              ],
+              "pokemonLayout": "row"
+            },
+            {
+              "title": "9. Mossdeep e Dive",
+              "content": "<p class=\"story-route\">Rota 124 → Mossdeep → Routes 127–128</p><ul class=\"story-checklist\"><li>Derrote Tate & Liza em uma Double Battle.</li><li>Entre na casa de Steven em Mossdeep e receba HM08 Dive.</li><li>Use Dive no ponto de água escura da Rota 128 e entre na Seafloor Cavern.</li></ul>",
+              "image": "",
+              "pokemonId": 337,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Mind Badge e HM08",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Mind Badge and HM08"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer Tate & Liza",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Tate & Liza"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Super Rod em Mossdeep e Shoal Cave",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Super Rod in Mossdeep and Shoal Cave"
+                  }
+                }
+              ],
+              "en": {
+                "title": "9. Mossdeep and Dive",
+                "content": "<p class=\"story-route\">Route 124 → Mossdeep → Routes 127–128</p><ul class=\"story-checklist\"><li>Beat Tate & Liza in a Double Battle.</li><li>Enter Steven’s house in Mossdeep and receive HM08 Dive.</li><li>Use Dive on the dark patch of water on Route 128 and enter the Seafloor Cavern.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "10. O Pokémon ancestral",
+              "content": "<p class=\"story-route\">Seafloor Cavern → Sootopolis → Cave of Origin</p><ul class=\"story-checklist\"><li>Leve Rock Smash e Strength pela Seafloor Cavern; derrote Maxie em Ruby ou Archie em Sapphire.</li><li>A equipe desperta Groudon ou Kyogre. Entre em Sootopolis por Dive na Rota 126.</li><li>Atravesse Cave of Origin e capture ou derrote o lendário para normalizar o clima.</li></ul>",
+              "image": "",
+              "pokemonId": 383,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Crise climática encerrada",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Weather crisis over"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Seafloor Cavern e Cave of Origin",
+                  "en": {
+                    "label": "Required",
+                    "value": "Seafloor Cavern and Cave of Origin"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Salve antes do encontro lendário",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Save before the legendary encounter"
+                  }
+                }
+              ],
+              "en": {
+                "title": "10. The ancient Pokémon",
+                "content": "<p class=\"story-route\">Seafloor Cavern → Sootopolis → Cave of Origin</p><ul class=\"story-checklist\"><li>Take Rock Smash and Strength through the Seafloor Cavern; beat Maxie in Ruby or Archie in Sapphire.</li><li>The team wakes Groudon or Kyogre. Enter Sootopolis by diving on Route 126.</li><li>Cross the Cave of Origin and catch or beat the legendary to settle the weather.</li></ul>",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                383,
+                382
+              ],
+              "pokemonLayout": "row"
+            },
+            {
+              "title": "11. Rain Badge e caminho da Liga",
+              "content": "<p class=\"story-route\">Sootopolis → Routes 129–134 → Ever Grande</p><ul class=\"story-checklist\"><li>Vença Wallace e receba HM07 Waterfall.</li><li>Explore Pacifidlog e as correntes a oeste; a Sealed Chamber inicia o guia dos Regis.</li><li>Use Waterfall em Ever Grande e prepare Surf, Strength, Rock Smash e Flash para Victory Road.</li></ul>",
+              "image": "",
+              "pokemonId": 350,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Rain Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Rain Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer Wallace",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Wallace"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Desbloquear os Regis e explorar Abandoned Ship",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Unlock the Regis and explore the Abandoned Ship"
+                  }
+                }
+              ],
+              "en": {
+                "title": "11. Rain Badge and the road to the League",
+                "content": "<p class=\"story-route\">Sootopolis → Routes 129–134 → Ever Grande</p><ul class=\"story-checklist\"><li>Beat Wallace and receive HM07 Waterfall.</li><li>Explore Pacifidlog and the currents to the west; the Sealed Chamber starts the Regi guide.</li><li>Use Waterfall at Ever Grande and line up Surf, Strength, Rock Smash and Flash for Victory Road.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "12. Victory Road e Campeão",
+              "content": "<p class=\"story-route\">Ever Grande → Victory Road → Pokémon League</p><ul class=\"story-checklist\"><li>Atravesse Victory Road e derrote Wally perto da saída.</li><li>Prepare-se para Sidney, Phoebe, Glacia e Drake sem retorno ao PC entre lutas.</li><li>Derrote Steven e registre sua equipe no Hall of Fame.</li></ul>",
+              "image": "",
+              "pokemonId": 376,
+              "item": "",
+              "layout": "vertical",
+              "accent": "steel",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Hall of Fame",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Hall of Fame"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Elite Four e Steven",
+                  "en": {
+                    "label": "Required",
+                    "value": "Elite Four and Steven"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Leve Full Restores, Revives e Ethers antes de entrar",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Bring Full Restores, Revives and Ethers before going in"
+                  }
+                }
+              ],
+              "en": {
+                "title": "12. Victory Road and Champion",
+                "content": "<p class=\"story-route\">Ever Grande → Victory Road → Pokémon League</p><ul class=\"story-checklist\"><li>Cross Victory Road and beat Wally near the exit.</li><li>Get ready for Sidney, Phoebe, Glacia and Drake with no trip back to the PC in between.</li><li>Beat Steven and register your team in the Hall of Fame.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "13. Pós-jogo de Ruby/Sapphire",
+              "content": "<p class=\"story-route\">Littleroot → Hoenn</p><ul class=\"story-checklist\"><li>Receba o S.S. Ticket e veja a notícia: Latios passa a vagar em Ruby; Latias, em Sapphire.</li><li>Volte ao Sky Pillar com a Mach Bike para encontrar Rayquaza.</li><li>Conclua Battle Tower, Regis, Pokédex, Contests e Secret Bases.</li></ul>",
+              "image": "",
+              "pokemonId": 381,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dragon",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Pós-jogo aberto",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Post-game opened up"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Entrar no Hall of Fame",
+                  "en": {
+                    "label": "Required",
+                    "value": "Enter the Hall of Fame"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Southern Island exige Eon Ticket original",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Southern Island requires the original Eon Ticket"
+                  }
+                }
+              ],
+              "en": {
+                "title": "13. Ruby/Sapphire post-game",
+                "content": "<p class=\"story-route\">Littleroot → Hoenn</p><ul class=\"story-checklist\"><li>Receive the S.S. Ticket and watch the news: Latios starts roaming in Ruby, Latias in Sapphire.</li><li>Go back to the Sky Pillar with the Mach Bike to meet Rayquaza.</li><li>Finish the Battle Tower, the Regis, the Pokédex, Contests and Secret Bases.</li></ul>",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                381,
+                380,
+                384
+              ],
+              "pokemonLayout": "row"
+            }
+          ],
+          "en": {
+            "label": "Content"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "roteiro-principal",
+      "title": "Roteiro Principal · Emerald",
+      "menuLabel": "Roteiro Principal",
+      "description": "A campanha completa de Emerald, incluindo as duas equipes, Rayquaza e o pós-jogo.",
+      "visible": true,
+      "versions": [
+        "emerald"
+      ],
+      "en": {
+        "title": "Main Walkthrough · Emerald",
+        "menuLabel": "Main Walkthrough",
+        "description": "The full Emerald campaign, including both villainous teams, Rayquaza and the post-game."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "cards": [
+            {
+              "title": "Como usar este roteiro",
+              "content": "<p>Emerald reúne as duas equipes vilãs e muda vários eventos de R/S. Os cards destacam essas diferenças e separam desvios opcionais da progressão.</p><p class=\"story-note\">Use o Mapa Múndi para conferir Pokémon, níveis e taxas de encontro em cada área.</p>",
+              "image": "img/Hoenn_Map.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "grass",
+              "link": "#map",
+              "linkLabel": "Abrir Mapa Múndi",
+              "fields": [],
+              "en": {
+                "title": "How to use this walkthrough",
+                "content": "<p>Emerald brings both villainous teams together and changes several R/S events. The cards highlight those differences and keep optional detours separate from the main progression.</p><p class=\"story-note\">Use the Region Map to check Pokémon, levels and encounter rates in each area.</p>",
+                "linkLabel": "Open the Region Map"
+              }
+            },
+            {
+              "title": "1. Início da jornada",
+              "content": "<p class=\"story-route\">Littleroot → Routes 101–103 → Petalburg</p><ul class=\"story-checklist\"><li>Salve Birch, escolha o inicial, enfrente May/Brendan e receba Pokédex e Poké Balls.</li><li>Ajude Wally a capturar Ralts em Petalburg; Norman orienta você a procurar Roxanne.</li></ul>",
+              "image": "",
+              "pokemonId": 252,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Pokédex liberada",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Pokédex unlocked"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Encontro com Norman",
+                  "en": {
+                    "label": "Required",
+                    "value": "Meeting with Norman"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Segundo encontro opcional com o rival em Rustboro/Rota 104",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Optional second rival battle in Rustboro/Route 104"
+                  }
+                }
+              ],
+              "en": {
+                "title": "1. The journey begins",
+                "content": "<p class=\"story-route\">Littleroot → Routes 101–103 → Petalburg</p><ul class=\"story-checklist\"><li>Rescue Birch, pick your starter, face May/Brendan and collect the Pokédex and Poké Balls.</li><li>Help Wally catch a Ralts in Petalburg; Norman points you towards Roxanne.</li></ul>",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                252,
+                255,
+                258
+              ],
+              "pokemonLayout": "row"
+            },
+            {
+              "title": "2. Roxanne e a Devon Corp.",
+              "content": "<p class=\"story-route\">Rota 104 → Petalburg Woods → Rustboro → Rusturf Tunnel</p><ul class=\"story-checklist\"><li>Defenda os Devon Goods em Petalburg Woods e vença Roxanne.</li><li>Resgate Peeko e recupere os Goods em Rusturf Tunnel.</li><li>Receba PokéNav, Letter e a entrega destinada ao Captain Stern.</li></ul>",
+              "image": "",
+              "pokemonId": 299,
+              "item": "",
+              "layout": "vertical",
+              "accent": "rock",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Stone Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Stone Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer Roxanne",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Roxanne"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "HM01 Cut e Exp. Share após a Letter",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "HM01 Cut and the Exp. Share after the Letter"
+                  }
+                }
+              ],
+              "en": {
+                "title": "2. Roxanne and Devon Corp.",
+                "content": "<p class=\"story-route\">Route 104 → Petalburg Woods → Rustboro → Rusturf Tunnel</p><ul class=\"story-checklist\"><li>Defend the Devon Goods in Petalburg Woods and beat Roxanne.</li><li>Rescue Peeko and recover the Goods in Rusturf Tunnel.</li><li>Receive the PokéNav, the Letter and the delivery meant for Captain Stern.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "3. Dewford e Slateport",
+              "content": "<p class=\"story-route\">Dewford → Granite Cave → Rota 109 → Slateport</p><ul class=\"story-checklist\"><li>Pegue Old Rod, vença Brawly e receba Flash.</li><li>Entregue a Letter a Steven na primeira área acessível da Granite Cave.</li><li>Em Slateport, entregue os Devon Goods a Stern no Oceanic Museum e enfrente a Team Aqua.</li></ul>",
+              "image": "",
+              "pokemonId": 296,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fighting",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Knuckle Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Knuckle Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Letter e Devon Goods entregues",
+                  "en": {
+                    "label": "Required",
+                    "value": "Letter and Devon Goods delivered"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Slateport Market e Contest Hall",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Slateport Market and Contest Hall"
+                  }
+                }
+              ],
+              "en": {
+                "title": "3. Dewford and Slateport",
+                "content": "<p class=\"story-route\">Dewford → Granite Cave → Route 109 → Slateport</p><ul class=\"story-checklist\"><li>Pick up the Old Rod, beat Brawly and receive Flash.</li><li>Deliver the Letter to Steven in the first accessible area of Granite Cave.</li><li>In Slateport, deliver the Devon Goods to Stern at the Oceanic Museum and face Team Aqua.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "4. Mauville e Verdanturf",
+              "content": "<p class=\"story-route\">Rota 110 → Mauville → Rota 117 → Rusturf Tunnel</p><ul class=\"story-checklist\"><li>Vença May/Brendan na Rota 110 e receba Itemfinder.</li><li>Derrote Wally e Wattson; pegue Rock Smash.</li><li>Reabra Rusturf Tunnel para receber Strength.</li></ul>",
+              "image": "",
+              "pokemonId": 310,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Dynamo Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Dynamo Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer Wattson",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Wattson"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Escolher Mach Bike ou Acro Bike",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Choose the Mach Bike or the Acro Bike"
+                  }
+                }
+              ],
+              "en": {
+                "title": "4. Mauville and Verdanturf",
+                "content": "<p class=\"story-route\">Route 110 → Mauville → Route 117 → Rusturf Tunnel</p><ul class=\"story-checklist\"><li>Beat May/Brendan on Route 110 and receive the Itemfinder.</li><li>Beat Wally and Wattson, then pick up Rock Smash.</li><li>Reopen Rusturf Tunnel to receive Strength.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "5. Mt. Chimney e Flannery",
+              "content": "<p class=\"story-route\">Routes 111–114 → Meteor Falls → Mt. Chimney → Lavaridge</p><ul class=\"story-checklist\"><li>Encontre Team Magma e Team Aqua em Meteor Falls.</li><li>Derrote Maxie no Mt. Chimney, atravesse Jagged Pass e vença Flannery.</li><li>Receba Go-Goggles e escolha um fóssil no deserto.</li></ul>",
+              "image": "",
+              "pokemonId": 324,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Heat Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Heat Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Maxie e Flannery",
+                  "en": {
+                    "label": "Required",
+                    "value": "Maxie and Flannery"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O segundo fóssil reaparece no Desert Underpass durante o pós-jogo",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The second fossil turns up again in the Desert Underpass during the post-game"
+                  }
+                }
+              ],
+              "en": {
+                "title": "5. Mt. Chimney and Flannery",
+                "content": "<p class=\"story-route\">Routes 111–114 → Meteor Falls → Mt. Chimney → Lavaridge</p><ul class=\"story-checklist\"><li>Run into Team Magma and Team Aqua at Meteor Falls.</li><li>Beat Maxie on Mt. Chimney, cross Jagged Pass and beat Flannery.</li><li>Receive the Go-Goggles and pick one fossil in the desert.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "6. Norman, Surf e desvios",
+              "content": "<p class=\"story-route\">Petalburg → Abandoned Ship / New Mauville → Rota 118</p><ul class=\"story-checklist\"><li>Vença Norman e receba Surf do pai de Wally.</li><li>Siga a leste de Mauville pela Rota 118 para continuar.</li><li>Abandoned Ship e New Mauville são opcionais, mas rendem Ice Beam, Thunderbolt e itens raros.</li></ul>",
+              "image": "",
+              "pokemonId": 289,
+              "item": "",
+              "layout": "vertical",
+              "accent": "normal",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Balance Badge e HM03",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Balance Badge and HM03"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer Norman",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Norman"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Amulet Coin com sua mãe e Good Rod na Rota 118",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Amulet Coin from your mother and the Good Rod on Route 118"
+                  }
+                }
+              ],
+              "en": {
+                "title": "6. Norman, Surf and detours",
+                "content": "<p class=\"story-route\">Petalburg → Abandoned Ship / New Mauville → Route 118</p><ul class=\"story-checklist\"><li>Beat Norman and receive Surf from Wally’s father.</li><li>Head east of Mauville along Route 118 to carry on.</li><li>The Abandoned Ship and New Mauville are optional, but they hold Ice Beam, Thunderbolt and rare items.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "7. Weather Institute e Winona",
+              "content": "<p class=\"story-route\">Routes 119–120 → Fortree</p><ul class=\"story-checklist\"><li>Expulse a Team Aqua do Weather Institute e receba Castform.</li><li>Vença May/Brendan e receba Fly.</li><li>Use o Devon Scope de Steven para abrir o Fortree Gym e vença Winona.</li></ul>",
+              "image": "",
+              "pokemonId": 334,
+              "item": "",
+              "layout": "vertical",
+              "accent": "flying",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Feather Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Feather Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Weather Institute e Devon Scope",
+                  "en": {
+                    "label": "Required",
+                    "value": "Weather Institute and Devon Scope"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Safari Zone na Rota 121",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Safari Zone on Route 121"
+                  }
+                }
+              ],
+              "en": {
+                "title": "7. Weather Institute and Winona",
+                "content": "<p class=\"story-route\">Routes 119–120 → Fortree</p><ul class=\"story-checklist\"><li>Drive Team Aqua out of the Weather Institute and receive Castform.</li><li>Beat May/Brendan and receive Fly.</li><li>Use Steven’s Devon Scope to open the Fortree Gym and beat Winona.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "8. Os dois Orbs e Groudon",
+              "content": "<p class=\"story-route\">Mt. Pyre → Jagged Pass → Magma Hideout</p><ul class=\"story-checklist\"><li>No topo de Mt. Pyre, receba o Magma Emblem após as equipes levarem os Orbs.</li><li>O emblema abre o Magma Hideout em Jagged Pass.</li><li>Atravesse o esconderijo e derrote Maxie; Groudon desperta e desaparece.</li></ul>",
+              "image": "",
+              "pokemonId": 383,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Magma Hideout concluído",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Magma Hideout cleared"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Magma Emblem e batalha com Maxie",
+                  "en": {
+                    "label": "Required",
+                    "value": "Magma Emblem and the battle with Maxie"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Master Ball fica no Aqua Hideout, na etapa seguinte",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Master Ball is in the Aqua Hideout, in the next step"
+                  }
+                }
+              ],
+              "en": {
+                "title": "8. The two Orbs and Groudon",
+                "content": "<p class=\"story-route\">Mt. Pyre → Jagged Pass → Magma Hideout</p><ul class=\"story-checklist\"><li>At the top of Mt. Pyre, receive the Magma Emblem after the teams take the Orbs.</li><li>The emblem opens the Magma Hideout on Jagged Pass.</li><li>Cross the hideout and beat Maxie; Groudon wakes up and disappears.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "9. Submarino e Aqua Hideout",
+              "content": "<p class=\"story-route\">Slateport → Lilycove → Aqua Hideout</p><ul class=\"story-checklist\"><li>Assista à Team Aqua roubar o submarino no porto de Slateport.</li><li>Invada o Aqua Hideout a leste de Lilycove e enfrente Matt.</li><li>Quando o submarino escapar, os Wailmer deixam de bloquear a Rota 124.</li></ul><p class=\"story-alert\"><strong>Atenção:</strong> Em Emerald, o Aqua Hideout continua acessível: você pode voltar pela Master Ball depois.</p>",
+              "image": "",
+              "pokemonId": 319,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Acesso ao mar aberto",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Access to the open sea"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Concluir Aqua Hideout",
+                  "en": {
+                    "label": "Required",
+                    "value": "Clear the Aqua Hideout"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Nugget e Master Ball",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Nugget and Master Ball"
+                  }
+                }
+              ],
+              "en": {
+                "title": "9. Submarine and Aqua Hideout",
+                "content": "<p class=\"story-route\">Slateport → Lilycove → Aqua Hideout</p><ul class=\"story-checklist\"><li>Watch Team Aqua steal the submarine at the Slateport harbour.</li><li>Break into the Aqua Hideout east of Lilycove and face Matt.</li><li>Once the submarine escapes, the Wailmer stop blocking Route 124.</li></ul><p class=\"story-alert\"><strong>Careful:</strong> In Emerald the Aqua Hideout stays open: you can come back for the Master Ball later.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "10. Mossdeep e o Space Center",
+              "content": "<p class=\"story-route\">Rota 124 → Mossdeep → Space Center</p><ul class=\"story-checklist\"><li>Vença Tate & Liza.</li><li>Ajude Steven em uma Double Battle contra Maxie e Tabitha no Space Center.</li><li>Visite a casa de Steven para receber Dive.</li></ul>",
+              "image": "",
+              "pokemonId": 338,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Mind Badge e HM08",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Mind Badge and HM08"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Gym e Space Center",
+                  "en": {
+                    "label": "Required",
+                    "value": "Gym and Space Center"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Super Rod e Shoal Cave",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Super Rod and Shoal Cave"
+                  }
+                }
+              ],
+              "en": {
+                "title": "10. Mossdeep and the Space Center",
+                "content": "<p class=\"story-route\">Route 124 → Mossdeep → Space Center</p><ul class=\"story-checklist\"><li>Beat Tate & Liza.</li><li>Help Steven in a Double Battle against Maxie and Tabitha at the Space Center.</li><li>Visit Steven’s house to receive Dive.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "11. Kyogre, Groudon e Rayquaza",
+              "content": "<p class=\"story-route\">Seafloor Cavern → Sootopolis → Sky Pillar</p><ul class=\"story-checklist\"><li>Use Dive na Rota 128, atravesse Seafloor Cavern e derrote Archie; Kyogre desperta.</li><li>Entre em Sootopolis por Dive e fale com Steven e Wallace na Cave of Origin.</li><li>Wallace abre o Sky Pillar. Desperte Rayquaza e volte a Sootopolis para encerrar a crise.</li></ul>",
+              "image": "",
+              "pokemonId": 382,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dragon",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Clima de Sootopolis normalizado",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Sootopolis weather back to normal"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Seafloor Cavern e Sky Pillar",
+                  "en": {
+                    "label": "Required",
+                    "value": "Seafloor Cavern and Sky Pillar"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Rayquaza pode ser capturado no Sky Pillar antes da Liga",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Rayquaza can be caught at the Sky Pillar before the League"
+                  }
+                }
+              ],
+              "en": {
+                "title": "11. Kyogre, Groudon and Rayquaza",
+                "content": "<p class=\"story-route\">Seafloor Cavern → Sootopolis → Sky Pillar</p><ul class=\"story-checklist\"><li>Dive on Route 128, cross the Seafloor Cavern and beat Archie; Kyogre wakes up.</li><li>Enter Sootopolis by diving and talk to Steven and Wallace in the Cave of Origin.</li><li>Wallace opens the Sky Pillar. Wake Rayquaza and return to Sootopolis to end the crisis.</li></ul>",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                382,
+                383,
+                384
+              ],
+              "pokemonLayout": "row"
+            },
+            {
+              "title": "12. Juan e Victory Road",
+              "content": "<p class=\"story-route\">Sootopolis → Ever Grande → Victory Road</p><ul class=\"story-checklist\"><li>Vença Juan e receba HM07 Waterfall.</li><li>Suba a cachoeira de Ever Grande e atravesse Victory Road.</li><li>Derrote Wally perto da saída e abasteça-se no Pokémon Center.</li></ul>",
+              "image": "",
+              "pokemonId": 230,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Rain Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Rain Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer Juan",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Juan"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Regis, Pacifidlog e correntes das Routes 132–134",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Regis, Pacifidlog and the currents on Routes 132–134"
+                  }
+                }
+              ],
+              "en": {
+                "title": "12. Juan and Victory Road",
+                "content": "<p class=\"story-route\">Sootopolis → Ever Grande → Victory Road</p><ul class=\"story-checklist\"><li>Beat Juan and receive HM07 Waterfall.</li><li>Climb the Ever Grande waterfall and cross Victory Road.</li><li>Beat Wally near the exit and stock up at the Pokémon Center.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "13. Elite Four e Wallace",
+              "content": "<p class=\"story-route\">Pokémon League</p><ul class=\"story-checklist\"><li>Vença Sidney, Phoebe, Glacia e Drake em sequência.</li><li>Derrote Wallace e entre no Hall of Fame.</li></ul>",
+              "image": "",
+              "pokemonId": 350,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Hall of Fame",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Hall of Fame"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Elite Four e Wallace",
+                  "en": {
+                    "label": "Required",
+                    "value": "Elite Four and Wallace"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Salve antes de iniciar e leve cura de status e PP",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Save before starting and bring status and PP restoratives"
+                  }
+                }
+              ],
+              "en": {
+                "title": "13. Elite Four and Wallace",
+                "content": "<p class=\"story-route\">Pokémon League</p><ul class=\"story-checklist\"><li>Beat Sidney, Phoebe, Glacia and Drake back to back.</li><li>Beat Wallace and enter the Hall of Fame.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "14. Pós-jogo de Emerald",
+              "content": "<p class=\"story-route\">Littleroot → S.S. Tidal → Battle Frontier</p><ul class=\"story-checklist\"><li>Escolha “Red” para Latias ou “Blue” para Latios na TV; o escolhido passa a vagar por Hoenn.</li><li>Receba National Dex e S.S. Ticket; use o ferry para chegar à Battle Frontier.</li><li>Consulte o Weather Institute para localizar Terra Cave e Marine Cave. Visite Steven em Meteor Falls.</li></ul>",
+              "image": "",
+              "pokemonId": 380,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Pós-jogo aberto",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Post-game opened up"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Hall of Fame",
+                  "en": {
+                    "label": "Required",
+                    "value": "Hall of Fame"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Safari ampliado, Trainer Hill, Desert Underpass e rematches",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Expanded Safari, Trainer Hill, Desert Underpass and rematches"
+                  }
+                }
+              ],
+              "en": {
+                "title": "14. Emerald post-game",
+                "content": "<p class=\"story-route\">Littleroot → S.S. Tidal → Battle Frontier</p><ul class=\"story-checklist\"><li>Answer “Red” for Latias or “Blue” for Latios on TV; the one you pick starts roaming Hoenn.</li><li>Receive the National Dex and the S.S. Ticket; take the ferry to the Battle Frontier.</li><li>Ask the Weather Institute to locate Terra Cave and Marine Cave. Visit Steven in Meteor Falls.</li></ul>",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                380,
+                381
+              ],
+              "pokemonLayout": "row"
+            }
+          ],
+          "en": {
+            "label": "Content"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "roteiro-principal",
+      "title": "Roteiro Principal · FireRed/LeafGreen",
+      "menuLabel": "Roteiro Principal",
+      "description": "A jornada completa por Kanto e Sevii Islands até a revanche da Liga.",
+      "visible": true,
+      "versions": [
+        "firered-leafgreen"
+      ],
+      "en": {
+        "title": "Main Walkthrough · FireRed/LeafGreen",
+        "menuLabel": "Main Walkthrough",
+        "description": "The full journey through Kanto and the Sevii Islands up to the League rematch."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "cards": [
+            {
+              "title": "Como usar este roteiro",
+              "content": "<p>O roteiro segue a campanha de FireRed/LeafGreen e inclui as Sevii Islands. A ordem de Erika, Koga e Sabrina possui alguma liberdade, mas esta sequência reduz retornos.</p><p class=\"story-note\">Use o Mapa Múndi para consultar encontros de FireRed e LeafGreen separadamente.</p>",
+              "image": "img/Kanto_Map.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "fire",
+              "link": "#map",
+              "linkLabel": "Abrir Mapa Múndi",
+              "fields": [],
+              "en": {
+                "title": "How to use this walkthrough",
+                "content": "<p>This walkthrough follows the FireRed/LeafGreen campaign and includes the Sevii Islands. The order of Erika, Koga and Sabrina is somewhat flexible, but this sequence keeps backtracking down.</p><p class=\"story-note\">Use the Region Map to look up FireRed and LeafGreen encounters separately.</p>",
+                "linkLabel": "Open the Region Map"
+              }
+            },
+            {
+              "title": "1. Pallet, Viridian e Brock",
+              "content": "<p class=\"story-route\">Pallet → Rota 1 → Viridian → Viridian Forest → Pewter</p><ul class=\"story-checklist\"><li>Escolha o inicial, enfrente Blue e leve Oak’s Parcel do Viridian Mart ao laboratório.</li><li>Receba Pokédex e Poké Balls, atravesse Viridian Forest e vença Brock.</li></ul>",
+              "image": "",
+              "pokemonId": 1,
+              "item": "",
+              "layout": "vertical",
+              "accent": "rock",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Boulder Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Boulder Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Oak’s Parcel e Brock",
+                  "en": {
+                    "label": "Required",
+                    "value": "Oak’s Parcel and Brock"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Town Map com Daisy e Potion no PC",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Town Map from Daisy and a Potion in the PC"
+                  }
+                }
+              ],
+              "en": {
+                "title": "1. Pallet, Viridian and Brock",
+                "content": "<p class=\"story-route\">Pallet → Route 1 → Viridian → Viridian Forest → Pewter</p><ul class=\"story-checklist\"><li>Pick your starter, face Blue and take Oak’s Parcel from the Viridian Mart to the lab.</li><li>Collect the Pokédex and Poké Balls, cross Viridian Forest and beat Brock.</li></ul>",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                1,
+                4,
+                7
+              ],
+              "pokemonLayout": "row"
+            },
+            {
+              "title": "2. Mt. Moon e Cerulean",
+              "content": "<p class=\"story-route\">Rota 3 → Mt. Moon → Cerulean → Routes 24–25</p><ul class=\"story-checklist\"><li>Atravesse Mt. Moon, derrote a Team Rocket e escolha Helix Fossil ou Dome Fossil.</li><li>Vença Blue em Cerulean, cruze Nugget Bridge e ajude Bill para receber o S.S. Ticket.</li><li>Derrote Misty e recupere TM28 Dig na casa roubada.</li></ul>",
+              "image": "",
+              "pokemonId": 121,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Cascade Badge e S.S. Ticket",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Cascade Badge and S.S. Ticket"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Bill e Misty",
+                  "en": {
+                    "label": "Required",
+                    "value": "Bill and Misty"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Charmander na Rota 24 não existe em FRLG; capture espécies no mapa",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Route 24 Charmander does not exist in FRLG; catch species from the map instead"
+                  }
+                }
+              ],
+              "en": {
+                "title": "2. Mt. Moon and Cerulean",
+                "content": "<p class=\"story-route\">Route 3 → Mt. Moon → Cerulean → Routes 24–25</p><ul class=\"story-checklist\"><li>Cross Mt. Moon, beat Team Rocket and pick the Helix Fossil or the Dome Fossil.</li><li>Beat Blue in Cerulean, cross Nugget Bridge and help Bill to receive the S.S. Ticket.</li><li>Beat Misty and recover TM28 Dig from the burgled house.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "3. S.S. Anne e Lt. Surge",
+              "content": "<p class=\"story-route\">Rota 5–6 → Vermilion → S.S. Anne</p><ul class=\"story-checklist\"><li>Pegue Bike Voucher no Fan Club e troque pela Bicycle em Cerulean.</li><li>Explore o navio, enfrente Blue e ajude o capitão para receber HM01 Cut.</li><li>Abra o Vermilion Gym com Cut e vença Lt. Surge.</li></ul><p class=\"story-alert\"><strong>Atenção:</strong> Quando o navio parte, treinadores e itens que ficaram a bordo tornam-se inacessíveis.</p>",
+              "image": "",
+              "pokemonId": 26,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Thunder Badge e HM01",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Thunder Badge and HM01"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "S.S. Anne e Lt. Surge",
+                  "en": {
+                    "label": "Required",
+                    "value": "S.S. Anne and Lt. Surge"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Old Rod e VS Seeker",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Old Rod and VS Seeker"
+                  }
+                }
+              ],
+              "en": {
+                "title": "3. S.S. Anne and Lt. Surge",
+                "content": "<p class=\"story-route\">Routes 5–6 → Vermilion → S.S. Anne</p><ul class=\"story-checklist\"><li>Get the Bike Voucher at the Fan Club and trade it for the Bicycle in Cerulean.</li><li>Explore the ship, face Blue and help the captain to receive HM01 Cut.</li><li>Open the Vermilion Gym with Cut and beat Lt. Surge.</li></ul><p class=\"story-alert\"><strong>Careful:</strong> Once the ship sails, any trainers and items left on board become unreachable.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "4. Rock Tunnel e Celadon",
+              "content": "<p class=\"story-route\">Diglett’s Cave → Rota 2 → Routes 9–10 → Lavender → Celadon</p><ul class=\"story-checklist\"><li>Com 10 espécies capturadas, pegue HM05 Flash com o ajudante de Oak na Rota 2.</li><li>Atravesse Rock Tunnel e passe por Lavender; ainda não é possível concluir Pokémon Tower.</li><li>Chegue a Celadon, pegue o Tea e vença Erika.</li></ul>",
+              "image": "",
+              "pokemonId": 71,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Rainbow Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Rainbow Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Chegar a Celadon",
+                  "en": {
+                    "label": "Required",
+                    "value": "Reach Celadon"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Eevee na mansão, Fly na Rota 16 e Game Corner",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Eevee in the mansion, Fly on Route 16 and the Game Corner"
+                  }
+                }
+              ],
+              "en": {
+                "title": "4. Rock Tunnel and Celadon",
+                "content": "<p class=\"story-route\">Diglett’s Cave → Route 2 → Routes 9–10 → Lavender → Celadon</p><ul class=\"story-checklist\"><li>With 10 species caught, get HM05 Flash from Oak’s aide on Route 2.</li><li>Cross Rock Tunnel and pass through Lavender; the Pokémon Tower cannot be cleared yet.</li><li>Reach Celadon, pick up the Tea and beat Erika.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "5. Rocket Hideout e Pokémon Tower",
+              "content": "<p class=\"story-route\">Celadon Game Corner → Lavender</p><ul class=\"story-checklist\"><li>Derrote o Rocket diante do pôster e atravesse o Rocket Hideout.</li><li>Vença Giovanni e receba Silph Scope.</li><li>Volte à Pokémon Tower, revele Marowak, resgate Mr. Fuji e receba Poké Flute.</li></ul>",
+              "image": "",
+              "pokemonId": 105,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Poké Flute obtida",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Poké Flute obtained"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Silph Scope e Mr. Fuji",
+                  "en": {
+                    "label": "Required",
+                    "value": "Silph Scope and Mr. Fuji"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Guarde antes dos dois Snorlax se quiser capturá-los",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Save before the two Snorlax if you want to catch them"
+                  }
+                }
+              ],
+              "en": {
+                "title": "5. Rocket Hideout and Pokémon Tower",
+                "content": "<p class=\"story-route\">Celadon Game Corner → Lavender</p><ul class=\"story-checklist\"><li>Beat the Rocket in front of the poster and work through the Rocket Hideout.</li><li>Beat Giovanni and receive the Silph Scope.</li><li>Go back to the Pokémon Tower, reveal Marowak, rescue Mr. Fuji and receive the Poké Flute.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "6. Fuchsia e Safari Zone",
+              "content": "<p class=\"story-route\">Routes 12–15 ou Cycling Road → Fuchsia</p><ul class=\"story-checklist\"><li>Acorde Snorlax, siga até Fuchsia e vença Koga.</li><li>Na Safari Zone, alcance Area 3: pegue Gold Teeth e receba HM03 Surf na Secret House.</li><li>Entregue Gold Teeth ao Warden para receber HM04 Strength.</li></ul>",
+              "image": "",
+              "pokemonId": 110,
+              "item": "",
+              "layout": "vertical",
+              "accent": "poison",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Soul Badge, Surf e Strength",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Soul Badge, Surf and Strength"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Koga e Safari Zone",
+                  "en": {
+                    "label": "Required",
+                    "value": "Koga and the Safari Zone"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Super Rod na Rota 12 e Exp. Share com 50 espécies",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Super Rod on Route 12 and the Exp. Share at 50 species"
+                  }
+                }
+              ],
+              "en": {
+                "title": "6. Fuchsia and the Safari Zone",
+                "content": "<p class=\"story-route\">Routes 12–15 or Cycling Road → Fuchsia</p><ul class=\"story-checklist\"><li>Wake Snorlax, head to Fuchsia and beat Koga.</li><li>In the Safari Zone, reach Area 3: grab the Gold Teeth and get HM03 Surf at the Secret House.</li><li>Hand the Gold Teeth to the Warden to receive HM04 Strength.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "7. Silph Co. e Sabrina",
+              "content": "<p class=\"story-route\">Saffron → Silph Co. → Saffron Gym</p><ul class=\"story-checklist\"><li>Entregue Tea a um guarda para abrir Saffron.</li><li>Suba a Silph Co., enfrente Blue e Giovanni; receba Master Ball do presidente.</li><li>Vença Sabrina no Saffron Gym.</li></ul>",
+              "image": "",
+              "pokemonId": 65,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Marsh Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Marsh Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Team Rocket expulsa da Silph",
+                  "en": {
+                    "label": "Required",
+                    "value": "Team Rocket driven out of Silph"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Lapras no 7F e escolha entre Hitmonlee/Hitmonchan no Fighting Dojo",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Lapras on 7F and a choice of Hitmonlee/Hitmonchan at the Fighting Dojo"
+                  }
+                }
+              ],
+              "en": {
+                "title": "7. Silph Co. and Sabrina",
+                "content": "<p class=\"story-route\">Saffron → Silph Co. → Saffron Gym</p><ul class=\"story-checklist\"><li>Give the Tea to a guard to open Saffron.</li><li>Climb Silph Co., face Blue and Giovanni; the president hands you the Master Ball.</li><li>Beat Sabrina at the Saffron Gym.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "8. Seafoam e Cinnabar",
+              "content": "<p class=\"story-route\">Routes 19–20 → Seafoam Islands → Cinnabar</p><ul class=\"story-checklist\"><li>Atravesse Seafoam empurrando pedras com Strength para controlar as correntes.</li><li>Articuno é opcional; salve antes de enfrentá-lo.</li><li>Explore Pokémon Mansion, pegue Secret Key e vença Blaine.</li></ul>",
+              "image": "",
+              "pokemonId": 59,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Volcano Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Volcano Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Secret Key e Blaine",
+                  "en": {
+                    "label": "Required",
+                    "value": "Secret Key and Blaine"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Reviver fóssil no Pokémon Lab",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Revive a fossil at the Pokémon Lab"
+                  }
+                }
+              ],
+              "en": {
+                "title": "8. Seafoam and Cinnabar",
+                "content": "<p class=\"story-route\">Routes 19–20 → Seafoam Islands → Cinnabar</p><ul class=\"story-checklist\"><li>Cross Seafoam pushing boulders with Strength to control the currents.</li><li>Articuno is optional; save before facing it.</li><li>Explore the Pokémon Mansion, grab the Secret Key and beat Blaine.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "9. Sevii Islands: primeira viagem",
+              "content": "<p class=\"story-route\">One Island → Two Island → Three Island</p><ul class=\"story-checklist\"><li>Aceite o convite de Bill ou retorne depois pelo porto de Cinnabar.</li><li>Receba Tri-Pass, procure Lostelle e derrote os bikers em Three Island.</li><li>Resgate Lostelle do Hypno em Berry Forest e entregue o Meteorite em Two Island.</li></ul>",
+              "image": "",
+              "pokemonId": 97,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Primeira missão de Celio concluída",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Celio’s first errand completed"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Lostelle e Meteorite",
+                  "en": {
+                    "label": "Required",
+                    "value": "Lostelle and the Meteorite"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "HM06 Rock Smash e Moltres em Mt. Ember",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "HM06 Rock Smash and Moltres on Mt. Ember"
+                  }
+                }
+              ],
+              "en": {
+                "title": "9. Sevii Islands: first trip",
+                "content": "<p class=\"story-route\">One Island → Two Island → Three Island</p><ul class=\"story-checklist\"><li>Accept Bill’s invitation, or come back later through the Cinnabar harbour.</li><li>Receive the Tri-Pass, look for Lostelle and beat the bikers on Three Island.</li><li>Rescue Lostelle from the Hypno in Berry Forest and deliver the Meteorite on Two Island.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "10. Giovanni e Victory Road",
+              "content": "<p class=\"story-route\">Viridian → Routes 22–23 → Victory Road</p><ul class=\"story-checklist\"><li>Volte a Viridian, vença Giovanni e receba Earth Badge.</li><li>Enfrente Blue na Rota 22 e atravesse os portões das oito Badges.</li><li>Resolva Victory Road usando Strength.</li></ul>",
+              "image": "",
+              "pokemonId": 112,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ground",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Earth Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Earth Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Giovanni e Victory Road",
+                  "en": {
+                    "label": "Required",
+                    "value": "Giovanni and Victory Road"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Macho Brace no lugar onde Giovanni estava, usando Itemfinder",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "A Macho Brace where Giovanni stood, using the Itemfinder"
+                  }
+                }
+              ],
+              "en": {
+                "title": "10. Giovanni and Victory Road",
+                "content": "<p class=\"story-route\">Viridian → Routes 22–23 → Victory Road</p><ul class=\"story-checklist\"><li>Return to Viridian, beat Giovanni and receive the Earth Badge.</li><li>Face Blue on Route 22 and pass the gates with all eight Badges.</li><li>Work through Victory Road using Strength.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "11. Elite Four e Blue",
+              "content": "<p class=\"story-route\">Indigo Plateau</p><ul class=\"story-checklist\"><li>Vença Lorelei, Bruno, Agatha e Lance em sequência.</li><li>Derrote Blue como Campeão e entre no Hall of Fame.</li></ul>",
+              "image": "",
+              "pokemonId": 18,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dragon",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Hall of Fame",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Hall of Fame"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Elite Four e Blue",
+                  "en": {
+                    "label": "Required",
+                    "value": "Elite Four and Blue"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Leve itens de cura e PP antes de entrar",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Bring healing and PP items before going in"
+                  }
+                }
+              ],
+              "en": {
+                "title": "11. Elite Four and Blue",
+                "content": "<p class=\"story-route\">Indigo Plateau</p><ul class=\"story-checklist\"><li>Beat Lorelei, Bruno, Agatha and Lance back to back.</li><li>Beat Blue as Champion and enter the Hall of Fame.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "12. National Dex e Sevii pós-jogo",
+              "content": "<p class=\"story-route\">Pallet → One Island → Four–Seven Islands</p><ul class=\"story-checklist\"><li>Registre 60 espécies e fale com Oak para receber a National Dex.</li><li>Obtenha Ruby em Mt. Ember; Celio troca o Tri-Pass pelo Rainbow Pass.</li><li>Consiga Waterfall em Icefall Cave, recupere Sapphire em Dotted Hole e Rocket Warehouse e entregue-a a Celio.</li></ul>",
+              "image": "",
+              "pokemonId": 146,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Network Machine concluída",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Network Machine completed"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "National Dex, Ruby e Sapphire",
+                  "en": {
+                    "label": "Required",
+                    "value": "National Dex, Ruby and Sapphire"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Consulte o guia completo das Sevii Islands",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "See the full Sevii Islands guide"
+                  }
+                }
+              ],
+              "en": {
+                "title": "12. National Dex and the Sevii post-game",
+                "content": "<p class=\"story-route\">Pallet → One Island → Four–Seven Islands</p><ul class=\"story-checklist\"><li>Register 60 species and talk to Oak to receive the National Dex.</li><li>Get the Ruby on Mt. Ember; Celio swaps the Tri-Pass for the Rainbow Pass.</li><li>Get Waterfall in Icefall Cave, recover the Sapphire from the Dotted Hole and the Rocket Warehouse, and hand it to Celio.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "13. Fim do pós-jogo",
+              "content": "<p class=\"story-route\">Cerulean Cave → Indigo Plateau</p><ul class=\"story-checklist\"><li>Com a Network Machine pronta, uma fera lendária começa a vagar por Kanto.</li><li>Entre em Cerulean Cave e capture Mewtwo.</li><li>Enfrente a Elite Four e Blue novamente com equipes mais fortes.</li></ul>",
+              "image": "",
+              "pokemonId": 150,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Conteúdo principal concluído",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Main content completed"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Missão de Celio",
+                  "en": {
+                    "label": "Required",
+                    "value": "Celio’s errand"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Pokédex Nacional, Trainer Tower e Tanoby Ruins",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "National Pokédex, Trainer Tower and the Tanoby Ruins"
+                  }
+                }
+              ],
+              "en": {
+                "title": "13. End of the post-game",
+                "content": "<p class=\"story-route\">Cerulean Cave → Indigo Plateau</p><ul class=\"story-checklist\"><li>With the Network Machine ready, a legendary beast starts roaming Kanto.</li><li>Enter Cerulean Cave and catch Mewtwo.</li><li>Face the Elite Four and Blue again with stronger teams.</li></ul>",
+                "linkLabel": "Open"
+              }
+            }
+          ],
+          "en": {
+            "label": "Content"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "trick-house",
+      "title": "Trick House · Ruby, Sapphire e Emerald",
+      "menuLabel": "Trick House",
+      "description": "Oito desafios opcionais na Rota 110: localização, requisitos, truques de cada sala e prêmios da casa do Trick Master.",
+      "visible": true,
+      "versions": [
+        "ruby-sapphire",
+        "emerald"
+      ],
+      "en": {
+        "title": "Trick House · Ruby, Sapphire and Emerald",
+        "menuLabel": "Trick House",
+        "description": "Eight optional challenges on Route 110: requirements, room gimmicks, shortcuts and rewards from the Trick Master."
+      },
+      "tabs": [
+        {
+          "tabId": "visao-geral",
+          "label": "Visão geral",
+          "visible": true,
+          "cards": [
+            {
+              "title": "Onde fica e como funciona",
+              "content": "<p>A Trick House fica na <strong>Rota 110</strong>, ao norte de Slateport e ao sul de Mauville. Fale com o Trick Master na sala principal: ele se esconde no cenário e abre o desafio atual depois que você o encontra.</p><p>Cada sala pode ser concluída uma vez e os desafios devem ser feitos em ordem. Depois de vencer o Champion, o oitavo é liberado; ao terminar todos, o Trick Master deixa uma nota e parte em busca de novos truques.</p><div class=\"story-note\"><strong>Diferença importante:</strong> Emerald mantém os mesmos temas, treinadores e prêmios, mas muda levemente os mapas, a posição dos itens e a rota do labirinto.</div>",
+              "image": "img/Hoenn_Map.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "electric",
+              "link": "#map",
+              "linkLabel": "Abrir mapa de Hoenn",
+              "fields": [],
+              "en": {
+                "title": "Where it is and how it works",
+                "content": "<p>The Trick House is on <strong>Route 110</strong>, north of Slateport and south of Mauville. Talk to the Trick Master in the front room: he hides in the scenery and unlocks the current challenge when you find him.</p><p>Each room can be cleared once and the challenges must be completed in order. The eighth unlocks after becoming Champion; after all eight, the Trick Master leaves a note and goes looking for new tricks.</p><div class=\"story-note\"><strong>Important difference:</strong> Emerald keeps the same themes, trainers and prizes, but slightly changes the maps, item positions and maze routes.</div>",
+                "linkLabel": "Open Hoenn map"
+              }
+            },
+            {
+              "title": "O que levar",
+              "content": "<ul class=\"story-checklist\"><li><strong>HM01 Cut:</strong> exigido no primeiro desafio de Ruby/Sapphire; em Emerald, a primeira sala também usa árvores para bloquear caminhos.</li><li><strong>Pokémon com golpes de campo:</strong> Rock Smash, Flash, Strength e Surf não são exigidos pela sequência principal, mas podem ajudar fora da casa.</li><li><strong>Espaço na bolsa:</strong> pegue os itens antes de sair; os mapas mudam, mas os prêmios da sala continuam sendo os mesmos.</li></ul><p class=\"story-note\">A bicicleta não é necessária para completar as salas. O desafio é um quebra-cabeça, não uma corrida.</p>",
+              "image": "img/items/cut.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Saiba mais",
+              "fields": [],
+              "en": {
+                "title": "What to bring",
+                "content": "<ul class=\"story-checklist\"><li><strong>HM01 Cut:</strong> required for the first Ruby/Sapphire challenge; Emerald also uses trees to block paths in the first room.</li><li><strong>Field moves:</strong> Rock Smash, Flash, Strength and Surf are not required by the main sequence, but can help elsewhere.</li><li><strong>Bag space:</strong> pick up items before leaving; layouts change, but room prizes stay the same.</li></ul><p class=\"story-note\">A Bicycle is not needed to clear the rooms. This is a puzzle, not a race.</p>"
+              }
+            },
+            {
+              "title": "Dica do Trick Master",
+              "content": "<p>Nas três primeiras entradas, um brilho denuncia imediatamente o esconderijo dele. Depois disso, observe paredes, vasos e objetos da sala principal com atenção: o jogo deixa o personagem camuflado no cenário.</p><p>Se você sair antes de falar com ele, o desafio não avança. Depois de entrar na sala dos prêmios, a porta de saída leva você de volta para a casa.</p>",
+              "image": "img/items/itemfinder.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Saiba mais",
+              "fields": [],
+              "en": {
+                "title": "The Trick Master's hint",
+                "content": "<p>During your first three visits, a sparkle immediately reveals his hiding place. After that, inspect walls, pots and scenery in the front room carefully: the game camouflages him in the environment.</p><p>If you leave before talking to him, the challenge does not advance. After entering the prize room, the exit takes you back to the house.</p>"
+              }
+            }
+          ],
+          "en": {
+            "label": "Overview"
+          }
+        },
+        {
+          "tabId": "desafios",
+          "label": "Os 8 desafios",
+          "visible": true,
+          "cards": [
+            {
+              "title": "1 · Labirinto de Cut",
+              "content": "<p>Abra o caminho cortando as árvores e procure o Trick Master no fim. Em Ruby/Sapphire, há uma batalha contra <strong>Lass Sally</strong> (Oddish Lv. 16). Emerald reposiciona o percurso.</p>",
+              "image": "img/items/cut.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "",
+              "fields": [],
+              "en": {
+                "title": "1 · Cut maze",
+                "content": "<p>Cut the trees blocking the route and look for the Trick Master at the end. In Ruby/Sapphire, <strong>Lass Sally</strong> (Oddish Lv. 16) battles you. Emerald rearranges the route.</p>"
+              }
+            },
+            {
+              "title": "2 · Senhas dos Mechadolls",
+              "content": "<p>Responda às perguntas dos bonecos mecânicos. Leia o pergaminho escondido, memorize a senha e escolha a porta correspondente. Uma resposta errada não encerra o desafio, mas faz você perder tempo.</p>",
+              "image": "img/items/itemfinder.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "",
+              "fields": [],
+              "en": {
+                "title": "2 · Mechadoll passwords",
+                "content": "<p>Answer the mechanical dolls' questions. Read the hidden scroll, memorize the password and choose the matching door. A wrong answer does not end the challenge, but costs time.</p>"
+              }
+            },
+            {
+              "title": "3 · Pedras quebráveis",
+              "content": "<p>Use Rock Smash para abrir os corredores e não esqueça de vasculhar os becos sem saída antes de avançar. O caminho correto é o que leva ao pergaminho e depois à saída.</p>",
+              "image": "img/items/rock-smash.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "rock",
+              "link": "",
+              "linkLabel": "",
+              "fields": [],
+              "en": {
+                "title": "3 · Breakable rocks",
+                "content": "<p>Use Rock Smash to open corridors and check dead ends before moving on. The correct route leads to the scroll and then to the exit.</p>"
+              }
+            },
+            {
+              "title": "4 · Sala escura",
+              "content": "<p>O tema é a escuridão: use Flash para tornar o caminho legível e siga as passagens até o pergaminho. Em Emerald, a posição dos objetos e dos treinadores muda.</p>",
+              "image": "img/items/flash.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "",
+              "fields": [],
+              "en": {
+                "title": "4 · Dark room",
+                "content": "<p>The gimmick is darkness: use Flash to make the paths readable and follow them to the scroll. Emerald changes the positions of objects and trainers.</p>"
+              }
+            },
+            {
+              "title": "5 · Passagens estreitas",
+              "content": "<p>Compare as bifurcações com calma e marque mentalmente as que já testou. O labirinto pode parecer repetitivo, mas a saída sempre fica depois do pergaminho.</p>",
+              "image": "img/items/escape-rope.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "normal",
+              "link": "",
+              "linkLabel": "",
+              "fields": [],
+              "en": {
+                "title": "5 · Narrow passages",
+                "content": "<p>Take the forks slowly and remember which ones you already tested. The maze can feel repetitive, but the exit is always beyond the scroll.</p>"
+              }
+            },
+            {
+              "title": "6 · Força e blocos",
+              "content": "<p>Empurre os blocos com Strength para alinhar os corredores. Antes de mover um bloco, olhe o espaço atrás dele: um empurrão contra a parede pode obrigar você a reiniciar a sala.</p>",
+              "image": "img/items/strength.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "fighting",
+              "link": "",
+              "linkLabel": "",
+              "fields": [],
+              "en": {
+                "title": "6 · Strength and blocks",
+                "content": "<p>Push the blocks with Strength to line up the corridors. Before moving one, check the space behind it: pushing into a wall may force a room reset.</p>"
+              }
+            },
+            {
+              "title": "7 · Setas giratórias",
+              "content": "<p>Entre nas setas e deixe o piso carregar você até o próximo ponto. A regra é planejar a sequência antes de pisar: depois que começa, você não controla a direção no meio do trajeto.</p>",
+              "image": "img/items/acro-bike.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "",
+              "fields": [],
+              "en": {
+                "title": "7 · Spinner tiles",
+                "content": "<p>Step on the arrows and let the floor carry you to the next point. Plan the sequence before stepping on: once it starts, you cannot steer midway.</p>"
+              }
+            },
+            {
+              "title": "8 · Desafio final",
+              "content": "<p>O último percurso mistura as ideias anteriores e só fica disponível após o Champion. Termine o labirinto, fale com o Trick Master e escolha o prêmio final: <strong>Red Tent</strong> em Ruby, <strong>Blue Tent</strong> em Sapphire ou uma das duas em Emerald.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "",
+              "fields": [],
+              "en": {
+                "title": "8 · Final challenge",
+                "content": "<p>The final route combines earlier ideas and unlocks after the Champion. Clear the maze, talk to the Trick Master and choose the final prize: <strong>Red Tent</strong> in Ruby, <strong>Blue Tent</strong> in Sapphire, or either one in Emerald.</p>"
+              }
+            }
+          ],
+          "en": {
+            "label": "The 8 challenges"
+          }
+        },
+        {
+          "tabId": "premios",
+          "label": "Prêmios e checklist",
+          "visible": true,
+          "cards": [
+            {
+              "title": "Prêmios principais",
+              "content": "<div class=\"tabela-acento\"><table><thead><tr><th>Desafio</th><th>Prêmio</th></tr></thead><tbody><tr><td>1</td><td><span class=\"story-item\"><img src=\"img/items/rare-candy.png\" alt=\"\" loading=\"lazy\"><span>Rare Candy</span></span></td></tr><tr><td>2</td><td><span class=\"story-item\"><img src=\"img/items/timer-ball.png\" alt=\"\" loading=\"lazy\"><span>Timer Ball</span></span></td></tr><tr><td>3</td><td><span class=\"story-item\"><img src=\"img/items/hard-stone.png\" alt=\"\" loading=\"lazy\"><span>Hard Stone</span></span></td></tr><tr><td>4</td><td><span class=\"story-item\"><img src=\"img/items/smoke-ball.png\" alt=\"\" loading=\"lazy\"><span>Smoke Ball</span></span></td></tr><tr><td>5</td><td><span class=\"story-item\"><img src=\"img/items/tm-dark.png\" alt=\"\" loading=\"lazy\"><span>TM12 Taunt</span></span></td></tr><tr><td>6</td><td><span class=\"story-item\"><img src=\"img/items/magnet.png\" alt=\"\" loading=\"lazy\"><span>Magnet</span></span></td></tr><tr><td>7</td><td><span class=\"story-item\"><img src=\"img/items/pp-up.png\" alt=\"\" loading=\"lazy\"><span>PP Up</span></span></td></tr><tr><td>8</td><td><span class=\"story-item\"><span>Red Tent / Blue Tent</span></span></td></tr></tbody></table></div>",
+              "image": "img/items/rare-candy.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "",
+              "fields": [],
+              "en": {
+                "title": "Main prizes",
+                "content": "<div class=\"tabela-acento\"><table><thead><tr><th>Challenge</th><th>Prize</th></tr></thead><tbody><tr><td>1</td><td><span class=\"story-item\"><img src=\"img/items/rare-candy.png\" alt=\"\" loading=\"lazy\"><span>Rare Candy</span></span></td></tr><tr><td>2</td><td><span class=\"story-item\"><img src=\"img/items/timer-ball.png\" alt=\"\" loading=\"lazy\"><span>Timer Ball</span></span></td></tr><tr><td>3</td><td><span class=\"story-item\"><img src=\"img/items/hard-stone.png\" alt=\"\" loading=\"lazy\"><span>Hard Stone</span></span></td></tr><tr><td>4</td><td><span class=\"story-item\"><img src=\"img/items/smoke-ball.png\" alt=\"\" loading=\"lazy\"><span>Smoke Ball</span></span></td></tr><tr><td>5</td><td><span class=\"story-item\"><img src=\"img/items/tm-dark.png\" alt=\"\" loading=\"lazy\"><span>TM12 Taunt</span></span></td></tr><tr><td>6</td><td><span class=\"story-item\"><img src=\"img/items/magnet.png\" alt=\"\" loading=\"lazy\"><span>Magnet</span></span></td></tr><tr><td>7</td><td><span class=\"story-item\"><img src=\"img/items/pp-up.png\" alt=\"\" loading=\"lazy\"><span>PP Up</span></span></td></tr><tr><td>8</td><td><span class=\"story-item\"><span>Red Tent / Blue Tent</span></span></td></tr></tbody></table></div>"
+              }
+            },
+            {
+              "title": "Checklist rápido",
+              "content": "<ul class=\"story-checklist\"><li>Rota 110 visitada e Trick Master encontrado.</li><li>Cut disponível para o primeiro percurso.</li><li>Desafios 1 a 7 concluídos antes da Liga.</li><li>Champion derrotado para liberar o oitavo.</li><li>Todos os itens coletados e prêmio final escolhido.</li></ul><div class=\"story-alert\"><strong>Não confunda com ORAS:</strong> este guia é para os mapas e recompensas dos jogos de Geração III; Omega Ruby/Alpha Sapphire têm seis salas e regras diferentes.</div>",
+              "image": "img/items/check.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "",
+              "fields": [],
+              "en": {
+                "title": "Quick checklist",
+                "content": "<ul class=\"story-checklist\"><li>Visit Route 110 and find the Trick Master.</li><li>Have Cut ready for the first route.</li><li>Clear challenges 1 through 7 before the League.</li><li>Defeat the Champion to unlock the eighth.</li><li>Collect all items and choose the final prize.</li></ul><div class=\"story-alert\"><strong>Do not confuse this with ORAS:</strong> this guide covers Generation III maps and rewards; Omega Ruby/Alpha Sapphire have six rooms and different rules.</div>"
+              }
+            }
+          ],
+          "en": {
+            "label": "Prizes and checklist"
+          }
+        }
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "title": "Texto e imagem",
+      "content": "<p>Escreva aqui.</p>",
+      "image": "",
+      "pokemonId": 0,
+      "item": "",
+      "layout": "vertical",
+      "accent": "grass",
+      "link": "",
+      "linkLabel": "Saiba mais",
+      "fields": [],
+      "en": {
+        "title": "Text and image",
+        "content": "<p>Write here.</p>",
+        "linkLabel": "Learn more"
+      }
+    },
+    {
+      "title": "Pokémon em destaque",
+      "content": "<p>Escreva aqui.</p>",
+      "image": "",
+      "pokemonId": 1,
+      "item": "",
+      "layout": "horizontal",
+      "accent": "grass",
+      "link": "",
+      "linkLabel": "Saiba mais",
+      "fields": [
+        {
+          "label": "Local",
+          "value": "Onde encontrar",
+          "en": {
+            "label": "Location",
+            "value": "Where to find it"
+          }
+        }
+      ],
+      "en": {
+        "title": "Featured Pokémon",
+        "content": "<p>Write here.</p>",
+        "linkLabel": "Learn more"
+      }
+    },
+    {
+      "title": "Aviso importante",
+      "content": "<p>Escreva aqui.</p>",
+      "image": "",
+      "pokemonId": 0,
+      "item": "",
+      "layout": "destaque",
+      "accent": "electric",
+      "link": "",
+      "linkLabel": "Saiba mais",
+      "fields": [],
+      "en": {
+        "title": "Important notice",
+        "content": "<p>Write here.</p>",
+        "linkLabel": "Learn more"
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "menuId": "conteudo-editorial",
+      "label": "Conteúdo editorial",
+      "visible": true,
+      "versions": [],
+      "entries": [
+        {
+          "menuId": "guias-da-jornada",
+          "label": "Guias da jornada",
+          "pageSlug": "",
+          "visible": true,
+          "versions": [],
+          "children": [
+            {
+              "menuId": "visao-geral",
+              "label": "Visão Geral",
+              "pageSlug": "visao-geral",
+              "visible": true,
+              "versions": [],
+              "en": {
+                "label": "Overview"
+              }
+            },
+            {
+              "menuId": "roteiro",
+              "label": "Roteiro Principal",
+              "pageSlug": "roteiro-principal",
+              "visible": true,
+              "versions": [],
+              "en": {
+                "label": "Main Walkthrough"
+              }
+            },
+            {
+              "menuId": "trick-house",
+              "label": "Trick House",
+              "pageSlug": "trick-house",
+              "visible": true,
+              "versions": [
+                "ruby-sapphire",
+                "emerald"
+              ],
+              "en": {
+                "label": "Trick House"
+              }
+            }
+          ],
+          "en": {
+            "label": "Journey guides"
+          }
+        }
+      ],
+      "en": {
+        "label": "Editorial content"
+      }
+    }
+  ]
+}

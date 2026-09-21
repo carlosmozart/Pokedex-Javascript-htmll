@@ -1,0 +1,986 @@
+{
+  "x-y": {
+    "gifts": [
+      {
+        "id": 650,
+        "name": "Chespin",
+        "types": [
+          "grass"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Kalos, entregue pelo Tierno em Aquacorde Town.",
+        "en": {
+          "desc": "One of the three Kalos first partners, from Tierno in Aquacorde Town."
+        }
+      },
+      {
+        "id": 653,
+        "name": "Fennekin",
+        "types": [
+          "fire"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Kalos, entregue pelo Tierno em Aquacorde Town.",
+        "en": {
+          "desc": "One of the three Kalos first partners, from Tierno in Aquacorde Town."
+        }
+      },
+      {
+        "id": 656,
+        "name": "Froakie",
+        "types": [
+          "water"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Kalos, entregue pelo Tierno em Aquacorde Town.",
+        "en": {
+          "desc": "One of the three Kalos first partners, from Tierno in Aquacorde Town."
+        }
+      },
+      {
+        "id": 1,
+        "name": "Bulbasaur",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "level": 10,
+        "desc": "Um dos três iniciais de Kanto, dado pelo Professor Sycamore em Lumiose City depois de vencê-lo. Vem com a Mega Stone da evolução final (Venusaurite).",
+        "en": {
+          "desc": "One of the three Kanto first partners, from Professor Sycamore in Lumiose City after beating him. Comes with the Mega Stone for its final form (Venusaurite)."
+        }
+      },
+      {
+        "id": 4,
+        "name": "Charmander",
+        "types": [
+          "fire"
+        ],
+        "level": 10,
+        "desc": "Um dos três iniciais de Kanto, dado pelo Professor Sycamore em Lumiose City depois de vencê-lo. Vem com a Mega Stone da evolução final (Charizardite X em X, Charizardite Y em Y).",
+        "en": {
+          "desc": "One of the three Kanto first partners, from Professor Sycamore in Lumiose City after beating him. Comes with the Mega Stone for its final form (Charizardite X in X, Charizardite Y in Y)."
+        }
+      },
+      {
+        "id": 7,
+        "name": "Squirtle",
+        "types": [
+          "water"
+        ],
+        "level": 10,
+        "desc": "Um dos três iniciais de Kanto, dado pelo Professor Sycamore em Lumiose City depois de vencê-lo. Vem com a Mega Stone da evolução final (Blastoisinite).",
+        "en": {
+          "desc": "One of the three Kanto first partners, from Professor Sycamore in Lumiose City after beating him. Comes with the Mega Stone for its final form (Blastoisinite)."
+        }
+      },
+      {
+        "id": 696,
+        "name": "Tyrunt",
+        "types": [
+          "rock",
+          "dragon"
+        ],
+        "level": 20,
+        "desc": "Revivido do Jaw Fossil no Fossil Lab de Ambrette Town. A assistente oferece Jaw ou Sail Fossil depois de vencer a Team Flare na Glittering Cave.",
+        "en": {
+          "desc": "Revived from the Jaw Fossil at the Ambrette Town Fossil Lab. The assistant offers the Jaw or Sail Fossil after you beat Team Flare in Glittering Cave."
+        }
+      },
+      {
+        "id": 698,
+        "name": "Amaura",
+        "types": [
+          "rock",
+          "ice"
+        ],
+        "level": 20,
+        "desc": "Revivido do Sail Fossil no Fossil Lab de Ambrette Town. A assistente oferece Sail ou Jaw Fossil depois de vencer a Team Flare na Glittering Cave.",
+        "en": {
+          "desc": "Revived from the Sail Fossil at the Ambrette Town Fossil Lab. The assistant offers the Sail or Jaw Fossil after you beat Team Flare in Glittering Cave."
+        }
+      },
+      {
+        "id": 142,
+        "name": "Aerodactyl",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "level": 20,
+        "desc": "Revivido no Fossil Lab de Ambrette Town. O Old Amber sai quebrando pedras no fundo da Glittering Cave.",
+        "en": {
+          "desc": "Revived at the Ambrette Town Fossil Lab. The Old Amber comes from smashing rocks in the back of Glittering Cave."
+        }
+      },
+      {
+        "id": 138,
+        "name": "Omanyte",
+        "types": [
+          "rock",
+          "water"
+        ],
+        "level": 20,
+        "desc": "Revivido no Fossil Lab de Ambrette Town. O Helix Fossil sai quebrando pedras no fundo da Glittering Cave depois do Hall of Fame (só em Pokémon Y).",
+        "en": {
+          "desc": "Revived at the Ambrette Town Fossil Lab. The Helix Fossil comes from smashing rocks in the back of Glittering Cave after the Hall of Fame (Pokémon Y only)."
+        }
+      },
+      {
+        "id": 140,
+        "name": "Kabuto",
+        "types": [
+          "rock",
+          "water"
+        ],
+        "level": 20,
+        "desc": "Revivido no Fossil Lab de Ambrette Town. O Dome Fossil sai quebrando pedras no fundo da Glittering Cave depois do Hall of Fame (só em Pokémon Y).",
+        "en": {
+          "desc": "Revived at the Ambrette Town Fossil Lab. The Dome Fossil comes from smashing rocks in the back of Glittering Cave after the Hall of Fame (Pokémon Y only)."
+        }
+      },
+      {
+        "id": 345,
+        "name": "Lileep",
+        "types": [
+          "rock",
+          "grass"
+        ],
+        "level": 20,
+        "desc": "Revivido no Fossil Lab de Ambrette Town. O Root Fossil sai quebrando pedras no fundo da Glittering Cave depois do Hall of Fame (só em Pokémon X).",
+        "en": {
+          "desc": "Revived at the Ambrette Town Fossil Lab. The Root Fossil comes from smashing rocks in the back of Glittering Cave after the Hall of Fame (Pokémon X only)."
+        }
+      },
+      {
+        "id": 347,
+        "name": "Anorith",
+        "types": [
+          "rock",
+          "bug"
+        ],
+        "level": 20,
+        "desc": "Revivido no Fossil Lab de Ambrette Town. O Claw Fossil sai quebrando pedras no fundo da Glittering Cave depois do Hall of Fame (só em Pokémon X).",
+        "en": {
+          "desc": "Revived at the Ambrette Town Fossil Lab. The Claw Fossil comes from smashing rocks in the back of Glittering Cave after the Hall of Fame (Pokémon X only)."
+        }
+      },
+      {
+        "id": 408,
+        "name": "Cranidos",
+        "types": [
+          "rock"
+        ],
+        "level": 20,
+        "desc": "Revivido no Fossil Lab de Ambrette Town. O Skull Fossil sai quebrando pedras no fundo da Glittering Cave depois do Hall of Fame.",
+        "en": {
+          "desc": "Revived at the Ambrette Town Fossil Lab. The Skull Fossil comes from smashing rocks in the back of Glittering Cave after the Hall of Fame."
+        }
+      },
+      {
+        "id": 410,
+        "name": "Shieldon",
+        "types": [
+          "rock",
+          "steel"
+        ],
+        "level": 20,
+        "desc": "Revivido no Fossil Lab de Ambrette Town. O Armor Fossil sai quebrando pedras no fundo da Glittering Cave depois do Hall of Fame.",
+        "en": {
+          "desc": "Revived at the Ambrette Town Fossil Lab. The Armor Fossil comes from smashing rocks in the back of Glittering Cave after the Hall of Fame."
+        }
+      },
+      {
+        "id": 564,
+        "name": "Tirtouga",
+        "types": [
+          "water",
+          "rock"
+        ],
+        "level": 20,
+        "desc": "Revivido no Fossil Lab de Ambrette Town. O Cover Fossil sai quebrando pedras no fundo da Glittering Cave depois do Hall of Fame.",
+        "en": {
+          "desc": "Revived at the Ambrette Town Fossil Lab. The Cover Fossil comes from smashing rocks in the back of Glittering Cave after the Hall of Fame."
+        }
+      },
+      {
+        "id": 566,
+        "name": "Archen",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "level": 20,
+        "desc": "Revivido no Fossil Lab de Ambrette Town. O Plume Fossil sai quebrando pedras no fundo da Glittering Cave depois do Hall of Fame.",
+        "en": {
+          "desc": "Revived at the Ambrette Town Fossil Lab. The Plume Fossil comes from smashing rocks in the back of Glittering Cave after the Hall of Fame."
+        }
+      },
+      {
+        "id": 448,
+        "name": "Lucario",
+        "types": [
+          "fighting",
+          "steel"
+        ],
+        "level": 32,
+        "item": "Lucarionite",
+        "ability": "Steadfast",
+        "nature": "Hasty",
+        "desc": "Da Korrina, no topo da Tower of Mastery, depois da demonstração do Mega Ring. Sempre macho, Steadfast, nature Hasty, segurando a Lucarionite. Não pode ser shiny.",
+        "en": {
+          "desc": "From Korrina at the top of the Tower of Mastery, after the Mega Ring demonstration. Always male, Steadfast, Hasty nature, holding the Lucarionite. Cannot be shiny."
+        }
+      },
+      {
+        "id": 131,
+        "name": "Lapras",
+        "types": [
+          "water",
+          "ice"
+        ],
+        "level": 30,
+        "ability": "Water Absorb",
+        "nature": "Docile",
+        "desc": "De um Pokémon Breeder na Rota 12. Habilidade Water Absorb, nature Docile, IV de HP 31. Pode ser shiny.",
+        "en": {
+          "desc": "From a Pokémon Breeder on Route 12. Water Absorb, Docile nature, 31 HP IV. Can be shiny."
+        }
+      }
+    ],
+    "events": [],
+    "trades": [
+      {
+        "id": 83,
+        "name": "Farfetch'd",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "level": 10,
+        "ability": "Keen Eye",
+        "nature": "Jolly",
+        "desc": "Santalune City: entregue um Bunnelby e receba Quacklin', o Farfetch'd do Cliff (macho, IV de Speed 31).",
+        "en": {
+          "desc": "Santalune City: trade a Bunnelby for Cliff's Farfetch'd, Quacklin' (male, 31 Speed IV)."
+        }
+      },
+      {
+        "id": 208,
+        "name": "Steelix",
+        "types": [
+          "steel",
+          "ground"
+        ],
+        "level": 20,
+        "ability": "Rock Head",
+        "nature": "Impish",
+        "desc": "Cyllage City: entregue um Luvdisc e receba Thumper, a Steelix do Farris (fêmea, IV de Defense 31).",
+        "en": {
+          "desc": "Cyllage City: trade a Luvdisc for Farris's Steelix, Thumper (female, 31 Defense IV)."
+        }
+      },
+      {
+        "id": 625,
+        "name": "Bisharp",
+        "types": [
+          "dark",
+          "steel"
+        ],
+        "level": 50,
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "desc": "Snowbelle City: entregue um Jigglypuff e receba Pierce, o Bisharp do Punky (macho, IV de Attack 31).",
+        "en": {
+          "desc": "Snowbelle City: trade a Jigglypuff for Punky's Bisharp, Pierce (male, 31 Attack IV)."
+        }
+      },
+      {
+        "id": 650,
+        "name": "Chespin",
+        "types": [
+          "grass"
+        ],
+        "level": 5,
+        "ability": "Overgrow",
+        "nature": "Adamant",
+        "desc": "Vaniville Town: a Shauna troca qualquer Pokémon pelo Chespin \"Chester\" se você começou com Fennekin. Nature Adamant.",
+        "en": {
+          "desc": "Vaniville Town: Shauna trades any Pokémon for her Chespin \"Chester\" if you started with Fennekin. Adamant nature."
+        }
+      },
+      {
+        "id": 653,
+        "name": "Fennekin",
+        "types": [
+          "fire"
+        ],
+        "level": 5,
+        "ability": "Blaze",
+        "nature": "Modest",
+        "desc": "Vaniville Town: a Shauna troca qualquer Pokémon pelo Fennekin \"Kinniekins\" se você começou com Froakie. Nature Modest.",
+        "en": {
+          "desc": "Vaniville Town: Shauna trades any Pokémon for her Fennekin \"Kinniekins\" if you started with Froakie. Modest nature."
+        }
+      },
+      {
+        "id": 656,
+        "name": "Froakie",
+        "types": [
+          "water"
+        ],
+        "level": 5,
+        "ability": "Torrent",
+        "nature": "Jolly",
+        "desc": "Vaniville Town: a Shauna troca qualquer Pokémon pelo Froakie \"Froabble\" se você começou com Chespin. Nature Jolly.",
+        "en": {
+          "desc": "Vaniville Town: Shauna trades any Pokémon for her Froakie \"Froabble\" if you started with Chespin. Jolly nature."
+        }
+      },
+      {
+        "id": 280,
+        "name": "Ralts",
+        "types": [
+          "psychic",
+          "fairy"
+        ],
+        "level": 5,
+        "item": "Gardevoirite",
+        "ability": "Synchronize",
+        "nature": "Modest",
+        "desc": "Lumiose City: a Diantha troca qualquer Pokémon pela Ralts dela (fêmea), que vem segurando a Gardevoirite. IVs de Sp. Atk e Speed 31.",
+        "en": {
+          "desc": "Lumiose City: Diantha trades any Pokémon for her Ralts (female), which holds the Gardevoirite. 31 Sp. Atk and Speed IVs."
+        }
+      },
+      {
+        "id": 129,
+        "name": "Magikarp",
+        "types": [
+          "water"
+        ],
+        "level": 5,
+        "ability": "Swift Swim",
+        "nature": "—",
+        "desc": "Hotéis de Kalos: entregue um Gyarados e receba Carpe Diem, o Magikarp do Caveat (macho, IVs de Attack e Sp. Atk 31, nature aleatória).",
+        "en": {
+          "desc": "Kalos hotels: trade a Gyarados for Caveat's Magikarp, Carpe Diem (male, 31 Attack and Sp. Atk IVs, random nature)."
+        }
+      },
+      {
+        "id": 133,
+        "name": "Eevee",
+        "types": [
+          "normal"
+        ],
+        "level": 5,
+        "item": "Rare Candy",
+        "ability": "Run Away",
+        "nature": "Docile",
+        "desc": "Hotéis de Kalos: a Elena troca qualquer Pokémon pela Eevee Stevie (fêmea), que segura um Rare Candy.",
+        "en": {
+          "desc": "Kalos hotels: Elena trades any Pokémon for her Eevee, Stevie (female), holding a Rare Candy."
+        }
+      }
+    ],
+    "missing": [
+      {
+        "id": 719,
+        "name": "Diancie",
+        "types": [
+          "rock",
+          "fairy"
+        ],
+        "desc": "Mítico da Geração 6: não aparece na natureza nem como presente em X e Y; só por evento de distribuição.",
+        "en": {
+          "desc": "Generation 6 Mythical: not found in the wild or as a gift in X and Y; distribution event only."
+        }
+      },
+      {
+        "id": 720,
+        "name": "Hoopa",
+        "types": [
+          "psychic",
+          "ghost"
+        ],
+        "desc": "Mítico da Geração 6: não aparece na natureza nem como presente em X e Y; só por evento de distribuição.",
+        "en": {
+          "desc": "Generation 6 Mythical: not found in the wild or as a gift in X and Y; distribution event only."
+        }
+      },
+      {
+        "id": 721,
+        "name": "Volcanion",
+        "types": [
+          "fire",
+          "water"
+        ],
+        "desc": "Mítico da Geração 6: não aparece na natureza nem como presente em X e Y; só por evento de distribuição.",
+        "en": {
+          "desc": "Generation 6 Mythical: not found in the wild or as a gift in X and Y; distribution event only."
+        }
+      }
+    ],
+    "notes": [
+      {
+        "id": 716,
+        "name": "Xerneas / Yveltal",
+        "types": [
+          "fairy"
+        ],
+        "desc": "Exclusivos de versão: Xerneas só em X e Yveltal só em Y, ambos na história, no Team Flare Secret HQ. O outro só por troca.",
+        "en": {
+          "desc": "Version exclusives: Xerneas only in X and Yveltal only in Y, both in the story at the Team Flare Secret HQ. The other one only by trade."
+        }
+      },
+      {
+        "id": 698,
+        "name": "Fósseis de Kalos",
+        "types": [
+          "rock",
+          "ice"
+        ],
+        "desc": "Tyrunt e Amaura são uma escolha única na história; o outro fóssil só por troca. Depois do Hall of Fame, Root e Claw Fossil saem só em X, Helix e Dome só em Y.",
+        "en": {
+          "desc": "Tyrunt and Amaura are a one-time story choice; the other fossil only by trade. After the Hall of Fame, the Root and Claw Fossils appear only in X, Helix and Dome only in Y."
+        }
+      },
+      {
+        "id": 1,
+        "name": "Iniciais de três regiões",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "desc": "X/Y dão um inicial de Kalos (Tierno) e um de Kanto (Sycamore). A Shauna ainda troca o inicial de Kalos que perde para o seu (o que ela escolheu).",
+        "en": {
+          "desc": "X/Y give one Kalos starter (Tierno) and one Kanto starter (Sycamore). Shauna also trades the Kalos starter that yours beats (the one she picked)."
+        }
+      }
+    ]
+  },
+  "omega-ruby-alpha-sapphire": {
+    "gifts": [
+      {
+        "id": 252,
+        "name": "Treecko",
+        "types": [
+          "grass"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Hoenn, escolhido na bolsa do Professor Birch na Rota 101.",
+        "en": {
+          "desc": "One of the three Hoenn first partners, chosen from Professor Birch's bag on Route 101."
+        }
+      },
+      {
+        "id": 255,
+        "name": "Torchic",
+        "types": [
+          "fire"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Hoenn, escolhido na bolsa do Professor Birch na Rota 101.",
+        "en": {
+          "desc": "One of the three Hoenn first partners, chosen from Professor Birch's bag on Route 101."
+        }
+      },
+      {
+        "id": 258,
+        "name": "Mudkip",
+        "types": [
+          "water"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Hoenn, escolhido na bolsa do Professor Birch na Rota 101.",
+        "en": {
+          "desc": "One of the three Hoenn first partners, chosen from Professor Birch's bag on Route 101."
+        }
+      },
+      {
+        "id": 25,
+        "name": "Pikachu (Rock Star)",
+        "types": [
+          "electric"
+        ],
+        "level": 20,
+        "ability": "Lightning Rod",
+        "desc": "Pikachu fantasiada, dada por uma Pokémon Breeder em qualquer Contest Hall depois do primeiro concurso. Sempre fêmea, Lightning Rod, com as condições de concurso elevadas por igual; não pode ser shiny. Vem com o traje Rock Star jogando com o Brendan.",
+        "en": {
+          "desc": "Costumed Pikachu, from a Pokémon Breeder at any Contest Hall after your first contest. Always female, Lightning Rod, with evenly raised contest conditions; cannot be shiny. Comes as Rock Star when playing as Brendan."
+        }
+      },
+      {
+        "id": 25,
+        "name": "Pikachu (Pop Star)",
+        "types": [
+          "electric"
+        ],
+        "level": 20,
+        "ability": "Lightning Rod",
+        "desc": "Pikachu fantasiada, dada por uma Pokémon Breeder em qualquer Contest Hall depois do primeiro concurso. Sempre fêmea, Lightning Rod, com as condições de concurso elevadas por igual; não pode ser shiny. Vem com o traje Pop Star jogando com a May.",
+        "en": {
+          "desc": "Costumed Pikachu, from a Pokémon Breeder at any Contest Hall after your first contest. Always female, Lightning Rod, with evenly raised contest conditions; cannot be shiny. Comes as Pop Star when playing as May."
+        }
+      },
+      {
+        "id": 360,
+        "name": "Wynaut",
+        "types": [
+          "psychic"
+        ],
+        "level": 1,
+        "desc": "Ovo dado por uma senhora nas fontes termais de Lavaridge Town. Nasce no nível 1.",
+        "en": {
+          "desc": "Egg from an old lady at the Lavaridge Town hot springs. Hatches at level 1."
+        }
+      },
+      {
+        "id": 345,
+        "name": "Lileep",
+        "types": [
+          "rock",
+          "grass"
+        ],
+        "level": 20,
+        "desc": "Revivido na Devon Corporation, em Rustboro City. Na Rota 111 você escolhe entre Root Fossil e Claw Fossil.",
+        "en": {
+          "desc": "Revived at the Devon Corporation in Rustboro City. On Route 111 you choose between the Root Fossil and the Claw Fossil."
+        }
+      },
+      {
+        "id": 347,
+        "name": "Anorith",
+        "types": [
+          "rock",
+          "bug"
+        ],
+        "level": 20,
+        "desc": "Revivido na Devon Corporation, em Rustboro City. Na Rota 111 você escolhe entre Claw Fossil e Root Fossil.",
+        "en": {
+          "desc": "Revived at the Devon Corporation in Rustboro City. On Route 111 you choose between the Claw Fossil and the Root Fossil."
+        }
+      },
+      {
+        "id": 138,
+        "name": "Omanyte",
+        "types": [
+          "rock",
+          "water"
+        ],
+        "level": 20,
+        "desc": "Revivido pelo cientista da Devon Corporation, em Rustboro City. O Helix Fossil sai quebrando pedras nos Mirage Spots depois de enfrentar Groudon/Kyogre (só em Alpha Sapphire).",
+        "en": {
+          "desc": "Revived by the Devon Corporation scientist in Rustboro City. The Helix Fossil comes from smashing rocks at Mirage Spots after battling Groudon/Kyogre (Alpha Sapphire only)."
+        }
+      },
+      {
+        "id": 140,
+        "name": "Kabuto",
+        "types": [
+          "rock",
+          "water"
+        ],
+        "level": 20,
+        "desc": "Revivido pelo cientista da Devon Corporation, em Rustboro City. O Dome Fossil sai quebrando pedras nos Mirage Spots depois de enfrentar Groudon/Kyogre (só em Omega Ruby).",
+        "en": {
+          "desc": "Revived by the Devon Corporation scientist in Rustboro City. The Dome Fossil comes from smashing rocks at Mirage Spots after battling Groudon/Kyogre (Omega Ruby only)."
+        }
+      },
+      {
+        "id": 142,
+        "name": "Aerodactyl",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "level": 20,
+        "desc": "Revivido pelo cientista da Devon Corporation, em Rustboro City. O Old Amber sai quebrando pedras nos Mirage Spots depois de enfrentar Groudon/Kyogre.",
+        "en": {
+          "desc": "Revived by the Devon Corporation scientist in Rustboro City. The Old Amber comes from smashing rocks at Mirage Spots after battling Groudon/Kyogre."
+        }
+      },
+      {
+        "id": 408,
+        "name": "Cranidos",
+        "types": [
+          "rock"
+        ],
+        "level": 20,
+        "desc": "Revivido pelo cientista da Devon Corporation, em Rustboro City. O Skull Fossil sai quebrando pedras nos Mirage Spots depois de enfrentar Groudon/Kyogre (só em Alpha Sapphire).",
+        "en": {
+          "desc": "Revived by the Devon Corporation scientist in Rustboro City. The Skull Fossil comes from smashing rocks at Mirage Spots after battling Groudon/Kyogre (Alpha Sapphire only)."
+        }
+      },
+      {
+        "id": 410,
+        "name": "Shieldon",
+        "types": [
+          "rock",
+          "steel"
+        ],
+        "level": 20,
+        "desc": "Revivido pelo cientista da Devon Corporation, em Rustboro City. O Armor Fossil sai quebrando pedras nos Mirage Spots depois de enfrentar Groudon/Kyogre (só em Omega Ruby).",
+        "en": {
+          "desc": "Revived by the Devon Corporation scientist in Rustboro City. The Armor Fossil comes from smashing rocks at Mirage Spots after battling Groudon/Kyogre (Omega Ruby only)."
+        }
+      },
+      {
+        "id": 564,
+        "name": "Tirtouga",
+        "types": [
+          "water",
+          "rock"
+        ],
+        "level": 20,
+        "desc": "Revivido pelo cientista da Devon Corporation, em Rustboro City. O Cover Fossil sai quebrando pedras nos Mirage Spots depois de enfrentar Groudon/Kyogre (só em Alpha Sapphire).",
+        "en": {
+          "desc": "Revived by the Devon Corporation scientist in Rustboro City. The Cover Fossil comes from smashing rocks at Mirage Spots after battling Groudon/Kyogre (Alpha Sapphire only)."
+        }
+      },
+      {
+        "id": 566,
+        "name": "Archen",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "level": 20,
+        "desc": "Revivido pelo cientista da Devon Corporation, em Rustboro City. O Plume Fossil sai quebrando pedras nos Mirage Spots depois de enfrentar Groudon/Kyogre (só em Omega Ruby).",
+        "en": {
+          "desc": "Revived by the Devon Corporation scientist in Rustboro City. The Plume Fossil comes from smashing rocks at Mirage Spots after battling Groudon/Kyogre (Omega Ruby only)."
+        }
+      },
+      {
+        "id": 351,
+        "name": "Castform",
+        "types": [
+          "normal"
+        ],
+        "level": 30,
+        "item": "Mystic Water",
+        "nature": "Lax",
+        "desc": "Do cientista do Weather Institute, depois de expulsar a Team Magma/Aqua. Sempre fêmea, nature Lax, segurando Mystic Water.",
+        "en": {
+          "desc": "From the Weather Institute scientist after driving out Team Magma/Aqua. Always female, Lax nature, holding Mystic Water."
+        }
+      },
+      {
+        "id": 381,
+        "name": "Latios",
+        "types": [
+          "dragon",
+          "psychic"
+        ],
+        "level": 30,
+        "item": "Latiosite",
+        "desc": "Só em Omega Ruby: entra na equipe em Southern Island depois de vencer os membros da Team Magma. Segura a Latiosite.",
+        "en": {
+          "desc": "Omega Ruby only: joins at Southern Island after you beat the Team Magma members. Holds the Latiosite."
+        }
+      },
+      {
+        "id": 380,
+        "name": "Latias",
+        "types": [
+          "dragon",
+          "psychic"
+        ],
+        "level": 30,
+        "item": "Latiasite",
+        "desc": "Só em Alpha Sapphire: entra na equipe em Southern Island depois de vencer os membros da Team Aqua. Segura a Latiasite.",
+        "en": {
+          "desc": "Alpha Sapphire only: joins at Southern Island after you beat the Team Aqua members. Holds the Latiasite."
+        }
+      },
+      {
+        "id": 152,
+        "name": "Chikorita",
+        "types": [
+          "grass"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Johto, com o Professor Birch na Rota 101, depois do Hall of Fame e do encontro com a Zinnia. Só um dos três.",
+        "en": {
+          "desc": "One of the three Johto first partners, from Professor Birch on Route 101, after the Hall of Fame and meeting Zinnia. Only one of the three."
+        }
+      },
+      {
+        "id": 155,
+        "name": "Cyndaquil",
+        "types": [
+          "fire"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Johto, com o Professor Birch na Rota 101, depois do Hall of Fame e do encontro com a Zinnia. Só um dos três.",
+        "en": {
+          "desc": "One of the three Johto first partners, from Professor Birch on Route 101, after the Hall of Fame and meeting Zinnia. Only one of the three."
+        }
+      },
+      {
+        "id": 158,
+        "name": "Totodile",
+        "types": [
+          "water"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Johto, com o Professor Birch na Rota 101, depois do Hall of Fame e do encontro com a Zinnia. Só um dos três.",
+        "en": {
+          "desc": "One of the three Johto first partners, from Professor Birch on Route 101, after the Hall of Fame and meeting Zinnia. Only one of the three."
+        }
+      },
+      {
+        "id": 175,
+        "name": "Togepi",
+        "types": [
+          "fairy"
+        ],
+        "level": 1,
+        "desc": "Ovo dado pela mesma senhora das fontes termais de Lavaridge Town, depois de enfrentar Groudon/Kyogre. Nasce no nível 1.",
+        "en": {
+          "desc": "Egg from the same old lady at the Lavaridge Town hot springs, after battling Groudon/Kyogre. Hatches at level 1."
+        }
+      },
+      {
+        "id": 495,
+        "name": "Snivy",
+        "types": [
+          "grass"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Unova, com o Professor Birch na Rota 101, depois do Delta Episode. Só um dos três.",
+        "en": {
+          "desc": "One of the three Unova first partners, from Professor Birch on Route 101, after the Delta Episode. Only one of the three."
+        }
+      },
+      {
+        "id": 498,
+        "name": "Tepig",
+        "types": [
+          "fire"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Unova, com o Professor Birch na Rota 101, depois do Delta Episode. Só um dos três.",
+        "en": {
+          "desc": "One of the three Unova first partners, from Professor Birch on Route 101, after the Delta Episode. Only one of the three."
+        }
+      },
+      {
+        "id": 501,
+        "name": "Oshawott",
+        "types": [
+          "water"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Unova, com o Professor Birch na Rota 101, depois do Delta Episode. Só um dos três.",
+        "en": {
+          "desc": "One of the three Unova first partners, from Professor Birch on Route 101, after the Delta Episode. Only one of the three."
+        }
+      },
+      {
+        "id": 374,
+        "name": "Beldum",
+        "types": [
+          "steel",
+          "psychic"
+        ],
+        "level": 1,
+        "item": "Iron Plate",
+        "desc": "Do Steven, em Mossdeep City, depois do Delta Episode. Segura uma Iron Plate.",
+        "en": {
+          "desc": "From Steven in Mossdeep City, after the Delta Episode. Holds an Iron Plate."
+        }
+      },
+      {
+        "id": 387,
+        "name": "Turtwig",
+        "types": [
+          "grass"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Sinnoh, com o Professor Birch na Rota 101, depois de entrar no Hall of Fame pela segunda vez. Só um dos três.",
+        "en": {
+          "desc": "One of the three Sinnoh first partners, from Professor Birch on Route 101, after entering the Hall of Fame a second time. Only one of the three."
+        }
+      },
+      {
+        "id": 390,
+        "name": "Chimchar",
+        "types": [
+          "fire"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Sinnoh, com o Professor Birch na Rota 101, depois de entrar no Hall of Fame pela segunda vez. Só um dos três.",
+        "en": {
+          "desc": "One of the three Sinnoh first partners, from Professor Birch on Route 101, after entering the Hall of Fame a second time. Only one of the three."
+        }
+      },
+      {
+        "id": 393,
+        "name": "Piplup",
+        "types": [
+          "water"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Sinnoh, com o Professor Birch na Rota 101, depois de entrar no Hall of Fame pela segunda vez. Só um dos três.",
+        "en": {
+          "desc": "One of the three Sinnoh first partners, from Professor Birch on Route 101, after entering the Hall of Fame a second time. Only one of the three."
+        }
+      },
+      {
+        "id": 323,
+        "name": "Camerupt",
+        "types": [
+          "fire",
+          "ground"
+        ],
+        "level": 40,
+        "item": "Passho Berry",
+        "nature": "Quiet",
+        "desc": "De um Grunt da Team Magma no Battle Resort. Nature Quiet, segurando uma Passho Berry.",
+        "en": {
+          "desc": "From a Team Magma Grunt at the Battle Resort. Quiet nature, holding a Passho Berry."
+        }
+      },
+      {
+        "id": 319,
+        "name": "Sharpedo",
+        "types": [
+          "water",
+          "dark"
+        ],
+        "level": 40,
+        "item": "Wacan Berry",
+        "nature": "Adamant",
+        "desc": "De uma Grunt da Team Aqua no Battle Resort. Nature Adamant, segurando uma Wacan Berry.",
+        "en": {
+          "desc": "From a Team Aqua Grunt at the Battle Resort. Adamant nature, holding a Wacan Berry."
+        }
+      }
+    ],
+    "events": [],
+    "trades": [
+      {
+        "id": 296,
+        "name": "Makuhita",
+        "types": [
+          "fighting"
+        ],
+        "level": 9,
+        "item": "X Attack",
+        "ability": "Guts",
+        "nature": "Brave",
+        "desc": "Rustboro City: entregue um Slakoth e receba Makit, o Makuhita do Darrell (macho, IV de Attack 31).",
+        "en": {
+          "desc": "Rustboro City: trade a Slakoth for Darrell's Makuhita, Makit (male, 31 Attack IV)."
+        }
+      },
+      {
+        "id": 300,
+        "name": "Skitty",
+        "types": [
+          "normal"
+        ],
+        "level": 30,
+        "item": "Magost Berry",
+        "ability": "Cute Charm",
+        "nature": "Naughty",
+        "desc": "Fortree City: entregue um Spinda e receba Skitit, a Skitty da Elyssa (fêmea, IV de Speed 31).",
+        "en": {
+          "desc": "Fortree City: trade a Spinda for Elyssa's Skitty, Skitit (female, 31 Speed IV)."
+        }
+      },
+      {
+        "id": 222,
+        "name": "Corsola",
+        "types": [
+          "water",
+          "rock"
+        ],
+        "level": 50,
+        "item": "Heart Scale",
+        "ability": "Regenerator",
+        "nature": "Calm",
+        "desc": "Pacifidlog Town: entregue um Bellossom e receba Coroso, a Corsola da Lane (fêmea, IVs de HP e Sp. Def 31).",
+        "en": {
+          "desc": "Pacifidlog Town: trade a Bellossom for Lane's Corsola, Coroso (female, 31 HP and Sp. Def IVs)."
+        }
+      }
+    ],
+    "missing": [
+      {
+        "id": 719,
+        "name": "Diancie",
+        "types": [
+          "rock",
+          "fairy"
+        ],
+        "desc": "Mítico da Geração 6: não aparece na natureza nem como presente em Omega Ruby e Alpha Sapphire; só por evento de distribuição.",
+        "en": {
+          "desc": "Generation 6 Mythical: not found in the wild or as a gift in Omega Ruby and Alpha Sapphire; distribution event only."
+        }
+      },
+      {
+        "id": 720,
+        "name": "Hoopa",
+        "types": [
+          "psychic",
+          "ghost"
+        ],
+        "desc": "Mítico da Geração 6: não aparece na natureza nem como presente em Omega Ruby e Alpha Sapphire; só por evento de distribuição. Em ORAS o Hoopa aparece na história do Battle Resort e abre os anéis, mas não pode ser capturado.",
+        "en": {
+          "desc": "Generation 6 Mythical: not found in the wild or as a gift in Omega Ruby and Alpha Sapphire; distribution event only. In ORAS, Hoopa appears in the Battle Resort story and opens the rings, but cannot be caught."
+        }
+      },
+      {
+        "id": 721,
+        "name": "Volcanion",
+        "types": [
+          "fire",
+          "water"
+        ],
+        "desc": "Mítico da Geração 6: não aparece na natureza nem como presente em Omega Ruby e Alpha Sapphire; só por evento de distribuição.",
+        "en": {
+          "desc": "Generation 6 Mythical: not found in the wild or as a gift in Omega Ruby and Alpha Sapphire; distribution event only."
+        }
+      }
+    ],
+    "notes": [
+      {
+        "id": 383,
+        "name": "Groudon / Kyogre",
+        "types": [
+          "ground"
+        ],
+        "desc": "Groudon só em Omega Ruby e Kyogre só em Alpha Sapphire, na Cave of Origin. O outro chega pelos anéis do Hoopa no pós-jogo, com o lendário da sua versão na equipe.",
+        "en": {
+          "desc": "Groudon only in Omega Ruby and Kyogre only in Alpha Sapphire, at the Cave of Origin. The other one comes through Hoopa's rings in the post-game, with your version's Legendary in the party."
+        }
+      },
+      {
+        "id": 384,
+        "name": "Rayquaza e Deoxys",
+        "types": [
+          "dragon",
+          "flying"
+        ],
+        "desc": "Rayquaza é capturado no Sky Pillar durante o Delta Episode, e Deoxys logo depois, no espaço. Os dois estão nas duas versões.",
+        "en": {
+          "desc": "Rayquaza is caught at Sky Pillar during the Delta Episode, and Deoxys right after, in space. Both are in both versions."
+        }
+      },
+      {
+        "id": 1,
+        "name": "Iniciais de quatro regiões",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "desc": "Além do inicial de Hoenn, o Birch dá um inicial de Johto (depois do Hall of Fame), de Unova (depois do Delta Episode) e de Sinnoh (segundo Hall of Fame).",
+        "en": {
+          "desc": "Besides the Hoenn starter, Birch gives a Johto starter (after the Hall of Fame), a Unova starter (after the Delta Episode) and a Sinnoh starter (second Hall of Fame)."
+        }
+      }
+    ]
+  }
+}

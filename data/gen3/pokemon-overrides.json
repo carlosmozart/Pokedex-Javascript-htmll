@@ -1,0 +1,118 @@
+{
+  "corrections": [
+    {
+      "pokemonId": 151,
+      "translations": {
+        "pt": {
+          "description": "",
+          "category": ""
+        },
+        "en": {
+          "description": "",
+          "category": ""
+        }
+      },
+      "changes": {
+        "notaEncontro": {
+          "pt": "Acessível na Faraway Island, com o item de evento Old Sea Map, distribuído para Pokémon Emerald.",
+          "en": "Reachable on Faraway Island, with the Old Sea Map event item, distributed for Pokémon Emerald."
+        }
+      }
+    },
+    {
+      "pokemonId": 249,
+      "translations": {
+        "pt": {
+          "description": "",
+          "category": ""
+        },
+        "en": {
+          "description": "",
+          "category": ""
+        }
+      },
+      "changes": {
+        "notaEncontro": {
+          "pt": "Acessível na Navel Rock, com o item de evento MysticTicket, distribuído para Emerald, FireRed e LeafGreen.",
+          "en": "Reachable on Navel Rock, with the MysticTicket event item, distributed for Emerald, FireRed and LeafGreen."
+        }
+      }
+    },
+    {
+      "pokemonId": 250,
+      "translations": {
+        "pt": {
+          "description": "",
+          "category": ""
+        },
+        "en": {
+          "description": "",
+          "category": ""
+        }
+      },
+      "changes": {
+        "notaEncontro": {
+          "pt": "Acessível na Navel Rock, com o item de evento MysticTicket, distribuído para Emerald, FireRed e LeafGreen.",
+          "en": "Reachable on Navel Rock, with the MysticTicket event item, distributed for Emerald, FireRed and LeafGreen."
+        }
+      }
+    },
+    {
+      "pokemonId": 251,
+      "translations": {
+        "pt": {
+          "description": "",
+          "category": ""
+        },
+        "en": {
+          "description": "",
+          "category": ""
+        }
+      },
+      "changes": {
+        "notaEncontro": {
+          "pt": "Só pelo Bonus Disc de Pokémon Colosseum (Japão) ou por distribuição em eventos da Nintendo.",
+          "en": "Only from the Pokémon Colosseum Bonus Disc (Japan) or handed out at Nintendo events."
+        }
+      }
+    },
+    {
+      "pokemonId": 385,
+      "translations": {
+        "pt": {
+          "description": "",
+          "category": ""
+        },
+        "en": {
+          "description": "",
+          "category": ""
+        }
+      },
+      "changes": {
+        "notaEncontro": {
+          "pt": "Transferido do Bonus Disc de Pokémon Colosseum (EUA) ou de Pokémon Channel (Europa e Austrália).",
+          "en": "Transferred from the Pokémon Colosseum Bonus Disc (US) or from Pokémon Channel (Europe and Australia)."
+        }
+      }
+    },
+    {
+      "pokemonId": 386,
+      "translations": {
+        "pt": {
+          "description": "",
+          "category": ""
+        },
+        "en": {
+          "description": "",
+          "category": ""
+        }
+      },
+      "changes": {
+        "notaEncontro": {
+          "pt": "Acessível na Birth Island, com o item de evento AuroraTicket. A forma e os status mudam com o jogo: Normal em Ruby/Sapphire, Attack em FireRed, Defense em LeafGreen e Speed em Emerald.",
+          "en": "Reachable on Birth Island, with the AuroraTicket event item. Its forme and stats change with the game: Normal in Ruby/Sapphire, Attack in FireRed, Defense in LeafGreen and Speed in Emerald."
+        }
+      }
+    }
+  ]
+}

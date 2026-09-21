@@ -1,0 +1,24 @@
+{
+  "abilities": {
+    "moody": "A cada turno, aumenta muito um atributo e reduz outro.",
+    "motor-drive": "Aumenta seu Speed quando é atingido por um golpe do tipo Electric, em vez de sofrer dano.",
+    "moxie": "Aumenta seu Attack depois de nocautear qualquer Pokémon.",
+    "multiscale": "Reduz o dano sofrido pelo Pokémon quando seu HP está cheio.",
+    "multitype": "Muda o tipo do Pokémon para corresponder à Plate ou ao Z-Crystal que ele segura.",
+    "mummy": "O contato com o Pokémon muda a habilidade do atacante para Mummy.",
+    "no-guard": "Garante que os golpes recebidos e desferidos pelo Pokémon sempre acertem.",
+    "normalize": "Todos os golpes do Pokémon tornam-se do tipo Normal e têm seu poder ligeiramente aumentado.",
+    "oblivious": "Impede que o Pokémon fique apaixonado ou seja afetado por provocações.",
+    "overgrow": "Fortalece golpes do tipo Grass quando o HP do Pokémon está baixo.",
+    "own-tempo": "O ritmo próprio do Pokémon impede que ele fique confuso.",
+    "pickup": "O Pokémon pode pegar o item usado por um adversário durante a batalha. Também pode encontrar itens fora dela.",
+    "pixilate": "Golpes do tipo Normal tornam-se do tipo Fairy e têm seu poder ligeiramente aumentado.",
+    "plus": "Aumenta o Sp. Atk do Pokémon se um aliado com a habilidade Plus ou Minus também estiver na batalha.",
+    "poison-heal": "Restaura HP quando o Pokémon está envenenado, em vez de fazê-lo perder HP.",
+    "pressure": "Ao pressionar os Pokémon adversários, faz com que consumam mais PP.",
+    "prism-armor": "Reduz o poder dos golpes super efetivos recebidos.",
+    "protean": "Muda o tipo do Pokémon para o tipo do golpe que ele está prestes a usar.",
+    "psychic-surge": "Quando o Pokémon entra na batalha, transforma o campo em Psychic Terrain.",
+    "pure-power": "Usando seu poder puro, o Pokémon dobra seu Attack."
+  }
+}

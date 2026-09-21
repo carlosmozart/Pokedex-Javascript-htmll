@@ -1,0 +1,3058 @@
+{
+  "pages": [
+    {
+      "slug": "visao-geral",
+      "title": "Visão Geral · Diamond/Pearl",
+      "menuLabel": "Visão Geral",
+      "description": "Logo, datas, novidades e melhorias de Diamond/Pearl.",
+      "visible": true,
+      "versions": [
+        "diamond-pearl"
+      ],
+      "en": {
+        "title": "Overview · Diamond/Pearl",
+        "menuLabel": "Overview",
+        "description": "Logo, release dates, new features and improvements of Diamond/Pearl."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "cards": [
+            {
+              "title": "Diamond/Pearl",
+              "content": "<img src=\"img/overview/logo-diamond.png\" alt=\"Diamond/Pearl\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-pearl.png\" alt=\"Diamond/Pearl\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>A estreia da Geração 4 e do Nintendo DS. Sinnoh, 107 Pokémon novos e a mudança que redefiniu as batalhas: cada golpe passa a ser físico ou especial por si mesmo.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Plataforma",
+                  "value": "Nintendo DS",
+                  "en": {
+                    "label": "Platform",
+                    "value": "Nintendo DS"
+                  }
+                },
+                {
+                  "label": "Geração",
+                  "value": "IV",
+                  "en": {
+                    "label": "Generation",
+                    "value": "IV"
+                  }
+                },
+                {
+                  "label": "Região",
+                  "value": "Sinnoh",
+                  "en": {
+                    "label": "Region",
+                    "value": "Sinnoh"
+                  }
+                },
+                {
+                  "label": "Mascotes",
+                  "value": "Dialga (Diamond) e Palkia (Pearl)",
+                  "en": {
+                    "label": "Mascots",
+                    "value": "Dialga (Diamond) and Palkia (Pearl)"
+                  }
+                },
+                {
+                  "label": "Vendas",
+                  "value": "primeiros jogos de DS a passar de 5 milhões de unidades (dez/2006)",
+                  "en": {
+                    "label": "Sales",
+                    "value": "first DS games to pass 5 million units shipped (Dec 2006)"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Diamond/Pearl",
+                "content": "<img src=\"img/overview/logo-diamond.png\" alt=\"Diamond/Pearl\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-pearl.png\" alt=\"Diamond/Pearl\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>The debut of Generation 4 and the Nintendo DS. Sinnoh, 107 new Pokémon and the change that redefined battles: each move is now physical or special on its own.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Lançamento",
+              "content": "<p>Datas de chegada às lojas em cada região.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Japão",
+                  "value": "28 de setembro de 2006",
+                  "en": {
+                    "label": "Japan",
+                    "value": "September 28, 2006"
+                  }
+                },
+                {
+                  "label": "América do Norte",
+                  "value": "22 de abril de 2007",
+                  "en": {
+                    "label": "North America",
+                    "value": "April 22, 2007"
+                  }
+                },
+                {
+                  "label": "Austrália",
+                  "value": "21 de junho de 2007",
+                  "en": {
+                    "label": "Australia",
+                    "value": "June 21, 2007"
+                  }
+                },
+                {
+                  "label": "Europa",
+                  "value": "27 de julho de 2007",
+                  "en": {
+                    "label": "Europe",
+                    "value": "July 27, 2007"
+                  }
+                },
+                {
+                  "label": "Coreia do Sul",
+                  "value": "14 de fevereiro de 2008",
+                  "en": {
+                    "label": "South Korea",
+                    "value": "February 14, 2008"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Release",
+                "content": "<p>Store release dates in each region.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Capas",
+              "content": "<img src=\"img/overview/box-diamond.jpg\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-pearl.jpg\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Box art",
+                "content": "<img src=\"img/overview/box-diamond.jpg\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-pearl.jpg\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                483,
+                484
+              ],
+              "pokemonLayout": "row"
+            },
+            {
+              "title": "Novidades desta versão",
+              "content": "<ul><li><b>107 Pokémon novos</b>, chegando a 493.</li><li><b>Divisão física/especial</b> por golpe, e não mais por tipo.</li><li><b>Nintendo Wi-Fi Connection</b>: trocas e batalhas online, e a <b>GTS</b> (desligadas em 2014).</li><li>O <b>Pokétch</b>, o relógio com apps, e o <b>Subterrâneo</b> de Sinnoh.</li><li><b>Super Concursos</b> com Poffins, figurino e dança.</li><li>A tela de toque do DS nos menus e no Pokétch.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "What this version introduced",
+                "content": "<ul><li><b>107 new Pokémon</b>, bringing the total to 493.</li><li>The <b>physical/special split</b> by move instead of by type.</li><li><b>Nintendo Wi-Fi Connection</b>: online trades and battles, and the <b>GTS</b> (shut down in 2014).</li><li>The <b>Pokétch</b>, the app watch, and the Sinnoh <b>Underground</b>.</li><li><b>Super Contests</b> with Poffins, dress-up and dance.</li><li>The DS touch screen in menus and the Pokétch.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Melhorias em relação a a Geração 3",
+              "content": "<ul><li>O ciclo de dia e noite volta, com transições mais suaves.</li><li>Duas telas e visual 3D nos cenários.</li><li>Pokémon da Geração 3 migram pelo Pal Park.</li><li>Muitos Pokémon antigos ganham evoluções novas (Magnezone, Togekiss, Rhyperior...).</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Improvements over Generation 3",
+                "content": "<ul><li>The day-night cycle returns, with smoother transitions.</li><li>Two screens and 3D scenery.</li><li>Generation 3 Pokémon migrate through Pal Park.</li><li>Many older Pokémon gain new evolutions (Magnezone, Togekiss, Rhyperior...).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Tela de título",
+              "content": "<img src=\"img/overview/title-diamond.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\"><img src=\"img/overview/title-pearl.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Title screen",
+                "content": "<img src=\"img/overview/title-diamond.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\"><img src=\"img/overview/title-pearl.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Sinnoh",
+              "content": "<p>Uma região inspirada em Hokkaido, cortada ao meio pelo Mt. Coronet. Oito ginásios e a campeã Cynthia.</p>",
+              "image": "img/Sinnoh_upscaled.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "ground",
+              "link": "#map",
+              "linkLabel": "Abrir Mapa Múndi",
+              "fields": [],
+              "en": {
+                "title": "Sinnoh",
+                "content": "<p>A region inspired by Hokkaido, split in half by Mt. Coronet. Eight Gyms and Champion Cynthia.</p>",
+                "linkLabel": "Open World Map"
+              }
+            }
+          ],
+          "en": {
+            "label": "Content"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "visao-geral",
+      "title": "Visão Geral · Platinum",
+      "menuLabel": "Visão Geral",
+      "description": "Logo, datas, novidades e melhorias de Platinum.",
+      "visible": true,
+      "versions": [
+        "platinum"
+      ],
+      "en": {
+        "title": "Overview · Platinum",
+        "menuLabel": "Overview",
+        "description": "Logo, release dates, new features and improvements of Platinum."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "cards": [
+            {
+              "title": "Platinum",
+              "content": "<img src=\"img/overview/logo-platinum.png\" alt=\"Platinum\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>A terceira versão de Sinnoh, com o Giratina e o Distortion World no centro da história, Pokédex regional maior e a Battle Frontier.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Plataforma",
+                  "value": "Nintendo DS",
+                  "en": {
+                    "label": "Platform",
+                    "value": "Nintendo DS"
+                  }
+                },
+                {
+                  "label": "Geração",
+                  "value": "IV",
+                  "en": {
+                    "label": "Generation",
+                    "value": "IV"
+                  }
+                },
+                {
+                  "label": "Região",
+                  "value": "Sinnoh",
+                  "en": {
+                    "label": "Region",
+                    "value": "Sinnoh"
+                  }
+                },
+                {
+                  "label": "Mascote",
+                  "value": "Giratina (Forma Origem)",
+                  "en": {
+                    "label": "Mascot",
+                    "value": "Giratina (Origin Forme)"
+                  }
+                },
+                {
+                  "label": "Vendas",
+                  "value": "7,06 milhões (até 31/03/2010)",
+                  "en": {
+                    "label": "Sales",
+                    "value": "7.06 million (as of March 31, 2010)"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Platinum",
+                "content": "<img src=\"img/overview/logo-platinum.png\" alt=\"Platinum\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>The third Sinnoh version, with Giratina and the Distortion World at the heart of the story, a bigger regional Pokédex and the Battle Frontier.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Lançamento",
+              "content": "<p>Datas de chegada às lojas em cada região.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Japão",
+                  "value": "13 de setembro de 2008",
+                  "en": {
+                    "label": "Japan",
+                    "value": "September 13, 2008"
+                  }
+                },
+                {
+                  "label": "América do Norte",
+                  "value": "22 de março de 2009",
+                  "en": {
+                    "label": "North America",
+                    "value": "March 22, 2009"
+                  }
+                },
+                {
+                  "label": "Austrália",
+                  "value": "14 de maio de 2009",
+                  "en": {
+                    "label": "Australia",
+                    "value": "May 14, 2009"
+                  }
+                },
+                {
+                  "label": "Europa",
+                  "value": "22 de maio de 2009",
+                  "en": {
+                    "label": "Europe",
+                    "value": "May 22, 2009"
+                  }
+                },
+                {
+                  "label": "Coreia do Sul",
+                  "value": "2 de julho de 2009",
+                  "en": {
+                    "label": "South Korea",
+                    "value": "July 2, 2009"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Release",
+                "content": "<p>Store release dates in each region.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Capas",
+              "content": "<img src=\"img/overview/box-platinum.png\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Box art",
+                "content": "<img src=\"img/overview/box-platinum.png\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                487
+              ],
+              "pokemonLayout": "row"
+            },
+            {
+              "title": "Novidades desta versão",
+              "content": "<ul><li>O <b>Distortion World</b> e a <b>Forma Origem</b> do Giratina.</li><li>A <b>Forma Céu</b> do Shaymin e as formas do Rotom.</li><li>A <b>Battle Frontier</b> no lugar do Battle Park.</li><li>Pokédex de Sinnoh com <b>210</b> espécies.</li><li><b>Wi-Fi Plaza</b>, Vs. Recorder e Spin Trade.</li><li>Juiz de IVs e leitor de Hidden Power, e três tutores de golpe novos.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "What this version introduced",
+                "content": "<ul><li>The <b>Distortion World</b> and Giratina’s <b>Origin Forme</b>.</li><li>Shaymin’s <b>Sky Forme</b> and Rotom’s forms.</li><li>The <b>Battle Frontier</b> in place of the Battle Park.</li><li>A Sinnoh Pokédex of <b>210</b> species.</li><li>The <b>Wi-Fi Plaza</b>, Vs. Recorder and Spin Trade.</li><li>An IV judge and a Hidden Power reader, and three new Move Tutors.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Melhorias em relação a Diamond e Pearl",
+              "content": "<ul><li>Jogo mais rápido, sobretudo no Surf e nas batalhas.</li><li>Níveis dos adversários ajustados e ginásios só com o tipo do líder.</li><li>Bicicleta liberada nos portões entre rotas.</li><li>Defog e Strength em lugares mais lógicos, e treinadores nos Pokémon Centers.</li><li>A Amity Square aceita os iniciais de Sinnoh.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Improvements over Diamond and Pearl",
+                "content": "<ul><li>A faster game, especially when surfing and in battle.</li><li>Rebalanced opponent levels and Gyms using only the leader’s type.</li><li>Bicycles allowed in the gatehouses between routes.</li><li>Defog and Strength in more sensible places, and Trainers at Pokémon Centers.</li><li>Amity Square accepts the Sinnoh starters.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Tela de título",
+              "content": "<img src=\"img/overview/title-platinum.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Title screen",
+                "content": "<img src=\"img/overview/title-platinum.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Sinnoh",
+              "content": "<p>O mesmo mapa de Diamond e Pearl, com neve em mais lugares e o Distortion World escondido no Mt. Coronet.</p>",
+              "image": "img/Sinnoh_upscaled.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "ground",
+              "link": "#map",
+              "linkLabel": "Abrir Mapa Múndi",
+              "fields": [],
+              "en": {
+                "title": "Sinnoh",
+                "content": "<p>The same map as Diamond and Pearl, with snow in more places and the Distortion World hidden in Mt. Coronet.</p>",
+                "linkLabel": "Open World Map"
+              }
+            }
+          ],
+          "en": {
+            "label": "Content"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "visao-geral",
+      "title": "Visão Geral · HeartGold/SoulSilver",
+      "menuLabel": "Visão Geral",
+      "description": "Logo, datas, novidades e melhorias de HeartGold/SoulSilver.",
+      "visible": true,
+      "versions": [
+        "heartgold-soulsilver"
+      ],
+      "en": {
+        "title": "Overview · HeartGold/SoulSilver",
+        "menuLabel": "Overview",
+        "description": "Logo, release dates, new features and improvements of HeartGold/SoulSilver."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "cards": [
+            {
+              "title": "HeartGold/SoulSilver",
+              "content": "<img src=\"img/overview/logo-heartgold.png\" alt=\"HeartGold/SoulSilver\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-soulsilver.png\" alt=\"HeartGold/SoulSilver\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>O remake de Gold e Silver no Nintendo DS. Johto e Kanto com as mecânicas da Geração 4, o Pokémon andando atrás de você e o Pokéwalker na caixa.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "flying",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Plataforma",
+                  "value": "Nintendo DS",
+                  "en": {
+                    "label": "Platform",
+                    "value": "Nintendo DS"
+                  }
+                },
+                {
+                  "label": "Geração",
+                  "value": "IV",
+                  "en": {
+                    "label": "Generation",
+                    "value": "IV"
+                  }
+                },
+                {
+                  "label": "Região",
+                  "value": "Johto e Kanto",
+                  "en": {
+                    "label": "Region",
+                    "value": "Johto and Kanto"
+                  }
+                },
+                {
+                  "label": "Mascotes",
+                  "value": "Ho-Oh (HeartGold) e Lugia (SoulSilver)",
+                  "en": {
+                    "label": "Mascots",
+                    "value": "Ho-Oh (HeartGold) and Lugia (SoulSilver)"
+                  }
+                },
+                {
+                  "label": "Vendas",
+                  "value": "12,72 milhões (até 31/03/2021)",
+                  "en": {
+                    "label": "Sales",
+                    "value": "12.72 million (as of March 31, 2021)"
+                  }
+                }
+              ],
+              "en": {
+                "title": "HeartGold/SoulSilver",
+                "content": "<img src=\"img/overview/logo-heartgold.png\" alt=\"HeartGold/SoulSilver\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-soulsilver.png\" alt=\"HeartGold/SoulSilver\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>The Nintendo DS remake of Gold and Silver. Johto and Kanto with Generation 4 mechanics, your Pokémon walking behind you and the Pokéwalker in the box.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Lançamento",
+              "content": "<p>Datas de chegada às lojas em cada região.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "flying",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Japão",
+                  "value": "12 de setembro de 2009",
+                  "en": {
+                    "label": "Japan",
+                    "value": "September 12, 2009"
+                  }
+                },
+                {
+                  "label": "América do Norte",
+                  "value": "14 de março de 2010",
+                  "en": {
+                    "label": "North America",
+                    "value": "March 14, 2010"
+                  }
+                },
+                {
+                  "label": "Austrália",
+                  "value": "25 de março de 2010",
+                  "en": {
+                    "label": "Australia",
+                    "value": "March 25, 2010"
+                  }
+                },
+                {
+                  "label": "Europa",
+                  "value": "26 de março de 2010",
+                  "en": {
+                    "label": "Europe",
+                    "value": "March 26, 2010"
+                  }
+                },
+                {
+                  "label": "Coreia do Sul",
+                  "value": "4 de fevereiro de 2010",
+                  "en": {
+                    "label": "South Korea",
+                    "value": "February 4, 2010"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Release",
+                "content": "<p>Store release dates in each region.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Capas",
+              "content": "<img src=\"img/overview/box-heartgold.jpg\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-soulsilver.jpg\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "flying",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Box art",
+                "content": "<img src=\"img/overview/box-heartgold.jpg\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-soulsilver.jpg\" alt=\"Box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              },
+              "pokemonIds": [
+                250,
+                249
+              ],
+              "pokemonLayout": "row"
+            },
+            {
+              "title": "Novidades desta versão",
+              "content": "<ul><li>Os 493 Pokémon podem <b>andar atrás de você</b>.</li><li>O <b>Pokéwalker</b>, pedômetro que vinha com o jogo.</li><li>O <b>Pokéathlon</b>, com dez provas.</li><li>As <b>Kimono Girls</b> e o encontro obrigatório com o lendário da capa.</li><li>Lendários de outras regiões e o evento de Arceus nas <b>Sinjoh Ruins</b>.</li><li>A Safari Zone de Johto e a Battle Frontier.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "What this version introduced",
+                "content": "<ul><li>All 493 Pokémon can <b>walk behind you</b>.</li><li>The <b>Pokéwalker</b>, a pedometer bundled with the game.</li><li>The <b>Pokéathlon</b>, with ten events.</li><li>The <b>Kimono Girls</b> and the mandatory encounter with the cover legendary.</li><li>Legendaries from other regions and the Arceus event at the <b>Sinjoh Ruins</b>.</li><li>The Johto Safari Zone and the Battle Frontier.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Melhorias em relação a Gold, Silver e Crystal",
+              "content": "<ul><li>Mecânicas da Geração 4, com a divisão física/especial.</li><li>Menus, mochila e PC na tela de toque.</li><li>Kurt, as Apricorns e a Apricorn Box voltam; berries passam a vir dos Jugglers e das Berry Pots.</li><li>Headbutt em árvores também dá Pokémon de Hoenn e Sinnoh depois da Pokédex Nacional.</li><li>Conteúdo de Crystal incorporado, como o Eusine.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Improvements over Gold, Silver and Crystal",
+                "content": "<ul><li>Generation 4 mechanics, with the physical/special split.</li><li>Menus, Bag and PC on the touch screen.</li><li>Kurt, Apricorns and the Apricorn Box return; Berries now come from Jugglers and Berry Pots.</li><li>Headbutting trees also yields Hoenn and Sinnoh Pokémon after the National Pokédex.</li><li>Crystal content folded in, such as Eusine.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Tela de título",
+              "content": "<img src=\"img/overview/title-heartgold.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\"><img src=\"img/overview/title-soulsilver.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "flying",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Title screen",
+                "content": "<img src=\"img/overview/title-heartgold.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\"><img src=\"img/overview/title-soulsilver.png\" alt=\"Title screen\" loading=\"lazy\" style=\"max-width:min(100%, 256px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Johto e Kanto",
+              "content": "<p>Johto com oito ginásios até a Liga em Indigo Plateau e, depois, Kanto com mais oito, até o Red no Mt. Silver.</p>",
+              "image": "img/johto_HGSS_upscaled.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "ground",
+              "link": "#map",
+              "linkLabel": "Abrir Mapa Múndi",
+              "fields": [],
+              "en": {
+                "title": "Johto and Kanto",
+                "content": "<p>Johto with eight Gyms up to the League at Indigo Plateau and then Kanto with eight more, up to Red on Mt. Silver.</p>",
+                "linkLabel": "Open World Map"
+              }
+            },
+            {
+              "title": "Kanto",
+              "content": "<img src=\"img/kanto_HGSS_upscaled.png\" alt=\"Kanto\" loading=\"lazy\" style=\"max-width:min(100%, 420px); height:auto;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Kanto",
+                "content": "<img src=\"img/kanto_HGSS_upscaled.png\" alt=\"Kanto\" loading=\"lazy\" style=\"max-width:min(100%, 420px); height:auto;\">",
+                "linkLabel": "Open"
+              }
+            }
+          ],
+          "en": {
+            "label": "Content"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "roteiro-principal",
+      "title": "Roteiro Principal · HeartGold/SoulSilver",
+      "menuLabel": "Roteiro Principal",
+      "description": "Johto e Kanto de ponta a ponta: 16 insígnias, a Liga de Indigo Plateau e o Red no Mt. Silver.",
+      "visible": true,
+      "versions": [
+        "heartgold-soulsilver"
+      ],
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "cards": [
+            {
+              "title": "Como usar este roteiro",
+              "content": "<p>HeartGold e SoulSilver refazem Gold e Silver: oito insígnias em Johto, a Liga em Indigo Plateau e, depois, mais oito insígnias em Kanto, até o Red no topo do Mt. Silver. O lendário da capa muda com o cartucho: Ho-Oh em HeartGold, Lugia em SoulSilver. Seu primeiro Pokémon anda atrás de você pelo caminho todo.</p><p class=\"story-note\">Use o Mapa Múndi para conferir Pokémon, níveis e taxas de encontro em cada área, e a aba Treinadores para os times completos.</p>",
+              "image": "img/johto_HGSS_upscaled.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "dragon",
+              "link": "#map",
+              "linkLabel": "Abrir Mapa Múndi",
+              "fields": [],
+              "en": {
+                "title": "How to use this walkthrough",
+                "content": "<p>HeartGold and SoulSilver remake Gold and Silver: eight badges in Johto, the League at Indigo Plateau and then eight more badges in Kanto, all the way to Red at the top of Mt. Silver. The cover legendary depends on the cartridge: Ho-Oh in HeartGold, Lugia in SoulSilver. Your lead Pokémon follows you the whole way.</p><p class=\"story-note\">Use the Region Map to check Pokémon, levels and encounter rates in each area, and the Trainers tab for the full teams.</p>",
+                "linkLabel": "Open the Region Map"
+              }
+            },
+            {
+              "title": "1. New Bark, o Professor Elm e o Mr. Pokémon",
+              "content": "<p class=\"story-route\">New Bark Town → Rota 29 → Cherrygrove City → Rota 30 → Rota 31</p><ul class=\"story-checklist\"><li>O Professor Elm te deixa escolher Chikorita, Cyndaquil ou Totodile.</li><li>Leve a encomenda até a casa do Mr. Pokémon. Lá você recebe um Ovo misterioso, e o Professor Oak entrega a Pokédex.</li><li>Na volta, em Cherrygrove, o Silver te desafia com o inicial que roubou do laboratório (Nv. 5).</li></ul>",
+              "image": "",
+              "pokemonId": 155,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Pokédex",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Pokédex"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Levar o Ovo ao Elm",
+                  "en": {
+                    "label": "Required",
+                    "value": "Take the Egg to Elm"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Map Card, com o guia turístico de Cherrygrove",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Map Card, from the tour guide in Cherrygrove"
+                  }
+                }
+              ],
+              "en": {
+                "title": "1. New Bark, Professor Elm and Mr. Pokémon",
+                "content": "<p class=\"story-route\">New Bark Town → Route 29 → Cherrygrove City → Route 30 → Route 31</p><ul class=\"story-checklist\"><li>Professor Elm lets you pick Chikorita, Cyndaquil or Totodile.</li><li>Take the errand to Mr. Pokémon’s house. There you receive a mysterious Egg, and Professor Oak hands you the Pokédex.</li><li>On the way back, in Cherrygrove, Silver challenges you with the starter he stole from the lab (Lv. 5).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "2. Violet City, a Sprout Tower e Falkner",
+              "content": "<p class=\"story-route\">Rota 31 → Violet City → Sprout Tower</p><ul class=\"story-checklist\"><li>No topo da Sprout Tower, vença o Sage Li e ganhe a HM05 Flash.</li><li>Vença o Falkner (ás: Pidgeotto, Nv. 13). Pokémon de Pedra ou Elétrico resolvem.</li><li>O assistente do Elm te espera no Pokémon Center com o Ovo, de onde nasce um Togepi.</li></ul>",
+              "image": "",
+              "pokemonId": 17,
+              "item": "",
+              "layout": "vertical",
+              "accent": "flying",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Zephyr Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Zephyr Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Falkner",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Falkner"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Chocar o Togepi",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Hatch Togepi"
+                  }
+                }
+              ],
+              "en": {
+                "title": "2. Violet City, the Sprout Tower and Falkner",
+                "content": "<p class=\"story-route\">Route 31 → Violet City → Sprout Tower</p><ul class=\"story-checklist\"><li>At the top of the Sprout Tower, beat Sage Li and get HM05 Flash.</li><li>Beat Falkner (ace: Pidgeotto, Lv. 13). Rock or Electric Pokémon do the job.</li><li>Elm’s aide waits at the Pokémon Center with the Egg, which hatches into Togepi.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "3. Union Cave, Slowpoke Well e Bugsy",
+              "content": "<p class=\"story-route\">Rota 32 → Union Cave → Rota 33 → Azalea Town → Slowpoke Well</p><ul class=\"story-checklist\"><li>A Team Rocket corta a cauda dos Slowpoke dentro do poço de Azalea.</li><li>No fundo do Slowpoke Well, vença o Proton (Nv. 12).</li><li>Vença o Bugsy (ás: Scyther, Nv. 17). Ao sair, o Silver te enfrenta (Nv. 18).</li></ul>",
+              "image": "",
+              "pokemonId": 123,
+              "item": "",
+              "layout": "vertical",
+              "accent": "bug",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Hive Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Hive Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Expulsar a Team Rocket do poço",
+                  "en": {
+                    "label": "Required",
+                    "value": "Drive Team Rocket out of the well"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Levar Apricorns ao Kurt, que faz Poké Balls especiais",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Take Apricorns to Kurt, who makes special Poké Balls"
+                  }
+                }
+              ],
+              "en": {
+                "title": "3. Union Cave, Slowpoke Well and Bugsy",
+                "content": "<p class=\"story-route\">Route 32 → Union Cave → Route 33 → Azalea Town → Slowpoke Well</p><ul class=\"story-checklist\"><li>Team Rocket is cutting off Slowpoke tails inside Azalea’s well.</li><li>At the bottom of the Slowpoke Well, beat Proton (Lv. 12).</li><li>Beat Bugsy (ace: Scyther, Lv. 17). On your way out, Silver challenges you (Lv. 18).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "4. Ilex Forest, Goldenrod e Whitney",
+              "content": "<p class=\"story-route\">Ilex Forest → Rota 34 → Goldenrod City</p><ul class=\"story-checklist\"><li>No Ilex Forest, ajude o aprendiz do Kurt a recuperar o Farfetch’d e ganhe a HM01 Cut.</li><li>Em Goldenrod, ganhe a Bicycle na loja de bicicletas.</li><li>Vença a Whitney (ás: Miltank, Nv. 19). O Rollout e o Attract do Miltank são o maior obstáculo do começo do jogo.</li><li>Com a insígnia, a floricultura te dá o SquirtBottle.</li></ul>",
+              "image": "",
+              "pokemonId": 241,
+              "item": "",
+              "layout": "vertical",
+              "accent": "normal",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Plain Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Plain Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a Whitney",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Whitney"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Um Pokémon Lutador, como o Machop trocado em Goldenrod",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "A Fighting Pokémon, such as the Machop traded in Goldenrod"
+                  }
+                }
+              ],
+              "en": {
+                "title": "4. Ilex Forest, Goldenrod and Whitney",
+                "content": "<p class=\"story-route\">Ilex Forest → Route 34 → Goldenrod City</p><ul class=\"story-checklist\"><li>In Ilex Forest, help Kurt’s apprentice catch the Farfetch’d and get HM01 Cut.</li><li>In Goldenrod, get the Bicycle at the bike shop.</li><li>Beat Whitney (ace: Miltank, Lv. 19). Miltank’s Rollout and Attract are the biggest hurdle of the early game.</li><li>With the badge, the flower shop gives you the SquirtBottle.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "5. Ecruteak, a Burned Tower e Morty",
+              "content": "<p class=\"story-route\">Rota 35 → National Park → Rota 36 → Rota 37 → Ecruteak City</p><ul class=\"story-checklist\"><li>Use o SquirtBottle na árvore que bloqueia a Rota 36: é um Sudowoodo.</li><li>Na Burned Tower, o Silver te enfrenta (Nv. 22). No subsolo, Raikou, Entei e Suicune despertam e fogem.</li><li>Vença o Morty (ás: Gengar, Nv. 25). Golpes Normais e Lutadores não pegam em Fantasma.</li><li>No Dance Theater, expulse um Grunt da Team Rocket mal-educado; em agradecimento, um senhor te dá a HM03 Surf.</li></ul>",
+              "image": "",
+              "pokemonId": 94,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Fog Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Fog Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Morty",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Morty"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Bug-Catching Contest do National Park e o Pokéathlon, no domo ao lado",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The National Park Bug-Catching Contest and the Pokéathlon, in the dome next door"
+                  }
+                }
+              ],
+              "en": {
+                "title": "5. Ecruteak, the Burned Tower and Morty",
+                "content": "<p class=\"story-route\">Route 35 → National Park → Route 36 → Route 37 → Ecruteak City</p><ul class=\"story-checklist\"><li>Use the SquirtBottle on the tree blocking Route 36: it is a Sudowoodo.</li><li>In the Burned Tower, Silver challenges you (Lv. 22). In the basement, Raikou, Entei and Suicune awaken and flee.</li><li>Beat Morty (ace: Gengar, Lv. 25). Normal and Fighting moves do not touch Ghosts.</li><li>At the Dance Theater, drive off a rude Team Rocket Grunt; to thank you, a gentleman gives you HM03 Surf.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "6. Olivine, o farol e Cianwood",
+              "content": "<p class=\"story-route\">Rota 38 → Rota 39 → Olivine City → Rota 40 → Rota 41 → Cianwood City</p><ul class=\"story-checklist\"><li>A Jasmine não sai do farol: o Ampharos que ilumina o porto está doente.</li><li>Atravesse o mar até Cianwood e vença o Chuck (ás: Poliwrath, Nv. 31).</li><li>A esposa do Chuck te dá a HM02 Fly, e a farmácia entrega o SecretPotion.</li></ul>",
+              "image": "",
+              "pokemonId": 62,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fighting",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Storm Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Storm Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "SecretPotion",
+                  "en": {
+                    "label": "Required",
+                    "value": "SecretPotion"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "A Moomoo Farm na Rota 39, que vende leite de Miltank",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Moomoo Farm on Route 39, which sells Miltank milk"
+                  }
+                }
+              ],
+              "en": {
+                "title": "6. Olivine, the lighthouse and Cianwood",
+                "content": "<p class=\"story-route\">Route 38 → Route 39 → Olivine City → Route 40 → Route 41 → Cianwood City</p><ul class=\"story-checklist\"><li>Jasmine will not leave the lighthouse: the Ampharos that lights the harbour is sick.</li><li>Cross the sea to Cianwood and beat Chuck (ace: Poliwrath, Lv. 31).</li><li>Chuck’s wife gives you HM02 Fly, and the pharmacy hands over the SecretPotion.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "7. Jasmine, Lake of Rage e o esconderijo Rocket",
+              "content": "<p class=\"story-route\">Olivine City → Rota 42 → Mahogany Town → Rota 43 → Lake of Rage</p><ul class=\"story-checklist\"><li>Leve o remédio ao Ampharos e vença a Jasmine (ás: Steelix, Nv. 35).</li><li>Na Rota 42, um Hiker que sai correndo do Mt. Mortar te dá a HM04 Strength.</li><li>No Lake of Rage, enfrente o Gyarados vermelho e fique com a Red Scale.</li><li>O Lance te chama para invadir o esconderijo da Team Rocket sob a loja de Mahogany: vença o Petrel (Nv. 24) e a Ariana (Nv. 27).</li><li>No fim, o Lance te dá a HM06 Whirlpool.</li></ul>",
+              "image": "./img/pokemon/gen4/heartgold-soulsilver/shiny/130.png",
+              "pokemonId": 130,
+              "item": "",
+              "layout": "vertical",
+              "accent": "steel",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Mineral Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Mineral Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Limpar o esconderijo com o Lance",
+                  "en": {
+                    "label": "Required",
+                    "value": "Clear the hideout with Lance"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Gyarados vermelho: é shiny garantido",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The red Gyarados: a guaranteed shiny"
+                  }
+                }
+              ],
+              "en": {
+                "title": "7. Jasmine, Lake of Rage and the Rocket hideout",
+                "content": "<p class=\"story-route\">Olivine City → Route 42 → Mahogany Town → Route 43 → Lake of Rage</p><ul class=\"story-checklist\"><li>Bring the medicine to Ampharos and beat Jasmine (ace: Steelix, Lv. 35).</li><li>On Route 42, a Hiker running out of Mt. Mortar gives you HM04 Strength.</li><li>At the Lake of Rage, face the red Gyarados and keep the Red Scale.</li><li>Lance asks you to raid Team Rocket’s hideout under the Mahogany shop: beat Petrel (Lv. 24) and Ariana (Lv. 27).</li><li>At the end, Lance gives you HM06 Whirlpool.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "8. Pryce e a Radio Tower",
+              "content": "<p class=\"story-route\">Mahogany Town → Goldenrod City → Goldenrod Tunnel → Radio Tower</p><ul class=\"story-checklist\"><li>Vença o Pryce (ás: Piloswine, Nv. 34). Fogo, Luta e Aço vão bem contra o Piloswine.</li><li>A Team Rocket toma a Radio Tower. No túnel sob Goldenrod, o Silver te enfrenta (Nv. 34).</li><li>Na torre, vença o Proton (Nv. 33), o Petrel (Nv. 32), a Ariana (Nv. 32) e, no topo, o Archer (Nv. 38).</li></ul>",
+              "image": "",
+              "pokemonId": 221,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ice",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Glacier Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Glacier Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Expulsar a Team Rocket da Radio Tower",
+                  "en": {
+                    "label": "Required",
+                    "value": "Drive Team Rocket out of the Radio Tower"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Card Key, achado no túnel, que abre os andares de cima da torre",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Card Key, found in the tunnel, which opens the tower’s upper floors"
+                  }
+                }
+              ],
+              "en": {
+                "title": "8. Pryce and the Radio Tower",
+                "content": "<p class=\"story-route\">Mahogany Town → Goldenrod City → Goldenrod Tunnel → Radio Tower</p><ul class=\"story-checklist\"><li>Beat Pryce (ace: Piloswine, Lv. 34). Fire, Fighting and Steel work well against Piloswine.</li><li>Team Rocket seizes the Radio Tower. In the tunnel under Goldenrod, Silver challenges you (Lv. 34).</li><li>In the tower, beat Proton (Lv. 33), Petrel (Lv. 32), Ariana (Lv. 32) and, at the top, Archer (Lv. 38).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "9. Ice Path, Blackthorn e Clair",
+              "content": "<p class=\"story-route\">Rota 44 → Ice Path → Blackthorn City → Dragon’s Den</p><ul class=\"story-checklist\"><li>No Ice Path, apanhe a HM07 Waterfall.</li><li>Vença a Clair (ás: Kingdra, Nv. 41). O Kingdra só sofre dano extra de golpes Dragão.</li><li>A Clair só entrega a insígnia depois do teste no Dragon’s Den.</li></ul>",
+              "image": "",
+              "pokemonId": 230,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dragon",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Rising Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Rising Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a Clair e o teste do Dragon’s Den",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Clair and pass the Dragon’s Den test"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Dratini que o ancião dá no fim do teste",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Dratini the elder gives you after the test"
+                  }
+                }
+              ],
+              "en": {
+                "title": "9. Ice Path, Blackthorn and Clair",
+                "content": "<p class=\"story-route\">Route 44 → Ice Path → Blackthorn City → Dragon’s Den</p><ul class=\"story-checklist\"><li>In the Ice Path, pick up HM07 Waterfall.</li><li>Beat Clair (ace: Kingdra, Lv. 41). Kingdra only takes extra damage from Dragon moves.</li><li>Clair only hands over the badge after the Dragon’s Den test.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "10. O lendário do seu cartucho",
+              "content": "<p class=\"story-route\">Ecruteak City → Bell Tower (HeartGold) · Whirl Islands (SoulSilver)</p><ul class=\"story-checklist\"><li>Com as oito insígnias, o Professor Elm te dá a Master Ball.</li><li>No Dance Theater de Ecruteak, vença as cinco Kimono Girls em sequência e receba a Clear Bell (HeartGold) ou a Tidal Bell (SoulSilver).</li><li>Elas dançam para chamar o lendário: o Ho-Oh no alto da Bell Tower, em HeartGold; o Lugia no fundo das Whirl Islands, em SoulSilver.</li><li>Salve antes de enfrentar.</li></ul>",
+              "image": "",
+              "pokemonId": 250,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Ho-Oh ou Lugia",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Ho-Oh or Lugia"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Rising Badge e vencer as Kimono Girls",
+                  "en": {
+                    "label": "Required",
+                    "value": "Rising Badge, then beat the Kimono Girls"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Levar muitas Ultra Balls e um Pokémon com Sleep",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Bring plenty of Ultra Balls and a Pokémon with a sleep move"
+                  }
+                }
+              ],
+              "en": {
+                "title": "10. Your cartridge’s legendary",
+                "content": "<p class=\"story-route\">Ecruteak City → Bell Tower (HeartGold) · Whirl Islands (SoulSilver)</p><ul class=\"story-checklist\"><li>With all eight badges, Professor Elm gives you the Master Ball.</li><li>At the Ecruteak Dance Theater, beat the five Kimono Girls in a row and receive the Clear Bell (HeartGold) or the Tidal Bell (SoulSilver).</li><li>They dance to summon the legendary: Ho-Oh at the top of the Bell Tower in HeartGold; Lugia deep in the Whirl Islands in SoulSilver.</li><li>Save before the fight.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "11. Victory Road, Elite Four e Lance",
+              "content": "<p class=\"story-route\">Rota 27 → Rota 26 → Victory Road → Indigo Plateau</p><ul class=\"story-checklist\"><li>Na saída da Victory Road, o Silver te enfrenta (Nv. 40).</li><li>Elite Four: Will (Nv. 42), Koga (Nv. 44), Bruno (Nv. 46), Karen (Nv. 47).</li><li>Campeão: Lance (ás: Dragonite, Nv. 50). Ele usa três Dragonite.</li></ul>",
+              "image": "",
+              "pokemonId": 149,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dragon",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Hall of Fame",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Hall of Fame"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "As oito insígnias de Johto",
+                  "en": {
+                    "label": "Required",
+                    "value": "The eight Johto badges"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Golpes de Gelo: Dragonite leva dano quádruplo",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Ice moves: Dragonite takes quadruple damage"
+                  }
+                }
+              ],
+              "en": {
+                "title": "11. Victory Road, the Elite Four and Lance",
+                "content": "<p class=\"story-route\">Route 27 → Route 26 → Victory Road → Indigo Plateau</p><ul class=\"story-checklist\"><li>At the end of Victory Road, Silver challenges you (Lv. 40).</li><li>Elite Four: Will (Lv. 42), Koga (Lv. 44), Bruno (Lv. 46), Karen (Lv. 47).</li><li>Champion: Lance (ace: Dragonite, Lv. 50). He uses three Dragonite.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "12. Rumo a Kanto",
+              "content": "<p class=\"story-route\">Olivine City → S.S. Aqua → Vermilion City</p><ul class=\"story-checklist\"><li>O Elm te dá o bilhete do S.S. Aqua, que sai de Olivine para Vermilion.</li><li>Vença o Lt. Surge (ás: Electabuzz, Nv. 53).</li><li>A Power Plant está parada: ache a peça roubada e o Magnet Train volta a ligar Goldenrod a Saffron.</li></ul>",
+              "image": "",
+              "pokemonId": 125,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Thunder Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Thunder Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "S.S. Ticket",
+                  "en": {
+                    "label": "Required",
+                    "value": "S.S. Ticket"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Pass do Magnet Train, com a moça de Saffron",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Magnet Train Pass, from the girl in Saffron"
+                  }
+                }
+              ],
+              "en": {
+                "title": "12. On to Kanto",
+                "content": "<p class=\"story-route\">Olivine City → S.S. Aqua → Vermilion City</p><ul class=\"story-checklist\"><li>Elm gives you the S.S. Aqua ticket, which sails from Olivine to Vermilion.</li><li>Beat Lt. Surge (ace: Electabuzz, Lv. 53).</li><li>The Power Plant is down: find the stolen part and the Magnet Train links Goldenrod and Saffron again.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "13. As insígnias de Kanto",
+              "content": "<p class=\"story-route\">Saffron · Cerulean · Celadon · Fuchsia · Pewter · Cinnabar</p><ul class=\"story-checklist\"><li>Kanto não tem ordem fixa: os líderes estão entre o Nv. 50 e o 59.</li><li>Sabrina (ás: Alakazam, Nv. 55), Misty (ás: Starmie, Nv. 54), Erika (ás: Victreebel, Nv. 56) e Janine (ás: Venomoth, Nv. 50).</li><li>Brock (ás: Onix, Nv. 54) e Blaine, que perdeu o ginásio e luta nas Seafoam Islands (ás: Rapidash, Nv. 59).</li><li>Em Lavender Town ficam a Radio Tower de Kanto e a House of Memories (a Soul House de Gold/Silver), o memorial que guarda os túmulos da antiga Pokémon Tower.</li><li>Com a Power Plant consertada, a Radio Tower de Lavender instala a Expansion Card no Pokégear. O canal da Poké Flute acorda o Snorlax diante do Diglett’s Cave.</li></ul>",
+              "image": "",
+              "pokemonId": 65,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Sete insígnias de Kanto",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Seven Kanto badges"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Poké Flute no rádio",
+                  "en": {
+                    "label": "Required",
+                    "value": "Poké Flute on the radio"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Começar por quem seu time vence com folga",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Start with whoever your team beats easily"
+                  }
+                }
+              ],
+              "en": {
+                "title": "13. The Kanto badges",
+                "content": "<p class=\"story-route\">Saffron · Cerulean · Celadon · Fuchsia · Pewter · Cinnabar</p><ul class=\"story-checklist\"><li>Kanto has no fixed order: the leaders range from Lv. 50 to 59.</li><li>Sabrina (ace: Alakazam, Lv. 55), Misty (ace: Starmie, Lv. 54), Erika (ace: Victreebel, Lv. 56) and Janine (ace: Venomoth, Lv. 50).</li><li>Brock (ace: Onix, Lv. 54) and Blaine, who lost his Gym and battles on the Seafoam Islands (ace: Rapidash, Lv. 59).</li><li>Lavender Town holds the Kanto Radio Tower and the House of Memories (Gold/Silver’s Soul House), the memorial that holds the graves from the old Pokémon Tower.</li><li>With the Power Plant fixed, the Lavender Radio Tower installs the Expansion Card on your Pokégear. The Poké Flute channel wakes the Snorlax in front of Diglett’s Cave.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "14. Mt. Moon e Blue",
+              "content": "<p class=\"story-route\">Rota 3 → Mt. Moon → Viridian City</p><ul class=\"story-checklist\"><li>No Mt. Moon, o Silver te espera (Nv. 50).</li><li>O ginásio de Viridian fica fechado até você encontrar o Blue nas Cinnabar Islands; só então ele volta para lutar.</li><li>Vença o Blue (ás: Pidgeot, Nv. 60) e complete as 16 insígnias.</li></ul>",
+              "image": "",
+              "pokemonId": 18,
+              "item": "",
+              "layout": "vertical",
+              "accent": "flying",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Earth Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Earth Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Blue",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Blue"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "A revanche da Liga, com times mais fortes",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The League rematch, with stronger teams"
+                  }
+                }
+              ],
+              "en": {
+                "title": "14. Mt. Moon and Blue",
+                "content": "<p class=\"story-route\">Route 3 → Mt. Moon → Viridian City</p><ul class=\"story-checklist\"><li>At Mt. Moon, Silver is waiting (Lv. 50).</li><li>The Viridian Gym stays closed until you meet Blue on the Cinnabar Islands; only then does he return to battle.</li><li>Beat Blue (ace: Pidgeot, Lv. 60) and complete the 16 badges.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "15. Mt. Silver e o Red",
+              "content": "<p class=\"story-route\">Rota 28 → Mt. Silver</p><ul class=\"story-checklist\"><li>Com a Earth Badge, o Professor Oak te dá a HM08 Rock Climb no laboratório de Pallet Town.</li><li>Com as 16 insígnias, ele também libera a entrada do Mt. Silver.</li><li>No pico, o Red espera em silêncio. O Pikachu dele está no Nv. 88: é a luta mais difícil do jogo.</li><li>Antes, vale enfrentar o Silver no Dragon’s Den e na Liga (Nv. 60).</li></ul>",
+              "image": "",
+              "pokemonId": 25,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Vencer o Red",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Beat Red"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "As 16 insígnias e a HM08 Rock Climb",
+                  "en": {
+                    "label": "Required",
+                    "value": "All 16 badges and HM08 Rock Climb"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Levar um time acima do Nv. 70",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Bring a team above Lv. 70"
+                  }
+                }
+              ],
+              "en": {
+                "title": "15. Mt. Silver and Red",
+                "content": "<p class=\"story-route\">Route 28 → Mt. Silver</p><ul class=\"story-checklist\"><li>With the Earth Badge, Professor Oak gives you HM08 Rock Climb at his Pallet Town lab.</li><li>With all 16 badges, he also opens the way into Mt. Silver.</li><li>At the summit, Red waits in silence. His Pikachu is Lv. 88: it is the hardest battle in the game.</li><li>Before that, it is worth facing Silver at the Dragon’s Den and the League (Lv. 60).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "16. Pós-jogo de HeartGold e SoulSilver",
+              "content": "<p class=\"story-route\">Battle Frontier · Safari Zone · Kanto · Johto</p><ul class=\"story-checklist\"><li>A Battle Frontier fica na Rota 40, a oeste de Olivine.</li><li>O Safari Zone de Cianwood deixa você montar as áreas com blocos.</li><li>Raikou e Entei vagam por Johto; o Suicune é enfrentado depois de persegui-lo pelas rotas.</li><li>O lendário da outra capa também aparece: um senhor em Pewter City entrega a asa que o chama.</li></ul>",
+              "image": "",
+              "pokemonId": 245,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Pós-jogo aberto",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Post-game opened up"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Hall of Fame",
+                  "en": {
+                    "label": "Required",
+                    "value": "Hall of Fame"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Os três pássaros de Kanto e o Mewtwo na Cerulean Cave",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The three Kanto birds and Mewtwo in Cerulean Cave"
+                  }
+                }
+              ],
+              "en": {
+                "title": "16. HeartGold and SoulSilver post-game",
+                "content": "<p class=\"story-route\">Battle Frontier · Safari Zone · Kanto · Johto</p><ul class=\"story-checklist\"><li>The Battle Frontier is on Route 40, west of Olivine.</li><li>The Cianwood Safari Zone lets you shape its areas with blocks.</li><li>Raikou and Entei roam Johto; Suicune is battled after you chase it across the routes.</li><li>The other cover legendary shows up too: an old man in Pewter City hands you the wing that calls it.</li></ul>",
+                "linkLabel": "Open"
+              }
+            }
+          ],
+          "en": {
+            "label": "Content"
+          }
+        }
+      ],
+      "en": {
+        "title": "Main Walkthrough · HeartGold/SoulSilver",
+        "menuLabel": "Main Walkthrough",
+        "description": "Johto and Kanto end to end: 16 badges, the Indigo Plateau League and Red on Mt. Silver."
+      }
+    },
+    {
+      "slug": "roteiro-principal",
+      "title": "Roteiro Principal · Diamond/Pearl",
+      "menuLabel": "Roteiro Principal",
+      "description": "A campanha original de Sinnoh, da escolha do inicial ao Spear Pillar, com a Liga e o pós-jogo na Battle Zone.",
+      "visible": true,
+      "versions": [
+        "diamond-pearl"
+      ],
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "cards": [
+            {
+              "title": "Como usar este roteiro",
+              "content": "<p>Diamond e Pearl são a campanha original de Sinnoh. Quem jogou Platinum vai estranhar algumas coisas: Maylene e Crasher Wake vêm antes da Fantina, que é a 5ª líder; a HM04 Strength fica na Lost Tower e a HM05 Defog no Great Marsh; não existe Distortion World, e o Giratina só aparece no pós-jogo. O lendário do Spear Pillar muda com o cartucho: Dialga em Diamond, Palkia em Pearl.</p><p class=\"story-note\">Use o Mapa Múndi para conferir Pokémon, níveis e taxas de encontro em cada área, e a aba Treinadores para os times completos.</p>",
+              "image": "img/Sinnoh_upscaled.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "dragon",
+              "link": "#map",
+              "linkLabel": "Abrir Mapa Múndi",
+              "fields": [],
+              "en": {
+                "title": "How to use this walkthrough",
+                "content": "<p>Diamond and Pearl are the original Sinnoh campaign. Anyone who played Platinum will notice a few things: Maylene and Crasher Wake come before Fantina, the 5th leader; HM04 Strength is in the Lost Tower and HM05 Defog in the Great Marsh; there is no Distortion World, and Giratina only appears in the post-game. The Spear Pillar legendary depends on the cartridge: Dialga in Diamond, Palkia in Pearl.</p><p class=\"story-note\">Use the Region Map to check Pokémon, levels and encounter rates in each area, and the Trainers tab for the full teams.</p>",
+                "linkLabel": "Open the Region Map"
+              }
+            },
+            {
+              "title": "1. Twinleaf, Lake Verity e o primeiro Pokémon",
+              "content": "<p class=\"story-route\">Twinleaf Town → Rota 201 → Lake Verity → Sandgem Town</p><ul class=\"story-checklist\"><li>O Barry te arrasta até o Lake Verity, onde vocês cruzam com o Professor Rowan.</li><li>Na Rota 201, escolha Turtwig, Chimchar ou Piplup da maleta do Rowan. O Barry fica com o que vence o seu.</li><li>Em Sandgem Town, o Rowan entrega a Pokédex.</li></ul>",
+              "image": "",
+              "pokemonId": 387,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Pokédex",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Pokédex"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Escolher o inicial",
+                  "en": {
+                    "label": "Required",
+                    "value": "Pick a starter"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Voltar a Twinleaf antes de seguir",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Head back to Twinleaf before moving on"
+                  }
+                }
+              ],
+              "en": {
+                "title": "1. Twinleaf, Lake Verity and your first Pokémon",
+                "content": "<p class=\"story-route\">Twinleaf Town → Route 201 → Lake Verity → Sandgem Town</p><ul class=\"story-checklist\"><li>Barry drags you to Lake Verity, where you both run into Professor Rowan.</li><li>On Route 201, pick Turtwig, Chimchar or Piplup from Rowan’s briefcase. Barry takes the one that beats yours.</li><li>In Sandgem Town, Rowan hands you the Pokédex.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "2. Jubilife, Oreburgh e Roark",
+              "content": "<p class=\"story-route\">Rota 202 → Jubilife City → Rota 203 → Oreburgh Gate → Oreburgh City</p><ul class=\"story-checklist\"><li>Em Jubilife, consiga o Pokétch na empresa que o fabrica.</li><li>O Barry te enfrenta na Rota 203 (Nv. 9).</li><li>No Oreburgh Gate, um homem te dá a HM06 Rock Smash.</li><li>Vença o Roark (ás: Cranidos, Nv. 14). Ele avisa que o norte de Sinnoh não se atravessa sem bicicleta.</li></ul>",
+              "image": "",
+              "pokemonId": 408,
+              "item": "",
+              "layout": "vertical",
+              "accent": "rock",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Coal Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Coal Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Roark",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Roark"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "HM06 Rock Smash, que abre atalhos pelo resto do jogo",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "HM06 Rock Smash, which opens shortcuts for the rest of the game"
+                  }
+                }
+              ],
+              "en": {
+                "title": "2. Jubilife, Oreburgh and Roark",
+                "content": "<p class=\"story-route\">Route 202 → Jubilife City → Route 203 → Oreburgh Gate → Oreburgh City</p><ul class=\"story-checklist\"><li>In Jubilife, get the Pokétch from the company that makes it.</li><li>Barry challenges you on Route 203 (Lv. 9).</li><li>At Oreburgh Gate, a man gives you HM06 Rock Smash.</li><li>Beat Roark (ace: Cranidos, Lv. 14). He warns that northern Sinnoh cannot be crossed without a Bicycle.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "3. Floaroma e Valley Windworks",
+              "content": "<p class=\"story-route\">Rota 204 → Ravaged Path → Floaroma Town → Valley Windworks</p><ul class=\"story-checklist\"><li>A Team Galactic toma a Valley Windworks; a chave está com os recrutas do Floaroma Meadow.</li><li>Na Windworks, vença a Mars (ás: Purugly, Nv. 16).</li></ul>",
+              "image": "",
+              "pokemonId": 432,
+              "item": "",
+              "layout": "vertical",
+              "accent": "normal",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Valley Windworks liberada",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Valley Windworks freed"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a Mars",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Mars"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Sprayduck na floricultura de Floaroma",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Sprayduck at the Floaroma flower shop"
+                  }
+                }
+              ],
+              "en": {
+                "title": "3. Floaroma and Valley Windworks",
+                "content": "<p class=\"story-route\">Route 204 → Ravaged Path → Floaroma Town → Valley Windworks</p><ul class=\"story-checklist\"><li>Team Galactic takes over Valley Windworks; the key is with the Grunts in Floaroma Meadow.</li><li>At the Windworks, beat Mars (ace: Purugly, Lv. 16).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "4. Eterna Forest, Eterna e Gardenia",
+              "content": "<p class=\"story-route\">Rota 205 → Eterna Forest → Eterna City</p><ul class=\"story-checklist\"><li>A Cynthia te encontra em Eterna e entrega a HM01 Cut.</li><li>O Underground Man dá o Explorer Kit.</li><li>Vença a Gardenia (ás: Roserade, Nv. 22).</li></ul>",
+              "image": "",
+              "pokemonId": 407,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Forest Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Forest Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a Gardenia",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Gardenia"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Explorer Kit: abre o Subterrâneo, com fósseis e shards",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Explorer Kit: opens the Underground, with Fossils and Shards"
+                  }
+                }
+              ],
+              "en": {
+                "title": "4. Eterna Forest, Eterna and Gardenia",
+                "content": "<p class=\"story-route\">Route 205 → Eterna Forest → Eterna City</p><ul class=\"story-checklist\"><li>Cynthia meets you in Eterna and hands you HM01 Cut.</li><li>The Underground Man gives you the Explorer Kit.</li><li>Beat Gardenia (ace: Roserade, Lv. 22).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "5. O prédio Galactic e a bicicleta",
+              "content": "<p class=\"story-route\">Team Galactic Eterna Building → Rota 206 → Rota 207 → Mt. Coronet → Rota 208</p><ul class=\"story-checklist\"><li>Invada o prédio da Galactic e vença a Jupiter (ás: Skuntank, Nv. 20).</li><li>O Rad Rickshaw, dono da loja de bicicletas, é libertado e te dá a Bicycle.</li><li>Desça a Cycling Road e atravesse o Mt. Coronet rumo a Hearthome.</li></ul>",
+              "image": "",
+              "pokemonId": 435,
+              "item": "",
+              "layout": "vertical",
+              "accent": "poison",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Bicycle",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Bicycle"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a Jupiter",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Jupiter"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Wayward Cave, sob a Cycling Road (Gible)",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Wayward Cave, under the Cycling Road (Gible)"
+                  }
+                }
+              ],
+              "en": {
+                "title": "5. The Galactic building and the Bicycle",
+                "content": "<p class=\"story-route\">Team Galactic Eterna Building → Route 206 → Route 207 → Mt. Coronet → Route 208</p><ul class=\"story-checklist\"><li>Storm the Galactic building and beat Jupiter (ace: Skuntank, Lv. 20).</li><li>Rad Rickshaw, the bike shop owner, is freed and gives you the Bicycle.</li><li>Ride down the Cycling Road and cross Mt. Coronet towards Hearthome.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "6. Hearthome e a Lost Tower",
+              "content": "<p class=\"story-route\">Hearthome City → Rota 209 → Lost Tower</p><ul class=\"story-checklist\"><li>O Barry te espera em frente ao ginásio (Nv. 21).</li><li>A Fantina, líder de Hearthome, diz que você precisa ficar mais forte antes de desafiá-la. Em Diamond e Pearl ela é a 5ª líder.</li><li>No alto da Lost Tower, uma senhora agradece a visita aos espíritos e dá a HM04 Strength.</li></ul>",
+              "image": "",
+              "pokemonId": 355,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "HM04 Strength",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "HM04 Strength"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Subir a Lost Tower",
+                  "en": {
+                    "label": "Required",
+                    "value": "Climb the Lost Tower"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Poffin Case com o presidente do Fan Club, e a Amity Square",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Poffin Case from the Fan Club chairman, and Amity Square"
+                  }
+                }
+              ],
+              "en": {
+                "title": "6. Hearthome and the Lost Tower",
+                "content": "<p class=\"story-route\">Hearthome City → Route 209 → Lost Tower</p><ul class=\"story-checklist\"><li>Barry waits in front of the Gym (Lv. 21).</li><li>Fantina, Hearthome’s leader, says you need to get stronger before challenging her. In Diamond and Pearl she is the 5th leader.</li><li>At the top of the Lost Tower, an old woman thanks you for visiting the spirits and gives you HM04 Strength.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "7. Solaceon e as ruínas",
+              "content": "<p class=\"story-route\">Solaceon Town → Solaceon Ruins → Rota 210 (sul) → Rota 215</p><ul class=\"story-checklist\"><li>O Day Care de Solaceon fica aqui.</li><li>Nas Solaceon Ruins moram os Unown.</li><li>A Rota 210 para o norte está bloqueada por um bando de Psyduck — por enquanto.</li></ul>",
+              "image": "",
+              "pokemonId": 201,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Chegar a Veilstone",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Reach Veilstone"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Seguir pela Rota 210 sul e a 215",
+                  "en": {
+                    "label": "Required",
+                    "value": "Follow Route 210 south and Route 215"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Deixar um casal no Day Care",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Leave a pair at the Day Care"
+                  }
+                }
+              ],
+              "en": {
+                "title": "7. Solaceon and the ruins",
+                "content": "<p class=\"story-route\">Solaceon Town → Solaceon Ruins → Route 210 (south) → Route 215</p><ul class=\"story-checklist\"><li>The Solaceon Day Care is here.</li><li>The Unown live in the Solaceon Ruins.</li><li>Route 210 north is blocked by a group of Psyduck — for now.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "8. Veilstone, Maylene e a HM Fly",
+              "content": "<p class=\"story-route\">Rota 215 → Veilstone City</p><ul class=\"story-checklist\"><li>Vença a Maylene (ás: Lucario, Nv. 30).</li><li>No depósito da Team Galactic, apanhe a HM02 Fly.</li></ul>",
+              "image": "",
+              "pokemonId": 448,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fighting",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Cobble Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Cobble Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a Maylene",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Maylene"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "A loja de departamentos de Veilstone",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Veilstone Department Store"
+                  }
+                }
+              ],
+              "en": {
+                "title": "8. Veilstone, Maylene and HM Fly",
+                "content": "<p class=\"story-route\">Route 215 → Veilstone City</p><ul class=\"story-checklist\"><li>Beat Maylene (ace: Lucario, Lv. 30).</li><li>In the Team Galactic warehouse, pick up HM02 Fly.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "9. Pastoria, Crasher Wake e o Great Marsh",
+              "content": "<p class=\"story-route\">Rota 214 → Valor Lakefront → Rota 213 → Pastoria City</p><ul class=\"story-checklist\"><li>O Barry te enfrenta antes do ginásio (Nv. 28).</li><li>Vença o Crasher Wake (ás: Floatzel, Nv. 30).</li><li>Em Diamond e Pearl, a HM05 Defog fica no Great Marsh, o safári de Pastoria.</li><li>A Cynthia entrega o SecretPotion, para os Psyduck da Rota 210.</li></ul>",
+              "image": "",
+              "pokemonId": 419,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Fen Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Fen Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Crasher Wake",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Crasher Wake"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Great Marsh, com um Pokémon diferente sorteado por área a cada dia",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Great Marsh, with a different Pokémon drawn per area each day"
+                  }
+                }
+              ],
+              "en": {
+                "title": "9. Pastoria, Crasher Wake and the Great Marsh",
+                "content": "<p class=\"story-route\">Route 214 → Valor Lakefront → Route 213 → Pastoria City</p><ul class=\"story-checklist\"><li>Barry challenges you before the Gym (Lv. 28).</li><li>Beat Crasher Wake (ace: Floatzel, Lv. 30).</li><li>In Diamond and Pearl, HM05 Defog is in the Great Marsh, Pastoria’s Safari.</li><li>Cynthia gives you the SecretPotion, for the Psyduck on Route 210.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "10. Celestic, a HM Surf e enfim a Fantina",
+              "content": "<p class=\"story-route\">Rota 210 (norte) → Celestic Town → Hearthome City</p><ul class=\"story-checklist\"><li>Use o SecretPotion nos Psyduck e siga pela neblina da Rota 210 norte até Celestic.</li><li>Afaste a Team Galactic das ruínas de Celestic. A avó da Cynthia te entrega a HM03 Surf.</li><li>Volte a Hearthome e vença a Fantina (ás: Mismagius, Nv. 36).</li></ul>",
+              "image": "",
+              "pokemonId": 429,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Relic Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Relic Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "HM03 Surf e vencer a Fantina",
+                  "en": {
+                    "label": "Required",
+                    "value": "HM03 Surf, then beat Fantina"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Com Surf, a Pokémon Mansion e as margens da Rota 212",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "With Surf, the Pokémon Mansion and the banks of Route 212"
+                  }
+                }
+              ],
+              "en": {
+                "title": "10. Celestic, HM Surf and Fantina at last",
+                "content": "<p class=\"story-route\">Route 210 (north) → Celestic Town → Hearthome City</p><ul class=\"story-checklist\"><li>Use the SecretPotion on the Psyduck and head through the fog of Route 210 north to Celestic.</li><li>Drive Team Galactic away from the Celestic ruins. Cynthia’s grandmother gives you HM03 Surf.</li><li>Head back to Hearthome and beat Fantina (ace: Mismagius, Lv. 36).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "11. Canalave, Iron Island e Byron",
+              "content": "<p class=\"story-route\">Rota 218 → Canalave City → Iron Island</p><ul class=\"story-checklist\"><li>O Barry te espera em Canalave (Nv. 35).</li><li>Na Iron Island, atravesse a mina com o Riley. No fim, ele te dá um Ovo de Riolu.</li><li>Vença o Byron (ás: Bastiodon, Nv. 39).</li></ul>",
+              "image": "",
+              "pokemonId": 411,
+              "item": "",
+              "layout": "vertical",
+              "accent": "steel",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Mine Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Mine Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Byron",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Byron"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Ovo de Riolu, que vira Lucario",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Riolu Egg, which becomes Lucario"
+                  }
+                }
+              ],
+              "en": {
+                "title": "11. Canalave, Iron Island and Byron",
+                "content": "<p class=\"story-route\">Route 218 → Canalave City → Iron Island</p><ul class=\"story-checklist\"><li>Barry waits in Canalave (Lv. 35).</li><li>On Iron Island, cross the mine with Riley. At the end he gives you a Riolu Egg.</li><li>Beat Byron (ace: Bastiodon, Lv. 39).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "12. Os lagos, a Rota 217 e Candice",
+              "content": "<p class=\"story-route\">Lake Valor → Lake Verity → Mt. Coronet → Rota 216 → Rota 217 → Snowpoint City</p><ul class=\"story-checklist\"><li>A Team Galactic ataca os lagos: vença o Saturn no Lake Valor (Nv. 37) e a Mars no Lake Verity (Nv. 39).</li><li>Na neve da Rota 217, pegue a HM08 Rock Climb.</li><li>Vença a Candice em Snowpoint (ás: Abomasnow, Nv. 42).</li></ul>",
+              "image": "",
+              "pokemonId": 460,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ice",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Icicle Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Icicle Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a Candice",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Candice"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "A HM08 Rock Climb, que abre caminhos nas encostas",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "HM08 Rock Climb, which opens paths up the slopes"
+                  }
+                }
+              ],
+              "en": {
+                "title": "12. The lakes, Route 217 and Candice",
+                "content": "<p class=\"story-route\">Lake Valor → Lake Verity → Mt. Coronet → Route 216 → Route 217 → Snowpoint City</p><ul class=\"story-checklist\"><li>Team Galactic strikes the lakes: beat Saturn at Lake Valor (Lv. 37) and Mars at Lake Verity (Lv. 39).</li><li>In the snow of Route 217, pick up HM08 Rock Climb.</li><li>Beat Candice in Snowpoint (ace: Abomasnow, Lv. 42).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "13. O QG da Team Galactic",
+              "content": "<p class=\"story-route\">Veilstone City → Galactic Warehouse → Team Galactic HQ</p><ul class=\"story-checklist\"><li>No depósito, pegue a Galactic Key: ela abre as portas eletrônicas do QG.</li><li>Vença o Saturn (Nv. 40) e o Cyrus, no escritório do quarto andar (Nv. 43).</li><li>Liberte Uxie, Mesprit e Azelf.</li></ul>",
+              "image": "",
+              "pokemonId": 215,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Guardiões dos lagos libertados",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Lake guardians freed"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Saturn e o Cyrus no QG",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Saturn and Cyrus at the HQ"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "As TMs escondidas pelo depósito e pelo QG",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The TMs hidden around the warehouse and the HQ"
+                  }
+                }
+              ],
+              "en": {
+                "title": "13. The Team Galactic HQ",
+                "content": "<p class=\"story-route\">Veilstone City → Galactic Warehouse → Team Galactic HQ</p><ul class=\"story-checklist\"><li>In the warehouse, grab the Galactic Key: it opens the HQ’s electronic doors.</li><li>Beat Saturn (Lv. 40) and Cyrus, in the fourth-floor office (Lv. 43).</li><li>Free Uxie, Mesprit and Azelf.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "14. Spear Pillar",
+              "content": "<p class=\"story-route\">Mt. Coronet → Spear Pillar</p><ul class=\"story-checklist\"><li>O Cyrus usa a Red Chain para chamar o senhor do tempo ou do espaço: Dialga em Diamond, Palkia em Pearl.</li><li>O Barry luta ao seu lado contra a Mars e a Jupiter (Nv. 46).</li><li>Vença o Cyrus (Nv. 48) e enfrente o lendário do seu cartucho.</li></ul>",
+              "image": "",
+              "pokemonId": 461,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Dialga ou Palkia",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Dialga or Palkia"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Cyrus no Spear Pillar",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Cyrus at the Spear Pillar"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Salvar antes do lendário",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Save before the legendary"
+                  }
+                }
+              ],
+              "en": {
+                "title": "14. Spear Pillar",
+                "content": "<p class=\"story-route\">Mt. Coronet → Spear Pillar</p><ul class=\"story-checklist\"><li>Cyrus uses the Red Chain to call the master of time or of space: Dialga in Diamond, Palkia in Pearl.</li><li>Barry fights alongside you against Mars and Jupiter (Lv. 46).</li><li>Beat Cyrus (Lv. 48) and face your cartridge’s legendary.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "15. Sunyshore e Volkner",
+              "content": "<p class=\"story-route\">Rota 222 → Sunyshore City</p><ul class=\"story-checklist\"><li>Vença o Volkner (ás: Luxray, Nv. 49).</li><li>A Jasmine, de passagem por Sunyshore, entrega a HM07 Waterfall.</li></ul>",
+              "image": "",
+              "pokemonId": 405,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Beacon Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Beacon Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Volkner",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Volkner"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "A HM07 Waterfall, que abre a Rota 223",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "HM07 Waterfall, which opens Route 223"
+                  }
+                }
+              ],
+              "en": {
+                "title": "15. Sunyshore and Volkner",
+                "content": "<p class=\"story-route\">Route 222 → Sunyshore City</p><ul class=\"story-checklist\"><li>Beat Volkner (ace: Luxray, Lv. 49).</li><li>Jasmine, visiting Sunyshore, gives you HM07 Waterfall.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "16. Victory Road, Elite Four e Cynthia",
+              "content": "<p class=\"story-route\">Rota 223 → Pokémon League (sul) → Victory Road → Pokémon League</p><ul class=\"story-checklist\"><li>O Barry te enfrenta na entrada da Liga (Nv. 53).</li><li>Elite Four: Aaron (Nv. 57), Bertha (Nv. 59), Flint (Nv. 61), Lucian (Nv. 63).</li><li>Campeã: Cynthia (ás: Garchomp, Nv. 66).</li></ul>",
+              "image": "",
+              "pokemonId": 445,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dragon",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Hall of Fame",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Hall of Fame"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer os quatro e a Cynthia",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat the four and Cynthia"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Garchomp é Dragão e Terrestre: golpe de Gelo causa dano quádruplo",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Garchomp is Dragon and Ground: an Ice move deals quadruple damage"
+                  }
+                }
+              ],
+              "en": {
+                "title": "16. Victory Road, the Elite Four and Cynthia",
+                "content": "<p class=\"story-route\">Route 223 → Pokémon League (south) → Victory Road → Pokémon League</p><ul class=\"story-checklist\"><li>Barry challenges you at the League entrance (Lv. 53).</li><li>Elite Four: Aaron (Lv. 57), Bertha (Lv. 59), Flint (Lv. 61), Lucian (Lv. 63).</li><li>Champion: Cynthia (ace: Garchomp, Lv. 66).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "17. Pós-jogo de Diamond e Pearl",
+              "content": "<p class=\"story-route\">Sandgem Town → Snowpoint City → Battle Zone → Stark Mountain → Turnback Cave</p><ul class=\"story-checklist\"><li>O Rowan entrega a Pokédex Nacional e, depois da visita do Professor Oak, o Poké Radar.</li><li>De Snowpoint, o barco leva à Battle Zone: Fight Area, Battle Tower e Survival Area.</li><li>Na Stark Mountain, com o Buck, espera o Heatran. Em Diamond e Pearl a Team Galactic não aparece lá.</li><li>O Giratina, que em Platinum é o clímax da história, aqui fica no fundo da Turnback Cave.</li></ul>",
+              "image": "",
+              "pokemonId": 487,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Pós-jogo aberto",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Post-game opened up"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Hall of Fame",
+                  "en": {
+                    "label": "Required",
+                    "value": "Hall of Fame"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Os guardiões dos lagos, a Cresselia vagando por Sinnoh e o Regigigas no Snowpoint Temple (com os três Regis)",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The lake guardians, Cresselia roaming Sinnoh and Regigigas at the Snowpoint Temple (with the three Regis)"
+                  }
+                }
+              ],
+              "en": {
+                "title": "17. Diamond and Pearl post-game",
+                "content": "<p class=\"story-route\">Sandgem Town → Snowpoint City → Battle Zone → Stark Mountain → Turnback Cave</p><ul class=\"story-checklist\"><li>Rowan gives you the National Pokédex and, after Professor Oak’s visit, the Poké Radar.</li><li>From Snowpoint, the ferry takes you to the Battle Zone: the Fight Area, the Battle Tower and the Survival Area.</li><li>At Stark Mountain, with Buck, Heatran is waiting. In Diamond and Pearl, Team Galactic does not show up there.</li><li>Giratina, the climax of the story in Platinum, is found here deep in Turnback Cave.</li></ul>",
+                "linkLabel": "Open"
+              }
+            }
+          ],
+          "en": {
+            "label": "Content"
+          }
+        }
+      ],
+      "en": {
+        "title": "Main Walkthrough · Diamond/Pearl",
+        "menuLabel": "Main Walkthrough",
+        "description": "The original Sinnoh campaign, from picking a starter to the Spear Pillar, with the League and the Battle Zone post-game."
+      }
+    },
+    {
+      "slug": "roteiro-principal",
+      "title": "Roteiro Principal · Platinum",
+      "menuLabel": "Roteiro Principal",
+      "description": "A campanha completa de Platinum, da escolha do inicial ao Distortion World, com a Liga e o pós-jogo na Battle Zone.",
+      "visible": true,
+      "versions": [
+        "platinum"
+      ],
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "cards": [
+            {
+              "title": "Como usar este roteiro",
+              "content": "<p>Platinum reescreve a campanha de Diamond e Pearl: muda a ordem dos ginásios — a Fantina passa a ser a terceira líder, e não a 5ª —, põe o Giratina e o Distortion World no clímax e abre áreas novas no pós-jogo. Os cards seguem a ordem da história; os desvios opcionais ficam em \"Vale a pena\".</p><p class=\"story-note\">Use o Mapa Múndi para conferir Pokémon, níveis e taxas de encontro em cada área, e a aba Treinadores para os times completos de cada batalha.</p>",
+              "image": "img/Sinnoh_upscaled.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "ghost",
+              "link": "#map",
+              "linkLabel": "Abrir Mapa Múndi",
+              "fields": [],
+              "en": {
+                "title": "How to use this walkthrough",
+                "content": "<p>Platinum rewrites the Diamond and Pearl campaign: it changes the Gym order — Fantina becomes the third leader instead of number 5 —, puts Giratina and the Distortion World at the climax and opens new areas in the post-game. The cards follow the story order; optional detours sit under \"Worth it\".</p><p class=\"story-note\">Use the Region Map to check Pokémon, levels and encounter rates in each area, and the Trainers tab for the full teams of every battle.</p>",
+                "linkLabel": "Open the Region Map"
+              }
+            },
+            {
+              "title": "1. Twinleaf, Lake Verity e o primeiro Pokémon",
+              "content": "<p class=\"story-route\">Twinleaf Town → Rota 201 → Lake Verity → Sandgem Town</p><ul class=\"story-checklist\"><li>O Barry te arrasta até o Lake Verity, onde você cruza com o Professor Rowan e com o Cyrus.</li><li>Na Rota 201, escolha Turtwig, Chimchar ou Piplup da maleta do Rowan. O Barry fica com o que vence o seu.</li><li>Em Sandgem Town, o Rowan entrega a Pokédex.</li></ul>",
+              "image": "",
+              "pokemonId": 387,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Pokédex",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Pokédex"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Escolher o inicial e vencer o Barry (Nv. 5)",
+                  "en": {
+                    "label": "Required",
+                    "value": "Pick a starter and beat Barry (Lv. 5)"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Voltar a Twinleaf antes de seguir: sua mãe e o Barry têm itens",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Head back to Twinleaf before moving on: your mother and Barry have items"
+                  }
+                }
+              ],
+              "en": {
+                "title": "1. Twinleaf, Lake Verity and your first Pokémon",
+                "content": "<p class=\"story-route\">Twinleaf Town → Route 201 → Lake Verity → Sandgem Town</p><ul class=\"story-checklist\"><li>Barry drags you to Lake Verity, where you run into Professor Rowan and Cyrus.</li><li>On Route 201, pick Turtwig, Chimchar or Piplup from Rowan’s briefcase. Barry takes the one that beats yours.</li><li>In Sandgem Town, Rowan hands you the Pokédex.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "2. Jubilife, Oreburgh e Roark",
+              "content": "<p class=\"story-route\">Rota 202 → Jubilife City → Rota 203 → Oreburgh Gate → Oreburgh City</p><ul class=\"story-checklist\"><li>Na Rota 202 você aprende a capturar; em Jubilife, consiga o Pokétch.</li><li>O Barry te espera na Rota 203 (Nv. 9).</li><li>Na entrada do Oreburgh Gate, um alpinista dá a HM06 Rock Smash.</li><li>Vença o Roark no ginásio de Oreburgh (ás: Cranidos, Nv. 14).</li></ul>",
+              "image": "",
+              "pokemonId": 408,
+              "item": "",
+              "layout": "vertical",
+              "accent": "rock",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Coal Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Coal Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Roark",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Roark"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "HM06 Rock Smash, que abre atalhos pelo resto do jogo",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "HM06 Rock Smash, which opens shortcuts for the rest of the game"
+                  }
+                }
+              ],
+              "en": {
+                "title": "2. Jubilife, Oreburgh and Roark",
+                "content": "<p class=\"story-route\">Route 202 → Jubilife City → Route 203 → Oreburgh Gate → Oreburgh City</p><ul class=\"story-checklist\"><li>On Route 202 you learn to catch Pokémon; in Jubilife, get the Pokétch.</li><li>Barry waits on Route 203 (Lv. 9).</li><li>At the entrance to Oreburgh Gate, a Hiker gives you HM06 Rock Smash.</li><li>Beat Roark at the Oreburgh Gym (ace: Cranidos, Lv. 14).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "3. Floaroma e Valley Windworks",
+              "content": "<p class=\"story-route\">Jubilife City → Rota 204 → Ravaged Path → Floaroma Town → Valley Windworks</p><ul class=\"story-checklist\"><li>A Team Galactic aparece de verdade: recrutas tomam a Valley Windworks.</li><li>Pegue a Works Key com os recrutas no Floaroma Meadow.</li><li>Na Windworks, vença a Mars (ás: Purugly, Nv. 17).</li></ul>",
+              "image": "",
+              "pokemonId": 432,
+              "item": "",
+              "layout": "vertical",
+              "accent": "normal",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Valley Windworks liberada",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Valley Windworks freed"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Works Key e vencer a Mars",
+                  "en": {
+                    "label": "Required",
+                    "value": "Works Key and beat Mars"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Sprayduck na floricultura de Floaroma",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Sprayduck at the Floaroma flower shop"
+                  }
+                }
+              ],
+              "en": {
+                "title": "3. Floaroma and Valley Windworks",
+                "content": "<p class=\"story-route\">Jubilife City → Route 204 → Ravaged Path → Floaroma Town → Valley Windworks</p><ul class=\"story-checklist\"><li>Team Galactic shows up for real: Grunts take over Valley Windworks.</li><li>Get the Works Key from the Grunts in Floaroma Meadow.</li><li>At the Windworks, beat Mars (ace: Purugly, Lv. 17).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "4. Eterna Forest, Eterna e Gardenia",
+              "content": "<p class=\"story-route\">Rota 205 → Eterna Forest → Eterna City</p><ul class=\"story-checklist\"><li>Atravesse a Eterna Forest até Eterna City.</li><li>O Underground Man, ao lado do Centro Pokémon, entrega o Explorer Kit.</li><li>A Cynthia te encontra em Eterna e entrega a HM01 Cut.</li><li>Vença a Gardenia (ás: Roserade, Nv. 22).</li></ul>",
+              "image": "",
+              "pokemonId": 407,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Forest Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Forest Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a Gardenia",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Gardenia"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Explorer Kit: abre o Subterrâneo, com fósseis e shards",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Explorer Kit: opens the Underground, with Fossils and Shards"
+                  }
+                }
+              ],
+              "en": {
+                "title": "4. Eterna Forest, Eterna and Gardenia",
+                "content": "<p class=\"story-route\">Route 205 → Eterna Forest → Eterna City</p><ul class=\"story-checklist\"><li>Cross Eterna Forest to Eterna City.</li><li>The Underground Man, next to the Pokémon Center, gives you the Explorer Kit.</li><li>Cynthia meets you in Eterna and hands you HM01 Cut.</li><li>Beat Gardenia (ace: Roserade, Lv. 22).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "5. O prédio Galactic e a bicicleta",
+              "content": "<p class=\"story-route\">Team Galactic Eterna Building → Rota 206 → Rota 207 → Mt. Coronet</p><ul class=\"story-checklist\"><li>Invada o prédio da Team Galactic e vença a Jupiter (ás: Skuntank, Nv. 23).</li><li>O dono da loja de bicicletas é libertado e te dá a Bicycle.</li><li>Desça a Cycling Road, a Rota 206. Na guarita, o pai do Lucas/Dawn dá a Exp. Share depois que você tiver visto 35 Pokémon.</li></ul>",
+              "image": "",
+              "pokemonId": 435,
+              "item": "",
+              "layout": "vertical",
+              "accent": "poison",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Bicycle",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Bicycle"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a Jupiter no prédio Galactic",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Jupiter in the Galactic building"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Old Chateau (Rotom) e Wayward Cave (Gible), os dois opcionais",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Old Chateau (Rotom) and Wayward Cave (Gible), both optional"
+                  }
+                }
+              ],
+              "en": {
+                "title": "5. The Galactic building and the Bicycle",
+                "content": "<p class=\"story-route\">Team Galactic Eterna Building → Route 206 → Route 207 → Mt. Coronet</p><ul class=\"story-checklist\"><li>Storm the Team Galactic building and beat Jupiter (ace: Skuntank, Lv. 23).</li><li>The bike shop owner is freed and gives you the Bicycle.</li><li>Ride down the Cycling Road, Route 206. At the gatehouse, Lucas/Dawn’s father gives you the Exp. Share once you have seen 35 Pokémon.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "6. Hearthome e Fantina",
+              "content": "<p class=\"story-route\">Mt. Coronet → Rota 208 → Hearthome City</p><ul class=\"story-checklist\"><li>O presidente do Pokémon Fan Club entrega o Poffin Case.</li><li>Vença a Fantina (ás: Mismagius, Nv. 26). Em Platinum ela já é a terceira líder.</li></ul>",
+              "image": "",
+              "pokemonId": 429,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Relic Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Relic Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a Fantina",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Fantina"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Super Concursos no Contest Hall, e a Amity Square",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Super Contests at the Contest Hall, and Amity Square"
+                  }
+                }
+              ],
+              "en": {
+                "title": "6. Hearthome and Fantina",
+                "content": "<p class=\"story-route\">Mt. Coronet → Route 208 → Hearthome City</p><ul class=\"story-checklist\"><li>The Pokémon Fan Club Chairman gives you the Poffin Case.</li><li>Beat Fantina (ace: Mismagius, Lv. 26). In Platinum she is already the third leader.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "7. Solaceon, as ruínas e a Lost Tower",
+              "content": "<p class=\"story-route\">Rota 209 → Solaceon Town → Solaceon Ruins → Rota 210 (sul)</p><ul class=\"story-checklist\"><li>O Barry te enfrenta na Rota 209 (Nv. 27).</li><li>Nas Solaceon Ruins, siga as salas dos Unown até a HM05 Defog.</li><li>A Rota 210 para o norte está bloqueada por um bando de Psyduck — por enquanto.</li></ul>",
+              "image": "",
+              "pokemonId": 201,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "HM05 Defog",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "HM05 Defog"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Seguir pela Rota 210 sul até a 215",
+                  "en": {
+                    "label": "Required",
+                    "value": "Continue down Route 210 south to Route 215"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Day Care de Solaceon, e a Lost Tower, que pede Defog nos andares de cima",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Solaceon Day Care, and the Lost Tower, whose upper floors need Defog"
+                  }
+                }
+              ],
+              "en": {
+                "title": "7. Solaceon, the ruins and the Lost Tower",
+                "content": "<p class=\"story-route\">Route 209 → Solaceon Town → Solaceon Ruins → Route 210 (south)</p><ul class=\"story-checklist\"><li>Barry challenges you on Route 209 (Lv. 27).</li><li>In the Solaceon Ruins, follow the Unown rooms to HM05 Defog.</li><li>Route 210 north is blocked by a group of Psyduck — for now.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "8. Veilstone, Maylene e a HM Fly",
+              "content": "<p class=\"story-route\">Rota 210 (sul) → Rota 215 → Veilstone City</p><ul class=\"story-checklist\"><li>Vença a Maylene (ás: Lucario, Nv. 32).</li><li>Com o Looker, no depósito da Team Galactic, apanhe a HM02 Fly.</li></ul>",
+              "image": "",
+              "pokemonId": 448,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fighting",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Cobble Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Cobble Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a Maylene",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Maylene"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "A loja de departamentos de Veilstone, com TMs e itens de treino",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Veilstone Department Store, with TMs and training items"
+                  }
+                }
+              ],
+              "en": {
+                "title": "8. Veilstone, Maylene and HM Fly",
+                "content": "<p class=\"story-route\">Route 210 (south) → Route 215 → Veilstone City</p><ul class=\"story-checklist\"><li>Beat Maylene (ace: Lucario, Lv. 32).</li><li>With Looker, in the Team Galactic warehouse, pick up HM02 Fly.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "9. Pastoria e Crasher Wake",
+              "content": "<p class=\"story-route\">Rota 214 → Valor Lakefront → Rota 213 → Pastoria City</p><ul class=\"story-checklist\"><li>O Barry te enfrenta antes do ginásio (Nv. 36).</li><li>Vença o Crasher Wake (ás: Floatzel, Nv. 37).</li><li>A Cynthia entrega o SecretPotion, para os Psyduck da Rota 210.</li></ul>",
+              "image": "",
+              "pokemonId": 419,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Fen Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Fen Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Crasher Wake",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Crasher Wake"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Great Marsh, o safári de Pastoria, e a Pokémon Mansion na Rota 212",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "The Great Marsh, Pastoria’s Safari, and the Pokémon Mansion on Route 212"
+                  }
+                }
+              ],
+              "en": {
+                "title": "9. Pastoria and Crasher Wake",
+                "content": "<p class=\"story-route\">Route 214 → Valor Lakefront → Route 213 → Pastoria City</p><ul class=\"story-checklist\"><li>Barry challenges you before the Gym (Lv. 36).</li><li>Beat Crasher Wake (ace: Floatzel, Lv. 37).</li><li>Cynthia gives you the SecretPotion, for the Psyduck on Route 210.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "10. Celestic Town e o primeiro Cyrus",
+              "content": "<p class=\"story-route\">Rota 210 (norte) → Celestic Town</p><ul class=\"story-checklist\"><li>Use o SecretPotion nos Psyduck e siga pela neblina da Rota 210 norte. A Cynthia te pede para levar o Old Charm à avó dela.</li><li>Nas ruínas de Celestic, vença o Cyrus (Nv. 36).</li><li>A avó da Cynthia entrega a HM03 Surf.</li></ul>",
+              "image": "",
+              "pokemonId": 198,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "HM03 Surf",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "HM03 Surf"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Cyrus em Celestic",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Cyrus in Celestic"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Com Surf, a Fuego Ironworks, perto de Floaroma",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "With Surf, the Fuego Ironworks, near Floaroma"
+                  }
+                }
+              ],
+              "en": {
+                "title": "10. Celestic Town and the first Cyrus",
+                "content": "<p class=\"story-route\">Route 210 (north) → Celestic Town</p><ul class=\"story-checklist\"><li>Use the SecretPotion on the Psyduck and head through the fog of Route 210 north. Cynthia asks you to take the Old Charm to her grandmother.</li><li>At the Celestic ruins, beat Cyrus (Lv. 36).</li><li>Cynthia’s grandmother gives you HM03 Surf.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "11. Canalave, Iron Island e Byron",
+              "content": "<p class=\"story-route\">Rota 218 → Canalave City → Iron Island</p><ul class=\"story-checklist\"><li>O Barry te espera em Canalave (Nv. 38).</li><li>O Byron só te recebe depois da Iron Island: lá o Riley entrega a HM04 Strength e atravessa a mina com você.</li><li>Vença o Byron (ás: Bastiodon, Nv. 41).</li></ul>",
+              "image": "",
+              "pokemonId": 411,
+              "item": "",
+              "layout": "vertical",
+              "accent": "steel",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Mine Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Mine Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "HM04 Strength com o Riley, e vencer o Byron",
+                  "en": {
+                    "label": "Required",
+                    "value": "HM04 Strength from Riley, then beat Byron"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Novidade de Platinum: a câmara do Registeel na Iron Island, que só abre com um Regigigas no time",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "New in Platinum: the Registeel chamber on Iron Island, which only opens with a Regigigas in your party"
+                  }
+                }
+              ],
+              "en": {
+                "title": "11. Canalave, Iron Island and Byron",
+                "content": "<p class=\"story-route\">Route 218 → Canalave City → Iron Island</p><ul class=\"story-checklist\"><li>Barry waits in Canalave (Lv. 38).</li><li>Byron only sees you after Iron Island: there Riley gives you HM04 Strength and crosses the mine with you.</li><li>Beat Byron (ace: Bastiodon, Lv. 41).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "12. Os lagos, a Rota 217 e Candice",
+              "content": "<p class=\"story-route\">Lake Valor → Lake Verity → Mt. Coronet → Rota 216 → Rota 217 → Snowpoint City</p><ul class=\"story-checklist\"><li>A Team Galactic ataca os lagos: vença o Saturn no Lake Valor (Nv. 40) e a Mars no Lake Verity (Nv. 40).</li><li>Atravesse o Mt. Coronet para as rotas de neve. Na primeira casa da Rota 217, pegue a HM08 Rock Climb.</li><li>Vença a Candice em Snowpoint (ás: Froslass, Nv. 44).</li></ul>",
+              "image": "",
+              "pokemonId": 478,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ice",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Icicle Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Icicle Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer a Candice",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Candice"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "A HM08 Rock Climb só funciona fora de batalha depois desta insígnia",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "HM08 Rock Climb only works outside battle after this Badge"
+                  }
+                }
+              ],
+              "en": {
+                "title": "12. The lakes, Route 217 and Candice",
+                "content": "<p class=\"story-route\">Lake Valor → Lake Verity → Mt. Coronet → Route 216 → Route 217 → Snowpoint City</p><ul class=\"story-checklist\"><li>Team Galactic strikes the lakes: beat Saturn at Lake Valor (Lv. 40) and Mars at Lake Verity (Lv. 40).</li><li>Cross Mt. Coronet to the snowy routes. In the first house on Route 217, pick up HM08 Rock Climb.</li><li>Beat Candice in Snowpoint (ace: Froslass, Lv. 44).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "13. O QG da Team Galactic",
+              "content": "<p class=\"story-route\">Snowpoint City → Veilstone City → Team Galactic HQ</p><ul class=\"story-checklist\"><li>No depósito da Galactic, pegue a Galactic Key: ela abre as portas de aço do QG.</li><li>Vença o Saturn (Nv. 44) e o Cyrus (Nv. 46) no QG.</li><li>Liberte Uxie, Mesprit e Azelf.</li></ul>",
+              "image": "",
+              "pokemonId": 430,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Guardiões dos lagos libertados",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Lake guardians freed"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Saturn e o Cyrus no QG",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Saturn and Cyrus at the HQ"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Repare no Charon, cientista da Galactic que só existe em Platinum",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Note Charon, the Galactic scientist who only exists in Platinum"
+                  }
+                }
+              ],
+              "en": {
+                "title": "13. The Team Galactic HQ",
+                "content": "<p class=\"story-route\">Snowpoint City → Veilstone City → Team Galactic HQ</p><ul class=\"story-checklist\"><li>In the Galactic warehouse, grab the Galactic Key: it opens the HQ’s steel doors.</li><li>Beat Saturn (Lv. 44) and Cyrus (Lv. 46) at the HQ.</li><li>Free Uxie, Mesprit and Azelf.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "14. Spear Pillar e o Distortion World",
+              "content": "<p class=\"story-route\">Mt. Coronet → Spear Pillar → Distortion World</p><ul class=\"story-checklist\"><li>No Spear Pillar, ao lado do Barry, enfrente a Mars e a Jupiter numa batalha em dupla (Nv. 46).</li><li>O Giratina surge e arrasta o Cyrus para o Distortion World. Com a Cynthia, siga atrás.</li><li>Vença o Cyrus pela última vez (Nv. 48) e encontre o Giratina na Forma Origem.</li></ul>",
+              "image": "",
+              "pokemonId": 487,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Giratina",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Giratina"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Cyrus no Distortion World",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Cyrus in the Distortion World"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Salve antes do Giratina: a taxa de captura dele é 3, a mais baixa do jogo",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Save before Giratina: its catch rate is 3, the lowest in the game"
+                  }
+                }
+              ],
+              "en": {
+                "title": "14. Spear Pillar and the Distortion World",
+                "content": "<p class=\"story-route\">Mt. Coronet → Spear Pillar → Distortion World</p><ul class=\"story-checklist\"><li>At the Spear Pillar, alongside Barry, face Mars and Jupiter in a Double Battle (Lv. 46).</li><li>Giratina emerges and drags Cyrus into the Distortion World. Follow with Cynthia.</li><li>Beat Cyrus one last time (Lv. 48) and meet Giratina in its Origin Forme.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "15. Sunyshore e Volkner",
+              "content": "<p class=\"story-route\">Sendoff Spring → Rota 222 → Sunyshore City</p><ul class=\"story-checklist\"><li>Depois do Distortion World, os guardiões dos lagos podem ser capturados.</li><li>Vença o Volkner (ás: Electivire, Nv. 50).</li><li>A Jasmine, de passagem por Sunyshore, entrega a HM07 Waterfall.</li></ul>",
+              "image": "",
+              "pokemonId": 466,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Beacon Badge",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Beacon Badge"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer o Volkner",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat Volkner"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Capturar Uxie, Azelf e Mesprit antes da Liga",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Catch Uxie, Azelf and Mesprit before the League"
+                  }
+                }
+              ],
+              "en": {
+                "title": "15. Sunyshore and Volkner",
+                "content": "<p class=\"story-route\">Sendoff Spring → Route 222 → Sunyshore City</p><ul class=\"story-checklist\"><li>After the Distortion World, the lake guardians can be caught.</li><li>Beat Volkner (ace: Electivire, Lv. 50).</li><li>Jasmine, visiting Sunyshore, gives you HM07 Waterfall.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "16. Victory Road, Elite Four e Cynthia",
+              "content": "<p class=\"story-route\">Rota 223 → Pokémon League (sul) → Victory Road → Pokémon League</p><ul class=\"story-checklist\"><li>O Barry te enfrenta na entrada da Liga (Nv. 51).</li><li>Elite Four: Aaron (Nv. 53), Bertha (Nv. 55), Flint (Nv. 57), Lucian (Nv. 59).</li><li>Campeã: Cynthia (ás: Garchomp, Nv. 62).</li></ul>",
+              "image": "",
+              "pokemonId": 445,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dragon",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Hall of Fame",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Hall of Fame"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Vencer os quatro e a Cynthia",
+                  "en": {
+                    "label": "Required",
+                    "value": "Beat the four and Cynthia"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "O Garchomp é Dragão e Terrestre: golpe de Gelo causa dano quádruplo",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Garchomp is Dragon and Ground: an Ice move deals quadruple damage"
+                  }
+                }
+              ],
+              "en": {
+                "title": "16. Victory Road, the Elite Four and Cynthia",
+                "content": "<p class=\"story-route\">Route 223 → Pokémon League (south) → Victory Road → Pokémon League</p><ul class=\"story-checklist\"><li>Barry challenges you at the League entrance (Lv. 51).</li><li>Elite Four: Aaron (Lv. 53), Bertha (Lv. 55), Flint (Lv. 57), Lucian (Lv. 59).</li><li>Champion: Cynthia (ace: Garchomp, Lv. 62).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "17. Pós-jogo de Platinum",
+              "content": "<p class=\"story-route\">Sandgem Town → Snowpoint City → Battle Zone → Stark Mountain</p><ul class=\"story-checklist\"><li>O Rowan entrega a Pokédex Nacional e o Poké Radar.</li><li>De Snowpoint, o barco leva à Battle Zone: Fight Area, Battle Frontier e Survival Area.</li><li>Na Stark Mountain, com o Buck, a Team Galactic volta (Nv. 60) — e no fundo da montanha espera o Heatran.</li><li>Pela Turnback Cave, volte ao Distortion World para buscar a Griseous Orb.</li></ul>",
+              "image": "",
+              "pokemonId": 485,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Pós-jogo aberto",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Post-game opened up"
+                  }
+                },
+                {
+                  "label": "Necessário",
+                  "value": "Hall of Fame",
+                  "en": {
+                    "label": "Required",
+                    "value": "Hall of Fame"
+                  }
+                },
+                {
+                  "label": "Vale a pena",
+                  "value": "Cresselia na Fullmoon Island, Regigigas no Snowpoint Temple (com os três Regis) e a revanche da Elite Four, com níveis mais altos",
+                  "en": {
+                    "label": "Worth it",
+                    "value": "Cresselia on Fullmoon Island, Regigigas at the Snowpoint Temple (with the three Regis) and the Elite Four rematch, at higher levels"
+                  }
+                }
+              ],
+              "en": {
+                "title": "17. Platinum post-game",
+                "content": "<p class=\"story-route\">Sandgem Town → Snowpoint City → Battle Zone → Stark Mountain</p><ul class=\"story-checklist\"><li>Rowan gives you the National Pokédex and the Poké Radar.</li><li>From Snowpoint, the ferry takes you to the Battle Zone: the Fight Area, the Battle Frontier and the Survival Area.</li><li>At Stark Mountain, with Buck, Team Galactic returns (Lv. 60) — and Heatran waits deep inside the mountain.</li><li>Through Turnback Cave, return to the Distortion World for the Griseous Orb.</li></ul>",
+                "linkLabel": "Open"
+              }
+            }
+          ],
+          "en": {
+            "label": "Content"
+          }
+        }
+      ],
+      "en": {
+        "title": "Main Walkthrough · Platinum",
+        "menuLabel": "Main Walkthrough",
+        "description": "The full Platinum campaign, from picking a starter to the Distortion World, with the League and the Battle Zone post-game."
+      }
+    }
+  ],
+  "templates": [
+    {
+      "title": "Texto e imagem",
+      "content": "<p>Escreva aqui.</p>",
+      "image": "",
+      "pokemonId": 0,
+      "item": "",
+      "layout": "vertical",
+      "accent": "grass",
+      "link": "",
+      "linkLabel": "Saiba mais",
+      "fields": [],
+      "en": {
+        "title": "Text and image",
+        "content": "<p>Write here.</p>",
+        "linkLabel": "Learn more"
+      }
+    },
+    {
+      "title": "Pokémon em destaque",
+      "content": "<p>Escreva aqui.</p>",
+      "image": "",
+      "pokemonId": 1,
+      "item": "",
+      "layout": "horizontal",
+      "accent": "grass",
+      "link": "",
+      "linkLabel": "Saiba mais",
+      "fields": [
+        {
+          "label": "Local",
+          "value": "Onde encontrar",
+          "en": {
+            "label": "Location",
+            "value": "Where to find it"
+          }
+        }
+      ],
+      "en": {
+        "title": "Featured Pokémon",
+        "content": "<p>Write here.</p>",
+        "linkLabel": "Learn more"
+      }
+    },
+    {
+      "title": "Aviso importante",
+      "content": "<p>Escreva aqui.</p>",
+      "image": "",
+      "pokemonId": 0,
+      "item": "",
+      "layout": "destaque",
+      "accent": "electric",
+      "link": "",
+      "linkLabel": "Saiba mais",
+      "fields": [],
+      "en": {
+        "title": "Important notice",
+        "content": "<p>Write here.</p>",
+        "linkLabel": "Learn more"
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "menuId": "conteudo-editorial",
+      "label": "Conteúdo editorial",
+      "visible": true,
+      "versions": [],
+      "entries": [
+        {
+          "menuId": "guias-da-jornada",
+          "label": "Guias da jornada",
+          "pageSlug": "",
+          "visible": true,
+          "versions": [],
+          "children": [
+            {
+              "menuId": "visao-geral",
+              "label": "Visão Geral",
+              "pageSlug": "visao-geral",
+              "visible": true,
+              "versions": [],
+              "en": {
+                "label": "Overview"
+              }
+            },
+            {
+              "menuId": "roteiro",
+              "label": "Roteiro Principal",
+              "pageSlug": "roteiro-principal",
+              "visible": true,
+              "versions": [],
+              "en": {
+                "label": "Main Walkthrough"
+              }
+            }
+          ],
+          "en": {
+            "label": "Journey guides"
+          }
+        }
+      ],
+      "en": {
+        "label": "Editorial content"
+      }
+    }
+  ]
+}

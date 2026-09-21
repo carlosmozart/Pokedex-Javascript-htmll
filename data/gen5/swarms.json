@@ -1,0 +1,581 @@
+{
+  "black-white": [
+    {
+      "id": 46,
+      "name": "Paras",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "location": "Route 11",
+      "levels": "15-55",
+      "versions": [
+        "white"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Mankey",
+      "types": [
+        "fighting"
+      ],
+      "location": "Route 15",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Farfetch'd",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "location": "Route 1",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Doduo",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "location": "Route 12",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Exeggcute",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "location": "Route 18",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    },
+    {
+      "id": 161,
+      "name": "Sentret",
+      "types": [
+        "normal"
+      ],
+      "location": "Route 7",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    },
+    {
+      "id": 193,
+      "name": "Yanma",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "location": "Route 14",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    },
+    {
+      "id": 204,
+      "name": "Pineco",
+      "types": [
+        "bug"
+      ],
+      "location": "Route 16",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    },
+    {
+      "id": 228,
+      "name": "Houndour",
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "location": "Route 9",
+      "levels": "15-55",
+      "versions": [
+        "black"
+      ]
+    },
+    {
+      "id": 235,
+      "name": "Smeargle",
+      "types": [
+        "normal"
+      ],
+      "location": "Route 5",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    },
+    {
+      "id": 236,
+      "name": "Tyrogue",
+      "types": [
+        "fighting"
+      ],
+      "location": "Route 10",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    },
+    {
+      "id": 261,
+      "name": "Poochyena",
+      "types": [
+        "dark"
+      ],
+      "location": "Route 9",
+      "levels": "15-55",
+      "versions": [
+        "white"
+      ]
+    },
+    {
+      "id": 285,
+      "name": "Shroomish",
+      "types": [
+        "grass"
+      ],
+      "location": "Route 11",
+      "levels": "15-55",
+      "versions": [
+        "black"
+      ]
+    },
+    {
+      "id": 311,
+      "name": "Plusle",
+      "types": [
+        "electric"
+      ],
+      "location": "Route 6",
+      "levels": "15-55",
+      "versions": [
+        "black"
+      ]
+    },
+    {
+      "id": 312,
+      "name": "Minun",
+      "types": [
+        "electric"
+      ],
+      "location": "Route 6",
+      "levels": "15-55",
+      "versions": [
+        "white"
+      ]
+    },
+    {
+      "id": 313,
+      "name": "Volbeat",
+      "types": [
+        "bug"
+      ],
+      "location": "Route 3",
+      "levels": "15-55",
+      "versions": [
+        "black"
+      ]
+    },
+    {
+      "id": 314,
+      "name": "Illumise",
+      "types": [
+        "bug"
+      ],
+      "location": "Route 3",
+      "levels": "15-55",
+      "versions": [
+        "white"
+      ]
+    },
+    {
+      "id": 353,
+      "name": "Shuppet",
+      "types": [
+        "ghost"
+      ],
+      "location": "Route 13",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    },
+    {
+      "id": 360,
+      "name": "Wynaut",
+      "types": [
+        "psychic"
+      ],
+      "location": "Route 2",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    },
+    {
+      "id": 449,
+      "name": "Hippopotas",
+      "types": [
+        "ground"
+      ],
+      "location": "Route 4",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    },
+    {
+      "id": 453,
+      "name": "Croagunk*",
+      "types": [
+        "poison",
+        "fighting"
+      ],
+      "location": "Route 8",
+      "levels": "15-55",
+      "versions": [
+        "black",
+        "white"
+      ]
+    }
+  ],
+  "black-2-white-2": [
+    {
+      "id": 22,
+      "name": "Fearow",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "location": "Route 15",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Slowpoke",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "location": "Abundant Shrine",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Farfetch'd",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "location": "Route 1",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Doduo",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "location": "Route 12",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Hypno",
+      "types": [
+        "psychic"
+      ],
+      "location": "Dreamyard",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Mr. Mime",
+      "types": [
+        "psychic"
+      ],
+      "location": "Route 20",
+      "levels": "40-55",
+      "versions": [
+        "white-2"
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Furret",
+      "types": [
+        "normal"
+      ],
+      "location": "Route 7",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Ledian",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "location": "Route 22",
+      "levels": "40-55",
+      "versions": [
+        "white-2"
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Ariados",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "location": "Route 22",
+      "levels": "40-55",
+      "versions": [
+        "black-2"
+      ]
+    },
+    {
+      "id": 177,
+      "name": "Natu",
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "location": "Route 5",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 185,
+      "name": "Sudowoodo",
+      "types": [
+        "rock"
+      ],
+      "location": "Route 20",
+      "levels": "40-55",
+      "versions": [
+        "black-2"
+      ]
+    },
+    {
+      "id": 187,
+      "name": "Hoppip",
+      "types": [
+        "grass",
+        "flying"
+      ],
+      "location": "Route 18",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 195,
+      "name": "Quagsire",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "location": "Route 8",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 204,
+      "name": "Pineco",
+      "types": [
+        "bug"
+      ],
+      "location": "Route 16",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 277,
+      "name": "Swellow",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "location": "Route 13",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 284,
+      "name": "Masquerain",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "location": "Route 11",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 311,
+      "name": "Plusle",
+      "types": [
+        "electric"
+      ],
+      "location": "Route 6",
+      "levels": "40-55",
+      "versions": [
+        "black-2"
+      ]
+    },
+    {
+      "id": 312,
+      "name": "Minun",
+      "types": [
+        "electric"
+      ],
+      "location": "Route 6",
+      "levels": "40-55",
+      "versions": [
+        "white-2"
+      ]
+    },
+    {
+      "id": 313,
+      "name": "Volbeat",
+      "types": [
+        "bug"
+      ],
+      "location": "Route 3",
+      "levels": "40-55",
+      "versions": [
+        "black-2"
+      ]
+    },
+    {
+      "id": 314,
+      "name": "Illumise",
+      "types": [
+        "bug"
+      ],
+      "location": "Route 3",
+      "levels": "40-55",
+      "versions": [
+        "white-2"
+      ]
+    },
+    {
+      "id": 317,
+      "name": "Swalot",
+      "types": [
+        "poison"
+      ],
+      "location": "Route 9",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 332,
+      "name": "Cacturne",
+      "types": [
+        "grass",
+        "dark"
+      ],
+      "location": "Reversal Mountain",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    },
+    {
+      "id": 450,
+      "name": "Hippowdon",
+      "types": [
+        "ground"
+      ],
+      "location": "Desert Resort",
+      "levels": "40-55",
+      "versions": [
+        "black-2",
+        "white-2"
+      ]
+    }
+  ]
+}

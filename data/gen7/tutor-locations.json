@@ -1,0 +1,253 @@
+{
+  "_meta": {
+    "status": "complete",
+    "description": "Move Tutors de Sun/Moon e Ultra Sun/Ultra Moon.",
+    "source": "https://bulbapedia.bulbagarden.net/w/index.php?title=Move_Tutor&action=raw",
+    "verified": "2026-09-19"
+  },
+  "after-you": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "ally-switch": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "aqua-tail": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (12 BP)"
+  },
+  "bind": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (4 BP)"
+  },
+  "blast-burn": {
+    "sun-moon": "Hau'oli City",
+    "ultra-sun-ultra-moon": "Hau'oli City"
+  },
+  "block": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (8 BP)"
+  },
+  "bounce": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "bug-bite": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (4 BP)"
+  },
+  "covet": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (4 BP)"
+  },
+  "defog": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (8 BP)"
+  },
+  "draco-meteor": {
+    "sun-moon": "Seafolk Village",
+    "ultra-sun-ultra-moon": "Seafolk Village"
+  },
+  "dragon-ascent": {
+    "sun-moon": "Seafolk Village",
+    "ultra-sun-ultra-moon": "Seafolk Village"
+  },
+  "dragon-pulse": {
+    "ultra-sun-ultra-moon": "Battle Tree (12 BP)"
+  },
+  "drain-punch": {
+    "ultra-sun-ultra-moon": "Battle Tree (8 BP)"
+  },
+  "drill-run": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (8 BP)"
+  },
+  "dual-chop": {
+    "ultra-sun-ultra-moon": "Battle Tree (12 BP)"
+  },
+  "earth-power": {
+    "ultra-sun-ultra-moon": "Battle Tree (12 BP)"
+  },
+  "electroweb": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (8 BP)"
+  },
+  "endeavor": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (16 BP)"
+  },
+  "fire-pledge": {
+    "sun-moon": "Hau'oli City",
+    "ultra-sun-ultra-moon": "Hau'oli City"
+  },
+  "fire-punch": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "focus-punch": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (16 BP)"
+  },
+  "foul-play": {
+    "ultra-sun-ultra-moon": "Battle Tree (12 BP)"
+  },
+  "frenzy-plant": {
+    "sun-moon": "Hau'oli City",
+    "ultra-sun-ultra-moon": "Hau'oli City"
+  },
+  "gastro-acid": {
+    "ultra-sun-ultra-moon": "Battle Tree (8 BP)"
+  },
+  "giga-drain": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "grass-pledge": {
+    "sun-moon": "Hau'oli City",
+    "ultra-sun-ultra-moon": "Hau'oli City"
+  },
+  "gravity": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "gunk-shot": {
+    "ultra-sun-ultra-moon": "Battle Tree (16 BP)"
+  },
+  "heal-bell": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (8 BP)"
+  },
+  "heat-wave": {
+    "ultra-sun-ultra-moon": "Battle Tree (12 BP)"
+  },
+  "helping-hand": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (8 BP)"
+  },
+  "hydro-cannon": {
+    "sun-moon": "Hau'oli City",
+    "ultra-sun-ultra-moon": "Hau'oli City"
+  },
+  "hyper-voice": {
+    "ultra-sun-ultra-moon": "Battle Tree (12 BP)"
+  },
+  "ice-punch": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (8 BP)"
+  },
+  "icy-wind": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (12 BP)"
+  },
+  "iron-defense": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "iron-head": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (8 BP)"
+  },
+  "iron-tail": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "knock-off": {
+    "ultra-sun-ultra-moon": "Battle Tree (12 BP)"
+  },
+  "laser-focus": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (12 BP)"
+  },
+  "last-resort": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (12 BP)"
+  },
+  "liquidation": {
+    "ultra-sun-ultra-moon": "Battle Tree (16 BP)"
+  },
+  "low-kick": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (8 BP)"
+  },
+  "magic-coat": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (8 BP)"
+  },
+  "magic-room": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (8 BP)"
+  },
+  "magnet-rise": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "outrage": {
+    "ultra-sun-ultra-moon": "Battle Tree (16 BP)"
+  },
+  "pain-split": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (8 BP)"
+  },
+  "recycle": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (8 BP)"
+  },
+  "relic-song": {
+    "sun-moon": "Hano Grand Resort",
+    "ultra-sun-ultra-moon": "Hano Grand Resort"
+  },
+  "role-play": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "secret-sword": {
+    "sun-moon": "Hano Grand Resort",
+    "ultra-sun-ultra-moon": "Hano Grand Resort"
+  },
+  "seed-bomb": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (12 BP)"
+  },
+  "shock-wave": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (4 BP)"
+  },
+  "signal-beam": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "skill-swap": {
+    "ultra-sun-ultra-moon": "Battle Tree (8 BP)"
+  },
+  "sky-attack": {
+    "ultra-sun-ultra-moon": "Battle Tree (16 BP)"
+  },
+  "snatch": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (8 BP)"
+  },
+  "snore": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (4 BP)"
+  },
+  "spite": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "stealth-rock": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "stomping-tantrum": {
+    "ultra-sun-ultra-moon": "Battle Tree (12 BP)"
+  },
+  "super-fang": {
+    "ultra-sun-ultra-moon": "Battle Tree (12 BP)"
+  },
+  "superpower": {
+    "ultra-sun-ultra-moon": "Battle Tree (16 BP)"
+  },
+  "synthesis": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "tailwind": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (8 BP)"
+  },
+  "telekinesis": {
+    "ultra-sun-ultra-moon": "Heahea Beach (8 BP)"
+  },
+  "throat-chop": {
+    "ultra-sun-ultra-moon": "Battle Tree (16 BP)"
+  },
+  "thunder-punch": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (8 BP)"
+  },
+  "trick": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (8 BP)"
+  },
+  "uproar": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (8 BP)"
+  },
+  "volt-tackle": {
+    "sun-moon": "Konikoni City",
+    "ultra-sun-ultra-moon": "Hano Grand Resort"
+  },
+  "water-pledge": {
+    "sun-moon": "Hau'oli City",
+    "ultra-sun-ultra-moon": "Hau'oli City"
+  },
+  "water-pulse": {
+    "ultra-sun-ultra-moon": "Heahea Beach (4 BP)"
+  },
+  "wonder-room": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (8 BP)"
+  },
+  "worry-seed": {
+    "ultra-sun-ultra-moon": "Big Wave Beach (8 BP)"
+  },
+  "zen-headbutt": {
+    "ultra-sun-ultra-moon": "Ula'ula Beach (8 BP)"
+  }
+}

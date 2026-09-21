@@ -1,0 +1,1441 @@
+{
+  "pages": [
+    {
+      "slug": "visao-geral",
+      "title": "Visão Geral — Sun/Moon",
+      "menuLabel": "Visão Geral",
+      "description": "Logo, datas, novidades e melhorias de Sun/Moon.",
+      "visible": true,
+      "versions": [
+        "sun-moon"
+      ],
+      "en": {
+        "title": "Overview — Sun/Moon",
+        "menuLabel": "Overview",
+        "description": "Logo, release dates, new features and improvements of Sun/Moon."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "en": {
+            "label": "Content"
+          },
+          "cards": [
+            {
+              "title": "Sun/Moon",
+              "content": "<img src=\"img/overview/logo-sun.png\" alt=\"Pokémon Sun\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-moon.png\" alt=\"Pokémon Moon\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>A Geração 7 estreia em Alola, um arquipélago de quatro ilhas. No lugar dos ginásios há o Desafio das Ilhas, com provas, Pokémon Totem e Kahunas; chegam os Z-Moves, as Formas de Alola e as Ultra Beasts. Lançado no aniversário de 20 anos da série.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Plataforma",
+                  "value": "Nintendo 3DS",
+                  "en": {
+                    "label": "Platform",
+                    "value": "Nintendo 3DS"
+                  }
+                },
+                {
+                  "label": "Geração",
+                  "value": "VII",
+                  "en": {
+                    "label": "Generation",
+                    "value": "VII"
+                  }
+                },
+                {
+                  "label": "Região",
+                  "value": "Alola",
+                  "en": {
+                    "label": "Region",
+                    "value": "Alola"
+                  }
+                },
+                {
+                  "label": "Mascotes",
+                  "value": "Solgaleo (Sun) e Lunala (Moon)",
+                  "en": {
+                    "label": "Mascots",
+                    "value": "Solgaleo (Sun) and Lunala (Moon)"
+                  }
+                },
+                {
+                  "label": "Pokémon novos",
+                  "value": "81 espécies (total de 802)",
+                  "en": {
+                    "label": "New Pokémon",
+                    "value": "81 species (802 in total)"
+                  }
+                },
+                {
+                  "label": "Pokédex regional",
+                  "value": "302 espécies (Alola), com uma dex para cada ilha",
+                  "en": {
+                    "label": "Regional Pokédex",
+                    "value": "302 species (Alola), with one dex per island"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Sun/Moon",
+                "content": "<img src=\"img/overview/logo-sun.png\" alt=\"Pokémon Sun\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-moon.png\" alt=\"Pokémon Moon\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>Generation VII debuts in Alola, an archipelago of four islands. Gyms give way to the Island Challenge, with trials, Totem Pokémon and Kahunas; Z-Moves, Alolan Forms and Ultra Beasts arrive. Released for the series' 20th anniversary.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Lançamento",
+              "content": "<p>Lançado quase ao mesmo tempo no mundo inteiro, em lojas e para download.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Japão",
+                  "value": "18 de novembro de 2016",
+                  "en": {
+                    "label": "Japan",
+                    "value": "November 18, 2016"
+                  }
+                },
+                {
+                  "label": "América do Norte",
+                  "value": "18 de novembro de 2016",
+                  "en": {
+                    "label": "North America",
+                    "value": "November 18, 2016"
+                  }
+                },
+                {
+                  "label": "Austrália",
+                  "value": "18 de novembro de 2016",
+                  "en": {
+                    "label": "Australia",
+                    "value": "November 18, 2016"
+                  }
+                },
+                {
+                  "label": "Europa",
+                  "value": "23 de novembro de 2016",
+                  "en": {
+                    "label": "Europe",
+                    "value": "November 23, 2016"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Release",
+                "content": "<p>Released almost simultaneously worldwide, in stores and as a download.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Capas",
+              "content": "<img src=\"img/overview/box-sun.jpg\" alt=\"Capa de Sun\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-moon.jpg\" alt=\"Capa de Moon\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Box art",
+                "content": "<img src=\"img/overview/box-sun.jpg\" alt=\"Sun box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-moon.jpg\" alt=\"Moon box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Novidades desta versão",
+              "content": "<ul><li><b>Desafio das Ilhas</b>: provas dos Capitães, <b>Pokémon Totem</b> e o grande desafio de cada Kahuna, no lugar dos ginásios.</li><li><b>Z-Moves</b>: um golpe fortíssimo por batalha, com o Z-Crystal certo e o Z-Ring.</li><li><b>Formas de Alola</b>: 18 Pokémon antigos com novo visual, tipos e habilidades (Vulpix Gelo, Exeggutor Grama/Dragão...).</li><li><b>Ultra Beasts</b>: criaturas de outro mundo capturadas com a Beast Ball.</li><li><b>Batalhas SOS</b>: o Pokémon selvagem chama aliados; é o caminho para achar espécies raras e shiny.</li><li><b>Poké Ride</b> substitui os HMs: Tauros, Lapras, Charizard e outros levam o jogador pelo mapa.</li><li><b>Rotom Pokédex</b>, <b>Festival Plaza</b>, <b>Poké Pelago</b>, <b>Battle Royal</b> e a <b>Battle Tree</b> no pós-jogo.</li><li><b>Hyper Training</b>: Bottle Caps elevam IVs de Pokémon no nível 100.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "New in this version",
+                "content": "<ul><li><b>Island Challenge</b>: Captains' trials, <b>Totem Pokémon</b> and each Kahuna's grand trial, instead of Gyms.</li><li><b>Z-Moves</b>: one very strong move per battle, with the right Z-Crystal and the Z-Ring.</li><li><b>Alolan Forms</b>: 18 older Pokémon with a new look, types and Abilities (Ice-type Vulpix, Grass/Dragon Exeggutor...).</li><li><b>Ultra Beasts</b>: creatures from another world, caught with the Beast Ball.</li><li><b>SOS Battles</b>: wild Pokémon call for allies; the way to find rare species and shinies.</li><li><b>Poké Ride</b> replaces HMs: Tauros, Lapras, Charizard and others carry the player around.</li><li><b>Rotom Pokédex</b>, <b>Festival Plaza</b>, <b>Poké Pelago</b>, <b>Battle Royal</b> and the post-game <b>Battle Tree</b>.</li><li><b>Hyper Training</b>: Bottle Caps raise the IVs of level 100 Pokémon.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Melhorias em relação à Geração 6",
+              "content": "<ul><li>Personagens com proporções realistas e o treinador visível durante as batalhas.</li><li>Na batalha, a eficácia dos golpes aparece depois do primeiro encontro com a espécie.</li><li>Os HMs somem: não é preciso reservar espaço no time para golpes de campo.</li><li>A tela de baixo vira o Rotom Pokédex, com mapa, dicas e o próximo objetivo.</li><li>Pokémon Bank recebe Pokémon de Red, Blue, Yellow, Gold, Silver e Crystal do Virtual Console.</li><li>Pokémon Refresh substitui o Amie e cura status depois da batalha.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Improvements over Generation 6",
+                "content": "<ul><li>Characters with realistic proportions, and the Trainer visible in battle.</li><li>In battle, move effectiveness is shown after the first encounter with a species.</li><li>HMs are gone: no need to keep team slots for field moves.</li><li>The bottom screen becomes the Rotom Pokédex, with map, tips and the next goal.</li><li>Pokémon Bank receives Pokémon from Virtual Console Red, Blue, Yellow, Gold, Silver and Crystal.</li><li>Pokémon Refresh replaces Amie and cures status after battle.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Tela de título",
+              "content": "<img src=\"img/overview/title-sun.png\" alt=\"Tela de título de Sun\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\"><img src=\"img/overview/title-moon.png\" alt=\"Tela de título de Moon\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Title screen",
+                "content": "<img src=\"img/overview/title-sun.png\" alt=\"Sun title screen\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\"><img src=\"img/overview/title-moon.png\" alt=\"Moon title screen\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Alola",
+              "content": "<img src=\"img/alola/melemele.png\" alt=\"Mapa de Melemele\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><img src=\"img/alola/akala.png\" alt=\"Mapa de Akala\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><img src=\"img/alola/ulaula.png\" alt=\"Mapa de Ula'ula\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><img src=\"img/alola/poni.png\" alt=\"Mapa de Poni\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><p>Arquipélago inspirado no Havaí: Melemele, Akala, Ula'ula e Poni, mais a ilha artificial Aether Paradise. A história acompanha Lillie e o Cosmog Nebby, a Team Skull de Guzma e a Aether Foundation de Lusamine, e termina com a primeira Liga Pokémon de Alola, em que o jogador vira Campeão e defende o título.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Alola",
+                "content": "<img src=\"img/alola/melemele.png\" alt=\"Melemele map\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><img src=\"img/alola/akala.png\" alt=\"Akala map\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><img src=\"img/alola/ulaula.png\" alt=\"Ula'ula map\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><img src=\"img/alola/poni.png\" alt=\"Poni map\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><p>An archipelago inspired by Hawaii: Melemele, Akala, Ula'ula and Poni, plus the artificial island Aether Paradise. The story follows Lillie and the Cosmog Nebby, Guzma's Team Skull and Lusamine's Aether Foundation, and ends with Alola's first Pokémon League, where the player becomes Champion and defends the title.</p>",
+                "linkLabel": "Open"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "visao-geral",
+      "title": "Visão Geral — Ultra Sun/Ultra Moon",
+      "menuLabel": "Visão Geral",
+      "description": "Logo, datas, novidades e melhorias de Ultra Sun/Ultra Moon.",
+      "visible": true,
+      "versions": [
+        "ultra-sun-ultra-moon"
+      ],
+      "en": {
+        "title": "Overview — Ultra Sun/Ultra Moon",
+        "menuLabel": "Overview",
+        "description": "Logo, release dates, new features and improvements of Ultra Sun/Ultra Moon."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "en": {
+            "label": "Content"
+          },
+          "cards": [
+            {
+              "title": "Ultra Sun/Ultra Moon",
+              "content": "<img src=\"img/overview/logo-ultra-sun.png\" alt=\"Pokémon Ultra Sun\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-ultra-moon.png\" alt=\"Pokémon Ultra Moon\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>Versões ampliadas de Sun/Moon, numa Alola alternativa. A história gira em torno de Necrozma e da Ultra Recon Squad; entram cinco espécies novas, a Ultra Necrozma, as viagens pelos Ultra Wormholes e o Episode RR com a Team Rainbow Rocket.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Plataforma",
+                  "value": "Nintendo 3DS",
+                  "en": {
+                    "label": "Platform",
+                    "value": "Nintendo 3DS"
+                  }
+                },
+                {
+                  "label": "Geração",
+                  "value": "VII",
+                  "en": {
+                    "label": "Generation",
+                    "value": "VII"
+                  }
+                },
+                {
+                  "label": "Região",
+                  "value": "Alola",
+                  "en": {
+                    "label": "Region",
+                    "value": "Alola"
+                  }
+                },
+                {
+                  "label": "Mascotes",
+                  "value": "Necrozma Dusk Mane (Ultra Sun) e Dawn Wings (Ultra Moon)",
+                  "en": {
+                    "label": "Mascots",
+                    "value": "Dusk Mane Necrozma (Ultra Sun) and Dawn Wings Necrozma (Ultra Moon)"
+                  }
+                },
+                {
+                  "label": "Pokémon novos",
+                  "value": "5 espécies: Poipole, Naganadel, Stakataka, Blacephalon e Zeraora (total de 807)",
+                  "en": {
+                    "label": "New Pokémon",
+                    "value": "5 species: Poipole, Naganadel, Stakataka, Blacephalon and Zeraora (807 in total)"
+                  }
+                },
+                {
+                  "label": "Pokédex regional",
+                  "value": "403 espécies (Alola), com uma dex para cada ilha",
+                  "en": {
+                    "label": "Regional Pokédex",
+                    "value": "403 species (Alola), with one dex per island"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Ultra Sun/Ultra Moon",
+                "content": "<img src=\"img/overview/logo-ultra-sun.png\" alt=\"Pokémon Ultra Sun\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-ultra-moon.png\" alt=\"Pokémon Ultra Moon\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>Expanded versions of Sun/Moon, set in an alternate Alola. The story centers on Necrozma and the Ultra Recon Squad; five new species arrive, along with Ultra Necrozma, trips through Ultra Wormholes and Episode RR with Team Rainbow Rocket.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Lançamento",
+              "content": "<p>Lançado no mesmo dia no mundo inteiro, um ano depois de Sun/Moon.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Japão",
+                  "value": "17 de novembro de 2017",
+                  "en": {
+                    "label": "Japan",
+                    "value": "November 17, 2017"
+                  }
+                },
+                {
+                  "label": "América do Norte",
+                  "value": "17 de novembro de 2017",
+                  "en": {
+                    "label": "North America",
+                    "value": "November 17, 2017"
+                  }
+                },
+                {
+                  "label": "Europa",
+                  "value": "17 de novembro de 2017",
+                  "en": {
+                    "label": "Europe",
+                    "value": "November 17, 2017"
+                  }
+                },
+                {
+                  "label": "Austrália",
+                  "value": "17 de novembro de 2017",
+                  "en": {
+                    "label": "Australia",
+                    "value": "November 17, 2017"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Release",
+                "content": "<p>Released on the same day worldwide, one year after Sun/Moon.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Capas",
+              "content": "<img src=\"img/overview/box-ultra-sun.jpg\" alt=\"Capa de Ultra Sun\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-ultra-moon.jpg\" alt=\"Capa de Ultra Moon\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Box art",
+                "content": "<img src=\"img/overview/box-ultra-sun.jpg\" alt=\"Ultra Sun box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-ultra-moon.jpg\" alt=\"Ultra Moon box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Novidades desta versão",
+              "content": "<ul><li><b>Ultra Necrozma</b> e novos Z-Crystals (Lycanium Z, Mimikium Z, Kommonium Z, Solganium Z, Lunalium Z, Ultranecrozium Z).</li><li><b>Ultra Warp Ride</b>: viagens pelos Ultra Wormholes até lendários de gerações anteriores e Ultra Beasts.</li><li><b>Episode RR</b>: pós-jogo contra a Team Rainbow Rocket, com os chefes das equipes vilãs de todas as regiões.</li><li><b>Lycanroc Dusk</b> (Rockruff Own Tempo), novos Pokémon Totem e os <b>Totem Stickers</b>, que dão Pokémon em tamanho Totem.</li><li><b>Mantine Surf</b>, <b>Alola Photo Club</b> e a <b>Battle Agency</b>.</li><li>Provas e ordem da história ajustadas; Pokédex de Alola ampliada para 403 espécies.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "New in this version",
+                "content": "<ul><li><b>Ultra Necrozma</b> and new Z-Crystals (Lycanium Z, Mimikium Z, Kommonium Z, Solganium Z, Lunalium Z, Ultranecrozium Z).</li><li><b>Ultra Warp Ride</b>: trips through Ultra Wormholes to Legendary Pokémon from past generations and Ultra Beasts.</li><li><b>Episode RR</b>: a post-game story against Team Rainbow Rocket, with the villain team bosses of every region.</li><li><b>Dusk Form Lycanroc</b> (Own Tempo Rockruff), new Totem Pokémon and <b>Totem Stickers</b>, which reward Totem-sized Pokémon.</li><li><b>Mantine Surf</b>, <b>Alola Photo Club</b> and the <b>Battle Agency</b>.</li><li>Reworked trials and story order; the Alola Pokédex grows to 403 species.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Melhorias em relação a Sun/Moon",
+              "content": "<ul><li>Mais espécies capturáveis em Alola (403 na Pokédex regional, contra 302).</li><li>Cinco Pokémon novos, entre eles duas Ultra Beasts por versão e o mítico Zeraora (evento).</li><li>Pós-jogo maior: Ultra Wormholes, Episode RR, Battle Agency e as novas provas.</li><li>Novas coleções: Totem Stickers e os Pokémon Totem obtidos com eles.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Improvements over Sun/Moon",
+                "content": "<ul><li>More catchable species in Alola (403 in the regional Pokédex, up from 302).</li><li>Five new Pokémon, including two Ultra Beasts per version and the Mythical Zeraora (event).</li><li>Bigger post-game: Ultra Wormholes, Episode RR, the Battle Agency and the new trials.</li><li>New collectibles: Totem Stickers and the Totem Pokémon they unlock.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Tela de título",
+              "content": "<img src=\"img/overview/title-ultra-sun.png\" alt=\"Tela de título de Ultra Sun\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\"><img src=\"img/overview/title-ultra-moon.png\" alt=\"Tela de título de Ultra Moon\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Title screen",
+                "content": "<img src=\"img/overview/title-ultra-sun.png\" alt=\"Ultra Sun title screen\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\"><img src=\"img/overview/title-ultra-moon.png\" alt=\"Ultra Moon title screen\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Alola",
+              "content": "<img src=\"img/alola/melemele.png\" alt=\"Mapa de Melemele\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><img src=\"img/alola/akala.png\" alt=\"Mapa de Akala\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><img src=\"img/alola/ulaula.png\" alt=\"Mapa de Ula'ula\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><img src=\"img/alola/poni.png\" alt=\"Mapa de Poni\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><p>As mesmas quatro ilhas de Sun/Moon, numa linha do tempo alternativa. Novos lugares como Heahea Beach, Dividing Peak Tunnel e Pikachu Valley, e a Ultra Megalopolis, casa da Ultra Recon Squad.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Alola",
+                "content": "<img src=\"img/alola/melemele.png\" alt=\"Melemele map\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><img src=\"img/alola/akala.png\" alt=\"Akala map\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><img src=\"img/alola/ulaula.png\" alt=\"Ula'ula map\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><img src=\"img/alola/poni.png\" alt=\"Poni map\" loading=\"lazy\" style=\"max-width:min(100%, 160px); height:auto; margin:4px;\"><p>The same four islands as Sun/Moon, in an alternate timeline. New places such as Heahea Beach, Dividing Peak Tunnel and Pikachu Valley, and Ultra Megalopolis, home of the Ultra Recon Squad.</p>",
+                "linkLabel": "Open"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "roteiro-principal",
+      "title": "Roteiro Principal · Sun/Moon",
+      "menuLabel": "Roteiro Principal",
+      "description": "Passo a passo do Desafio das Ilhas de Sun/Moon, da escolha do inicial ao pós-jogo.",
+      "visible": true,
+      "versions": [
+        "sun-moon"
+      ],
+      "en": {
+        "title": "Main Walkthrough · Sun/Moon",
+        "menuLabel": "Main Walkthrough",
+        "description": "A step-by-step route through the Sun/Moon Island Challenge, from choosing your starter to the post-game."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "en": {
+            "label": "Content"
+          },
+          "cards": [
+            {
+              "title": "Como usar este roteiro",
+              "content": "<p>Sun e Moon trocam os Ginásios pelo Desafio das Ilhas: em cada ilha de Alola você passa pelas provas dos Capitães, enfrenta um Pokémon Totem e fecha com o grande desafio do Kahuna. Cada prova vale um Z-Crystal. O roteiro segue essa ordem, com os passeios de Poké Ride que abrem caminho. Os times completos estão em <a href=\"#treinadores\">Treinadores</a> e os Pokémon de cada ilha na <a href=\"#pokedex\">Pokédex</a>.</p><p class=\"story-note\">As versões dividem a história. Mudam o lendário da capa (Solgaleo em Sun, Lunala em Moon), alguns Totems e exclusivos, e o relógio: Moon roda 12 horas à frente do horário do console.</p>",
+              "image": "",
+              "pokemonId": 791,
+              "item": "",
+              "layout": "destaque",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "How to use this walkthrough",
+                "content": "<p>Sun and Moon replace Gyms with the Island Challenge: on each Alolan island you clear the Captains' trials, face a Totem Pokémon and finish with the Kahuna's grand trial. Every trial awards a Z-Crystal. This walkthrough follows that order, along with the Poké Ride services that open new paths. Full teams are in <a href=\"#treinadores\">Trainers</a> and each island's Pokémon in the <a href=\"#pokedex\">Pokédex</a>.</p><p class=\"story-note\">Both versions share the story. The differences are the cover Legendary (Solgaleo in Sun, Lunala in Moon), a few Totems and exclusives, and the clock: Moon runs 12 hours ahead of the console time.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "1. Iki Town, Mahalo Trail e o inicial",
+              "content": "<p class=\"story-route\">Rota 1 → Iki Town → Mahalo Trail → Iki Town</p><ul class=\"story-checklist\"><li>O Professor Kukui leva você até Iki Town, onde o Kahuna Hala apresenta Rowlet, Litten e Popplio. Hau fica com o inicial que perde para o seu.</li><li>Na Mahalo Trail, siga Lillie e salve Nebby, o Cosmog que ela esconde na bolsa; Tapu Koko aparece na ponte.</li><li>À noite há o festival de Iki Town: vença Hau na primeira batalha. A Sparkling Stone que Tapu Koko deixou vira o seu Z-Ring nas mãos de Hala.</li></ul>",
+              "image": "",
+              "pokemonId": 722,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Inicial de Alola e Z-Ring",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Alolan starter and Z-Ring"
+                  }
+                }
+              ],
+              "en": {
+                "title": "1. Iki Town, Mahalo Trail and your starter",
+                "content": "<p class=\"story-route\">Route 1 → Iki Town → Mahalo Trail → Iki Town</p><ul class=\"story-checklist\"><li>Professor Kukui takes you to Iki Town, where Kahuna Hala presents Rowlet, Litten and Popplio. Hau picks the starter that is weak to yours.</li><li>On the Mahalo Trail, follow Lillie and rescue Nebby, the Cosmog she hides in her bag; Tapu Koko appears at the bridge.</li><li>That night, Iki Town holds its festival: beat Hau in your first battle. Hala turns the Sparkling Stone Tapu Koko left behind into your Z-Ring.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "2. Hau'oli City e a prova de Ilima",
+              "content": "<p class=\"story-route\">Rota 1 → Hau'oli City → Rota 2 → Verdant Cavern</p><ul class=\"story-checklist\"><li>No laboratório de Kukui o Rotom entra na Pokédex, e o professor entrega a Exp. Share. Na Trainers' School, vença os alunos e a professora Emily.</li><li>Em Hau'oli a Team Skull estreia no porto. Na Rota 2 fica a entrada da Verdant Cavern, a primeira prova.</li><li>Ilima pede que você recolha três itens na caverna. O Totem é Gumshoos em Sun e Raticate de Alola em Moon; eles chamam aliados durante a luta.</li><li>Depois da prova, a Ride Pager chega com Tauros Charge, que quebra as pedras do caminho.</li></ul>",
+              "image": "",
+              "pokemonId": 735,
+              "item": "",
+              "layout": "vertical",
+              "accent": "normal",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Gumshoos (Sun) · Raticate (Moon) · Normalium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Gumshoos (Sun) · Raticate (Moon) · Normalium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "2. Hau'oli City and Ilima's trial",
+                "content": "<p class=\"story-route\">Route 1 → Hau'oli City → Route 2 → Verdant Cavern</p><ul class=\"story-checklist\"><li>At Kukui's lab, Rotom moves into your Pokédex, and the professor hands you the Exp. Share. At the Trainers' School, beat the students and teacher Emily.</li><li>Team Skull shows up for the first time at the Hau'oli marina. Route 2 leads to the Verdant Cavern, your first trial.</li><li>Ilima asks you to collect three items in the cave. The Totem is Gumshoos in Sun and Alolan Raticate in Moon; both call allies during the battle.</li><li>After the trial you get the Ride Pager with Tauros Charge, which smashes the rocks in your way.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "3. Melemele Meadow e o grande desafio de Hala",
+              "content": "<p class=\"story-route\">Rota 3 → Melemele Meadow → Kala'e Bay → Iki Town</p><ul class=\"story-checklist\"><li>Na Rota 3, a Team Skull tenta levar Nebby; Lillie precisa de você no Melemele Meadow.</li><li>Hala espera em Iki Town com um time de Lutador. Voador e Psíquico ajudam; Rowlet e as aves da Rota 3 resolvem bem a luta.</li><li>Com a primeira ilha completa, pegue a balsa em Hau'oli para Akala.</li></ul>",
+              "image": "",
+              "pokemonId": 739,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fighting",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Grande desafio",
+                  "value": "Hala · Fightinium Z",
+                  "en": {
+                    "label": "Grand trial",
+                    "value": "Hala · Fightinium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "3. Melemele Meadow and Hala's grand trial",
+                "content": "<p class=\"story-route\">Route 3 → Melemele Meadow → Kala'e Bay → Iki Town</p><ul class=\"story-checklist\"><li>On Route 3, Team Skull goes after Nebby; Lillie needs you at Melemele Meadow.</li><li>Hala waits in Iki Town with a Fighting-type team. Flying and Psychic moves help; Rowlet and the birds of Route 3 handle the battle well.</li><li>With the first island complete, take the ferry from Hau'oli to Akala.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "4. Heahea, Paniola e a prova de Lana",
+              "content": "<p class=\"story-route\">Heahea City → Rota 4 → Paniola Town → Rota 5 → Brooklet Hill</p><ul class=\"story-checklist\"><li>Em Heahea, conheça a Ilha de Akala e o Dimensional Research Lab. Na Rota 4 você registra Stoutland Search, que fareja itens escondidos.</li><li>Na Brooklet Hill, Lana leva você até o lago. O Totem é Wishiwashi, que entra na forma School e chama aliados; Grama e Elétrico são as armas.</li><li>Lana registra Lapras Paddle, que atravessa a água.</li></ul>",
+              "image": "",
+              "pokemonId": 746,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Wishiwashi · Waterium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Wishiwashi · Waterium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "4. Heahea, Paniola and Lana's trial",
+                "content": "<p class=\"story-route\">Heahea City → Route 4 → Paniola Town → Route 5 → Brooklet Hill</p><ul class=\"story-checklist\"><li>In Heahea, get to know Akala Island and the Dimensional Research Lab. On Route 4 you register Stoutland Search, which sniffs out hidden items.</li><li>At Brooklet Hill, Lana leads you to the lake. The Totem is Wishiwashi in its School Form, calling allies; Grass and Electric are your best tools.</li><li>Lana registers Lapras Paddle, which crosses water.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "5. Royal Avenue e a prova de Kiawe",
+              "content": "<p class=\"story-route\">Rota 6 → Royal Avenue → Rota 7 → Wela Volcano Park</p><ul class=\"story-checklist\"><li>Na Royal Avenue fica o Battle Royal Dome, com lutas de quatro treinadores ao mesmo tempo.</li><li>Kiawe faz uma prova de observação na Wela Volcano Park, com a dança de Marowak de Alola. O Totem é Salazzle, de Fogo e Veneno: Terrestre é o golpe ideal.</li><li>Kiawe registra Charizard Glide para voar entre lugares já visitados, e o Poké Pelago abre no PC.</li></ul>",
+              "image": "",
+              "pokemonId": 758,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Salazzle · Firium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Salazzle · Firium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "5. Royal Avenue and Kiawe's trial",
+                "content": "<p class=\"story-route\">Route 6 → Royal Avenue → Route 7 → Wela Volcano Park</p><ul class=\"story-checklist\"><li>Royal Avenue is home to the Battle Royal Dome, where four Trainers fight at once.</li><li>Kiawe runs an observation trial at Wela Volcano Park, starring the Alolan Marowak dance. The Totem is Salazzle, Fire and Poison: Ground is the move to bring.</li><li>Kiawe registers Charizard Glide to fly back to places you have visited, and the Poké Pelago opens on the PC.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "6. Lush Jungle e a prova de Mallow",
+              "content": "<p class=\"story-route\">Rota 8 → Lush Jungle → Rota 5 (norte)</p><ul class=\"story-checklist\"><li>Na Rota 8 você conhece a Aether Foundation e a Fossil Restoration Center.</li><li>Mallow pede ingredientes para um prato na Lush Jungle; Stoutland Search ajuda a achar tudo. O Totem é Lurantis, e Fogo, Voador e Veneno funcionam bem.</li></ul>",
+              "image": "",
+              "pokemonId": 754,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Lurantis · Grassium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Lurantis · Grassium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "6. Lush Jungle and Mallow's trial",
+                "content": "<p class=\"story-route\">Route 8 → Lush Jungle → Route 5 (north)</p><ul class=\"story-checklist\"><li>On Route 8 you meet the Aether Foundation and find the Fossil Restoration Center.</li><li>Mallow needs ingredients for a dish in the Lush Jungle; Stoutland Search helps you find them all. The Totem is Lurantis, and Fire, Flying and Poison all work well.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "7. Konikoni City e o grande desafio de Olivia",
+              "content": "<p class=\"story-route\">Diglett's Tunnel → Rota 9 → Konikoni City → Memorial Hill → Ruins of Life</p><ul class=\"story-checklist\"><li>Konikoni tem a loja de Olivia e o vendedor de TMs de Kahili. Em Memorial Hill, a Team Skull aparece de novo.</li><li>Olivia usa Pedra no grande desafio das Ruins of Life. Água, Grama, Lutador e Terrestre dão conta; o Lycanroc dela é o mais forte.</li><li>Depois, passe pelo Hano Grand Resort e siga com Lillie e Hau para a Aether Paradise.</li></ul>",
+              "image": "",
+              "pokemonId": 745,
+              "item": "",
+              "layout": "vertical",
+              "accent": "rock",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Grande desafio",
+                  "value": "Olivia · Rockium Z",
+                  "en": {
+                    "label": "Grand trial",
+                    "value": "Olivia · Rockium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "7. Konikoni City and Olivia's grand trial",
+                "content": "<p class=\"story-route\">Diglett's Tunnel → Route 9 → Konikoni City → Memorial Hill → Ruins of Life</p><ul class=\"story-checklist\"><li>Konikoni has Olivia's shop and a TM seller. At Memorial Hill, Team Skull shows up again.</li><li>Olivia uses Rock-types in her grand trial at the Ruins of Life. Water, Grass, Fighting and Ground all work; her Lycanroc is the strongest.</li><li>Next, pass the Hano Grand Resort and travel with Lillie and Hau to Aether Paradise.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "8. Aether Paradise",
+              "content": "<p class=\"story-route\">Aether Paradise</p><ul class=\"story-checklist\"><li>Wicke e Faba mostram a ilha artificial e o santuário de Pokémon. Você conhece Lusamine, a presidente, e Gladion interrompe a visita.</li><li>Um Ultra Beast aparece de repente: é o primeiro sinal do que a Aether esconde.</li><li>Da Aether, a balsa leva a Malie City, em Ula'ula.</li></ul>",
+              "image": "",
+              "pokemonId": 793,
+              "item": "",
+              "layout": "vertical",
+              "accent": "rock",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Atenção",
+                  "value": "Primeiro Ultra Beast",
+                  "en": {
+                    "label": "Heads-up",
+                    "value": "First Ultra Beast"
+                  }
+                }
+              ],
+              "en": {
+                "title": "8. Aether Paradise",
+                "content": "<p class=\"story-route\">Aether Paradise</p><ul class=\"story-checklist\"><li>Wicke and Faba show you the artificial island and its Pokémon sanctuary. You meet Lusamine, the president, and Gladion interrupts the tour.</li><li>An Ultra Beast suddenly appears: the first sign of what the Aether is hiding.</li><li>From Aether, the ferry takes you to Malie City on Ula'ula.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "9. Malie City e a prova de Sophocles",
+              "content": "<p class=\"story-route\">Malie City → Rota 10 → Mount Hokulani</p><ul class=\"story-checklist\"><li>Malie tem a Malie Library e o jardim; Ultra Beasts e a Aether voltam a aparecer na Rota 10.</li><li>Molayne, o antigo Capitão, testa você antes da prova. No Hokulani Observatory, Sophocles vai direto ao Totem: Vikavolt, que chama Charjabug. Terrestre não o atinge, então use Fogo, Voador ou Pedra.</li></ul>",
+              "image": "",
+              "pokemonId": 738,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Vikavolt · Electrium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Vikavolt · Electrium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "9. Malie City and Sophocles's trial",
+                "content": "<p class=\"story-route\">Malie City → Route 10 → Mount Hokulani</p><ul class=\"story-checklist\"><li>Malie has the Malie Library and its garden; Ultra Beasts and the Aether show up again on Route 10.</li><li>Molayne, the former Captain, tests you before the trial. At the Hokulani Observatory, Sophocles skips straight to the Totem: Vikavolt, which calls Charjabug. Ground cannot hit it, so bring Fire, Flying or Rock.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "10. Tapu Village e a prova de Acerola",
+              "content": "<p class=\"story-route\">Rota 11 → Rota 12 → Blush Mountain → Rota 13 → Tapu Village → Rota 14</p><ul class=\"story-checklist\"><li>Na Rota 12, ajude Hapu e ganhe Mudsdale Gallop, que atravessa terreno pedregoso.</li><li>A prova de Acerola é no Thrifty Megamart abandonado, na Rota 14. Fotografe os fantasmas com o Poké Finder; o Totem é Mimikyu, e a Disguise absorve o primeiro golpe.</li><li>Na Rota 15, Grimsley registra Sharpedo Jet, que quebra as pedras no mar.</li></ul>",
+              "image": "",
+              "pokemonId": 778,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Mimikyu · Ghostium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Mimikyu · Ghostium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "10. Tapu Village and Acerola's trial",
+                "content": "<p class=\"story-route\">Route 11 → Route 12 → Blush Mountain → Route 13 → Tapu Village → Route 14</p><ul class=\"story-checklist\"><li>On Route 12, help Hapu and earn Mudsdale Gallop, which crosses rocky ground.</li><li>Acerola's trial is in the abandoned Thrifty Megamart on Route 14. Photograph the ghosts with the Poké Finder; the Totem is Mimikyu, whose Disguise absorbs the first hit.</li><li>On Route 15, Grimsley registers Sharpedo Jet, which breaks rocks at sea.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "11. Po Town e o grande desafio de Nanu",
+              "content": "<p class=\"story-route\">Rota 16 → Rota 17 → Po Town → Malie City</p><ul class=\"story-checklist\"><li>Po Town é o covil da Team Skull. Vença Plumeria e Guzma na Shady House.</li><li>Nanu, o Kahuna relutante de Ula'ula, usa Sombrio. Lutador, Inseto e Fada levam vantagem; o Persian de Alola é o mais forte.</li><li>Enquanto isso, a Team Skull leva Lillie e Nebby para a Aether Paradise.</li></ul>",
+              "image": "",
+              "pokemonId": 53,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Grande desafio",
+                  "value": "Nanu · Darkinium Z",
+                  "en": {
+                    "label": "Grand trial",
+                    "value": "Nanu · Darkinium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "11. Po Town and Nanu's grand trial",
+                "content": "<p class=\"story-route\">Route 16 → Route 17 → Po Town → Malie City</p><ul class=\"story-checklist\"><li>Po Town is Team Skull's hideout. Beat Plumeria and Guzma at the Shady House.</li><li>Nanu, Ula'ula's reluctant Kahuna, uses Dark-types. Fighting, Bug and Fairy have the edge; his Alolan Persian is the strongest.</li><li>Meanwhile, Team Skull takes Lillie and Nebby to Aether Paradise.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "12. A invasão da Aether Paradise",
+              "content": "<p class=\"story-route\">Aether Paradise</p><ul class=\"story-checklist\"><li>Volte à Aether com Gladion e Hau. Vença Faba, Plumeria e Guzma no caminho até a mansão.</li><li>Lusamine revela o plano de abrir um Ultra Wormhole com Cosmog. Ela luta com você e atravessa a fenda.</li><li>Gladion entrega uma Master Ball antes de você partir para Poni atrás de Lillie.</li></ul>",
+              "image": "",
+              "pokemonId": 789,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Master Ball",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Master Ball"
+                  }
+                }
+              ],
+              "en": {
+                "title": "12. The raid on Aether Paradise",
+                "content": "<p class=\"story-route\">Aether Paradise</p><ul class=\"story-checklist\"><li>Return to Aether with Gladion and Hau. Beat Faba, Plumeria and Guzma on the way to the mansion.</li><li>Lusamine reveals her plan to open an Ultra Wormhole with Cosmog. She battles you and steps through the rift.</li><li>Gladion gives you a Master Ball before you head to Poni after Lillie.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "13. Ilha de Poni e o grande desafio de Hapu",
+              "content": "<p class=\"story-route\">Seafolk Village → Poni Wilds → Ancient Poni Path → Exeggutor Island → Vast Poni Canyon</p><ul class=\"story-checklist\"><li>A avó de Hapu registra Machamp Shove, que empurra pedras grandes. Nas Ruins of Hope, Hapu é escolhida como Kahuna de Poni.</li><li>A outra flauta (Moon Flute em Sun, Sun Flute em Moon) está na Exeggutor Island.</li><li>A Vast Poni Canyon não tem Capitão: o Totem é Kommo-o e dá o Dragonium Z. Gelo e Fada são a resposta; Voador e Psíquico também funcionam.</li><li>Hapu fecha o desafio com Terrestre; Água e Grama resolvem.</li></ul>",
+              "image": "",
+              "pokemonId": 784,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dragon",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Kommo-o · Dragonium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Kommo-o · Dragonium Z"
+                  }
+                },
+                {
+                  "label": "Grande desafio",
+                  "value": "Hapu · Groundium Z",
+                  "en": {
+                    "label": "Grand trial",
+                    "value": "Hapu · Groundium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "13. Poni Island and Hapu's grand trial",
+                "content": "<p class=\"story-route\">Seafolk Village → Poni Wilds → Ancient Poni Path → Exeggutor Island → Vast Poni Canyon</p><ul class=\"story-checklist\"><li>Hapu's grandmother registers Machamp Shove, which pushes large boulders. At the Ruins of Hope, Hapu is chosen as Poni's Kahuna.</li><li>The other flute (Moon Flute in Sun, Sun Flute in Moon) is on Exeggutor Island.</li><li>Vast Poni Canyon has no Captain: the Totem is Kommo-o and it awards the Dragonium Z. Ice and Fairy are the answer; Flying and Psychic also work.</li><li>Hapu closes the challenge with Ground-types; Water and Grass handle them.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "14. Altar, Ultra Space e o lendário da capa",
+              "content": "<p class=\"story-route\">Altar of the Sunne (Sun) · Altar of the Moone (Moon) → Ultra Space</p><ul class=\"story-checklist\"><li>No altar, as duas flautas fazem Nebby evoluir para Solgaleo (Sun) ou Lunala (Moon).</li><li>Na Ultra Space, Lusamine se funde a Nihilego. Vença-a para trazê-la de volta.</li><li>De volta ao altar, capture o lendário: a Master Ball de Gladion garante a captura.</li></ul>",
+              "image": "",
+              "pokemonId": 791,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Lendário",
+                  "value": "Solgaleo (Sun) · Lunala (Moon) · nível 55",
+                  "en": {
+                    "label": "Legendary",
+                    "value": "Solgaleo (Sun) · Lunala (Moon) · level 55"
+                  }
+                }
+              ],
+              "en": {
+                "title": "14. The Altar, Ultra Space and the cover Legendary",
+                "content": "<p class=\"story-route\">Altar of the Sunne (Sun) · Altar of the Moone (Moon) → Ultra Space</p><ul class=\"story-checklist\"><li>At the altar, both flutes make Nebby evolve into Solgaleo (Sun) or Lunala (Moon).</li><li>In Ultra Space, Lusamine fuses with Nihilego. Beat her to bring her back.</li><li>Back at the altar, catch the Legendary: Gladion's Master Ball guarantees the capture.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "15. Mount Lanakila e a primeira Liga de Alola",
+              "content": "<p class=\"story-route\">Mount Lanakila → Pokémon League</p><ul class=\"story-checklist\"><li>Hau espera você no Mount Lanakila para a última batalha antes da Liga.</li><li>A Elite Four é formada por Hala, Olivia, Acerola e Kahili, em qualquer ordem.</li><li>A Liga é nova: o desafiante final é o Professor Kukui, e a vitória faz de você o primeiro Campeão de Alola.</li></ul>",
+              "image": "",
+              "pokemonId": 745,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ice",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Campeão",
+                  "value": "Kukui · time muda com o seu inicial",
+                  "en": {
+                    "label": "Champion",
+                    "value": "Kukui · team changes with your starter"
+                  }
+                }
+              ],
+              "en": {
+                "title": "15. Mount Lanakila and Alola's first League",
+                "content": "<p class=\"story-route\">Mount Lanakila → Pokémon League</p><ul class=\"story-checklist\"><li>Hau waits for you on Mount Lanakila for one last battle before the League.</li><li>The Elite Four are Hala, Olivia, Acerola and Kahili, in any order.</li><li>The League is brand new: your final opponent is Professor Kukui, and winning makes you Alola's first Champion.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "16. Pós-jogo",
+              "content": "<p class=\"story-route\">Alola inteira</p><ul class=\"story-checklist\"><li>Looker e Anabel pedem ajuda para capturar os Ultra Beasts com Beast Balls.</li><li>Na Pokémon League você defende o título contra desafiantes. A Battle Tree abre em Poni, com Red e Blue.</li><li>Lendários: Necrozma em Ten Carat Hill (nível 75), os Tapus nas ruínas de cada ilha, Cosmog no Lake of the Sunne/Moone e Zygarde reunindo Cells e Cores pelo Zygarde Cube.</li><li>Mina completa a última prova, a de Fada, e os Capitães aceitam revanche.</li></ul>",
+              "image": "",
+              "pokemonId": 800,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Lendários",
+                  "value": "Necrozma · Tapus · Ultra Beasts",
+                  "en": {
+                    "label": "Legendaries",
+                    "value": "Necrozma · Tapus · Ultra Beasts"
+                  }
+                }
+              ],
+              "en": {
+                "title": "16. Post-game",
+                "content": "<p class=\"story-route\">All of Alola</p><ul class=\"story-checklist\"><li>Looker and Anabel ask for help catching Ultra Beasts with Beast Balls.</li><li>At the Pokémon League you defend your title against challengers. The Battle Tree opens on Poni, with Red and Blue.</li><li>Legendaries: Necrozma at Ten Carat Hill (level 75), the Tapus at each island's ruins, Cosmog at the Lake of the Sunne/Moone and Zygarde by gathering Cells and Cores with the Zygarde Cube.</li><li>Mina runs the last trial, the Fairy one, and the Captains accept rematches.</li></ul>",
+                "linkLabel": "Open"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "roteiro-principal",
+      "title": "Roteiro Principal · Ultra Sun/Ultra Moon",
+      "menuLabel": "Roteiro Principal",
+      "description": "Passo a passo de Ultra Sun/Ultra Moon, do inicial ao Episode RR.",
+      "visible": true,
+      "versions": [
+        "ultra-sun-ultra-moon"
+      ],
+      "en": {
+        "title": "Main Walkthrough · Ultra Sun/Ultra Moon",
+        "menuLabel": "Main Walkthrough",
+        "description": "A step-by-step route through Ultra Sun/Ultra Moon, from your starter to Episode RR."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "en": {
+            "label": "Content"
+          },
+          "cards": [
+            {
+              "title": "Como usar este roteiro",
+              "content": "<p>Ultra Sun e Ultra Moon recontam a jornada de Alola com mudanças: Totems novos, uma história centrada em Necrozma e na Ultra Recon Squad, e o Episode RR no pós-jogo. O roteiro segue as provas e os grandes desafios na ordem do jogo. Os times completos estão em <a href=\"#treinadores\">Treinadores</a>.</p><p class=\"story-note\">Mudam o lendário (Dusk Mane Necrozma e Solgaleo em Ultra Sun, Dawn Wings Necrozma e Lunala em Ultra Moon), exclusivos e os Ultra Wormholes. Ultra Moon roda 12 horas à frente do console.</p>",
+              "image": "",
+              "pokemonId": 800,
+              "item": "",
+              "layout": "destaque",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "How to use this walkthrough",
+                "content": "<p>Ultra Sun and Ultra Moon retell the Alolan journey with changes: new Totems, a story built around Necrozma and the Ultra Recon Squad, and Episode RR in the post-game. This walkthrough follows the trials and grand trials in game order. Full teams are in <a href=\"#treinadores\">Trainers</a>.</p><p class=\"story-note\">The differences are the Legendary (Dusk Mane Necrozma and Solgaleo in Ultra Sun, Dawn Wings Necrozma and Lunala in Ultra Moon), exclusives and the Ultra Wormholes. Ultra Moon runs 12 hours ahead of the console.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "1. Iki Town, Mahalo Trail e o inicial",
+              "content": "<p class=\"story-route\">Rota 1 → Iki Town → Mahalo Trail → Iki Town</p><ul class=\"story-checklist\"><li>Hala apresenta os iniciais de Alola na Rota 1; Hau leva o que perde para o seu.</li><li>Dulse e Soliera, da Ultra Recon Squad, aparecem logo no começo procurando Necrozma.</li><li>Salve Nebby na Mahalo Trail, vença Hau no festival e receba o Z-Ring da Sparkling Stone.</li></ul>",
+              "image": "",
+              "pokemonId": 725,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Inicial de Alola e Z-Ring",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Alolan starter and Z-Ring"
+                  }
+                }
+              ],
+              "en": {
+                "title": "1. Iki Town, Mahalo Trail and your starter",
+                "content": "<p class=\"story-route\">Route 1 → Iki Town → Mahalo Trail → Iki Town</p><ul class=\"story-checklist\"><li>Hala presents the Alolan starters on Route 1; Hau takes the one that is weak to yours.</li><li>Dulse and Soliera of the Ultra Recon Squad show up early on, searching for Necrozma.</li><li>Rescue Nebby on the Mahalo Trail, beat Hau at the festival and receive the Z-Ring made from the Sparkling Stone.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "2. Hau'oli City e a prova de Ilima",
+              "content": "<p class=\"story-route\">Hau'oli City → Rota 2 → Big Wave Beach → Verdant Cavern</p><ul class=\"story-checklist\"><li>Em Hau'oli, a Pokédex ganha o Rotom e a Team Skull aparece no porto. A Big Wave Beach tem o Mantine Surf.</li><li>Na Verdant Cavern, Ilima pede três itens. O Totem é Gumshoos em Ultra Sun e Raticate de Alola em Ultra Moon.</li><li>Cada Totem vencido pode render Totem Stickers espalhados por Alola; eles valem Totems para o seu time.</li></ul>",
+              "image": "",
+              "pokemonId": 20,
+              "item": "",
+              "layout": "vertical",
+              "accent": "normal",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Gumshoos (US) · Raticate (UM) · Normalium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Gumshoos (US) · Raticate (UM) · Normalium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "2. Hau'oli City and Ilima's trial",
+                "content": "<p class=\"story-route\">Hau'oli City → Route 2 → Big Wave Beach → Verdant Cavern</p><ul class=\"story-checklist\"><li>In Hau'oli, Rotom moves into your Pokédex and Team Skull appears at the marina. Big Wave Beach offers Mantine Surf.</li><li>In the Verdant Cavern, Ilima asks for three items. The Totem is Gumshoos in Ultra Sun and Alolan Raticate in Ultra Moon.</li><li>Totem Stickers are scattered across Alola; collecting them earns Totem-sized Pokémon for your team.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "3. Melemele Meadow e o grande desafio de Hala",
+              "content": "<p class=\"story-route\">Rota 3 → Melemele Meadow → Kala'e Bay → Iki Town</p><ul class=\"story-checklist\"><li>Proteja Nebby da Team Skull no Melemele Meadow.</li><li>Hala usa Lutador em Iki Town, com Crabrawler no topo. Ataques Voador e Psíquico abrem caminho.</li><li>Ten Carat Hill e Farthest Hollow ficam em Melemele antes da balsa para Akala.</li></ul>",
+              "image": "",
+              "pokemonId": 739,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fighting",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Grande desafio",
+                  "value": "Hala · Fightinium Z",
+                  "en": {
+                    "label": "Grand trial",
+                    "value": "Hala · Fightinium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "3. Melemele Meadow and Hala's grand trial",
+                "content": "<p class=\"story-route\">Route 3 → Melemele Meadow → Kala'e Bay → Iki Town</p><ul class=\"story-checklist\"><li>Protect Nebby from Team Skull at Melemele Meadow.</li><li>Hala uses Fighting-types in Iki Town, led by Crabrawler. Flying and Psychic attacks clear the way.</li><li>Ten Carat Hill and Farthest Hollow are on Melemele before the ferry to Akala.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "4. Pikachu Valley e a prova de Lana",
+              "content": "<p class=\"story-route\">Heahea City → Rota 4 → Pikachu Valley → Paniola Town → Brooklet Hill</p><ul class=\"story-checklist\"><li>A Pikachu Valley é nova em USUM e dá o Pikashunium Z ao Pikachu com boné.</li><li>Na Brooklet Hill, Lana leva você a um lago com Wishiwashi, mas o Totem é Araquanid, de Água e Inseto. Elétrico, Voador e Pedra levam vantagem.</li><li>Lapras Paddle entra na Ride Pager.</li></ul>",
+              "image": "",
+              "pokemonId": 752,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Araquanid · Waterium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Araquanid · Waterium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "4. Pikachu Valley and Lana's trial",
+                "content": "<p class=\"story-route\">Heahea City → Route 4 → Pikachu Valley → Paniola Town → Brooklet Hill</p><ul class=\"story-checklist\"><li>Pikachu Valley is new in USUM and gives the Pikashunium Z for Pikachu in a cap.</li><li>At Brooklet Hill, Lana shows you a lake of Wishiwashi, but the Totem is Araquanid, Water and Bug. Electric, Flying and Rock have the edge.</li><li>Lapras Paddle joins your Ride Pager.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "5. Wela Volcano Park e a prova de Kiawe",
+              "content": "<p class=\"story-route\">Rota 6 → Royal Avenue → Rota 7 → Wela Volcano Park</p><ul class=\"story-checklist\"><li>Royal Avenue tem o Battle Royal Dome. Em Wela, Kiawe prepara uma dança diferente da de Sun e Moon.</li><li>O Totem é Marowak de Alola, de Fogo e Fantasma, que chama aliados. Água, Terrestre, Pedra, Fantasma e Sombrio funcionam.</li><li>Kiawe registra Charizard Glide, e o Poké Pelago abre.</li></ul>",
+              "image": "",
+              "pokemonId": 105,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Marowak de Alola · Firium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Alolan Marowak · Firium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "5. Wela Volcano Park and Kiawe's trial",
+                "content": "<p class=\"story-route\">Route 6 → Royal Avenue → Route 7 → Wela Volcano Park</p><ul class=\"story-checklist\"><li>Royal Avenue has the Battle Royal Dome. At Wela, Kiawe stages a different dance from Sun and Moon.</li><li>The Totem is Alolan Marowak, Fire and Ghost, and it calls allies. Water, Ground, Rock, Ghost and Dark all work.</li><li>Kiawe registers Charizard Glide, and the Poké Pelago opens.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "6. Lush Jungle e a prova de Mallow",
+              "content": "<p class=\"story-route\">Dividing Peak Tunnel → Rota 8 → Lush Jungle</p><ul class=\"story-checklist\"><li>A Fossil Restoration Center fica na Rota 8. Mallow pede ingredientes na Lush Jungle.</li><li>O Totem é Lurantis, com um Castform que muda o clima. Fogo, Voador, Gelo e Veneno funcionam.</li></ul>",
+              "image": "",
+              "pokemonId": 754,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Lurantis · Grassium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Lurantis · Grassium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "6. Lush Jungle and Mallow's trial",
+                "content": "<p class=\"story-route\">Dividing Peak Tunnel → Route 8 → Lush Jungle</p><ul class=\"story-checklist\"><li>The Fossil Restoration Center is on Route 8. Mallow needs ingredients from the Lush Jungle.</li><li>The Totem is Lurantis, joined by a Castform that changes the weather. Fire, Flying, Ice and Poison work.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "7. Konikoni City e o grande desafio de Olivia",
+              "content": "<p class=\"story-route\">Dimensional Research Lab → Diglett's Tunnel → Rota 9 → Konikoni City → Ruins of Life</p><ul class=\"story-checklist\"><li>No Dimensional Research Lab você aprende sobre os Ultra Wormholes.</li><li>Olivia usa Pedra nas Ruins of Life. Água, Grama, Lutador e Terrestre funcionam; o Lycanroc dela é o mais forte.</li></ul>",
+              "image": "",
+              "pokemonId": 745,
+              "item": "",
+              "layout": "vertical",
+              "accent": "rock",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Grande desafio",
+                  "value": "Olivia · Rockium Z",
+                  "en": {
+                    "label": "Grand trial",
+                    "value": "Olivia · Rockium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "7. Konikoni City and Olivia's grand trial",
+                "content": "<p class=\"story-route\">Dimensional Research Lab → Diglett's Tunnel → Route 9 → Konikoni City → Ruins of Life</p><ul class=\"story-checklist\"><li>At the Dimensional Research Lab you learn about Ultra Wormholes.</li><li>Olivia uses Rock-types at the Ruins of Life. Water, Grass, Fighting and Ground work; her Lycanroc is the strongest.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "8. Hano Grand Resort e Aether Paradise",
+              "content": "<p class=\"story-route\">Hau'oli City → Hano Beach → Hano Grand Resort → Aether Paradise</p><ul class=\"story-checklist\"><li>Volte a Hau'oli, onde a Ultra Recon Squad reaparece, e siga até o Hano Grand Resort.</li><li>Na Aether, Faba e Wicke guiam a visita até Lusamine, e um Ultra Wormhole se abre: Nihilego cai no meio do jardim.</li><li>A balsa segue para Malie City, em Ula'ula.</li></ul>",
+              "image": "",
+              "pokemonId": 793,
+              "item": "",
+              "layout": "vertical",
+              "accent": "rock",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Atenção",
+                  "value": "Primeiro Ultra Beast",
+                  "en": {
+                    "label": "Heads-up",
+                    "value": "First Ultra Beast"
+                  }
+                }
+              ],
+              "en": {
+                "title": "8. Hano Grand Resort and Aether Paradise",
+                "content": "<p class=\"story-route\">Hau'oli City → Hano Beach → Hano Grand Resort → Aether Paradise</p><ul class=\"story-checklist\"><li>Head back to Hau'oli, where the Ultra Recon Squad reappears, then on to the Hano Grand Resort.</li><li>At Aether, Faba and Wicke lead the tour to Lusamine, and an Ultra Wormhole opens: Nihilego drops into the garden.</li><li>The ferry continues to Malie City on Ula'ula.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "9. Mount Hokulani e a prova de Sophocles",
+              "content": "<p class=\"story-route\">Malie City → Rota 10 → Mount Hokulani</p><ul class=\"story-checklist\"><li>O Exeggutor Express leva ao Hokulani Observatory, onde fica a prova de Sophocles.</li><li>O Totem é Togedemaru, de Elétrico e Aço. Terrestre e Lutador levam vantagem, e Fogo ainda funciona.</li></ul>",
+              "image": "",
+              "pokemonId": 777,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Togedemaru · Electrium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Togedemaru · Electrium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "9. Mount Hokulani and Sophocles's trial",
+                "content": "<p class=\"story-route\">Malie City → Route 10 → Mount Hokulani</p><ul class=\"story-checklist\"><li>The Exeggutor Express takes you up to the Hokulani Observatory, home of Sophocles's trial.</li><li>The Totem is Togedemaru, Electric and Steel. Ground and Fighting have the edge, and Fire works too.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "10. Tapu Village e a prova de Acerola",
+              "content": "<p class=\"story-route\">Rota 11 → Rota 12 → Blush Mountain → Rota 13 → Tapu Village → Rota 14</p><ul class=\"story-checklist\"><li>Mudsdale Gallop entra na Ride Pager na Rota 12. Na Rota 15, Grimsley registra Sharpedo Jet.</li><li>No Thrifty Megamart abandonado, Acerola pede fotos dos fantasmas. O Totem é Mimikyu: quebre a Disguise antes do golpe forte.</li><li>Haina Desert e o Lake of the Moone (Ultra Sun) ou Lake of the Sunne (Ultra Moon) ficam na volta.</li></ul>",
+              "image": "",
+              "pokemonId": 778,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ghost",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Mimikyu · Ghostium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Mimikyu · Ghostium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "10. Tapu Village and Acerola's trial",
+                "content": "<p class=\"story-route\">Route 11 → Route 12 → Blush Mountain → Route 13 → Tapu Village → Route 14</p><ul class=\"story-checklist\"><li>Mudsdale Gallop joins your Ride Pager on Route 12. On Route 15, Grimsley registers Sharpedo Jet.</li><li>In the abandoned Thrifty Megamart, Acerola asks for photos of the ghosts. The Totem is Mimikyu: break its Disguise before your strongest hit.</li><li>Haina Desert and the Lake of the Moone (Ultra Sun) or Lake of the Sunne (Ultra Moon) are nearby.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "11. Po Town e o grande desafio de Nanu",
+              "content": "<p class=\"story-route\">Rota 16 → Rota 17 → Po Town → Malie City</p><ul class=\"story-checklist\"><li>Enfrente a Team Skull em Po Town, com Guzma na Shady House.</li><li>Nanu usa Sombrio. Lutador, Inseto e Fada funcionam; o Persian de Alola é o mais forte.</li></ul>",
+              "image": "",
+              "pokemonId": 53,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Grande desafio",
+                  "value": "Nanu · Darkinium Z",
+                  "en": {
+                    "label": "Grand trial",
+                    "value": "Nanu · Darkinium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "11. Po Town and Nanu's grand trial",
+                "content": "<p class=\"story-route\">Route 16 → Route 17 → Po Town → Malie City</p><ul class=\"story-checklist\"><li>Take on Team Skull in Po Town, with Guzma at the Shady House.</li><li>Nanu uses Dark-types. Fighting, Bug and Fairy work; his Alolan Persian is the strongest.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "12. De volta à Aether Paradise",
+              "content": "<p class=\"story-route\">Aether Paradise</p><ul class=\"story-checklist\"><li>Com Hau e Gladion, enfrente os funcionários e Faba, vasculhe os laboratórios secretos e chegue à mansão de Lusamine.</li><li>Os arquivos revelam os estudos da Aether sobre Cosmog e os Ultra Beasts.</li></ul>",
+              "image": "",
+              "pokemonId": 789,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "12. Back to Aether Paradise",
+                "content": "<p class=\"story-route\">Aether Paradise</p><ul class=\"story-checklist\"><li>With Hau and Gladion, fight past the employees and Faba, search the secret labs and reach Lusamine's mansion.</li><li>The files reveal the Aether's research on Cosmog and the Ultra Beasts.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "13. Ilha de Poni: Mina, Hapu e Kommo-o",
+              "content": "<p class=\"story-route\">Seafolk Village → Poni Wilds → Exeggutor Island → Vast Poni Canyon</p><ul class=\"story-checklist\"><li>Em Seafolk Village, Mina tem uma prova de Fada. Aço e Veneno funcionam contra o Totem Ribombee.</li><li>Hapu é a Kahuna de Poni e faz o grande desafio na Exeggutor Island. Água, Grama e Gelo resolvem.</li><li>O Totem da Vast Poni Canyon é Kommo-o. Fada e Gelo são a resposta.</li></ul>",
+              "image": "",
+              "pokemonId": 784,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dragon",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Prova",
+                  "value": "Ribombee · Fairium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Ribombee · Fairium Z"
+                  }
+                },
+                {
+                  "label": "Grande desafio",
+                  "value": "Hapu · Groundium Z",
+                  "en": {
+                    "label": "Grand trial",
+                    "value": "Hapu · Groundium Z"
+                  }
+                },
+                {
+                  "label": "Prova",
+                  "value": "Kommo-o · Dragonium Z",
+                  "en": {
+                    "label": "Trial",
+                    "value": "Kommo-o · Dragonium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "13. Poni Island: Mina, Hapu and Kommo-o",
+                "content": "<p class=\"story-route\">Seafolk Village → Poni Wilds → Exeggutor Island → Vast Poni Canyon</p><ul class=\"story-checklist\"><li>In Seafolk Village, Mina runs a Fairy trial. Steel and Poison work against Totem Ribombee.</li><li>Hapu is Poni's Kahuna and holds her grand trial on Exeggutor Island. Water, Grass and Ice handle it.</li><li>The Totem of Vast Poni Canyon is Kommo-o. Fairy and Ice are the answer.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "14. O altar, Ultra Megalopolis e Ultra Necrozma",
+              "content": "<p class=\"story-route\">Altar of the Sunne (US) · Altar of the Moone (UM) → Ultra Megalopolis → Megalo Tower</p><ul class=\"story-checklist\"><li>No altar, Nebby evolui para Solgaleo (Ultra Sun) ou Lunala (Ultra Moon). Necrozma surge, rouba a luz do lendário e o leva embora.</li><li>Com a Ultra Warp Ride, viaje até Ultra Megalopolis. No topo da Megalo Tower, enfrente Ultra Necrozma: é a luta mais difícil da história.</li><li>A vitória liberta Nebby e dá o Ultranecrozium Z.</li></ul>",
+              "image": "",
+              "pokemonId": 800,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dragon",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Ultranecrozium Z",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Ultranecrozium Z"
+                  }
+                }
+              ],
+              "en": {
+                "title": "14. The altar, Ultra Megalopolis and Ultra Necrozma",
+                "content": "<p class=\"story-route\">Altar of the Sunne (US) · Altar of the Moone (UM) → Ultra Megalopolis → Megalo Tower</p><ul class=\"story-checklist\"><li>At the altar, Nebby evolves into Solgaleo (Ultra Sun) or Lunala (Ultra Moon). Necrozma appears, steals the Legendary's light and carries it away.</li><li>Use the Ultra Warp Ride to reach Ultra Megalopolis. At the top of Megalo Tower, face Ultra Necrozma: the toughest battle of the story.</li><li>Winning frees Nebby and awards the Ultranecrozium Z.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "15. Mount Lanakila e a Liga",
+              "content": "<p class=\"story-route\">Mount Lanakila → Pokémon League</p><ul class=\"story-checklist\"><li>A Elite Four é formada por Molayne, Olivia, Acerola e Kahili.</li><li>Depois de vencer a Elite Four, Hau aparece como o último desafiante. O último Pokémon dele muda com o seu inicial.</li></ul>",
+              "image": "",
+              "pokemonId": 724,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ice",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Batalha final",
+                  "value": "Hau",
+                  "en": {
+                    "label": "Final battle",
+                    "value": "Hau"
+                  }
+                }
+              ],
+              "en": {
+                "title": "15. Mount Lanakila and the League",
+                "content": "<p class=\"story-route\">Mount Lanakila → Pokémon League</p><ul class=\"story-checklist\"><li>The Elite Four are Molayne, Olivia, Acerola and Kahili.</li><li>After you beat the Elite Four, Hau steps up as the final challenger. His last Pokémon changes with your starter.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "16. Pós-jogo e Episode RR",
+              "content": "<p class=\"story-route\">Alola inteira → Aether Paradise</p><ul class=\"story-checklist\"><li>No Episode RR, a Team Rainbow Rocket toma a Aether Paradise. Vença Giovanni e os líderes vilões das gerações anteriores: Maxie ou Archie, Cyrus, Lysandre e Ghetsis.</li><li>A Ultra Warp Ride leva aos lendários das gerações passadas e aos Ultra Beasts.</li><li>Lendários: Solgaleo ou Lunala na Mahalo Trail, Necrozma no Mount Lanakila, os Tapus nas ruínas e Cosmog no lago.</li><li>A Battle Agency abre em Festival Plaza e a Battle Tree em Poni.</li></ul>",
+              "image": "",
+              "pokemonId": 150,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Lendários",
+                  "value": "Necrozma · Solgaleo/Lunala · Ultra Warp Ride",
+                  "en": {
+                    "label": "Legendaries",
+                    "value": "Necrozma · Solgaleo/Lunala · Ultra Warp Ride"
+                  }
+                }
+              ],
+              "en": {
+                "title": "16. Post-game and Episode RR",
+                "content": "<p class=\"story-route\">All of Alola → Aether Paradise</p><ul class=\"story-checklist\"><li>In Episode RR, Team Rainbow Rocket takes over Aether Paradise. Beat Giovanni and the villain bosses of past generations: Maxie or Archie, Cyrus, Lysandre and Ghetsis.</li><li>The Ultra Warp Ride leads to past-generation Legendaries and Ultra Beasts.</li><li>Legendaries: Solgaleo or Lunala on the Mahalo Trail, Necrozma on Mount Lanakila, the Tapus at the ruins and Cosmog at the lake.</li><li>The Battle Agency opens in Festival Plaza and the Battle Tree on Poni.</li></ul>",
+                "linkLabel": "Open"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "templates": [],
+  "navigation": [
+    {
+      "menuId": "conteudo-editorial",
+      "label": "Conteúdo editorial",
+      "visible": true,
+      "versions": [],
+      "entries": [
+        {
+          "menuId": "guias-da-jornada",
+          "label": "Guias da jornada",
+          "pageSlug": "",
+          "visible": true,
+          "versions": [],
+          "children": [
+            {
+              "menuId": "visao-geral",
+              "label": "Visão Geral",
+              "pageSlug": "visao-geral",
+              "visible": true,
+              "versions": [],
+              "en": {
+                "label": "Overview"
+              }
+            },
+            {
+              "menuId": "roteiro",
+              "label": "Roteiro Principal",
+              "pageSlug": "roteiro-principal",
+              "visible": true,
+              "versions": [],
+              "en": {
+                "label": "Main Walkthrough"
+              }
+            }
+          ],
+          "en": {
+            "label": "Journey guides"
+          }
+        }
+      ],
+      "en": {
+        "label": "Editorial content"
+      }
+    }
+  ]
+}

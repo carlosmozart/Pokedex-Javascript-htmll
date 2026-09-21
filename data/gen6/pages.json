@@ -1,0 +1,1328 @@
+{
+  "pages": [
+    {
+      "slug": "visao-geral",
+      "title": "Visão Geral — X/Y",
+      "menuLabel": "Visão Geral",
+      "description": "Logo, datas, novidades e melhorias de X/Y.",
+      "visible": true,
+      "versions": [
+        "x-y"
+      ],
+      "en": {
+        "title": "Overview — X/Y",
+        "menuLabel": "Overview",
+        "description": "Logo, release dates, new features and improvements of X/Y."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "en": {
+            "label": "Content"
+          },
+          "cards": [
+            {
+              "title": "X/Y",
+              "content": "<img src=\"img/overview/logo-x.png\" alt=\"Pokémon X\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-y.png\" alt=\"Pokémon Y\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>A estreia da Geração 6 no Nintendo 3DS e o primeiro jogo principal todo em 3D. Kalos traz 72 Pokémon novos, o tipo Fada, a Mega Evolução e o primeiro lançamento simultâneo no mundo inteiro.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Plataforma",
+                  "value": "Nintendo 3DS",
+                  "en": {
+                    "label": "Platform",
+                    "value": "Nintendo 3DS"
+                  }
+                },
+                {
+                  "label": "Geração",
+                  "value": "VI",
+                  "en": {
+                    "label": "Generation",
+                    "value": "VI"
+                  }
+                },
+                {
+                  "label": "Região",
+                  "value": "Kalos",
+                  "en": {
+                    "label": "Region",
+                    "value": "Kalos"
+                  }
+                },
+                {
+                  "label": "Mascotes",
+                  "value": "Xerneas (X) e Yveltal (Y)",
+                  "en": {
+                    "label": "Mascots",
+                    "value": "Xerneas (X) and Yveltal (Y)"
+                  }
+                },
+                {
+                  "label": "Pokémon novos",
+                  "value": "72 espécies (total de 721)",
+                  "en": {
+                    "label": "New Pokémon",
+                    "value": "72 species (721 in total)"
+                  }
+                },
+                {
+                  "label": "Pokédex regional",
+                  "value": "457 espécies em três partes: Central, Coastal e Mountain",
+                  "en": {
+                    "label": "Regional Pokédex",
+                    "value": "457 species in three parts: Central, Coastal and Mountain"
+                  }
+                }
+              ],
+              "en": {
+                "title": "X/Y",
+                "content": "<img src=\"img/overview/logo-x.png\" alt=\"Pokémon X\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-y.png\" alt=\"Pokémon Y\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>The debut of Generation VI on Nintendo 3DS and the first fully 3D core series game. Kalos brings 72 new Pokémon, the Fairy type, Mega Evolution and the first simultaneous worldwide release.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Lançamento",
+              "content": "<p>Lançado no mesmo dia no mundo inteiro, em lojas e para download.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Japão",
+                  "value": "12 de outubro de 2013",
+                  "en": {
+                    "label": "Japan",
+                    "value": "October 12, 2013"
+                  }
+                },
+                {
+                  "label": "América do Norte",
+                  "value": "12 de outubro de 2013",
+                  "en": {
+                    "label": "North America",
+                    "value": "October 12, 2013"
+                  }
+                },
+                {
+                  "label": "Europa",
+                  "value": "12 de outubro de 2013",
+                  "en": {
+                    "label": "Europe",
+                    "value": "October 12, 2013"
+                  }
+                },
+                {
+                  "label": "Austrália",
+                  "value": "12 de outubro de 2013",
+                  "en": {
+                    "label": "Australia",
+                    "value": "October 12, 2013"
+                  }
+                },
+                {
+                  "label": "Coreia do Sul",
+                  "value": "12 de outubro de 2013",
+                  "en": {
+                    "label": "South Korea",
+                    "value": "October 12, 2013"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Release",
+                "content": "<p>Released on the same day worldwide, both at retail and for download.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Capas",
+              "content": "<img src=\"img/overview/box-x.jpg\" alt=\"Capa de X\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-y.jpg\" alt=\"Capa de Y\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Box art",
+                "content": "<img src=\"img/overview/box-x.jpg\" alt=\"X box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-y.jpg\" alt=\"Y box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Novidades desta versão",
+              "content": "<ul><li>Tipo <b>Fada</b>: forte contra Dragão, Lutador e Sombrio; imune a Dragão; fraco contra Veneno e Aço.</li><li><b>Mega Evolução</b>: transformação temporária em batalha com uma Mega Stone e a Key Stone (Mega Ring).</li><li><b>Pokémon-Amie</b> para criar laços pela tela de toque e <b>Super Training</b> para treinar EVs.</li><li><b>Sky Battles</b> só com Pokémon voadores e <b>Horde Encounters</b> contra cinco Pokémon selvagens.</li><li><b>Player Search System</b> (PSS) para batalhar e trocar pela internet.</li><li>Personalização do Treinador: cabelo e roupas.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "New in this version",
+                "content": "<ul><li><b>Fairy</b> type: strong against Dragon, Fighting and Dark; immune to Dragon; weak to Poison and Steel.</li><li><b>Mega Evolution</b>: a temporary in-battle transformation with a Mega Stone and the Key Stone (Mega Ring).</li><li><b>Pokémon-Amie</b> to bond through the touch screen and <b>Super Training</b> to train EVs.</li><li><b>Sky Battles</b> with Flying Pokémon only and <b>Horde Encounters</b> against five wild Pokémon.</li><li><b>Player Search System</b> (PSS) to battle and trade online.</li><li>Trainer customization: hair and clothing.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Melhorias em relação à Geração 5",
+              "content": "<ul><li>Mundo, batalhas e Pokémon em modelos 3D, no lugar das sprites.</li><li>Movimento em oito direções, Roller Skates e Pokémon montáveis (Skiddo, Rhyhorn, Mamoswine).</li><li>Aço deixa de resistir a Fantasma e Sombrio.</li><li>Nomes de golpes e itens padronizados (ThunderShock vira Thunder Shock; Faint Attack vira Feint Attack).</li><li>Elite Four enfrentada em qualquer ordem, como em Unova; Diantha é a Campeã, com Mega Gardevoir.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Improvements over Generation V",
+                "content": "<ul><li>World, battles and Pokémon in 3D models instead of sprites.</li><li>Eight-direction movement, Roller Skates and rideable Pokémon (Skiddo, Rhyhorn, Mamoswine).</li><li>Steel no longer resists Ghost and Dark.</li><li>Standardized move and item names (ThunderShock becomes Thunder Shock; Faint Attack becomes Feint Attack).</li><li>The Elite Four can be fought in any order, as in Unova; Diantha is the Champion, with Mega Gardevoir.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Tela de título",
+              "content": "<img src=\"img/overview/title-x.png\" alt=\"Tela de título de X\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\"><img src=\"img/overview/title-y.png\" alt=\"Tela de título de Y\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Title screen",
+                "content": "<img src=\"img/overview/title-x.png\" alt=\"X title screen\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\"><img src=\"img/overview/title-y.png\" alt=\"Y title screen\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Kalos",
+              "content": "<p>Região inspirada na França, com Lumiose City no centro. A história acompanha a Team Flare e Lysandre, e o pós-jogo leva a Kiloude City, ao Battle Maison e ao Looker Bureau.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Kalos",
+                "content": "<p>A region inspired by France, with Lumiose City at its center. The story follows Team Flare and Lysandre, and the post-game leads to Kiloude City, the Battle Maison and the Looker Bureau.</p>",
+                "linkLabel": "Open"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "visao-geral",
+      "title": "Visão Geral — Omega Ruby/Alpha Sapphire",
+      "menuLabel": "Visão Geral",
+      "description": "Logo, datas, novidades e melhorias de Omega Ruby/Alpha Sapphire.",
+      "visible": true,
+      "versions": [
+        "omega-ruby-alpha-sapphire"
+      ],
+      "en": {
+        "title": "Overview — Omega Ruby/Alpha Sapphire",
+        "menuLabel": "Overview",
+        "description": "Logo, release dates, new features and improvements of Omega Ruby/Alpha Sapphire."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "en": {
+            "label": "Content"
+          },
+          "cards": [
+            {
+              "title": "Omega Ruby/Alpha Sapphire",
+              "content": "<img src=\"img/overview/logo-omega-ruby.png\" alt=\"Pokémon Omega Ruby\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-alpha-sapphire.png\" alt=\"Pokémon Alpha Sapphire\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>O remake de Ruby e Sapphire para Nintendo 3DS, com os recursos da Geração 6. Hoenn volta em 3D, com Megas novas, a Reversão Primal de Groudon e Kyogre e o Delta Episode depois da Liga.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Plataforma",
+                  "value": "Nintendo 3DS",
+                  "en": {
+                    "label": "Platform",
+                    "value": "Nintendo 3DS"
+                  }
+                },
+                {
+                  "label": "Geração",
+                  "value": "VI (remake da Geração III)",
+                  "en": {
+                    "label": "Generation",
+                    "value": "VI (remake of Generation III)"
+                  }
+                },
+                {
+                  "label": "Região",
+                  "value": "Hoenn",
+                  "en": {
+                    "label": "Region",
+                    "value": "Hoenn"
+                  }
+                },
+                {
+                  "label": "Mascotes",
+                  "value": "Primal Groudon (Omega Ruby) e Primal Kyogre (Alpha Sapphire)",
+                  "en": {
+                    "label": "Mascots",
+                    "value": "Primal Groudon (Omega Ruby) and Primal Kyogre (Alpha Sapphire)"
+                  }
+                },
+                {
+                  "label": "Pokédex regional",
+                  "value": "211 espécies (Hoenn atualizada)",
+                  "en": {
+                    "label": "Regional Pokédex",
+                    "value": "211 species (updated Hoenn)"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Omega Ruby/Alpha Sapphire",
+                "content": "<img src=\"img/overview/logo-omega-ruby.png\" alt=\"Pokémon Omega Ruby\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><img src=\"img/overview/logo-alpha-sapphire.png\" alt=\"Pokémon Alpha Sapphire\" loading=\"lazy\" style=\"max-width:min(100%, 300px); height:auto; margin:4px;\"><p>The remake of Ruby and Sapphire for Nintendo 3DS, with Generation VI features. Hoenn returns in 3D with new Mega Evolutions, Groudon and Kyogre’s Primal Reversion and the Delta Episode after the League.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Lançamento",
+              "content": "<p>Anunciado em 7 de maio de 2014. Chegou às lojas quase no mundo todo no mesmo dia; na Europa, uma semana depois.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Japão",
+                  "value": "21 de novembro de 2014",
+                  "en": {
+                    "label": "Japan",
+                    "value": "November 21, 2014"
+                  }
+                },
+                {
+                  "label": "América do Norte",
+                  "value": "21 de novembro de 2014",
+                  "en": {
+                    "label": "North America",
+                    "value": "November 21, 2014"
+                  }
+                },
+                {
+                  "label": "Europa",
+                  "value": "28 de novembro de 2014",
+                  "en": {
+                    "label": "Europe",
+                    "value": "November 28, 2014"
+                  }
+                },
+                {
+                  "label": "Austrália",
+                  "value": "21 de novembro de 2014",
+                  "en": {
+                    "label": "Australia",
+                    "value": "November 21, 2014"
+                  }
+                },
+                {
+                  "label": "Coreia do Sul",
+                  "value": "21 de novembro de 2014",
+                  "en": {
+                    "label": "South Korea",
+                    "value": "November 21, 2014"
+                  }
+                }
+              ],
+              "en": {
+                "title": "Release",
+                "content": "<p>Announced on May 7, 2014. Released almost worldwide on the same day; in Europe, one week later.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Capas",
+              "content": "<img src=\"img/overview/box-omega-ruby.jpg\" alt=\"Capa de Omega Ruby\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-alpha-sapphire.jpg\" alt=\"Capa de Alpha Sapphire\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Box art",
+                "content": "<img src=\"img/overview/box-omega-ruby.jpg\" alt=\"Omega Ruby box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\"><img src=\"img/overview/box-alpha-sapphire.jpg\" alt=\"Alpha Sapphire box art\" loading=\"lazy\" style=\"max-width:min(100%, 180px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Novidades desta versão",
+              "content": "<ul><li><b>Reversão Primal</b>: Groudon e Kyogre segurando a Red Orb e a Blue Orb.</li><li><b>Megas novas</b> que não existiam em X/Y e a <b>Mega Rayquaza</b>, que usa Dragon Ascent.</li><li><b>Delta Episode</b> depois da Liga, com Zinnia, e o voo sobre Hoenn com a Eon Flute (Mirage spots).</li><li><b>PokéNav Plus</b> com DexNav, <b>Super Secret Bases</b> e os <b>Pokémon Contest Spectaculars</b> com Cosplay Pikachu.</li><li><b>Battle Resort</b> com a Battle Maison.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "New in this version",
+                "content": "<ul><li><b>Primal Reversion</b>: Groudon and Kyogre holding the Red Orb and Blue Orb.</li><li><b>New Mega Evolutions</b> not found in X/Y and <b>Mega Rayquaza</b>, which uses Dragon Ascent.</li><li><b>Delta Episode</b> after the League, with Zinnia, and soaring over Hoenn with the Eon Flute (Mirage spots).</li><li><b>PokéNav Plus</b> with the DexNav, <b>Super Secret Bases</b> and the <b>Pokémon Contest Spectaculars</b> with Cosplay Pikachu.</li><li><b>Battle Resort</b> with the Battle Maison.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Melhorias em relação a Ruby/Sapphire",
+              "content": "<ul><li>Hoenn e as batalhas em 3D, com dia e noite visíveis.</li><li>Categoria física ou especial definida pelo golpe, e não mais pelo tipo; tipo Fada e Aço sem resistir a Fantasma e Sombrio.</li><li>Pokémon-Amie, Super Training e Horde Encounters vindos de X/Y.</li><li>100 TMs reutilizáveis; Exp. Share vira item-chave para a equipe inteira; Flash deixa de ser HM.</li><li>Mauville City vira um grande shopping coberto; Sea Mauville substitui o Abandoned Ship.</li><li>Safari Zone sem o Safari Game e nove Pokémon da Geração 4 na Pokédex de Hoenn.</li></ul>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Improvements over Ruby/Sapphire",
+                "content": "<ul><li>Hoenn and battles in 3D, with a visible day and night cycle.</li><li>Physical or special category defined by the move, not by type; Fairy type, and Steel no longer resists Ghost and Dark.</li><li>Pokémon-Amie, Super Training and Horde Encounters from X/Y.</li><li>100 reusable TMs; the Exp. Share becomes a Key Item for the whole party; Flash is no longer an HM.</li><li>Mauville City becomes a large indoor shopping complex; Sea Mauville replaces the Abandoned Ship.</li><li>The Safari Zone without the Safari Game and nine Generation IV Pokémon in the Hoenn Pokédex.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Tela de título",
+              "content": "<img src=\"img/overview/title-omega-ruby.png\" alt=\"Tela de título de Omega Ruby\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\"><img src=\"img/overview/title-alpha-sapphire.png\" alt=\"Tela de título de Alpha Sapphire\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\">",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Title screen",
+                "content": "<img src=\"img/overview/title-omega-ruby.png\" alt=\"Omega Ruby title screen\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\"><img src=\"img/overview/title-alpha-sapphire.png\" alt=\"Alpha Sapphire title screen\" loading=\"lazy\" style=\"max-width:min(100%, 200px); height:auto; margin:4px;\">",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "Hoenn",
+              "content": "<p>A mesma região da Geração 3, refeita em 3D. A história com a Team Magma (Omega Ruby) ou a Team Aqua (Alpha Sapphire) foi ampliada, e Steven procura os segredos das Mega Stones.</p>",
+              "image": "",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "horizontal",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "Hoenn",
+                "content": "<p>The same region as Generation III, remade in 3D. The story with Team Magma (Omega Ruby) or Team Aqua (Alpha Sapphire) is expanded, and Steven searches for the secrets of Mega Stones.</p>",
+                "linkLabel": "Open"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "roteiro-principal",
+      "title": "Roteiro Principal · X/Y",
+      "menuLabel": "Roteiro Principal",
+      "description": "Passo a passo da campanha de X/Y, da escolha do inicial até o pós-jogo.",
+      "visible": true,
+      "versions": [
+        "x-y"
+      ],
+      "en": {
+        "title": "Main Walkthrough · X/Y",
+        "menuLabel": "Main Walkthrough",
+        "description": "A step-by-step route through X/Y, from choosing your starter to the post-game."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "en": {
+            "label": "Content"
+          },
+          "cards": [
+            {
+              "title": "Como usar este roteiro",
+              "content": "<p>X e Y levam a série para Kalos e para o 3D. O roteiro segue a campanha na ordem dos Gyms, destacando cidades, eventos da história, Badges e as TMs recebidas. A lista completa de Pokémon fica na <a href=\"#pokedex\">Pokédex</a>, dividida em Central, Coastal e Mountain Kalos.</p><p class=\"story-note\">As duas versões compartilham a campanha. Mudam os exclusivos, o lendário da capa (Xerneas em X, Yveltal em Y) e algumas Mega Stones.</p>",
+              "image": "img/pokemon/gen6/x-y/716.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "fairy",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "How to use this walkthrough",
+                "content": "<p>X and Y take the series to Kalos and into 3D. This walkthrough follows the campaign in Gym order, highlighting cities, story events, Badges and the TMs you receive. The full Pokémon list is in the <a href=\"#pokedex\">Pokédex</a>, split into Central, Coastal and Mountain Kalos.</p><p class=\"story-note\">Both versions share the campaign. The differences are version exclusives, the cover Legendary (Xerneas in X, Yveltal in Y) and some Mega Stones.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "1. Vaniville Town, Aquacorde Town e Santalune Forest",
+              "content": "<p class=\"story-route\">Vaniville Town → Rota 1 → Aquacorde Town → Rota 2 → Santalune Forest</p><ul class=\"story-checklist\"><li>Seu vizinho (Calem ou Serena) leva você até Aquacorde Town, onde Shauna, Tierno e Trevor esperam.</li><li>Tierno entrega a caixa do Professor Sycamore: escolha Chespin, Fennekin ou Froakie. Depois, receba a Pokédex e as primeiras Poké Balls.</li><li>Santalune Forest é curta e cheia de Pokémon de tipo Bug; Pikachu aparece na grama.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/650.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Inicial de Kalos e Pokédex",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Kalos starter and Pokédex"
+                  }
+                }
+              ],
+              "en": {
+                "title": "1. Vaniville Town, Aquacorde Town and Santalune Forest",
+                "content": "<p class=\"story-route\">Vaniville Town → Route 1 → Aquacorde Town → Route 2 → Santalune Forest</p><ul class=\"story-checklist\"><li>Your neighbor (Calem or Serena) takes you to Aquacorde Town, where Shauna, Tierno and Trevor are waiting.</li><li>Tierno hands over Professor Sycamore's box: choose Chespin, Fennekin or Froakie. Then receive the Pokédex and your first Poké Balls.</li><li>Santalune Forest is short and full of Bug-types; Pikachu appears in the grass.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "2. Santalune City e o primeiro Gym",
+              "content": "<p class=\"story-route\">Santalune City → Santalune Gym</p><ul class=\"story-checklist\"><li>Vença a Roller Skater Rinka na cidade para ganhar as Roller Skates.</li><li>Viola usa Pokémon de tipo Bug, e Vivillon é o mais forte. Fogo, Voador e Pedra resolvem a luta.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/666.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "bug",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Bug Badge · TM83 Infestation",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Bug Badge · TM83 Infestation"
+                  }
+                }
+              ],
+              "en": {
+                "title": "2. Santalune City and the first Gym",
+                "content": "<p class=\"story-route\">Santalune City → Santalune Gym</p><ul class=\"story-checklist\"><li>Beat Roller Skater Rinka in town to get the Roller Skates.</li><li>Viola uses Bug-types, with Vivillon as her strongest. Fire, Flying and Rock handle the battle.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "3. Lumiose City e o segundo inicial",
+              "content": "<p class=\"story-route\">Rota 4 → Lumiose City → Rota 5 → Camphrier Town</p><ul class=\"story-checklist\"><li>No laboratório de Lumiose, o Professor Sycamore entrega um inicial de Kanto: Bulbasaur, Charmander ou Squirtle, com a Mega Stone correspondente disponível mais tarde.</li><li>No Café de Lysandre você conhece Lysandre, que se torna central na história.</li><li>A cidade só abre por completo depois; o Gym de Clemont fica para mais tarde. Em Camphrier, um Snorlax bloqueia a Rota 7 até você conseguir a Poké Flute no Parfum Palace.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/3.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Inicial de Kanto",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Kanto starter"
+                  }
+                }
+              ],
+              "en": {
+                "title": "3. Lumiose City and the second starter",
+                "content": "<p class=\"story-route\">Route 4 → Lumiose City → Route 5 → Camphrier Town</p><ul class=\"story-checklist\"><li>At the Lumiose lab, Professor Sycamore gives you a Kanto starter: Bulbasaur, Charmander or Squirtle.</li><li>At Lysandre Café you meet Lysandre, who becomes central to the story.</li><li>Most of the city opens later, and Clemont's Gym comes much later. In Camphrier, a Snorlax blocks Route 7 until you get the Poké Flute at Parfum Palace.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "4. Connecting Cave, Ambrette Town e Glittering Cave",
+              "content": "<p class=\"story-route\">Rota 7 → Connecting Cave → Rota 8 → Ambrette Town → Glittering Cave</p><ul class=\"story-checklist\"><li>Depois da Poké Flute, acorde Snorlax na Rota 7 e siga pela Connecting Cave até a costa.</li><li>Em Ambrette fica o Fossil Lab. Na Glittering Cave, a Team Flare aparece pela primeira vez; ao vencê-la, você escolhe entre o Jaw Fossil (Tyrunt) e o Sail Fossil (Amaura).</li></ul>",
+              "image": "img/pokemon/gen6/x-y/143.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "normal",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Atenção",
+                  "value": "A Team Flare estreia na Glittering Cave",
+                  "en": {
+                    "label": "Watch for",
+                    "value": "Team Flare debuts at Glittering Cave"
+                  }
+                }
+              ],
+              "en": {
+                "title": "4. Connecting Cave, Ambrette Town and Glittering Cave",
+                "content": "<p class=\"story-route\">Route 7 → Connecting Cave → Route 8 → Ambrette Town → Glittering Cave</p><ul class=\"story-checklist\"><li>After getting the Poké Flute, wake Snorlax on Route 7 and cross Connecting Cave to the coast.</li><li>Ambrette has the Fossil Lab. At Glittering Cave, Team Flare appears for the first time; after beating them, choose between the Jaw Fossil (Tyrunt) and the Sail Fossil (Amaura).</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "5. Cyllage City e Grant",
+              "content": "<p class=\"story-route\">Cyllage City → Cyllage Gym</p><ul class=\"story-checklist\"><li>O Gym é uma parede de escalada. Grant usa Tyrunt e Amaura; Água, Grama, Lutador e Aço funcionam bem.</li><li>Seu rival desafia você na saída da cidade.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/696.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "rock",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Cliff Badge · TM39 Rock Tomb",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Cliff Badge · TM39 Rock Tomb"
+                  }
+                }
+              ],
+              "en": {
+                "title": "5. Cyllage City and Grant",
+                "content": "<p class=\"story-route\">Cyllage City → Cyllage Gym</p><ul class=\"story-checklist\"><li>The Gym is a climbing wall. Grant uses Tyrunt and Amaura; Water, Grass, Fighting and Steel work well.</li><li>Your rival challenges you as you leave town.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "6. Geosenge Town, Shalour City e a Mega Evolução",
+              "content": "<p class=\"story-route\">Rota 10 → Geosenge Town → Rota 11 → Reflection Cave → Shalour City → Tower of Mastery</p><ul class=\"story-checklist\"><li>Os menires da Rota 10 e as pedras de Geosenge escondem a próxima parte da história; a Team Flare volta a aparecer.</li><li>Korrina usa Pokémon de tipo Lutador, com Hawlucha como o mais forte. Voador e Psíquico ajudam.</li><li>Na Tower of Mastery, Gurkinn entrega o Mega Ring e Korrina, depois de uma batalha com Mega Lucario, entrega Lucario com a Lucarionite.</li><li>Em Shalour você também recebe a HM03 Surf.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/448.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fighting",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Rumble Badge · TM98 Power-Up Punch",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Rumble Badge · TM98 Power-Up Punch"
+                  }
+                },
+                {
+                  "label": "Checkpoint",
+                  "value": "Mega Ring e Lucario",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Mega Ring and Lucario"
+                  }
+                }
+              ],
+              "en": {
+                "title": "6. Geosenge Town, Shalour City and Mega Evolution",
+                "content": "<p class=\"story-route\">Route 10 → Geosenge Town → Route 11 → Reflection Cave → Shalour City → Tower of Mastery</p><ul class=\"story-checklist\"><li>The menhirs on Route 10 and the stones of Geosenge hide the next part of the story; Team Flare shows up again.</li><li>Korrina uses Fighting-types, with Hawlucha as her strongest. Flying and Psychic help.</li><li>At the Tower of Mastery, Gurkinn gives you the Mega Ring, and Korrina, after a battle with Mega Lucario, gives you Lucario and its Lucarionite.</li><li>You also get HM03 Surf in Shalour.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "7. Coumarine City e Ramos",
+              "content": "<p class=\"story-route\">Rota 12 → Azure Bay → Coumarine City → Coumarine Gym</p><ul class=\"story-checklist\"><li>Na Rota 12, um Lapras é dado de presente.</li><li>Ramos usa Pokémon de tipo Grama, com Gogoat como o mais forte. Fogo, Gelo e Voador resolvem.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/673.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "grass",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Plant Badge · TM86 Grass Knot",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Plant Badge · TM86 Grass Knot"
+                  }
+                }
+              ],
+              "en": {
+                "title": "7. Coumarine City and Ramos",
+                "content": "<p class=\"story-route\">Route 12 → Azure Bay → Coumarine City → Coumarine Gym</p><ul class=\"story-checklist\"><li>On Route 12, you receive a Lapras as a gift.</li><li>Ramos uses Grass-types, with Gogoat as his strongest. Fire, Ice and Flying do the job.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "8. Kalos Power Plant e Clemont",
+              "content": "<p class=\"story-route\">Rota 13 → Kalos Power Plant → Lumiose City → Prism Tower</p><ul class=\"story-checklist\"><li>A Team Flare tomou a Kalos Power Plant, e Lumiose está sem energia. Vença os Grunts e o Admin para religar a cidade.</li><li>Clemont usa Pokémon de tipo Elétrico, com Heliolisk como o mais forte. Terra é a resposta mais segura.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/695.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Voltage Badge · TM24 Thunderbolt",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Voltage Badge · TM24 Thunderbolt"
+                  }
+                }
+              ],
+              "en": {
+                "title": "8. Kalos Power Plant and Clemont",
+                "content": "<p class=\"story-route\">Route 13 → Kalos Power Plant → Lumiose City → Prism Tower</p><ul class=\"story-checklist\"><li>Team Flare has taken over the Kalos Power Plant, leaving Lumiose without power. Beat the Grunts and the Admin to restore it.</li><li>Clemont uses Electric-types, with Heliolisk as his strongest. Ground is the safest answer.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "9. Laverre City e Valerie",
+              "content": "<p class=\"story-route\">Rota 14 → Laverre City → Laverre Gym</p><ul class=\"story-checklist\"><li>Valerie usa Pokémon de tipo Fada, com Sylveon como o mais forte. Aço e Veneno funcionam bem, e o Dragão fica em desvantagem.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/700.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fairy",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Fairy Badge · TM99 Dazzling Gleam",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Fairy Badge · TM99 Dazzling Gleam"
+                  }
+                }
+              ],
+              "en": {
+                "title": "9. Laverre City and Valerie",
+                "content": "<p class=\"story-route\">Route 14 → Laverre City → Laverre Gym</p><ul class=\"story-checklist\"><li>Valerie uses Fairy-types, with Sylveon as her strongest. Steel and Poison work well, and Dragon is at a disadvantage.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "10. Poké Ball Factory, Dendemille e Anistar City",
+              "content": "<p class=\"story-route\">Laverre City → Poké Ball Factory → Rota 15 → Dendemille Town → Rota 17 → Anistar City</p><ul class=\"story-checklist\"><li>A Team Flare invade a Poké Ball Factory. Ao salvar a fábrica, você recebe a Master Ball do presidente.</li><li>Na Rota 17, Mamoswine ajuda a atravessar a neve.</li><li>Olympia usa Pokémon de tipo Psíquico, com Meowstic como o mais forte. Sombrio, Fantasma e Inseto ajudam.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/678.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Psychic Badge · TM04 Calm Mind",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Psychic Badge · TM04 Calm Mind"
+                  }
+                },
+                {
+                  "label": "Checkpoint",
+                  "value": "Master Ball",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Master Ball"
+                  }
+                }
+              ],
+              "en": {
+                "title": "10. Poké Ball Factory, Dendemille and Anistar City",
+                "content": "<p class=\"story-route\">Laverre City → Poké Ball Factory → Route 15 → Dendemille Town → Route 17 → Anistar City</p><ul class=\"story-checklist\"><li>Team Flare raids the Poké Ball Factory. After saving it, you get the Master Ball from the president.</li><li>On Route 17, Mamoswine helps you cross the snow.</li><li>Olympia uses Psychic-types, with Meowstic as her strongest. Dark, Ghost and Bug help.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "11. Lysandre Labs e o lendário da capa",
+              "content": "<p class=\"story-route\">Lumiose City → Lysandre Labs → Geosenge Town → Team Flare Secret HQ</p><ul class=\"story-checklist\"><li>Lysandre revela o plano da Team Flare: usar a arma definitiva de Geosenge. Invada o laboratório escondido atrás do café e depois o esconderijo sob Geosenge.</li><li>No fundo do esconderijo, capture Xerneas (X) ou Yveltal (Y) no nível 50. Se ele desmaiar, ele reaparece: o lendário não se perde.</li><li>Salve antes da luta e leve Ultra Balls ou Timer Balls; guarde a Master Ball se quiser.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/716.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dark",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Lendário",
+                  "value": "Xerneas (X) · Yveltal (Y) · nível 50",
+                  "en": {
+                    "label": "Legendary",
+                    "value": "Xerneas (X) · Yveltal (Y) · level 50"
+                  }
+                }
+              ],
+              "en": {
+                "title": "11. Lysandre Labs and the cover Legendary",
+                "content": "<p class=\"story-route\">Lumiose City → Lysandre Labs → Geosenge Town → Team Flare Secret HQ</p><ul class=\"story-checklist\"><li>Lysandre reveals Team Flare's plan to use the ultimate weapon at Geosenge. Storm the lab hidden behind the café, then the hideout beneath Geosenge.</li><li>Deep in the hideout, catch Xerneas (X) or Yveltal (Y) at level 50. If it faints it comes back, so you cannot lose it.</li><li>Save before the battle and bring Ultra Balls or Timer Balls; keep the Master Ball if you prefer.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "12. Snowbelle City e Wulfric",
+              "content": "<p class=\"story-route\">Couriway Town → Rota 19 → Rota 20 → Snowbelle City</p><ul class=\"story-checklist\"><li>Wulfric usa Pokémon de tipo Gelo, com Avalugg como o mais forte. Fogo, Lutador, Pedra e Aço funcionam bem.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/713.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ice",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Iceberg Badge · TM13 Ice Beam",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Iceberg Badge · TM13 Ice Beam"
+                  }
+                }
+              ],
+              "en": {
+                "title": "12. Snowbelle City and Wulfric",
+                "content": "<p class=\"story-route\">Couriway Town → Route 19 → Route 20 → Snowbelle City</p><ul class=\"story-checklist\"><li>Wulfric uses Ice-types, with Avalugg as his strongest. Fire, Fighting, Rock and Steel work well.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "13. Victory Road e a Pokémon League",
+              "content": "<p class=\"story-route\">Rota 21 → Victory Road → Pokémon League</p><ul class=\"story-checklist\"><li>A Victory Road é longa: leve Repels e itens de cura. Seu rival enfrenta você uma última vez antes da Liga.</li><li>Os Elite Four podem ser enfrentados em qualquer ordem: Malva (Fogo), Siebold (Água), Wikstrom (Aço) e Drasna (Dragão).</li><li>A Campeã é Diantha, com Mega Gardevoir. Depois da vitória, há o desfile em Lumiose e o encerramento com AZ.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/282.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dragon",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Campeã",
+                  "value": "Diantha · Mega Gardevoir",
+                  "en": {
+                    "label": "Champion",
+                    "value": "Diantha · Mega Gardevoir"
+                  }
+                }
+              ],
+              "en": {
+                "title": "13. Victory Road and the Pokémon League",
+                "content": "<p class=\"story-route\">Route 21 → Victory Road → Pokémon League</p><ul class=\"story-checklist\"><li>Victory Road is long: carry Repels and healing items. Your rival battles you one last time before the League.</li><li>The Elite Four can be faced in any order: Malva (Fire), Siebold (Water), Wikstrom (Steel) and Drasna (Dragon).</li><li>The Champion is Diantha, with Mega Gardevoir. After you win, there is the Lumiose parade and the ending with AZ.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "14. Pós-jogo",
+              "content": "<p class=\"story-route\">Kiloude City → Battle Maison · Friend Safari · Unknown Dungeon · Terminus Cave</p><ul class=\"story-checklist\"><li>Kiloude City abre a Battle Maison e o Friend Safari, que depende dos seus amigos cadastrados no 3DS.</li><li>Em Lumiose, as missões com Looker e Emma continuam a história.</li><li>Mewtwo está na Unknown Dungeon e Zygarde na Terminus Cave. Um dos pássaros lendários de Kanto passa a vagar por Kalos, conforme o inicial escolhido.</li></ul>",
+              "image": "img/pokemon/gen6/x-y/150.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Lendários",
+                  "value": "Mewtwo · Zygarde · pássaro de Kanto",
+                  "en": {
+                    "label": "Legendaries",
+                    "value": "Mewtwo · Zygarde · Kanto bird"
+                  }
+                }
+              ],
+              "en": {
+                "title": "14. Post-game",
+                "content": "<p class=\"story-route\">Kiloude City → Battle Maison · Friend Safari · Unknown Dungeon · Terminus Cave</p><ul class=\"story-checklist\"><li>Kiloude City opens the Battle Maison and the Friend Safari, which depends on the friends registered on your 3DS.</li><li>In Lumiose, the missions with Looker and Emma continue the story.</li><li>Mewtwo is in the Unknown Dungeon and Zygarde in Terminus Cave. One of Kanto's Legendary birds starts roaming Kalos, depending on your chosen starter.</li></ul>",
+                "linkLabel": "Open"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "roteiro-principal",
+      "title": "Roteiro Principal · Omega Ruby/Alpha Sapphire",
+      "menuLabel": "Roteiro Principal",
+      "description": "Passo a passo de Omega Ruby/Alpha Sapphire, dos Gyms de Hoenn ao Delta Episode.",
+      "visible": true,
+      "versions": [
+        "omega-ruby-alpha-sapphire"
+      ],
+      "en": {
+        "title": "Main Walkthrough · Omega Ruby/Alpha Sapphire",
+        "menuLabel": "Main Walkthrough",
+        "description": "A step-by-step route through Omega Ruby/Alpha Sapphire, from Hoenn's Gyms to the Delta Episode."
+      },
+      "tabs": [
+        {
+          "tabId": "conteudo",
+          "label": "Conteúdo",
+          "visible": true,
+          "en": {
+            "label": "Content"
+          },
+          "cards": [
+            {
+              "title": "Como usar este roteiro",
+              "content": "<p>Omega Ruby e Alpha Sapphire refazem Ruby e Sapphire em 3D, com Megas novas, Reversão Primal e o Delta Episode no pós-jogo. O roteiro segue a campanha na ordem dos Gyms, com cidades, eventos, Badges e TMs. A lista de Pokémon fica na <a href=\"#pokedex\">Pokédex</a>.</p><p class=\"story-note\">Em Omega Ruby o vilão é a Team Magma e o lendário é Groudon; em Alpha Sapphire, Team Aqua e Kyogre. A ordem da campanha é a mesma.</p>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/383.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "destaque",
+              "accent": "ground",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [],
+              "en": {
+                "title": "How to use this walkthrough",
+                "content": "<p>Omega Ruby and Alpha Sapphire remake Ruby and Sapphire in 3D, adding new Megas, Primal Reversion and the post-game Delta Episode. This walkthrough follows the campaign in Gym order, with cities, events, Badges and TMs. The Pokémon list is in the <a href=\"#pokedex\">Pokédex</a>.</p><p class=\"story-note\">In Omega Ruby the villains are Team Magma and the Legendary is Groudon; in Alpha Sapphire, Team Aqua and Kyogre. The campaign order is the same.</p>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "1. Littleroot Town, Oldale e Petalburg",
+              "content": "<p class=\"story-route\">Littleroot Town → Rota 101 → Oldale Town → Rota 103 → Petalburg City</p><ul class=\"story-checklist\"><li>Na Rota 101, salve o Professor Birch escolhendo Treecko, Torchic ou Mudkip na bolsa dele.</li><li>Na Rota 103, vença seu rival (Brendan ou May) e receba a Pokédex.</li><li>Em Petalburg, visite seu pai Norman e ajude Wally a capturar o primeiro Pokémon.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/258.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Checkpoint",
+                  "value": "Pokédex",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "Pokédex"
+                  }
+                }
+              ],
+              "en": {
+                "title": "1. Littleroot Town, Oldale and Petalburg",
+                "content": "<p class=\"story-route\">Littleroot Town → Route 101 → Oldale Town → Route 103 → Petalburg City</p><ul class=\"story-checklist\"><li>On Route 101, save Professor Birch by choosing Treecko, Torchic or Mudkip from his bag.</li><li>On Route 103, beat your rival (Brendan or May) and receive the Pokédex.</li><li>In Petalburg, visit your father Norman and help Wally catch his first Pokémon.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "2. Petalburg Woods, Rustboro e Roxanne",
+              "content": "<p class=\"story-route\">Rota 104 → Petalburg Woods → Rustboro City</p><ul class=\"story-checklist\"><li>Em Petalburg Woods, a Team Magma (OR) ou a Team Aqua (AS) tenta roubar um pesquisador da Devon.</li><li>Roxanne usa Pokémon de tipo Pedra, com Nosepass como o mais forte. Água, Grama e Lutador resolvem.</li><li>Depois, recupere os Devon Goods na Rusturf Tunnel e receba a carta para Steven e as Devon Parts.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/299.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "rock",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Stone Badge · TM39 Rock Tomb",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Stone Badge · TM39 Rock Tomb"
+                  }
+                }
+              ],
+              "en": {
+                "title": "2. Petalburg Woods, Rustboro and Roxanne",
+                "content": "<p class=\"story-route\">Route 104 → Petalburg Woods → Rustboro City</p><ul class=\"story-checklist\"><li>In Petalburg Woods, Team Magma (OR) or Team Aqua (AS) tries to rob a Devon researcher.</li><li>Roxanne uses Rock-types, with Nosepass as her strongest. Water, Grass and Fighting do the job.</li><li>Afterwards, recover the Devon Goods in Rusturf Tunnel and receive the letter for Steven and the Devon Parts.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "3. Dewford Town e Brawly",
+              "content": "<p class=\"story-route\">Rota 104 → barco do Mr. Briney → Dewford Town → Granite Cave</p><ul class=\"story-checklist\"><li>Mr. Briney leva você de barco até Dewford. Na Granite Cave, entregue a carta a Steven.</li><li>Brawly usa Pokémon de tipo Lutador, com Hariyama como o mais forte. Voador e Psíquico ajudam.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/297.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fighting",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Knuckle Badge · TM08 Bulk Up",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Knuckle Badge · TM08 Bulk Up"
+                  }
+                }
+              ],
+              "en": {
+                "title": "3. Dewford Town and Brawly",
+                "content": "<p class=\"story-route\">Route 104 → Mr. Briney's boat → Dewford Town → Granite Cave</p><ul class=\"story-checklist\"><li>Mr. Briney takes you by boat to Dewford. In Granite Cave, deliver the letter to Steven.</li><li>Brawly uses Fighting-types, with Hariyama as his strongest. Flying and Psychic help.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "4. Slateport, Mauville e Wattson",
+              "content": "<p class=\"story-route\">Rota 109 → Slateport City → Rota 110 → Mauville City</p><ul class=\"story-checklist\"><li>Em Slateport, entregue as Devon Parts no Oceanic Museum, onde a equipe vilã aparece.</li><li>Mauville foi remodelada em ORAS e é uma cidade coberta. Wattson usa Pokémon de tipo Elétrico, com Manectric como o mais forte. Terra resolve.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/310.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "electric",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Dynamo Badge · TM72 Volt Switch",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Dynamo Badge · TM72 Volt Switch"
+                  }
+                }
+              ],
+              "en": {
+                "title": "4. Slateport, Mauville and Wattson",
+                "content": "<p class=\"story-route\">Route 109 → Slateport City → Route 110 → Mauville City</p><ul class=\"story-checklist\"><li>In Slateport, deliver the Devon Parts at the Oceanic Museum, where the villainous team appears.</li><li>Mauville was redesigned in ORAS as a covered city. Wattson uses Electric-types, with Manectric as his strongest. Ground does the job.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "5. Fallarbor, Mt. Chimney e Flannery",
+              "content": "<p class=\"story-route\">Rota 111 → Rota 113 → Fallarbor Town → Meteor Falls → Mt. Chimney → Lavaridge Town</p><ul class=\"story-checklist\"><li>O Professor Cozmo pede ajuda em Meteor Falls, onde a equipe vilã leva o Meteorite.</li><li>No topo do Mt. Chimney, detenha a equipe e recupere o Meteorite. Desça pelo Jagged Pass até Lavaridge.</li><li>Flannery usa Pokémon de tipo Fogo, com Torkoal como o mais forte. Água, Terra e Pedra resolvem.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/324.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "fire",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Heat Badge · TM50 Overheat",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Heat Badge · TM50 Overheat"
+                  }
+                }
+              ],
+              "en": {
+                "title": "5. Fallarbor, Mt. Chimney and Flannery",
+                "content": "<p class=\"story-route\">Route 111 → Route 113 → Fallarbor Town → Meteor Falls → Mt. Chimney → Lavaridge Town</p><ul class=\"story-checklist\"><li>Professor Cozmo asks for help at Meteor Falls, where the villainous team takes the Meteorite.</li><li>At the top of Mt. Chimney, stop the team and recover the Meteorite. Go down Jagged Pass to Lavaridge.</li><li>Flannery uses Fire-types, with Torkoal as her strongest. Water, Ground and Rock do the job.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "6. Petalburg e Norman",
+              "content": "<p class=\"story-route\">Lavaridge Town → Petalburg City → Petalburg Gym</p><ul class=\"story-checklist\"><li>Com quatro Badges, seu pai aceita o desafio. Norman usa Pokémon de tipo Normal, com Slaking como o mais forte; Lutador é a resposta mais segura.</li><li>Depois do Gym, o pai de Wally entrega a HM Surf.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/289.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "normal",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Balance Badge · TM67 Retaliate",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Balance Badge · TM67 Retaliate"
+                  }
+                },
+                {
+                  "label": "Checkpoint",
+                  "value": "HM03 Surf",
+                  "en": {
+                    "label": "Checkpoint",
+                    "value": "HM03 Surf"
+                  }
+                }
+              ],
+              "en": {
+                "title": "6. Petalburg and Norman",
+                "content": "<p class=\"story-route\">Lavaridge Town → Petalburg City → Petalburg Gym</p><ul class=\"story-checklist\"><li>With four Badges, your father accepts the challenge. Norman uses Normal-types, with Slaking as his strongest; Fighting is the safest answer.</li><li>After the Gym, Wally's father gives you the Surf HM.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "7. Weather Institute, Fortree e Winona",
+              "content": "<p class=\"story-route\">Rota 118 → Rota 119 → Weather Institute → Fortree City</p><ul class=\"story-checklist\"><li>Expulse a equipe vilã do Weather Institute e receba Castform.</li><li>Winona usa Pokémon de tipo Voador, com Altaria como o mais forte. Gelo, Pedra e Elétrico funcionam bem.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/334.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "flying",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Feather Badge · TM19 Roost",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Feather Badge · TM19 Roost"
+                  }
+                }
+              ],
+              "en": {
+                "title": "7. Weather Institute, Fortree and Winona",
+                "content": "<p class=\"story-route\">Route 118 → Route 119 → Weather Institute → Fortree City</p><ul class=\"story-checklist\"><li>Drive the villainous team out of the Weather Institute and receive Castform.</li><li>Winona uses Flying-types, with Altaria as her strongest. Ice, Rock and Electric work well.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "8. Lilycove, Mt. Pyre e Mossdeep",
+              "content": "<p class=\"story-route\">Rota 120 → Rota 121 → Mt. Pyre → Lilycove City → Mossdeep City</p><ul class=\"story-checklist\"><li>No topo do Mt. Pyre, a equipe vilã leva a Red Orb e a Blue Orb.</li><li>Invada o esconderijo da equipe perto de Lilycove e depois defenda o Space Center de Mossdeep.</li><li>Tate & Liza usam Pokémon de tipo Psíquico em batalha dupla, com Lunatone e Solrock. Sombrio, Fantasma, Água e Grama ajudam.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/337.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Mind Badge · TM04 Calm Mind",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Mind Badge · TM04 Calm Mind"
+                  }
+                }
+              ],
+              "en": {
+                "title": "8. Lilycove, Mt. Pyre and Mossdeep",
+                "content": "<p class=\"story-route\">Route 120 → Route 121 → Mt. Pyre → Lilycove City → Mossdeep City</p><ul class=\"story-checklist\"><li>At the top of Mt. Pyre, the villainous team takes the Red Orb and the Blue Orb.</li><li>Raid the team's hideout near Lilycove, then defend the Mossdeep Space Center.</li><li>Tate & Liza use Psychic-types in a Double Battle, with Lunatone and Solrock. Dark, Ghost, Water and Grass help.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "9. Seafloor Cavern e a Reversão Primal",
+              "content": "<p class=\"story-route\">Mossdeep City → Rota 128 → Seafloor Cavern → Sootopolis City → Cave of Origin</p><ul class=\"story-checklist\"><li>Mergulhe até a Seafloor Cavern, onde o líder da equipe desperta Groudon (OR) ou Kyogre (AS). O clima de Hoenn fica extremo.</li><li>Na Cave of Origin, em Sootopolis, o lendário passa pela Reversão Primal. Enfrente e capture Primal Groudon ou Primal Kyogre.</li><li>Salve antes da luta. O Pokémon capturado leva a Red Orb (OR) ou a Blue Orb (AS) para voltar à forma Primal em batalha.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/383.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "ground",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Lendário",
+                  "value": "Groudon (OR) · Kyogre (AS)",
+                  "en": {
+                    "label": "Legendary",
+                    "value": "Groudon (OR) · Kyogre (AS)"
+                  }
+                }
+              ],
+              "en": {
+                "title": "9. Seafloor Cavern and Primal Reversion",
+                "content": "<p class=\"story-route\">Mossdeep City → Route 128 → Seafloor Cavern → Sootopolis City → Cave of Origin</p><ul class=\"story-checklist\"><li>Dive to the Seafloor Cavern, where the team leader awakens Groudon (OR) or Kyogre (AS). Hoenn's weather turns extreme.</li><li>At the Cave of Origin in Sootopolis, the Legendary undergoes Primal Reversion. Battle and catch Primal Groudon or Primal Kyogre.</li><li>Save before the battle. The caught Pokémon holds the Red Orb (OR) or the Blue Orb (AS) to revert to its Primal form in battle.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "10. Sootopolis City e Wallace",
+              "content": "<p class=\"story-route\">Sootopolis City → Sootopolis Gym</p><ul class=\"story-checklist\"><li>Em ORAS, o líder do Gym de Sootopolis é Wallace. Ele usa Pokémon de tipo Água, com Milotic como o mais forte. Grama e Elétrico resolvem.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/350.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "water",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Badge",
+                  "value": "Rain Badge · TM55 Scald",
+                  "en": {
+                    "label": "Badge",
+                    "value": "Rain Badge · TM55 Scald"
+                  }
+                }
+              ],
+              "en": {
+                "title": "10. Sootopolis City and Wallace",
+                "content": "<p class=\"story-route\">Sootopolis City → Sootopolis Gym</p><ul class=\"story-checklist\"><li>In ORAS, the Sootopolis Gym Leader is Wallace. He uses Water-types, with Milotic as his strongest. Grass and Electric do the job.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "11. Victory Road e a Pokémon League",
+              "content": "<p class=\"story-route\">Ever Grande City → Victory Road → Pokémon League</p><ul class=\"story-checklist\"><li>Wally espera você na saída da Victory Road, agora com Mega Gallade.</li><li>A Elite Four enfrenta você em ordem: Sidney (Sombrio), Phoebe (Fantasma), Glacia (Gelo) e Drake (Dragão).</li><li>O Campeão é Steven, com Mega Metagross.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/376.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "steel",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Campeão",
+                  "value": "Steven · Mega Metagross",
+                  "en": {
+                    "label": "Champion",
+                    "value": "Steven · Mega Metagross"
+                  }
+                }
+              ],
+              "en": {
+                "title": "11. Victory Road and the Pokémon League",
+                "content": "<p class=\"story-route\">Ever Grande City → Victory Road → Pokémon League</p><ul class=\"story-checklist\"><li>Wally waits for you at the Victory Road exit, now with Mega Gallade.</li><li>The Elite Four fight you in order: Sidney (Dark), Phoebe (Ghost), Glacia (Ice) and Drake (Dragon).</li><li>The Champion is Steven, with Mega Metagross.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "12. Delta Episode",
+              "content": "<p class=\"story-route\">Littleroot Town → Mossdeep Space Center → Sky Pillar → espaço</p><ul class=\"story-checklist\"><li>Logo depois da Liga, um meteoro ameaça o planeta. Zinnia, uma Lorekeeper, entra na história.</li><li>No Sky Pillar, capture Rayquaza, que pode Mega Evoluir sem Mega Stone se conhecer Dragon Ascent.</li><li>Montado em Mega Rayquaza, você desvia o meteoro no espaço e enfrenta Deoxys.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/384.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "dragon",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Lendários",
+                  "value": "Rayquaza · Deoxys",
+                  "en": {
+                    "label": "Legendaries",
+                    "value": "Rayquaza · Deoxys"
+                  }
+                }
+              ],
+              "en": {
+                "title": "12. Delta Episode",
+                "content": "<p class=\"story-route\">Littleroot Town → Mossdeep Space Center → Sky Pillar → space</p><ul class=\"story-checklist\"><li>Right after the League, a meteoroid threatens the planet. Zinnia, a Lorekeeper, joins the story.</li><li>At Sky Pillar, catch Rayquaza, which can Mega Evolve without a Mega Stone if it knows Dragon Ascent.</li><li>Riding Mega Rayquaza, you deflect the meteoroid in space and face Deoxys.</li></ul>",
+                "linkLabel": "Open"
+              }
+            },
+            {
+              "title": "13. Pós-jogo",
+              "content": "<p class=\"story-route\">Battle Resort · Mirage spots · Soaring</p><ul class=\"story-checklist\"><li>O Battle Resort abre a Battle Maison. Voando com Latias ou Latios pela Eon Flute, você chega aos Mirage spots, onde aparecem lendários de gerações anteriores.</li><li>Groudon (AS) ou Kyogre (OR), o lendário da outra versão, também fica disponível depois do Delta Episode.</li></ul>",
+              "image": "img/pokemon/gen6/omega-ruby-alpha-sapphire/381.png",
+              "pokemonId": 0,
+              "item": "",
+              "layout": "vertical",
+              "accent": "psychic",
+              "link": "",
+              "linkLabel": "Abrir",
+              "fields": [
+                {
+                  "label": "Voo",
+                  "value": "Eon Flute · Latias/Latios",
+                  "en": {
+                    "label": "Soaring",
+                    "value": "Eon Flute · Latias/Latios"
+                  }
+                }
+              ],
+              "en": {
+                "title": "13. Post-game",
+                "content": "<p class=\"story-route\">Battle Resort · Mirage spots · Soaring</p><ul class=\"story-checklist\"><li>The Battle Resort opens the Battle Maison. Soaring on Latias or Latios with the Eon Flute takes you to Mirage spots, where Legendaries from earlier generations appear.</li><li>Groudon (AS) or Kyogre (OR), the other version's Legendary, also becomes available after the Delta Episode.</li></ul>",
+                "linkLabel": "Open"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "templates": [],
+  "navigation": [
+    {
+      "menuId": "conteudo-editorial",
+      "label": "Conteúdo editorial",
+      "visible": true,
+      "versions": [],
+      "entries": [
+        {
+          "menuId": "guias-da-jornada",
+          "label": "Guias da jornada",
+          "pageSlug": "",
+          "visible": true,
+          "versions": [],
+          "children": [
+            {
+              "menuId": "visao-geral",
+              "label": "Visão Geral",
+              "pageSlug": "visao-geral",
+              "visible": true,
+              "versions": [],
+              "en": {
+                "label": "Overview"
+              }
+            },
+            {
+              "menuId": "roteiro",
+              "label": "Roteiro Principal",
+              "pageSlug": "roteiro-principal",
+              "visible": true,
+              "versions": [],
+              "en": {
+                "label": "Main Walkthrough"
+              }
+            }
+          ],
+          "en": {
+            "label": "Journey guides"
+          }
+        }
+      ],
+      "en": {
+        "label": "Editorial content"
+      }
+    }
+  ]
+}

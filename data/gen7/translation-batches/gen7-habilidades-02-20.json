@@ -1,0 +1,24 @@
+{
+  "abilities": {
+  "innards-out": "Causa ao atacante que desfere o golpe final um dano igual ao seu último valor de HP.",
+  "inner-focus": "A intensa concentração do Pokémon o protege de recuar.",
+  "insomnia": "O Pokémon sofre de insônia e não pode adormecer.",
+  "intimidate": "Ao entrar na batalha, intimida os Pokémon adversários, reduzindo o Attack deles.",
+  "iron-barbs": "Causa dano ao atacante que entrar em contato com as farpas de ferro.",
+  "justified": "Ser atingido por um golpe do tipo Dark aumenta o Attack do Pokémon, por justiça.",
+  "keen-eye": "Olhos atentos impedem que outros Pokémon reduzam a Accuracy deste Pokémon.",
+  "levitate": "Ao flutuar no ar, o Pokémon fica completamente imune a golpes do tipo Ground.",
+  "lightning-rod": "Atrai todos os golpes do tipo Electric. Em vez de ser atingido, aumenta seu Sp. Atk.",
+  "limber": "Seu corpo flexível protege o Pokémon contra a paralisia.",
+  "liquid-ooze": "O líquido expelido tem um odor forte e causa dano a atacantes que usam golpes de drenagem.",
+  "liquid-voice": "Todos os golpes baseados em som tornam-se golpes do tipo Water.",
+  "long-reach": "O Pokémon usa seus golpes sem entrar em contato com o alvo.",
+  "magic-bounce": "Reflete golpes de status em vez de ser atingido por eles.",
+  "magma-armor": "O Pokémon é coberto por magma quente, o que impede que fique congelado.",
+  "magnet-pull": "Impede que Pokémon do tipo Steel escapem usando sua força magnética.",
+  "marvel-scale": "As escamas magníficas do Pokémon aumentam seu Defense quando ele sofre uma condição de status.",
+  "merciless": "Os golpes do Pokémon tornam-se acertos críticos se o alvo estiver envenenado.",
+  "minus": "Aumenta o Sp. Atk do Pokémon se um aliado com a habilidade Plus ou Minus também estiver na batalha.",
+  "misty-surge": "Quando o Pokémon entra na batalha, transforma o campo em Misty Terrain."
+  }
+}

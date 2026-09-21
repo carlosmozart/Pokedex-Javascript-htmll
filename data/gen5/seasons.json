@@ -1,0 +1,3974 @@
+{
+  "black-white": [
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "35-36",
+      "rates": {
+        "spring": "30%",
+        "summer": "30%",
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "30, 32",
+      "rates": {
+        "spring": "30%",
+        "summer": "30%",
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "30, 32",
+      "rates": {
+        "spring": "30%",
+        "summer": "30%",
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 521,
+      "name": "Unfezant",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Rustling grass",
+      "terrain": "Rustling",
+      "levels": "33",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 521,
+      "name": "Unfezant",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Rustling grass",
+      "terrain": "Rustling",
+      "levels": "33",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 531,
+      "name": "Audino",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Rustling grass",
+      "terrain": "Rustling",
+      "levels": "30-33",
+      "rates": {
+        "spring": "85%",
+        "summer": "85%",
+        "autumn": "85%",
+        "winter": "90%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 531,
+      "name": "Audino",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Rustling grass",
+      "terrain": "Rustling",
+      "levels": "30-33",
+      "rates": {
+        "spring": "85%",
+        "summer": "85%",
+        "autumn": "85%",
+        "winter": "90%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 582,
+      "name": "Vanillite",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "31-33",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 582,
+      "name": "Vanillite",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "31-33",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 583,
+      "name": "Vanillish",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "35-37",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 583,
+      "name": "Vanillish",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass (winter only)",
+      "terrain": "Dark",
+      "levels": "35-37",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Autumn Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "31-32",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Autumn Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "31-32",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Spring Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "31-32",
+      "rates": {
+        "spring": "30%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Spring Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "31-32",
+      "rates": {
+        "spring": "30%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Summer Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "31-32",
+      "rates": {
+        "spring": 0,
+        "summer": "30%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Summer Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "31-32",
+      "rates": {
+        "spring": 0,
+        "summer": "30%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Winter Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "30, 32",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Winter Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "30, 32",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Autumn Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "34-36",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Spring Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "34-36",
+      "rates": {
+        "spring": "30%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Summer Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "34-36",
+      "rates": {
+        "spring": 0,
+        "summer": "30%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Winter Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "34-36",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Winter Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass (winter only)",
+      "terrain": "Dark",
+      "levels": "34, 36",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 613,
+      "name": "Cubchoo",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "33",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "10%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 613,
+      "name": "Cubchoo",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "33",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "10%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 614,
+      "name": "Beartic",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "33, 37",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "10%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 614,
+      "name": "Beartic",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass (winter only)",
+      "terrain": "Dark",
+      "levels": "37",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "10%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 619,
+      "name": "Mienfoo",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass (winter only)",
+      "terrain": "Dark",
+      "levels": "34-37",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 621,
+      "name": "Druddigon",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "31-36",
+      "rates": {
+        "spring": "10%",
+        "summer": "10%",
+        "autumn": "10%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 621,
+      "name": "Druddigon",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "31-33",
+      "rates": {
+        "spring": "10%",
+        "summer": "10%",
+        "autumn": "10%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 621,
+      "name": "Druddigon",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "31-33",
+      "rates": {
+        "spring": "10%",
+        "summer": "10%",
+        "autumn": "10%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Icirrus City",
+      "area": "",
+      "id": 536,
+      "name": "Palpitoad",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Puddles",
+      "terrain": "Puddle",
+      "levels": "30-33",
+      "rates": {
+        "spring": "40%",
+        "summer": "40%",
+        "autumn": "40%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Icirrus City",
+      "area": "",
+      "id": 616,
+      "name": "Shelmet",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Puddles",
+      "terrain": "Puddle",
+      "levels": "30-33",
+      "rates": {
+        "spring": "40%",
+        "summer": "40%",
+        "autumn": "40%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Icirrus City",
+      "area": "",
+      "id": 618,
+      "name": "Stunfisk",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Puddles",
+      "terrain": "Puddle",
+      "levels": "31-32",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Moor of Icirrus",
+      "area": "",
+      "id": 536,
+      "name": "Palpitoad",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "30-33",
+      "rates": {
+        "spring": "40%",
+        "summer": "40%",
+        "autumn": "40%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Moor of Icirrus",
+      "area": "",
+      "id": 616,
+      "name": "Shelmet",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "30-33",
+      "rates": {
+        "spring": "40%",
+        "summer": "40%",
+        "autumn": "40%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Moor of Icirrus",
+      "area": "",
+      "id": 618,
+      "name": "Stunfisk",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "31-32",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "27, 29",
+      "rates": {
+        "spring": "15%",
+        "summer": "15%",
+        "autumn": "15%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "23, 25",
+      "rates": {
+        "spring": "15%",
+        "summer": "15%",
+        "autumn": "15%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 521,
+      "name": "Unfezant",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Rustling grass",
+      "terrain": "Rustling",
+      "levels": "25",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 531,
+      "name": "Audino",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Rustling grass",
+      "terrain": "Rustling",
+      "levels": "22-25",
+      "rates": {
+        "spring": "70%",
+        "summer": "70%",
+        "autumn": "70%",
+        "winter": "75%"
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 582,
+      "name": "Vanillite",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "27, 29",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "15%"
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 582,
+      "name": "Vanillite",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "23, 25",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "15%"
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Autumn Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "26-28",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "35%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Autumn Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "22-24",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "35%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Spring Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "26-28",
+      "rates": {
+        "spring": "35%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Spring Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "22-24",
+      "rates": {
+        "spring": "35%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Summer Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "26-28",
+      "rates": {
+        "spring": 0,
+        "summer": "35%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Summer Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "22-24",
+      "rates": {
+        "spring": 0,
+        "summer": "35%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Winter Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "26-28",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "35%"
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Winter Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "22-24",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "35%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "30, 32",
+      "rates": {
+        "spring": "30%",
+        "summer": "30%",
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "26, 28",
+      "rates": {
+        "spring": "30%",
+        "summer": "30%",
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 521,
+      "name": "Unfezant",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Rustling grass",
+      "terrain": "Rustling",
+      "levels": "29",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 531,
+      "name": "Audino",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Rustling grass",
+      "terrain": "Rustling",
+      "levels": "26-29",
+      "rates": {
+        "spring": "85%",
+        "summer": "85%",
+        "autumn": "85%",
+        "winter": "90%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Autumn Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "30",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Autumn Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "26",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Spring Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "30",
+      "rates": {
+        "spring": "20%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Spring Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "26",
+      "rates": {
+        "spring": "20%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Summer Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "30",
+      "rates": {
+        "spring": 0,
+        "summer": "20%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Summer Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "26",
+      "rates": {
+        "spring": 0,
+        "summer": "20%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Winter Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "30",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "20%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Winter Form",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "26",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "20%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 613,
+      "name": "Cubchoo",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "30, 32",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 613,
+      "name": "Cubchoo",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "26, 28",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Route 8",
+      "area": "",
+      "id": 453,
+      "name": "Croagunk",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Swarm",
+      "terrain": "Puddle",
+      "levels": "15-55",
+      "rates": {
+        "spring": "40%",
+        "summer": "40%",
+        "autumn": "40%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 8",
+      "area": "",
+      "id": 536,
+      "name": "Palpitoad",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "30-33",
+      "rates": {
+        "spring": "40%",
+        "summer": "40%",
+        "autumn": "40%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 8",
+      "area": "",
+      "id": 616,
+      "name": "Shelmet",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "30-33",
+      "rates": {
+        "spring": "40%",
+        "summer": "40%",
+        "autumn": "40%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 8",
+      "area": "",
+      "id": 618,
+      "name": "Stunfisk",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "31-32",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 525,
+      "name": "Boldore",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "28-31",
+      "rates": {
+        "spring": "49%",
+        "summer": "45%",
+        "autumn": "49%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 525,
+      "name": "Boldore",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "29-30",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 527,
+      "name": "Woobat",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "29-31",
+      "rates": {
+        "spring": "10%",
+        "summer": 0,
+        "autumn": "10%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 527,
+      "name": "Woobat",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "28-31",
+      "rates": {
+        "spring": 0,
+        "summer": "20%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 527,
+      "name": "Woobat",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "28-30",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "10%"
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 533,
+      "name": "Gurdurr",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "28-30",
+      "rates": {
+        "spring": "30%",
+        "summer": "30%",
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 533,
+      "name": "Gurdurr",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "29",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "10%"
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 613,
+      "name": "Cubchoo",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "28",
+      "rates": {
+        "spring": "10%",
+        "summer": "4%",
+        "autumn": "10%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 613,
+      "name": "Cubchoo",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "28-31",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "45%"
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 615,
+      "name": "Cryogonal",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "31",
+      "rates": {
+        "spring": "1%",
+        "summer": 0,
+        "autumn": "1%",
+        "winter": "5%"
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 615,
+      "name": "Cryogonal",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "28",
+      "rates": {
+        "spring": 0,
+        "summer": "1%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 226,
+      "name": "Mantine",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Surfing in rippling water",
+      "terrain": "Rippling",
+      "levels": "25-60",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 320,
+      "name": "Wailmer",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Surfing in rippling water",
+      "terrain": "Rippling",
+      "levels": "25-60",
+      "rates": {
+        "spring": "90%",
+        "summer": "90%",
+        "autumn": "90%",
+        "winter": "60%"
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 363,
+      "name": "Spheal",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Surfing",
+      "terrain": "Surf",
+      "levels": "25-55",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 364,
+      "name": "Sealeo",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Surfing in rippling water",
+      "terrain": "Rippling",
+      "levels": "25-60",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 365,
+      "name": "Walrein",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Surfing in rippling water",
+      "terrain": "Rippling",
+      "levels": "25-70",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "5%"
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 458,
+      "name": "Mantyke",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Surfing",
+      "terrain": "Surf",
+      "levels": "25-55",
+      "rates": {
+        "spring": "30%",
+        "summer": "30%",
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Undella Town",
+      "area": "",
+      "id": 446,
+      "name": "Munchlax",
+      "form": "",
+      "versions": [
+        "black",
+        "white"
+      ],
+      "method": "Special",
+      "terrain": "Trade",
+      "levels": "60",
+      "rates": {
+        "spring": 0,
+        "summer": "One",
+        "autumn": 0,
+        "winter": 0
+      }
+    }
+  ],
+  "black-2-white-2": [
+    {
+      "location": "Castelia Sewers",
+      "area": "",
+      "id": 88,
+      "name": "Grimer",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Fishing",
+      "terrain": "Fish Super",
+      "levels": "40-70",
+      "rates": {
+        "spring": "100%",
+        "summer": "100%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Castelia Sewers",
+      "area": "",
+      "id": 88,
+      "name": "Grimer",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Fishing in rippling water",
+      "terrain": "Rippling",
+      "levels": "40-60",
+      "rates": {
+        "spring": "80%",
+        "summer": "80%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Castelia Sewers",
+      "area": "",
+      "id": 88,
+      "name": "Grimer",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Surfing",
+      "terrain": "Surf",
+      "levels": "5-15",
+      "rates": {
+        "spring": "100%",
+        "summer": "100%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Castelia Sewers",
+      "area": "",
+      "id": 88,
+      "name": "Grimer",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Surfing in rippling water",
+      "terrain": "Rippling",
+      "levels": "5-20",
+      "rates": {
+        "spring": "95%",
+        "summer": "95%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Castelia Sewers",
+      "area": "",
+      "id": 89,
+      "name": "Muk",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Fishing in rippling water",
+      "terrain": "Rippling",
+      "levels": "50-70",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Castelia Sewers",
+      "area": "",
+      "id": 89,
+      "name": "Muk",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Surfing in rippling water",
+      "terrain": "Rippling",
+      "levels": "5-20",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "63, 65-66",
+      "rates": {
+        "spring": "35%",
+        "summer": "35%",
+        "autumn": "35%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "55, 57-58",
+      "rates": {
+        "spring": "35%",
+        "summer": "35%",
+        "autumn": "35%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "55, 57-58",
+      "rates": {
+        "spring": "35%",
+        "summer": "35%",
+        "autumn": "35%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 521,
+      "name": "Unfezant",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Rustling grass",
+      "terrain": "Rustling",
+      "levels": "58",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 521,
+      "name": "Unfezant",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Rustling grass",
+      "terrain": "Rustling",
+      "levels": "57",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 583,
+      "name": "Vanillish",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "63, 65",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "25%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 583,
+      "name": "Vanillish",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass (winter only)",
+      "terrain": "Dark",
+      "levels": "63, 65",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "25%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 583,
+      "name": "Vanillish",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "55, 57",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "25%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 583,
+      "name": "Vanillish",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "55, 57",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "25%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 584,
+      "name": "Vanilluxe",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Rustling grass",
+      "terrain": "Rustling",
+      "levels": "58",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "5%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 584,
+      "name": "Vanilluxe",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Rustling grass",
+      "terrain": "Rustling",
+      "levels": "57",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "5%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Autumn Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "63, 65-66",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "35%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Autumn Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "55, 57-58",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "35%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Autumn Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "55, 57-58",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "35%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Spring Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "63, 65-66",
+      "rates": {
+        "spring": "35%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Spring Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "55, 57-58",
+      "rates": {
+        "spring": "35%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Spring Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "55, 57-58",
+      "rates": {
+        "spring": "35%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Summer Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "63, 65-66",
+      "rates": {
+        "spring": 0,
+        "summer": "35%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Summer Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "55, 57-58",
+      "rates": {
+        "spring": 0,
+        "summer": "35%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Summer Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "55, 57-58",
+      "rates": {
+        "spring": 0,
+        "summer": "35%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Winter Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "63, 65",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Winter Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass (winter only)",
+      "terrain": "Dark",
+      "levels": "63, 65",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Winter Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "55, 57",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 586,
+      "name": "Sawsbuck",
+      "form": "Winter Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "55, 57",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 614,
+      "name": "Beartic",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "65-66",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "15%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 614,
+      "name": "Beartic",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass (winter only)",
+      "terrain": "Dark",
+      "levels": "65-66",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "15%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 614,
+      "name": "Beartic",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "57-58",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "15%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Outside",
+      "id": 614,
+      "name": "Beartic",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "57-58",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "15%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 619,
+      "name": "Mienfoo",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass (winter only)",
+      "terrain": "Dark",
+      "levels": "66",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "1%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 620,
+      "name": "Mienshao",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass (winter only)",
+      "terrain": "Dark",
+      "levels": "64-66",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "29%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 620,
+      "name": "Mienshao",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "56-58",
+      "rates": {
+        "spring": "25%",
+        "summer": "25%",
+        "autumn": "25%",
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Dragonspiral Tower",
+      "area": "Entrance",
+      "id": 621,
+      "name": "Druddigon",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "58",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Icirrus City",
+      "area": "",
+      "id": 453,
+      "name": "Croagunk",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "55-56",
+      "rates": {
+        "spring": "15%",
+        "summer": "15%",
+        "autumn": "15%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Icirrus City",
+      "area": "",
+      "id": 536,
+      "name": "Palpitoad",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "54-57",
+      "rates": {
+        "spring": "40%",
+        "summer": "40%",
+        "autumn": "40%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Icirrus City",
+      "area": "",
+      "id": 588,
+      "name": "Karrablast",
+      "form": "",
+      "versions": [
+        "black-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "57",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Icirrus City",
+      "area": "",
+      "id": 588,
+      "name": "Karrablast",
+      "form": "",
+      "versions": [
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "54",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Icirrus City",
+      "area": "",
+      "id": 616,
+      "name": "Shelmet",
+      "form": "",
+      "versions": [
+        "black-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "54",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Icirrus City",
+      "area": "",
+      "id": 616,
+      "name": "Shelmet",
+      "form": "",
+      "versions": [
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "57",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Icirrus City",
+      "area": "",
+      "id": 618,
+      "name": "Stunfisk",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "55-56",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Moor of Icirrus",
+      "area": "",
+      "id": 453,
+      "name": "Croagunk",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "55-56",
+      "rates": {
+        "spring": "15%",
+        "summer": "15%",
+        "autumn": "15%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Moor of Icirrus",
+      "area": "",
+      "id": 536,
+      "name": "Palpitoad",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "54-57",
+      "rates": {
+        "spring": "40%",
+        "summer": "40%",
+        "autumn": "40%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Moor of Icirrus",
+      "area": "",
+      "id": 588,
+      "name": "Karrablast",
+      "form": "",
+      "versions": [
+        "black-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "57",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Moor of Icirrus",
+      "area": "",
+      "id": 588,
+      "name": "Karrablast",
+      "form": "",
+      "versions": [
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "57",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Moor of Icirrus",
+      "area": "",
+      "id": 616,
+      "name": "Shelmet",
+      "form": "",
+      "versions": [
+        "black-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "54",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Moor of Icirrus",
+      "area": "",
+      "id": 616,
+      "name": "Shelmet",
+      "form": "",
+      "versions": [
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "54",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Moor of Icirrus",
+      "area": "",
+      "id": 618,
+      "name": "Stunfisk",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "55-56",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 20",
+      "area": "",
+      "id": 191,
+      "name": "Sunkern",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "9-11",
+      "rates": {
+        "spring": "5%",
+        "summer": "25%",
+        "autumn": "5%",
+        "winter": "5%"
+      }
+    },
+    {
+      "location": "Route 20",
+      "area": "",
+      "id": 191,
+      "name": "Sunkern",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "2-4",
+      "rates": {
+        "spring": "5%",
+        "summer": "25%",
+        "autumn": "5%",
+        "winter": "5%"
+      }
+    },
+    {
+      "location": "Route 20",
+      "area": "",
+      "id": 519,
+      "name": "Pidove",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "9-10",
+      "rates": {
+        "spring": "25%",
+        "summer": "5%",
+        "autumn": "25%",
+        "winter": "25%"
+      }
+    },
+    {
+      "location": "Route 20",
+      "area": "",
+      "id": 519,
+      "name": "Pidove",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "2-4",
+      "rates": {
+        "spring": "25%",
+        "summer": "5%",
+        "autumn": "25%",
+        "winter": "25%"
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Autumn Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "26, 28",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Autumn Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Gift",
+      "terrain": "Gift",
+      "levels": "30",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "One",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Autumn Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "23, 25",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Spring Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "26, 28",
+      "rates": {
+        "spring": "30%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Spring Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Gift",
+      "terrain": "Gift",
+      "levels": "30",
+      "rates": {
+        "spring": "One",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Spring Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "23, 25",
+      "rates": {
+        "spring": "30%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Summer Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "26, 28",
+      "rates": {
+        "spring": 0,
+        "summer": "30%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Summer Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Gift",
+      "terrain": "Gift",
+      "levels": "30",
+      "rates": {
+        "spring": 0,
+        "summer": "One",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Summer Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "23, 25",
+      "rates": {
+        "spring": 0,
+        "summer": "30%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Winter Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark",
+      "levels": "26, 28",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Winter Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Gift",
+      "terrain": "Gift",
+      "levels": "30",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "One"
+      }
+    },
+    {
+      "location": "Route 6",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Winter Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Grass",
+      "terrain": "Grass",
+      "levels": "23, 25",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 505,
+      "name": "Watchog",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "34, 36",
+      "rates": {
+        "spring": "15%",
+        "summer": "15%",
+        "autumn": "15%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 505,
+      "name": "Watchog",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "34",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "10%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 505,
+      "name": "Watchog",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "31, 33",
+      "rates": {
+        "spring": "15%",
+        "summer": "15%",
+        "autumn": "15%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 505,
+      "name": "Watchog",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "31",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "10%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "33, 35",
+      "rates": {
+        "spring": "30%",
+        "summer": "30%",
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "33",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "10%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "30, 32",
+      "rates": {
+        "spring": "30%",
+        "summer": "30%",
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 520,
+      "name": "Tranquill",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "30",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "10%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Autumn Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "33",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Autumn Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "30",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Spring Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "33",
+      "rates": {
+        "spring": "20%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Spring Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "30",
+      "rates": {
+        "spring": "20%",
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Summer Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "33",
+      "rates": {
+        "spring": 0,
+        "summer": "20%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Summer Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "30",
+      "rates": {
+        "spring": 0,
+        "summer": "20%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Winter Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "33",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "20%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 585,
+      "name": "Deerling",
+      "form": "Winter Form",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "30",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "20%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 613,
+      "name": "Cubchoo",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Dark grass",
+      "terrain": "Dark tall grass",
+      "levels": "33, 36",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "25%"
+      }
+    },
+    {
+      "location": "Route 7",
+      "area": "",
+      "id": 613,
+      "name": "Cubchoo",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Tall grass",
+      "terrain": "Tall grass",
+      "levels": "30, 33",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "25%"
+      }
+    },
+    {
+      "location": "Route 8",
+      "area": "",
+      "id": 195,
+      "name": "Quagsire",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Swarm",
+      "terrain": "Puddle",
+      "levels": "40-55",
+      "rates": {
+        "spring": "40%",
+        "summer": "40%",
+        "autumn": "40%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 8",
+      "area": "",
+      "id": 453,
+      "name": "Croagunk",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "55-56",
+      "rates": {
+        "spring": "15%",
+        "summer": "15%",
+        "autumn": "15%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 8",
+      "area": "",
+      "id": 536,
+      "name": "Palpitoad",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "54-57",
+      "rates": {
+        "spring": "40%",
+        "summer": "40%",
+        "autumn": "40%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 8",
+      "area": "",
+      "id": 588,
+      "name": "Karrablast",
+      "form": "",
+      "versions": [
+        "black-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "57",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 8",
+      "area": "",
+      "id": 588,
+      "name": "Karrablast",
+      "form": "",
+      "versions": [
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "54",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 8",
+      "area": "",
+      "id": 616,
+      "name": "Shelmet",
+      "form": "",
+      "versions": [
+        "black-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "54",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 8",
+      "area": "",
+      "id": 616,
+      "name": "Shelmet",
+      "form": "",
+      "versions": [
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "57",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Route 8",
+      "area": "",
+      "id": 618,
+      "name": "Stunfisk",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Puddle",
+      "terrain": "Puddle",
+      "levels": "55-56",
+      "rates": {
+        "spring": "20%",
+        "summer": "20%",
+        "autumn": "20%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 525,
+      "name": "Boldore",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "54-55",
+      "rates": {
+        "spring": "40%",
+        "summer": 0,
+        "autumn": "40%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 525,
+      "name": "Boldore",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "54",
+      "rates": {
+        "spring": 0,
+        "summer": "20%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 525,
+      "name": "Boldore",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "55",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "20%"
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 533,
+      "name": "Gurdurr",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "55",
+      "rates": {
+        "spring": "10%",
+        "summer": "20%",
+        "autumn": "10%",
+        "winter": "10%"
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 614,
+      "name": "Beartic",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "56",
+      "rates": {
+        "spring": "10%",
+        "summer": "5%",
+        "autumn": "10%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 614,
+      "name": "Beartic",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "54",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "20%"
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 615,
+      "name": "Cryogonal",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "57",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 615,
+      "name": "Cryogonal",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "56-57",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "15%"
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 631,
+      "name": "Heatmor",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "56",
+      "rates": {
+        "spring": "5%",
+        "summer": 0,
+        "autumn": "5%",
+        "winter": "5%"
+      }
+    },
+    {
+      "location": "Twist Mountain",
+      "area": "B1F-3F",
+      "id": 631,
+      "name": "Heatmor",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Cave",
+      "terrain": "Cave",
+      "levels": "55-56",
+      "rates": {
+        "spring": 0,
+        "summer": "20%",
+        "autumn": 0,
+        "winter": 0
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 226,
+      "name": "Mantine",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Surfing in rippling water",
+      "terrain": "Rippling",
+      "levels": "30-40",
+      "rates": {
+        "spring": "5%",
+        "summer": "5%",
+        "autumn": "5%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 320,
+      "name": "Wailmer",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Surfing in rippling water",
+      "terrain": "Rippling",
+      "levels": "25-40",
+      "rates": {
+        "spring": "30%",
+        "summer": "30%",
+        "autumn": "30%",
+        "winter": "60%"
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 363,
+      "name": "Spheal",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Surfing",
+      "terrain": "Surf",
+      "levels": "25-40",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 364,
+      "name": "Sealeo",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Surfing in rippling water",
+      "terrain": "Rippling",
+      "levels": "25-40",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "30%"
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 365,
+      "name": "Walrein",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Surfing in rippling water",
+      "terrain": "Rippling",
+      "levels": "30-40",
+      "rates": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": "5%"
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 458,
+      "name": "Mantyke",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Surfing",
+      "terrain": "Surf",
+      "levels": "25-40",
+      "rates": {
+        "spring": "30%",
+        "summer": "30%",
+        "autumn": "30%",
+        "winter": 0
+      }
+    },
+    {
+      "location": "Undella Bay",
+      "area": "",
+      "id": 593,
+      "name": "Jellicent",
+      "form": "",
+      "versions": [
+        "black-2",
+        "white-2"
+      ],
+      "method": "Surfing in rippling water",
+      "terrain": "Rippling",
+      "levels": "25-40",
+      "rates": {
+        "spring": "60%",
+        "summer": "60%",
+        "autumn": "60%",
+        "winter": 0
+      }
+    }
+  ]
+}

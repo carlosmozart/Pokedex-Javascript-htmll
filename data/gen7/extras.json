@@ -1,0 +1,1264 @@
+{
+  "sun-moon": {
+    "gifts": [
+      {
+        "id": 722,
+        "name": "Rowlet",
+        "types": [
+          "grass",
+          "flying"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Alola, entregue por Hala em Iki Town.",
+        "en": {
+          "desc": "One of the three Alolan first partners, from Hala in Iki Town."
+        }
+      },
+      {
+        "id": 725,
+        "name": "Litten",
+        "types": [
+          "fire"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Alola, entregue por Hala em Iki Town.",
+        "en": {
+          "desc": "One of the three Alolan first partners, from Hala in Iki Town."
+        }
+      },
+      {
+        "id": 728,
+        "name": "Popplio",
+        "types": [
+          "water"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Alola, entregue por Hala em Iki Town.",
+        "en": {
+          "desc": "One of the three Alolan first partners, from Hala in Iki Town."
+        }
+      },
+      {
+        "id": 133,
+        "name": "Eevee",
+        "types": [
+          "normal"
+        ],
+        "level": 1,
+        "desc": "As ajudantes da creche do Paniola Ranch entregam um ovo; o Eevee nasce no nível 1 depois de você andar com ele.",
+        "en": {
+          "desc": "The nursery helpers at Paniola Ranch hand over an Egg; Eevee hatches at level 1 once you walk with it."
+        }
+      },
+      {
+        "id": 408,
+        "name": "Cranidos",
+        "types": [
+          "rock"
+        ],
+        "level": 15,
+        "desc": "Reviva o Skull Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Skull Fossil só aparece em Sun.",
+        "en": {
+          "desc": "Revive the Skull Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Skull Fossil is only sold in Sun."
+        }
+      },
+      {
+        "id": 410,
+        "name": "Shieldon",
+        "types": [
+          "rock",
+          "steel"
+        ],
+        "level": 15,
+        "desc": "Reviva o Armor Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Armor Fossil só aparece em Moon.",
+        "en": {
+          "desc": "Revive the Armor Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Armor Fossil is only sold in Moon."
+        }
+      },
+      {
+        "id": 564,
+        "name": "Tirtouga",
+        "types": [
+          "water",
+          "rock"
+        ],
+        "level": 15,
+        "desc": "Reviva o Cover Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Cover Fossil só aparece em Sun.",
+        "en": {
+          "desc": "Revive the Cover Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Cover Fossil is only sold in Sun."
+        }
+      },
+      {
+        "id": 566,
+        "name": "Archen",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "level": 15,
+        "desc": "Reviva o Plume Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Plume Fossil só aparece em Moon.",
+        "en": {
+          "desc": "Revive the Plume Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Plume Fossil is only sold in Moon."
+        }
+      },
+      {
+        "id": 142,
+        "name": "Aerodactyl",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "level": 40,
+        "desc": "Um Ace Trainer de Seafolk Village entrega o Aerodactyl dele, no nível 40.",
+        "en": {
+          "desc": "An Ace Trainer in Seafolk Village hands over their Aerodactyl, at level 40."
+        }
+      },
+      {
+        "id": 137,
+        "name": "Porygon",
+        "types": [
+          "normal"
+        ],
+        "level": 30,
+        "desc": "Um funcionário da Aether Foundation entrega o Porygon na Aether House, depois do Hall of Fame.",
+        "en": {
+          "desc": "An Aether Foundation employee gives you Porygon at the Aether House, after entering the Hall of Fame."
+        }
+      },
+      {
+        "id": 772,
+        "name": "Type: Null",
+        "types": [
+          "normal"
+        ],
+        "level": 40,
+        "desc": "Gladion entrega o Type: Null na Aether Paradise depois do Hall of Fame, com as 17 Memories que o Silvally usa para mudar de tipo.",
+        "en": {
+          "desc": "Gladion gives you Type: Null at Aether Paradise after the Hall of Fame, along with the 17 Memories that Silvally uses to change type."
+        }
+      },
+      {
+        "id": 789,
+        "name": "Cosmog",
+        "types": [
+          "psychic"
+        ],
+        "level": 5,
+        "desc": "Depois do Hall of Fame, com Solgaleo ou Lunala na equipe, um novo Cosmog aparece no Lake of the Sunne (Sun) ou no Lake of the Moone (Moon). Não pode ser shiny.",
+        "en": {
+          "desc": "After the Hall of Fame, with Solgaleo or Lunala in your party, a new Cosmog appears at the Lake of the Sunne (Sun) · Lake of the Moone (Moon). It cannot be shiny."
+        }
+      }
+    ],
+    "events": [
+      {
+        "id": 801,
+        "name": "Magearna",
+        "types": [
+          "steel",
+          "fairy"
+        ],
+        "desc": "Recebido pelo QR Code da Magearna, lido no Festival Plaza depois da história principal.",
+        "en": {
+          "desc": "Received from the Magearna QR Code, scanned at the Festival Plaza after the main story."
+        }
+      },
+      {
+        "id": 802,
+        "name": "Marshadow",
+        "types": [
+          "fighting",
+          "ghost"
+        ],
+        "desc": "Mítico que só veio por distribuição oficial de evento.",
+        "en": {
+          "desc": "A Mythical that only came from an official event distribution."
+        }
+      },
+      {
+        "id": 807,
+        "name": "Zeraora",
+        "types": [
+          "electric"
+        ],
+        "desc": "Mítico que só veio por distribuição oficial de evento.",
+        "en": {
+          "desc": "A Mythical that only came from an official event distribution."
+        }
+      }
+    ],
+    "trades": [
+      {
+        "id": 66,
+        "name": "Machop",
+        "types": [
+          "fighting"
+        ],
+        "level": 9,
+        "item": "X Attack",
+        "ability": "No Guard",
+        "nature": "Brave",
+        "desc": "Route 2: entregue um Spearow e receba Machop de um NPC, segurando X Attack. Habilidade No Guard, nature Brave.",
+        "en": {
+          "desc": "Route 2: trade a Spearow for an NPC-owned Machop, holding X Attack. Ability No Guard, Brave nature."
+        }
+      },
+      {
+        "id": 761,
+        "name": "Bounsweet",
+        "types": [
+          "grass"
+        ],
+        "level": 16,
+        "item": "Bright Powder",
+        "ability": "Leaf Guard",
+        "nature": "Adamant",
+        "desc": "Route 5: entregue um Lillipup e receba Bounsweet de um NPC, segurando Bright Powder. Habilidade Leaf Guard, nature Adamant.",
+        "en": {
+          "desc": "Route 5: trade a Lillipup for an NPC-owned Bounsweet, holding Bright Powder. Ability Leaf Guard, Adamant nature."
+        }
+      },
+      {
+        "id": 61,
+        "name": "Poliwhirl",
+        "types": [
+          "water"
+        ],
+        "level": 22,
+        "item": "Waterium Z",
+        "ability": "Damp",
+        "nature": "Naughty",
+        "desc": "Konikoni City: entregue um Zubat e receba Poliwhirl de um NPC, segurando Waterium Z. Habilidade Damp, nature Naughty.",
+        "en": {
+          "desc": "Konikoni City: trade a Zubat for an NPC-owned Poliwhirl, holding Waterium Z. Ability Damp, Naughty nature."
+        }
+      },
+      {
+        "id": 440,
+        "name": "Happiny",
+        "types": [
+          "normal"
+        ],
+        "level": 27,
+        "ability": "Serene Grace",
+        "nature": "Calm",
+        "desc": "Malie City: entregue um Pancham e receba Happiny de um NPC. Habilidade Serene Grace, nature Calm.",
+        "en": {
+          "desc": "Malie City: trade a Pancham for an NPC-owned Happiny. Ability Serene Grace, Calm nature."
+        }
+      },
+      {
+        "id": 75,
+        "name": "Graveler de Alola",
+        "types": [
+          "rock",
+          "electric"
+        ],
+        "level": 32,
+        "item": "Rockium Z",
+        "ability": "Magnet Pull",
+        "nature": "Impish",
+        "desc": "Tapu Village: entregue um Haunter e receba Graveler de Alola de um NPC, segurando Rockium Z. Habilidade Magnet Pull, nature Impish.",
+        "en": {
+          "desc": "Tapu Village: trade a Haunter for an NPC-owned Alolan Graveler, holding Rockium Z. Ability Magnet Pull, Impish nature.",
+          "name": "Alolan Graveler"
+        }
+      },
+      {
+        "id": 762,
+        "name": "Steenee",
+        "types": [
+          "grass"
+        ],
+        "level": 43,
+        "item": "Grassium Z",
+        "ability": "Leaf Guard",
+        "nature": "Careful",
+        "desc": "Seafolk Village: entregue um Granbull e receba Steenee de um NPC, segurando Grassium Z. Habilidade Leaf Guard, nature Careful.",
+        "en": {
+          "desc": "Seafolk Village: trade a Granbull for an NPC-owned Steenee, holding Grassium Z. Ability Leaf Guard, Careful nature."
+        }
+      },
+      {
+        "id": 663,
+        "name": "Talonflame",
+        "types": [
+          "fire",
+          "flying"
+        ],
+        "level": 59,
+        "item": "Firium Z",
+        "ability": "Gale Wings",
+        "nature": "Jolly",
+        "desc": "Poni Gauntlet: entregue um Bewear e receba Talonflame de um NPC, segurando Firium Z. Habilidade Gale Wings, nature Jolly.",
+        "en": {
+          "desc": "Poni Gauntlet: trade a Bewear for an NPC-owned Talonflame, holding Firium Z. Ability Gale Wings, Jolly nature."
+        }
+      }
+    ],
+    "missing": [
+      {
+        "id": 251,
+        "name": "Celebi",
+        "types": [
+          "psychic",
+          "grass"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 385,
+        "name": "Jirachi",
+        "types": [
+          "steel",
+          "psychic"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 386,
+        "name": "Deoxys",
+        "types": [
+          "psychic"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 490,
+        "name": "Manaphy",
+        "types": [
+          "water"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 491,
+        "name": "Darkrai",
+        "types": [
+          "dark"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 492,
+        "name": "Shaymin",
+        "types": [
+          "grass"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 493,
+        "name": "Arceus",
+        "types": [
+          "normal"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 494,
+        "name": "Victini",
+        "types": [
+          "psychic",
+          "fire"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 647,
+        "name": "Keldeo",
+        "types": [
+          "water",
+          "fighting"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 648,
+        "name": "Meloetta",
+        "types": [
+          "normal",
+          "psychic"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 649,
+        "name": "Genesect",
+        "types": [
+          "bug",
+          "steel"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 719,
+        "name": "Diancie",
+        "types": [
+          "rock",
+          "fairy"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 720,
+        "name": "Hoopa",
+        "types": [
+          "psychic",
+          "ghost"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 721,
+        "name": "Volcanion",
+        "types": [
+          "fire",
+          "water"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      }
+    ],
+    "notes": [
+      {
+        "id": 791,
+        "name": "Solgaleo / Lunala",
+        "types": [
+          "psychic",
+          "steel"
+        ],
+        "desc": "Exclusivos de versão: Solgaleo em Sun e Lunala em Moon, capturados no altar durante a história. O outro só chega por troca.",
+        "en": {
+          "desc": "Version exclusives: Solgaleo in Sun and Lunala in Moon, caught at the altar during the story. The other one only arrives by trading."
+        }
+      },
+      {
+        "id": 793,
+        "name": "Ultra Beasts",
+        "types": [
+          "rock",
+          "poison"
+        ],
+        "desc": "As Ultra Beasts mudam com a versão: Buzzwole e Xurkitree aparecem em Sun, Pheromosa e Celesteela em Moon. Use as Beast Balls do Looker e da Anabel.",
+        "en": {
+          "desc": "Ultra Beasts change with the version: Buzzwole and Xurkitree appear in Sun, Pheromosa and Celesteela in Moon. Use the Beast Balls from Looker and Anabel."
+        }
+      },
+      {
+        "id": 774,
+        "name": "Minior",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "desc": "A cor do núcleo do Minior é sorteada no encontro e não muda depois; a casca se rompe em batalha, com a Shields Down.",
+        "en": {
+          "desc": "A Minior's core color is rolled at the encounter and never changes; the shell breaks in battle through Shields Down."
+        }
+      }
+    ]
+  },
+  "ultra-sun-ultra-moon": {
+    "gifts": [
+      {
+        "id": 722,
+        "name": "Rowlet",
+        "types": [
+          "grass",
+          "flying"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Alola, entregue pelo Professor Kukui em Rota 1.",
+        "en": {
+          "desc": "One of the three Alolan first partners, from Professor Kukui on Route 1."
+        }
+      },
+      {
+        "id": 725,
+        "name": "Litten",
+        "types": [
+          "fire"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Alola, entregue pelo Professor Kukui em Rota 1.",
+        "en": {
+          "desc": "One of the three Alolan first partners, from Professor Kukui on Route 1."
+        }
+      },
+      {
+        "id": 728,
+        "name": "Popplio",
+        "types": [
+          "water"
+        ],
+        "level": 5,
+        "desc": "Um dos três iniciais de Alola, entregue pelo Professor Kukui em Rota 1.",
+        "en": {
+          "desc": "One of the three Alolan first partners, from Professor Kukui on Route 1."
+        }
+      },
+      {
+        "id": 133,
+        "name": "Eevee",
+        "types": [
+          "normal"
+        ],
+        "level": 1,
+        "desc": "As ajudantes da creche do Paniola Ranch entregam um ovo; o Eevee nasce no nível 1 depois de você andar com ele.",
+        "en": {
+          "desc": "The nursery helpers at Paniola Ranch hand over an Egg; Eevee hatches at level 1 once you walk with it."
+        }
+      },
+      {
+        "id": 138,
+        "name": "Omanyte",
+        "types": [
+          "rock",
+          "water"
+        ],
+        "level": 15,
+        "desc": "Reviva o Helix Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Helix Fossil só aparece em Ultra Sun.",
+        "en": {
+          "desc": "Revive the Helix Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Helix Fossil is only sold in Ultra Sun."
+        }
+      },
+      {
+        "id": 140,
+        "name": "Kabuto",
+        "types": [
+          "rock",
+          "water"
+        ],
+        "level": 15,
+        "desc": "Reviva o Dome Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Dome Fossil só aparece em Ultra Moon.",
+        "en": {
+          "desc": "Revive the Dome Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Dome Fossil is only sold in Ultra Moon."
+        }
+      },
+      {
+        "id": 345,
+        "name": "Lileep",
+        "types": [
+          "rock",
+          "grass"
+        ],
+        "level": 15,
+        "desc": "Reviva o Root Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Root Fossil só aparece em Ultra Moon.",
+        "en": {
+          "desc": "Revive the Root Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Root Fossil is only sold in Ultra Moon."
+        }
+      },
+      {
+        "id": 347,
+        "name": "Anorith",
+        "types": [
+          "rock",
+          "bug"
+        ],
+        "level": 15,
+        "desc": "Reviva o Claw Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Claw Fossil só aparece em Ultra Sun.",
+        "en": {
+          "desc": "Revive the Claw Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Claw Fossil is only sold in Ultra Sun."
+        }
+      },
+      {
+        "id": 408,
+        "name": "Cranidos",
+        "types": [
+          "rock"
+        ],
+        "level": 15,
+        "desc": "Reviva o Skull Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Skull Fossil só aparece em Ultra Sun.",
+        "en": {
+          "desc": "Revive the Skull Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Skull Fossil is only sold in Ultra Sun."
+        }
+      },
+      {
+        "id": 410,
+        "name": "Shieldon",
+        "types": [
+          "rock",
+          "steel"
+        ],
+        "level": 15,
+        "desc": "Reviva o Armor Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Armor Fossil só aparece em Ultra Moon.",
+        "en": {
+          "desc": "Revive the Armor Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Armor Fossil is only sold in Ultra Moon."
+        }
+      },
+      {
+        "id": 564,
+        "name": "Tirtouga",
+        "types": [
+          "water",
+          "rock"
+        ],
+        "level": 15,
+        "desc": "Reviva o Cover Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Cover Fossil só aparece em Ultra Sun.",
+        "en": {
+          "desc": "Revive the Cover Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Cover Fossil is only sold in Ultra Sun."
+        }
+      },
+      {
+        "id": 566,
+        "name": "Archen",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "level": 15,
+        "desc": "Reviva o Plume Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Plume Fossil só aparece em Ultra Moon.",
+        "en": {
+          "desc": "Revive the Plume Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Plume Fossil is only sold in Ultra Moon."
+        }
+      },
+      {
+        "id": 696,
+        "name": "Tyrunt",
+        "types": [
+          "rock",
+          "dragon"
+        ],
+        "level": 15,
+        "desc": "Reviva o Jaw Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Jaw Fossil só aparece em Ultra Sun.",
+        "en": {
+          "desc": "Revive the Jaw Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Jaw Fossil is only sold in Ultra Sun."
+        }
+      },
+      {
+        "id": 698,
+        "name": "Amaura",
+        "types": [
+          "rock",
+          "ice"
+        ],
+        "level": 15,
+        "desc": "Reviva o Sail Fossil no Fossil Restoration Center, na Rota 8. Os fósseis são comprados uma vez na loja da Olivia, em Konikoni City, e o Sail Fossil só aparece em Ultra Moon.",
+        "en": {
+          "desc": "Revive the Sail Fossil at the Fossil Restoration Center on Route 8. The Fossils are sold once at Olivia's shop in Konikoni City, and the Sail Fossil is only sold in Ultra Moon."
+        }
+      },
+      {
+        "id": 735,
+        "name": "Gumshoos",
+        "types": [
+          "normal"
+        ],
+        "level": 20,
+        "desc": "Samson Oak entrega este Gumshoos do tamanho de um Totem na Heahea Beach, com 20 Totem Stickers, em Ultra Sun. Vem com a Habilidade Oculta (Adaptability). Não pode ser shiny.",
+        "en": {
+          "desc": "Samson Oak gives this Totem-sized Gumshoos at Heahea Beach, for 20 Totem Stickers in Ultra Sun. It has its Hidden Ability (Adaptability). It cannot be shiny."
+        }
+      },
+      {
+        "id": 20,
+        "name": "Raticate de Alola",
+        "types": [
+          "dark",
+          "normal"
+        ],
+        "level": 20,
+        "desc": "Samson Oak entrega este Raticate de Alola do tamanho de um Totem na Heahea Beach, com 20 Totem Stickers, em Ultra Moon. Vem com a Habilidade Oculta (Thick Fat). Não pode ser shiny.",
+        "en": {
+          "desc": "Samson Oak gives this Totem-sized Alolan Raticate at Heahea Beach, for 20 Totem Stickers in Ultra Moon. It has its Hidden Ability (Thick Fat). It cannot be shiny.",
+          "name": "Alolan Raticate"
+        }
+      },
+      {
+        "id": 105,
+        "name": "Marowak de Alola",
+        "types": [
+          "fire",
+          "ghost"
+        ],
+        "level": 25,
+        "desc": "Samson Oak entrega este Marowak de Alola do tamanho de um Totem na Heahea Beach, com 40 Totem Stickers, em Ultra Sun. Vem com a Habilidade Oculta (Rock Head). Não pode ser shiny.",
+        "en": {
+          "desc": "Samson Oak gives this Totem-sized Alolan Marowak at Heahea Beach, for 40 Totem Stickers in Ultra Sun. It has its Hidden Ability (Rock Head). It cannot be shiny.",
+          "name": "Alolan Marowak"
+        }
+      },
+      {
+        "id": 752,
+        "name": "Araquanid",
+        "types": [
+          "water",
+          "bug"
+        ],
+        "level": 25,
+        "desc": "Samson Oak entrega este Araquanid do tamanho de um Totem na Heahea Beach, com 40 Totem Stickers, em Ultra Moon. Não pode ser shiny.",
+        "en": {
+          "desc": "Samson Oak gives this Totem-sized Araquanid at Heahea Beach, for 40 Totem Stickers in Ultra Moon. It cannot be shiny."
+        }
+      },
+      {
+        "id": 754,
+        "name": "Lurantis",
+        "types": [
+          "grass"
+        ],
+        "level": 30,
+        "desc": "Samson Oak entrega este Lurantis do tamanho de um Totem na Heahea Beach, com 50 Totem Stickers, em Ultra Sun. Não pode ser shiny.",
+        "en": {
+          "desc": "Samson Oak gives this Totem-sized Lurantis at Heahea Beach, for 50 Totem Stickers in Ultra Sun. It cannot be shiny."
+        }
+      },
+      {
+        "id": 758,
+        "name": "Salazzle",
+        "types": [
+          "poison",
+          "fire"
+        ],
+        "level": 30,
+        "desc": "Samson Oak entrega este Salazzle do tamanho de um Totem na Heahea Beach, com 50 Totem Stickers, em Ultra Moon. Não pode ser shiny.",
+        "en": {
+          "desc": "Samson Oak gives this Totem-sized Salazzle at Heahea Beach, for 50 Totem Stickers in Ultra Moon. It cannot be shiny."
+        }
+      },
+      {
+        "id": 738,
+        "name": "Vikavolt",
+        "types": [
+          "bug",
+          "electric"
+        ],
+        "level": 35,
+        "desc": "Samson Oak entrega este Vikavolt do tamanho de um Totem na Heahea Beach, com 70 Totem Stickers, em Ultra Sun. Não pode ser shiny.",
+        "en": {
+          "desc": "Samson Oak gives this Totem-sized Vikavolt at Heahea Beach, for 70 Totem Stickers in Ultra Sun. It cannot be shiny."
+        }
+      },
+      {
+        "id": 777,
+        "name": "Togedemaru",
+        "types": [
+          "electric",
+          "steel"
+        ],
+        "level": 35,
+        "desc": "Samson Oak entrega este Togedemaru do tamanho de um Totem na Heahea Beach, com 70 Totem Stickers, em Ultra Moon. Vem com a Habilidade Oculta (Sturdy). Não pode ser shiny.",
+        "en": {
+          "desc": "Samson Oak gives this Totem-sized Togedemaru at Heahea Beach, for 70 Totem Stickers in Ultra Moon. It has its Hidden Ability (Sturdy). It cannot be shiny."
+        }
+      },
+      {
+        "id": 778,
+        "name": "Mimikyu",
+        "types": [
+          "ghost",
+          "fairy"
+        ],
+        "level": 40,
+        "desc": "Samson Oak entrega este Mimikyu do tamanho de um Totem na Heahea Beach, com 80 Totem Stickers. Não pode ser shiny.",
+        "en": {
+          "desc": "Samson Oak gives this Totem-sized Mimikyu at Heahea Beach, for 80 Totem Stickers. It cannot be shiny."
+        }
+      },
+      {
+        "id": 743,
+        "name": "Ribombee",
+        "types": [
+          "bug",
+          "fairy"
+        ],
+        "level": 50,
+        "desc": "Samson Oak entrega este Ribombee do tamanho de um Totem na Heahea Beach, com 100 Totem Stickers, em Ultra Sun. Vem com a Habilidade Oculta (Sweet Veil). Não pode ser shiny.",
+        "en": {
+          "desc": "Samson Oak gives this Totem-sized Ribombee at Heahea Beach, for 100 Totem Stickers in Ultra Sun. It has its Hidden Ability (Sweet Veil). It cannot be shiny."
+        }
+      },
+      {
+        "id": 784,
+        "name": "Kommo-o",
+        "types": [
+          "dragon",
+          "fighting"
+        ],
+        "level": 50,
+        "desc": "Samson Oak entrega este Kommo-o do tamanho de um Totem na Heahea Beach, com 100 Totem Stickers, em Ultra Moon. Vem com a Habilidade Oculta (Overcoat). Não pode ser shiny.",
+        "en": {
+          "desc": "Samson Oak gives this Totem-sized Kommo-o at Heahea Beach, for 100 Totem Stickers in Ultra Moon. It has its Hidden Ability (Overcoat). It cannot be shiny."
+        }
+      },
+      {
+        "id": 142,
+        "name": "Aerodactyl",
+        "types": [
+          "rock",
+          "flying"
+        ],
+        "level": 40,
+        "desc": "Um Ace Trainer de Seafolk Village entrega o Aerodactyl dele, no nível 40.",
+        "en": {
+          "desc": "An Ace Trainer in Seafolk Village hands over their Aerodactyl, at level 40."
+        }
+      },
+      {
+        "id": 25,
+        "name": "Pikachu",
+        "types": [
+          "electric"
+        ],
+        "level": 40,
+        "desc": "O chefe da Surf Association, em Heahea City, entrega este Pikachu a quem fica em primeiro nas quatro pistas do Mantine Surf. Ele sabe Surf e segura uma Gold Bottle Cap.",
+        "en": {
+          "desc": "The Surf Association boss in Heahea City hands this Pikachu to whoever tops all four Mantine Surf courses. It knows Surf and holds a Gold Bottle Cap."
+        }
+      },
+      {
+        "id": 803,
+        "name": "Poipole",
+        "types": [
+          "poison"
+        ],
+        "level": 40,
+        "desc": "Soliera (Ultra Sun) ou Dulse (Ultra Moon) entrega o Poipole na Megalo Tower, em Ultra Megalopolis, depois de você vencer Ultra Necrozma.",
+        "en": {
+          "desc": "Soliera (Ultra Sun) or Dulse (Ultra Moon) gives you Poipole at Megalo Tower in Ultra Megalopolis, after you defeat Ultra Necrozma."
+        }
+      },
+      {
+        "id": 772,
+        "name": "Type: Null",
+        "types": [
+          "normal"
+        ],
+        "level": 60,
+        "desc": "Wicke entrega o Type: Null no Ancient Poni Path, no pós-jogo, a caminho do Poni Grove, com as 17 Memories do Silvally.",
+        "en": {
+          "desc": "Wicke gives you Type: Null on the Ancient Poni Path in the post-game, on the way to Poni Grove, along with Silvally's 17 Memories."
+        }
+      },
+      {
+        "id": 789,
+        "name": "Cosmog",
+        "types": [
+          "psychic"
+        ],
+        "level": 5,
+        "desc": "Depois do Hall of Fame, com Solgaleo ou Lunala na equipe, um novo Cosmog aparece no Lake of the Sunne (Ultra Sun) ou no Lake of the Moone (Ultra Moon). Não pode ser shiny. A visita ainda rende o Lunalium Z (Ultra Sun) ou o Solganium Z (Ultra Moon).",
+        "en": {
+          "desc": "After the Hall of Fame, with Solgaleo or Lunala in your party, a new Cosmog appears at the Lake of the Sunne (Ultra Sun) · Lake of the Moone (Ultra Moon). It cannot be shiny. The visit also awards the Lunalium Z (Ultra Sun) or Solganium Z (Ultra Moon)."
+        }
+      },
+      {
+        "id": 718,
+        "name": "Zygarde",
+        "types": [
+          "dragon",
+          "ground"
+        ],
+        "level": 63,
+        "desc": "Dexio entrega um Zygarde de Forma 10% na Rota 16, depois de você capturar o de Forma 50% na Resolution Cave. Não pode ser shiny.",
+        "en": {
+          "desc": "Dexio gives you a 10% Forme Zygarde on Route 16, after you catch the 50% Forme in Resolution Cave. It cannot be shiny."
+        }
+      },
+      {
+        "id": 137,
+        "name": "Porygon",
+        "types": [
+          "normal"
+        ],
+        "level": 30,
+        "desc": "Um funcionário da Aether Foundation entrega o Porygon na Aether House, depois do Episode RR.",
+        "en": {
+          "desc": "An Aether Foundation employee gives you Porygon at the Aether House, after completing Episode RR."
+        }
+      }
+    ],
+    "events": [
+      {
+        "id": 801,
+        "name": "Magearna",
+        "types": [
+          "steel",
+          "fairy"
+        ],
+        "desc": "Recebido pelo QR Code da Magearna, lido no Festival Plaza depois da história principal.",
+        "en": {
+          "desc": "Received from the Magearna QR Code, scanned at the Festival Plaza after the main story."
+        }
+      },
+      {
+        "id": 802,
+        "name": "Marshadow",
+        "types": [
+          "fighting",
+          "ghost"
+        ],
+        "desc": "Mítico que só veio por distribuição oficial de evento.",
+        "en": {
+          "desc": "A Mythical that only came from an official event distribution."
+        }
+      },
+      {
+        "id": 807,
+        "name": "Zeraora",
+        "types": [
+          "electric"
+        ],
+        "desc": "Mítico que só veio por distribuição oficial de evento.",
+        "en": {
+          "desc": "A Mythical that only came from an official event distribution."
+        }
+      }
+    ],
+    "trades": [
+      {
+        "id": 701,
+        "name": "Hawlucha",
+        "types": [
+          "fighting",
+          "flying"
+        ],
+        "level": 8,
+        "item": "X Attack",
+        "ability": "Unburden",
+        "nature": "Brave",
+        "desc": "Route 2: entregue um Spearow e receba Hawlucha de um NPC, segurando X Attack. Habilidade Unburden, nature Brave.",
+        "en": {
+          "desc": "Route 2: trade a Spearow for an NPC-owned Hawlucha, holding X Attack. Ability Unburden, Brave nature."
+        }
+      },
+      {
+        "id": 714,
+        "name": "Noibat",
+        "types": [
+          "flying",
+          "dragon"
+        ],
+        "level": 19,
+        "item": "Bright Powder",
+        "ability": "Frisk",
+        "nature": "Modest",
+        "desc": "Route 5: entregue um Lillipup e receba Noibat de um NPC, segurando Bright Powder. Habilidade Frisk, nature Modest.",
+        "en": {
+          "desc": "Route 5: trade a Lillipup for an NPC-owned Noibat, holding Bright Powder. Ability Frisk, Modest nature."
+        }
+      },
+      {
+        "id": 339,
+        "name": "Barboach",
+        "types": [
+          "water",
+          "ground"
+        ],
+        "level": 21,
+        "item": "Pecha Berry",
+        "ability": "Anticipation",
+        "nature": "Naughty",
+        "desc": "Royal Avenue: entregue um Tentacool e receba Barboach de um NPC, segurando Pecha Berry. Habilidade Anticipation, nature Naughty.",
+        "en": {
+          "desc": "Royal Avenue: trade a Tentacool for an NPC-owned Barboach, holding Pecha Berry. Ability Anticipation, Naughty nature."
+        }
+      },
+      {
+        "id": 24,
+        "name": "Arbok",
+        "types": [
+          "poison"
+        ],
+        "level": 22,
+        "item": "Balm Mushroom",
+        "ability": "Intimidate",
+        "nature": "Impish",
+        "desc": "Route 8: entregue um Trumbeak e receba Arbok de um NPC, segurando Balm Mushroom. Habilidade Intimidate, nature Impish.",
+        "en": {
+          "desc": "Route 8: trade a Trumbeak for an NPC-owned Arbok, holding Balm Mushroom. Ability Intimidate, Impish nature."
+        }
+      },
+      {
+        "id": 708,
+        "name": "Phantump",
+        "types": [
+          "ghost",
+          "grass"
+        ],
+        "level": 33,
+        "item": "Grassium Z",
+        "ability": "Natural Cure",
+        "nature": "Calm",
+        "desc": "Tapu Village: entregue um Phantump e receba Phantump de um NPC, segurando Grassium Z. Habilidade Natural Cure, nature Calm.",
+        "en": {
+          "desc": "Tapu Village: trade a Phantump for an NPC-owned Phantump, holding Grassium Z. Ability Natural Cure, Calm nature."
+        }
+      },
+      {
+        "id": 422,
+        "name": "Shellos",
+        "types": [
+          "water"
+        ],
+        "level": 44,
+        "item": "Waterium Z",
+        "ability": "Storm Drain",
+        "nature": "Quiet",
+        "desc": "Seafolk Village: entregue um Granbull e receba Shellos de um NPC, segurando Waterium Z. Habilidade Storm Drain, nature Quiet.",
+        "en": {
+          "desc": "Seafolk Village: trade a Granbull for an NPC-owned Shellos, holding Waterium Z. Ability Storm Drain, Quiet nature."
+        }
+      },
+      {
+        "id": 128,
+        "name": "Tauros",
+        "types": [
+          "normal"
+        ],
+        "level": 59,
+        "item": "Normalium Z",
+        "ability": "Intimidate",
+        "nature": "Jolly",
+        "desc": "Poni Gauntlet: entregue um Bewear e receba Tauros de um NPC, segurando Normalium Z. Habilidade Intimidate, nature Jolly.",
+        "en": {
+          "desc": "Poni Gauntlet: trade a Bewear for an NPC-owned Tauros, holding Normalium Z. Ability Intimidate, Jolly nature."
+        }
+      }
+    ],
+    "missing": [
+      {
+        "id": 251,
+        "name": "Celebi",
+        "types": [
+          "psychic",
+          "grass"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 385,
+        "name": "Jirachi",
+        "types": [
+          "steel",
+          "psychic"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 386,
+        "name": "Deoxys",
+        "types": [
+          "psychic"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 490,
+        "name": "Manaphy",
+        "types": [
+          "water"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 491,
+        "name": "Darkrai",
+        "types": [
+          "dark"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 492,
+        "name": "Shaymin",
+        "types": [
+          "grass"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 493,
+        "name": "Arceus",
+        "types": [
+          "normal"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 494,
+        "name": "Victini",
+        "types": [
+          "psychic",
+          "fire"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 647,
+        "name": "Keldeo",
+        "types": [
+          "water",
+          "fighting"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 648,
+        "name": "Meloetta",
+        "types": [
+          "normal",
+          "psychic"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 649,
+        "name": "Genesect",
+        "types": [
+          "bug",
+          "steel"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 719,
+        "name": "Diancie",
+        "types": [
+          "rock",
+          "fairy"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 720,
+        "name": "Hoopa",
+        "types": [
+          "psychic",
+          "ghost"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      },
+      {
+        "id": 721,
+        "name": "Volcanion",
+        "types": [
+          "fire",
+          "water"
+        ],
+        "desc": "Não aparece na natureza nem como presente: só por distribuição de evento ou transferência pelo Pokémon Bank.",
+        "en": {
+          "desc": "Not found in the wild or as a gift: event distribution or a transfer through Pokémon Bank only."
+        }
+      }
+    ],
+    "notes": [
+      {
+        "id": 800,
+        "name": "Necrozma",
+        "types": [
+          "psychic"
+        ],
+        "desc": "Necrozma se funde com Solgaleo (Dusk Mane, em Ultra Sun) ou Lunala (Dawn Wings, em Ultra Moon) pelo N-Solarizer ou N-Lunarizer, e vira Ultra Necrozma com o Ultranecrozium Z.",
+        "en": {
+          "desc": "Necrozma fuses with Solgaleo (Dusk Mane, in Ultra Sun) or Lunala (Dawn Wings, in Ultra Moon) using the N-Solarizer or N-Lunarizer, and becomes Ultra Necrozma with the Ultranecrozium Z."
+        }
+      },
+      {
+        "id": 803,
+        "name": "Poipole / Naganadel",
+        "types": [
+          "poison"
+        ],
+        "desc": "O Poipole é presente da história e evolui para Naganadel subindo de nível com Dragon Pulse aprendido.",
+        "en": {
+          "desc": "Poipole is a story gift and evolves into Naganadel by leveling up while it knows Dragon Pulse."
+        }
+      },
+      {
+        "id": 793,
+        "name": "Ultra Beasts",
+        "types": [
+          "rock",
+          "poison"
+        ],
+        "desc": "A Ultra Warp Ride leva a todas as Ultra Beasts e aos lendários das gerações anteriores; a cor do buraco indica o que espera do outro lado.",
+        "en": {
+          "desc": "The Ultra Warp Ride leads to every Ultra Beast and to past-generation Legendaries; the wormhole's color hints at what waits on the other side."
+        }
+      }
+    ]
+  }
+}

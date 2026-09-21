@@ -1,0 +1,357 @@
+{
+  "black-white": [
+    {
+      "category": "Locomoção & Exploração",
+      "en": {
+        "category": "Getting Around & Exploring"
+      },
+      "items": [
+        {
+          "name": "Bicycle",
+          "desc": "Em Nimbasa City, com o dono da Day-Care, depois de vencer os recrutas da Team Plasma.",
+          "en": {
+            "desc": "Received from the Day-Care Man in Nimbasa City after defeating the Team Plasma Grunts."
+          }
+        },
+        {
+          "name": "Town Map",
+          "desc": "Com a sua mãe, logo depois de receber a Pokédex da Professora Juniper.",
+          "en": {
+            "desc": "Given by Mom after receiving the Pokédex from Professor Juniper."
+          }
+        },
+        {
+          "name": "Dowsing MCHN",
+          "desc": "Com a Bianca, depois de conquistar a Basic Badge.",
+          "en": {
+            "desc": "Given by Bianca after obtaining the Basic."
+          },
+          "sprites": [
+            "Dowsing Machine"
+          ]
+        },
+        {
+          "name": "Super Rod",
+          "desc": "Com o Looker, na sua casa, depois de terminar a história principal. É a única vara de pescar do jogo.",
+          "en": {
+            "desc": "Given by Looker in the player's house (after finishing the main storyline)."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Comunicação & Batalha",
+      "en": {
+        "category": "Communication & Battle"
+      },
+      "items": [
+        {
+          "name": "Xtransceiver",
+          "desc": "Com a sua mãe, no começo do jogo.",
+          "en": {
+            "desc": "Received from Mom at the beginning of the game."
+          }
+        },
+        {
+          "name": "Vs. Recorder",
+          "desc": "Com uma garota que sai do Battle Subway.",
+          "en": {
+            "desc": "Received from a girl exiting the Battle Subway."
+          }
+        },
+        {
+          "name": "Pal Pad",
+          "desc": "Com a Amanita, por ajudar a Fennel na pesquisa sobre o Dream Mist.",
+          "en": {
+            "desc": "Received from Amanita for helping Fennel with her research about Dream Mist."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Lendários & História",
+      "en": {
+        "category": "Legendaries & Story"
+      },
+      "items": [
+        {
+          "name": "Light Stone",
+          "desc": "Em Nacrene City, com a Lenora, depois da Dragonspiral Tower (Pokémon White).",
+          "en": {
+            "desc": "Received from Lenora in Nacrene City after clearing Dragonspiral Tower."
+          }
+        },
+        {
+          "name": "Dark Stone",
+          "desc": "Em Nacrene City, com a Lenora, depois da Dragonspiral Tower (Pokémon Black).",
+          "en": {
+            "desc": "Received from Lenora in Nacrene City after clearing Dragonspiral Tower."
+          }
+        },
+        {
+          "name": "Dragon Skull",
+          "desc": "Na Pinwheel Forest, com um recruta da Team Plasma.",
+          "en": {
+            "desc": "Received from a Team Plasma Grunt in Pinwheel Forest."
+          }
+        },
+        {
+          "name": "Gram 1, 2 & 3",
+          "desc": "Na Rota 13.",
+          "en": {
+            "desc": "Route 13."
+          },
+          "sprites": [
+            "Gram 1"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Eventos & Diversão",
+      "en": {
+        "category": "Events & Fun"
+      },
+      "items": [
+        {
+          "name": "Liberty Pass",
+          "desc": "Só por evento da Nintendo. Leva à Liberty Garden, onde está o Victini.",
+          "en": {
+            "desc": "Received from a Nintendo event."
+          }
+        },
+        {
+          "name": "Gracidea",
+          "desc": "Em Lacunosa Town, com um Shaymin de evento na equipe.",
+          "en": {
+            "desc": "Lacunosa Town; requires a fateful encounter Shaymin in the party."
+          }
+        },
+        {
+          "name": "Prop Case",
+          "desc": "No Musical Theater, com o dono do Pokémon Musical.",
+          "en": {
+            "desc": "Received from the Pokémon Musical owner in the Musical Theater."
+          }
+        }
+      ]
+    }
+  ],
+  "black-2-white-2": [
+    {
+      "category": "Locomoção & Exploração",
+      "en": {
+        "category": "Getting Around & Exploring"
+      },
+      "items": [
+        {
+          "name": "Bicycle",
+          "desc": "Em Castelia City, com um homem perto do Prime Pier.",
+          "en": {
+            "desc": "Received from a man near Prime Pier in Castelia City."
+          }
+        },
+        {
+          "name": "Town Map",
+          "desc": "Com a irmã do Hugh, depois de receber as Poké Balls da Bianca.",
+          "en": {
+            "desc": "Given by Hugh's sister after receiving Poké Balls from Bianca."
+          }
+        },
+        {
+          "name": "Dowsing MCHN",
+          "desc": "Com a Bianca, no portão entre Castelia City e a Rota 4.",
+          "en": {
+            "desc": "Given by Bianca in the Castelia Gate (between Castelia City and Route 4)."
+          },
+          "sprites": [
+            "Dowsing Machine"
+          ]
+        },
+        {
+          "name": "Super Rod",
+          "desc": "Em Nuvema Town, com o Cedric Juniper. É a única vara de pescar do jogo.",
+          "en": {
+            "desc": "Given by Cedric Juniper in Nuvema Town."
+          }
+        },
+        {
+          "name": "Permit",
+          "desc": "Com a Professora Juniper, depois de ver todos os Pokémon da Pokédex de Unova. Libera o acesso à Nature Preserve.",
+          "en": {
+            "desc": "From Professor Juniper after seeing all Pokémon in the Unova Pokédex."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Comunicação & Batalha",
+      "en": {
+        "category": "Communication & Battle"
+      },
+      "items": [
+        {
+          "name": "Xtransceiver",
+          "desc": "Já vem na mochila desde o começo do jogo.",
+          "en": {
+            "desc": "In the bag from the start of the game."
+          }
+        },
+        {
+          "name": "Vs. Recorder",
+          "desc": "Com o Nate/Rosa, depois da batalha em dupla contra Ingo e Emmet.",
+          "en": {
+            "desc": "Received from Nate/Rosa after Multi Battle with Ingo and Emmet."
+          }
+        },
+        {
+          "name": "Pal Pad",
+          "desc": "Já vem na mochila desde o começo do jogo.",
+          "en": {
+            "desc": "In the bag from the start of the game."
+          }
+        },
+        {
+          "name": "Medal Box",
+          "desc": "Em Floccesy Town, na frente da casa do Alder, depois de vencer os dois alunos da escola.",
+          "en": {
+            "desc": "Floccesy Town (outside of Alder's house after defeating the two School Kids)."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Lendários & História",
+      "en": {
+        "category": "Legendaries & Story"
+      },
+      "items": [
+        {
+          "name": "Light Stone",
+          "desc": "No N’s Castle, com o N, depois de vencer ele e o Reshiram (Pokémon White 2).",
+          "en": {
+            "desc": "Received from N in N's Castle after the player defeats him and Reshiram."
+          }
+        },
+        {
+          "name": "Dark Stone",
+          "desc": "No N’s Castle, com o N, depois de vencer ele e o Zekrom (Pokémon Black 2).",
+          "en": {
+            "desc": "Received from N in N's Castle after the player defeats him and Zekrom."
+          }
+        },
+        {
+          "name": "DNA Splicers",
+          "desc": "Na Giant Chasm, deixado pelo Kyurem ao ser capturado, derrotado ou ao fugir. Funde o Kyurem com o Zekrom ou o Reshiram.",
+          "en": {
+            "desc": "Dropped by Kyurem when caught, defeated, or fled from in Giant Chasm."
+          }
+        },
+        {
+          "name": "Reveal Glass",
+          "desc": "No Abundant Shrine, ao levar um Landorus na Forma Therian. Troca Tornadus, Thundurus e Landorus de forma.",
+          "en": {
+            "desc": "Abundant Shrine (upon bringing Therian Forme Landorus)."
+          }
+        },
+        {
+          "name": "Colress MCHN",
+          "desc": "Com o Colress, na Rota 22, perto do Terrakion.",
+          "en": {
+            "desc": "From Colress on Route 22 near Terrakion."
+          },
+          "sprites": [
+            "Colress Machine"
+          ]
+        },
+        {
+          "name": "Plasma Card",
+          "desc": "No Plasma Frigate.",
+          "en": {
+            "desc": "Plasma Frigate."
+          }
+        },
+        {
+          "name": "Magma Stone",
+          "desc": "Na Rota 18, nos penhascos.",
+          "en": {
+            "desc": "Route 18 (cliffs)."
+          }
+        },
+        {
+          "name": "Lunar Wing",
+          "desc": "Na Strange House, na sala do meio do andar de cima.",
+          "en": {
+            "desc": "Strange House (middle room on top floor)."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Missões do Xtransceiver",
+      "en": {
+        "category": "Xtransceiver Side Quests"
+      },
+      "items": [
+        {
+          "name": "Dropped Item",
+          "desc": "Em Nimbasa City, ao sul da grande estátua de Pikachu e Pichu.",
+          "en": {
+            "desc": "Nimbasa City (south of the large Pikachu and Pichu figure)."
+          }
+        },
+        {
+          "name": "Grubby Hanky",
+          "desc": "No Café Warehouse, em Nacrene City.",
+          "en": {
+            "desc": "Café Warehouse (Nacrene City)."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Recompensas da Pokédex",
+      "en": {
+        "category": "Pokédex Rewards"
+      },
+      "items": [
+        {
+          "name": "Oval Charm",
+          "desc": "Com a Professora Juniper, depois de completar a Pokédex de Unova.",
+          "en": {
+            "desc": "From Professor Juniper after completing the Unova Pokédex."
+          }
+        },
+        {
+          "name": "Shiny Charm",
+          "desc": "Com a Professora Juniper, depois de completar a Pokédex Nacional e falar com o Cedric Juniper.",
+          "en": {
+            "desc": "From Professor Juniper after completing the National Pokédex and talking to Cedric Juniper."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Eventos & Diversão",
+      "en": {
+        "category": "Events & Fun"
+      },
+      "items": [
+        {
+          "name": "Gracidea",
+          "desc": "Em Striaton City, com um Shaymin de evento na equipe.",
+          "en": {
+            "desc": "Striaton City; requires a fateful encounter Shaymin in the party."
+          }
+        },
+        {
+          "name": "Prop Case",
+          "desc": "No Musical Theater, com o dono do Pokémon Musical.",
+          "en": {
+            "desc": "Received from the Pokémon Musical owner in the Musical Theater."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "_meta": {
+    "status": "complete",
+    "description": "Localização principal de cada TM/HM nos grupos X/Y e Omega Ruby/Alpha Sapphire.",
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_TM_and_HM_locations_in_Generation_VI"
+  },
+  "TM01": {
+    "x-y": "Route 5",
+    "omega-ruby-alpha-sapphire": "Slateport City"
+  },
+  "TM02": {
+    "x-y": "Victory Road",
+    "omega-ruby-alpha-sapphire": "Meteor Falls"
+  },
+  "TM03": {
+    "x-y": "Victory Road",
+    "omega-ruby-alpha-sapphire": "Pacifidlog Town"
+  },
+  "TM04": {
+    "x-y": "Prize for defeating Olympia",
+    "omega-ruby-alpha-sapphire": "Prize for defeating Tate and Liza"
+  },
+  "TM05": {
+    "x-y": "Battle Maison",
+    "omega-ruby-alpha-sapphire": "Route 114"
+  },
+  "TM06": {
+    "x-y": "Route 14",
+    "omega-ruby-alpha-sapphire": "Fiery Path"
+  },
+  "TM07": {
+    "x-y": "Shalour City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Shoal Cave"
+  },
+  "TM08": {
+    "x-y": "Snowbelle City",
+    "omega-ruby-alpha-sapphire": "Prize for defeating Brawly"
+  },
+  "TM09": {
+    "x-y": "Route 6",
+    "omega-ruby-alpha-sapphire": "Mauville City Poké Mart"
+  },
+  "TM10": {
+    "x-y": "Anistar City",
+    "omega-ruby-alpha-sapphire": "Fortree City"
+  },
+  "TM100": {
+    "x-y": "Coumarine City",
+    "omega-ruby-alpha-sapphire": "Slateport City"
+  },
+  "TM11": {
+    "x-y": "Lumiose City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Scorched Slab"
+  },
+  "TM12": {
+    "x-y": "Lysandre Labs",
+    "omega-ruby-alpha-sapphire": "Trick House"
+  },
+  "TM13": {
+    "x-y": "Prize for defeating Wulfric",
+    "omega-ruby-alpha-sapphire": "Sea Mauville"
+  },
+  "TM14": {
+    "x-y": "Anistar City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Lilycove Department Store"
+  },
+  "TM15": {
+    "x-y": "Anistar City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Lilycove Department Store"
+  },
+  "TM16": {
+    "x-y": "Kiloude City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Lilycove Department Store"
+  },
+  "TM17": {
+    "x-y": "Parfum Palace",
+    "omega-ruby-alpha-sapphire": "Lilycove Department Store"
+  },
+  "TM18": {
+    "x-y": "Lumiose City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Sea Mauville"
+  },
+  "TM19": {
+    "x-y": "Route 8",
+    "omega-ruby-alpha-sapphire": "Prize for defeating Winona"
+  },
+  "TM20": {
+    "x-y": "Shalour City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Lilycove Department Store"
+  },
+  "TM21": {
+    "x-y": "Connecting Cave",
+    "omega-ruby-alpha-sapphire": "Pacifidlog Town"
+  },
+  "TM22": {
+    "x-y": "Route 21",
+    "omega-ruby-alpha-sapphire": "Safari Zone"
+  },
+  "TM23": {
+    "x-y": "Battle Maison",
+    "omega-ruby-alpha-sapphire": "Fallarbor Town"
+  },
+  "TM24": {
+    "x-y": "Prize for defeating Clemont",
+    "omega-ruby-alpha-sapphire": "Gift from Wattson"
+  },
+  "TM25": {
+    "x-y": "Anistar City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Lilycove Department Store"
+  },
+  "TM26": {
+    "x-y": "Route 22",
+    "omega-ruby-alpha-sapphire": "Seafloor Cavern"
+  },
+  "TM27": {
+    "x-y": "From Dexio at the Lumiose City gate",
+    "omega-ruby-alpha-sapphire": "Pacifidlog Town"
+  },
+  "TM28": {
+    "x-y": "Shalour City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Route 114"
+  },
+  "TM29": {
+    "x-y": "Pokémon Village",
+    "omega-ruby-alpha-sapphire": "Ever Grande City"
+  },
+  "TM30": {
+    "x-y": "Terminus Cave",
+    "omega-ruby-alpha-sapphire": "Mt. Pyre"
+  },
+  "TM31": {
+    "x-y": "Terminus Cave",
+    "omega-ruby-alpha-sapphire": "Sootopolis City"
+  },
+  "TM32": {
+    "x-y": "Anistar City",
+    "omega-ruby-alpha-sapphire": "Route 113"
+  },
+  "TM33": {
+    "x-y": "Kiloude City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Lilycove Department Store"
+  },
+  "TM34": {
+    "x-y": "Battle Maison",
+    "omega-ruby-alpha-sapphire": "Route 132"
+  },
+  "TM35": {
+    "x-y": "Anistar City",
+    "omega-ruby-alpha-sapphire": "Victory Road"
+  },
+  "TM36": {
+    "x-y": "Route 19",
+    "omega-ruby-alpha-sapphire": "Dewford Town"
+  },
+  "TM37": {
+    "x-y": "Shalour City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Route 111"
+  },
+  "TM38": {
+    "x-y": "Anistar City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Lilycove Department Store"
+  },
+  "TM39": {
+    "x-y": "Prize for defeating Grant",
+    "omega-ruby-alpha-sapphire": "Prize for defeating Roxanne"
+  },
+  "TM40": {
+    "x-y": "Connecting Cave",
+    "omega-ruby-alpha-sapphire": "Mauville City Poké Mart"
+  },
+  "TM41": {
+    "x-y": "Laverre City",
+    "omega-ruby-alpha-sapphire": "Slateport City"
+  },
+  "TM42": {
+    "x-y": "Dendemille Town",
+    "omega-ruby-alpha-sapphire": "Mauville City Poké Mart"
+  },
+  "TM43": {
+    "x-y": "Kalos Power Plant",
+    "omega-ruby-alpha-sapphire": "Jagged Pass"
+  },
+  "TM44": {
+    "x-y": "Hotel Cyllage",
+    "omega-ruby-alpha-sapphire": "Lilycove City"
+  },
+  "TM45": {
+    "x-y": "Route 12",
+    "omega-ruby-alpha-sapphire": "Verdanturf Town"
+  },
+  "TM46": {
+    "x-y": "Camphrier Town",
+    "omega-ruby-alpha-sapphire": "Slateport City"
+  },
+  "TM47": {
+    "x-y": "Tower of Mastery",
+    "omega-ruby-alpha-sapphire": "Mauville City Poké Mart"
+  },
+  "TM48": {
+    "x-y": "Battle Maison",
+    "omega-ruby-alpha-sapphire": "Mauville City"
+  },
+  "TM49": {
+    "x-y": "Hotel Richissime",
+    "omega-ruby-alpha-sapphire": "Route 104"
+  },
+  "TM50": {
+    "x-y": "Kiloude City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Prize for defeating Flannery"
+  },
+  "TM51": {
+    "x-y": "Battle Maison",
+    "omega-ruby-alpha-sapphire": "Granite Cave"
+  },
+  "TM52": {
+    "x-y": "Anistar City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Lilycove Department Store"
+  },
+  "TM53": {
+    "x-y": "Route 20",
+    "omega-ruby-alpha-sapphire": "Safari Zone"
+  },
+  "TM54": {
+    "x-y": "Lumiose City",
+    "omega-ruby-alpha-sapphire": "Rustboro City Poké Mart"
+  },
+  "TM55": {
+    "x-y": "Couriway Town",
+    "omega-ruby-alpha-sapphire": "Seafloor Cavern"
+  },
+  "TM56": {
+    "x-y": "Lost Hotel",
+    "omega-ruby-alpha-sapphire": "Pacifidlog Town"
+  },
+  "TM57": {
+    "x-y": "Route 13",
+    "omega-ruby-alpha-sapphire": "Mauville City Poké Mart"
+  },
+  "TM58": {
+    "x-y": "Kiloude City",
+    "omega-ruby-alpha-sapphire": "Mauville City Poké Mart"
+  },
+  "TM59": {
+    "x-y": "Battle Maison",
+    "omega-ruby-alpha-sapphire": "Mt. Chimney"
+  },
+  "TM60": {
+    "x-y": "Battle Maison",
+    "omega-ruby-alpha-sapphire": "Mossdeep City"
+  },
+  "TM61": {
+    "x-y": "Route 14",
+    "omega-ruby-alpha-sapphire": "Mt. Pyre"
+  },
+  "TM62": {
+    "x-y": "Coumarine City",
+    "omega-ruby-alpha-sapphire": "Route 119"
+  },
+  "TM63": {
+    "x-y": "Coumarine City",
+    "omega-ruby-alpha-sapphire": "S.S. Tidal"
+  },
+  "TM64": {
+    "x-y": "Battle Maison",
+    "omega-ruby-alpha-sapphire": "Sky Pillar"
+  },
+  "TM65": {
+    "x-y": "Glittering Cave",
+    "omega-ruby-alpha-sapphire": "Granite Cave"
+  },
+  "TM66": {
+    "x-y": "Geosenge Town",
+    "omega-ruby-alpha-sapphire": "Mirage Island (south of Route 134)"
+  },
+  "TM67": {
+    "x-y": "Battle Maison",
+    "omega-ruby-alpha-sapphire": "Prize for defeating Norman"
+  },
+  "TM68": {
+    "x-y": "Kiloude City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Lilycove Department Store"
+  },
+  "TM69": {
+    "x-y": "Route 11",
+    "omega-ruby-alpha-sapphire": "Jagged Pass"
+  },
+  "TM70": {
+    "x-y": "Reflection Cave",
+    "omega-ruby-alpha-sapphire": "Granite Cave"
+  },
+  "TM71": {
+    "x-y": "Frost Cavern",
+    "omega-ruby-alpha-sapphire": "Lilycove Department Store"
+  },
+  "TM72": {
+    "x-y": "Battle Maison",
+    "omega-ruby-alpha-sapphire": "Prize for defeating Wattson"
+  },
+  "TM73": {
+    "x-y": "Route 10",
+    "omega-ruby-alpha-sapphire": "Slateport City"
+  },
+  "TM74": {
+    "x-y": "Reflection Cave",
+    "omega-ruby-alpha-sapphire": "Mirage Forest (north of Route 111)"
+  },
+  "TM75": {
+    "x-y": "Lumiose City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Lavaridge Town"
+  },
+  "TM76": {
+    "x-y": "Lumiose City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Slateport City"
+  },
+  "TM77": {
+    "x-y": "Anistar City",
+    "omega-ruby-alpha-sapphire": "Route 133"
+  },
+  "TM78": {
+    "x-y": "Lumiose City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Mauville City Poké Mart"
+  },
+  "TM79": {
+    "x-y": "Frost Cavern",
+    "omega-ruby-alpha-sapphire": "Shoal Cave"
+  },
+  "TM80": {
+    "x-y": "Couriway Town",
+    "omega-ruby-alpha-sapphire": "Route 134"
+  },
+  "TM81": {
+    "x-y": "Azure Bay",
+    "omega-ruby-alpha-sapphire": "Victory Road"
+  },
+  "TM82": {
+    "x-y": "Lumiose Museum",
+    "omega-ruby-alpha-sapphire": "Mauville City Poké Mart"
+  },
+  "TM83": {
+    "x-y": "Prize for defeating Viola",
+    "omega-ruby-alpha-sapphire": "Sootopolis City"
+  },
+  "TM84": {
+    "x-y": "Shalour City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Mirage Mountain (north of Lilycove City)"
+  },
+  "TM85": {
+    "x-y": "Battle Maison",
+    "omega-ruby-alpha-sapphire": "Safari Zone"
+  },
+  "TM86": {
+    "x-y": "Prize for defeating Ramos",
+    "omega-ruby-alpha-sapphire": "Fortree City"
+  },
+  "TM87": {
+    "x-y": "Battle Maison",
+    "omega-ruby-alpha-sapphire": "Battle Resort"
+  },
+  "TM88": {
+    "x-y": "Hotel Cyllage",
+    "omega-ruby-alpha-sapphire": "Lilycove City"
+  },
+  "TM89": {
+    "x-y": "Couriway Town",
+    "omega-ruby-alpha-sapphire": "Mauville City"
+  },
+  "TM90": {
+    "x-y": "Anistar City",
+    "omega-ruby-alpha-sapphire": "Mirage Island (south of Pacifidlog Town)"
+  },
+  "TM91": {
+    "x-y": "Kiloude City",
+    "omega-ruby-alpha-sapphire": "Mirage Island (north of Route 125)"
+  },
+  "TM92": {
+    "x-y": "Coumarine City",
+    "omega-ruby-alpha-sapphire": "Trick House"
+  },
+  "TM93": {
+    "x-y": "Kiloude City Poké Mart",
+    "omega-ruby-alpha-sapphire": "Safari Zone"
+  },
+  "TM94": {
+    "x-y": "Ambrette Town",
+    "omega-ruby-alpha-sapphire": "Route 111"
+  },
+  "TM95": {
+    "x-y": "Lost Hotel",
+    "omega-ruby-alpha-sapphire": "Mirage Cave (north of Fallarbor Town)"
+  },
+  "TM96": {
+    "x-y": "Hotel Ambrette",
+    "omega-ruby-alpha-sapphire": "Fiery Path"
+  },
+  "TM97": {
+    "x-y": "Route 15",
+    "omega-ruby-alpha-sapphire": "Team Magma Hideout (OR), Team Aqua Hideout (AS)"
+  },
+  "TM98": {
+    "x-y": "Prize for defeating Korrina",
+    "omega-ruby-alpha-sapphire": "Mauville City Poké Mart"
+  },
+  "TM99": {
+    "x-y": "Prize for defeating Valerie",
+    "omega-ruby-alpha-sapphire": "Route 123"
+  },
+  "HM01": {
+    "x-y": "Parfum Palace",
+    "omega-ruby-alpha-sapphire": "Rustboro City"
+  },
+  "HM02": {
+    "x-y": "Coumarine City",
+    "omega-ruby-alpha-sapphire": "Fortree City"
+  },
+  "HM03": {
+    "x-y": "Shalour City",
+    "omega-ruby-alpha-sapphire": "Petalburg City"
+  },
+  "HM04": {
+    "x-y": "Cyllage City",
+    "omega-ruby-alpha-sapphire": "Route 112"
+  },
+  "HM05": {
+    "x-y": "Route 19",
+    "omega-ruby-alpha-sapphire": "Prize for defeating Wallace"
+  },
+  "HM06": {
+    "x-y": null,
+    "omega-ruby-alpha-sapphire": "Mauville City"
+  },
+  "HM07": {
+    "x-y": null,
+    "omega-ruby-alpha-sapphire": "Mossdeep City"
+  }
+}

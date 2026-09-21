@@ -1,0 +1,360 @@
+{
+  "sinnoh": {
+    "image": "img/Sinnoh_upscaled.png",
+    "versions": [
+      "diamond",
+      "pearl",
+      "platinum"
+    ],
+    "points": {
+      "twinleaf town": [11.8056, 91.369],
+      "sandgem town": [18.5185, 87.2024],
+      "jubilife city": [16.6667, 77.0833],
+      "oreburgh city": [30.0926, 75.5952],
+      "floaroma town": [18.5185, 60.4167],
+      "eterna city": [32.4074, 46.4286],
+      "hearthome city": [49.3056, 69.0476],
+      "solaceon town": [59.0278, 62.5],
+      "veilstone city": [71.7593, 55.9524],
+      "pastoria city": [62.037, 85.4167],
+      "canalave city": [5.5556, 73.2143],
+      "celestic town": [48.1481, 45.8333],
+      "snowpoint city": [37.7315, 6.25],
+      "sunyshore city": [87.963, 76.7857],
+      "pokemon league": [86.5741, 50],
+      "lake verity": [7.8704, 86.9048],
+      "lake valor": [71.2963, 76.7857],
+      "lake acuity": [32.6389, 7.7381],
+      "great marsh": [62.037, 81.5476],
+      "valley windworks": [24.537, 62.5],
+      "eterna forest": [23.3796, 47.9167],
+      "old chateau": [23.3796, 47.9167],
+      "fuego ironworks": [18.75, 54.4643],
+      "iron island": [12.037, 41.6667],
+      "mt coronet": [39.3519, 45.8333],
+      "spear pillar": [39.3519, 38.0952],
+      "wayward cave": [31.4815, 54.7619],
+      "oreburgh mine": [31.0185, 79.1667],
+      "oreburgh gate": [24.537, 75],
+      "ravaged path": [18.5185, 68.4524],
+      "lost tower": [57.4074, 67.2619],
+      "solaceon ruins": [60.6481, 62.5],
+      "trophy garden": [47.6852, 77.9762],
+      "sendoff spring": [78.4722, 68.75],
+      "turnback cave": [80.0926, 66.0714],
+      "victory road": [86.5741, 54.1667],
+      "snowpoint temple": [37.7315, 3.5714],
+      "flower paradise": [93.0556, 3.5714],
+      "newmoon island": [15.2778, 12.5],
+      "hall of origin": [39.3519, 38.0952],
+      "distortion world": [39.3519, 38.0952],
+      "stark mountain": [76.8519, 8.3333],
+      "resort area": [83.3333, 37.5],
+      "acuity lakefront": [31.4815, 12.5],
+      "valor lakefront": [73.6111, 79.1667],
+      "route 201": [14.3519, 87.5],
+      "route 202": [18.5185, 83.3333],
+      "route 203": [23.1481, 75],
+      "route 204": [18.5185, 69.0476],
+      "route 205": [21.2963, 58.3333],
+      "route 206": [31.4815, 60.7143],
+      "route 207": [33.3333, 70.8333],
+      "route 208": [42.5926, 70.8333],
+      "route 209": [57.4074, 70.8333],
+      "route 210": [57.4074, 53.5714],
+      "route 211": [41.2037, 45.8333],
+      "route 212": [47.6852, 82.7381],
+      "route 213": [73.1481, 87.5],
+      "route 214": [73.6111, 66.6667],
+      "route 215": [63.4259, 54.1667],
+      "route 216": [34.7222, 29.1667],
+      "route 217": [31.4815, 19.6429],
+      "route 218": [10.1852, 75],
+      "route 219": [18.5185, 91.9643],
+      "route 220": [19.9074, 95.8333],
+      "route 221": [26.8519, 95.8333],
+      "route 222": [80.0926, 79.1667],
+      "route 223": [86.5741, 64.2857],
+      "route 224": [92.1296, 46.4286],
+      "route 225": [63.8889, 25.5952],
+      "route 226": [73.6111, 20.8333],
+      "route 227": [76.8519, 14.881],
+      "route 228": [80.0926, 26.1905],
+      "route 229": [81.4815, 33.3333],
+      "route 230": [73.6111, 33.3333]
+    },
+    "editorialPoints": {
+      "fight area": {
+        "coordinates": [65.2778, 33.3333],
+        "label": "Fight Area",
+        "enLabel": "Fight Area",
+        "versions": [
+          "diamond",
+          "pearl",
+          "platinum"
+        ],
+        "description": "Porto de entrada da Battle Zone; abriga a Battle Park em Diamond/Pearl e a Battle Frontier em Platinum.",
+        "enDescription": "Gateway to the Battle Zone; home to the Battle Park in Diamond/Pearl and the Battle Frontier in Platinum."
+      },
+      "survival area": {
+        "coordinates": [67.1296, 20.8333],
+        "label": "Survival Area",
+        "enLabel": "Survival Area",
+        "versions": [
+          "diamond",
+          "pearl",
+          "platinum"
+        ],
+        "description": "Área entre a Rota 225, a oeste, e a Rota 226, a leste.",
+        "enDescription": "Area between Route 225 to the west and Route 226 to the east."
+      },
+      "battle park": {
+        "coordinates": [65.2778, 25.5952],
+        "label": "Battle Park",
+        "enLabel": "Battle Park",
+        "versions": [
+          "diamond",
+          "pearl"
+        ],
+        "description": "Instalação de batalhas de Diamond e Pearl, acessada pela Fight Area.",
+        "enDescription": "Diamond and Pearl battle facility, accessed through the Fight Area."
+      },
+      "battle frontier": {
+        "coordinates": [65.2778, 25.5952],
+        "label": "Battle Frontier",
+        "enLabel": "Battle Frontier",
+        "versions": [
+          "platinum"
+        ],
+        "description": "Instalação de batalhas de Platinum, acessada pela Fight Area.",
+        "enDescription": "Platinum battle facility, accessed through the Fight Area."
+      },
+      "fullmoon island": {
+        "coordinates": [5.5556, 12.5],
+        "label": "Fullmoon Island",
+        "enLabel": "Fullmoon Island",
+        "versions": [
+          "diamond",
+          "pearl",
+          "platinum"
+        ],
+        "description": "Ilha do evento da Cresselia e da Lunar Wing, acessível após a Pokédex Nacional.",
+        "enDescription": "Cresselia and Lunar Wing event island, accessible after obtaining the National Pokédex."
+      }
+    },
+    "areaPoints": {
+      "route 204 north towards floaroma town": [18.5185, 66.0714],
+      "route 204 south towards jubilife city": [18.5185, 71.4286],
+      "route 205 east towards eterna city": [27.7778, 45.8333],
+      "route 205 south towards floaroma town": [21.2963, 60.119],
+      "route 210 south towards solaceon town": [57.4074, 58.3333],
+      "route 210 west towards celestic town": [53.2407, 45.8333],
+      "route 211 east towards celestic town": [44.4444, 45.8333],
+      "route 211 west towards eterna city": [37.5, 45.8333],
+      "route 212 east towards pastoria city": [53.7037, 87.5],
+      "route 212 north towards hearthome city": [47.6852, 79.1667],
+      "mt coronet 1f route 207": [37.963, 70.8333],
+      "mt coronet 1f route 211": [39.3519, 45.8333],
+      "mt coronet 1f route 216": [39.3519, 29.1667]
+    }
+  },
+  "johto": {
+    "image": "img/johto_HGSS_upscaled.png",
+    "versions": [
+      "heartgold",
+      "soulsilver"
+    ],
+    "points": {
+      "new bark town": [89.1566, 78.4722],
+      "cherrygrove city": [66.2651, 78.4722],
+      "violet city": [56.6265, 44.4444],
+      "azalea town": [45.1807, 92.3611],
+      "goldenrod city": [34.3373, 65.9722],
+      "ecruteak city": [44.5783, 31.25],
+      "olivine city": [15.0602, 39.5833],
+      "cianwood city": [7.2289, 71.5278],
+      "mahogany town": [68.0723, 30.5556],
+      "blackthorn city": [84.9398, 30.5556],
+      "lake of rage": [68.0723, 6.9444],
+      "national park": [34.3373, 44.4444],
+      "ilex forest": [34.3373, 92.3611],
+      "ruins of alph": [50.9036, 55.5556],
+      "sprout tower": [56.6265, 44.4444],
+      "bell tower": [44.5783, 31.25],
+      "burned tower": [44.5783, 31.25],
+      "slowpoke well": [47.5904, 92.3611],
+      "union cave": [56.6265, 92.3611],
+      "dark cave": [75.3012, 44.4444],
+      "mt mortar": [54.8193, 30.5556],
+      "ice path": [80.1205, 30.5556],
+      "dragons den": [84.9398, 23.6111],
+      "whirl islands": [13.253, 63.8889],
+      "route 29": [78.3133, 78.4722],
+      "route 30": [63.8554, 63.1944],
+      "route 31": [63.253, 44.4444],
+      "route 32": [56.6265, 70.1389],
+      "route 33": [50.6024, 92.3611],
+      "route 34": [34.3373, 80.5556],
+      "route 35": [34.3373, 56.25],
+      "route 36": [43.3735, 44.4444],
+      "route 37": [46.988, 38.8889],
+      "route 38": [30.7229, 30.5556],
+      "route 39": [14.4578, 34.7222],
+      "route 40": [13.253, 55.5556],
+      "route 41": [13.253, 75.6944],
+      "route 42": [59.6386, 30.5556],
+      "route 43": [68.0723, 20.1389],
+      "route 44": [74.6988, 30.5556],
+      "route 45": [84.9398, 59.7222],
+      "route 46": [79.5181, 68.75],
+      "tohjo falls": [98.7952, 78.4722],
+      "mt silver": [98.1928, 58.3333],
+      "team rocket hq": [68.0723, 30.5556]
+    },
+    "areaPoints": {
+      "dark cave blackthorn city": [79.5181, 44.4444],
+      "dark cave violet city": [72.2892, 44.4444]
+    },
+    "editorialPoints": {
+      "sinjoh ruins": {
+        "offMap": true,
+        "label": "Sinjoh Ruins",
+        "enLabel": "Sinjoh Ruins",
+        "versions": [
+          "heartgold",
+          "soulsilver"
+        ],
+        "description": "Fica fora do mapa de Johto. O evento de Arceus leva a este local a partir das Ruins of Alph; não há uma posição exata dentro desta imagem.",
+        "enDescription": "Located outside the Johto map. The Arceus event takes you here from the Ruins of Alph; it has no exact position within this image."
+      },
+      "safari zone": {
+        "offMap": true,
+        "label": "Safari Zone",
+        "enLabel": "Safari Zone",
+        "versions": [
+          "heartgold",
+          "soulsilver"
+        ],
+        "description": "A Safari Zone e seu portão ficam fora do recorte oeste desta imagem. O acesso parte de Cianwood City, passando por Cliff Edge Gate e pelas Rotas 47 e 48.",
+        "enDescription": "The Safari Zone and its gate are outside the western crop of this image. Travel from Cianwood City through Cliff Edge Gate and Routes 47 and 48."
+      },
+      "route 47": {
+        "offMap": true,
+        "label": "Rota 47",
+        "enLabel": "Route 47",
+        "versions": [
+          "heartgold",
+          "soulsilver"
+        ],
+        "description": "Esta rota fica a oeste de Cianwood City, fora do recorte desta imagem. O acesso é por Cliff Edge Gate; a rota também dá acesso a Cliff Cave e Embedded Tower.",
+        "enDescription": "This route is west of Cianwood City, outside this image's crop. Access is through Cliff Edge Gate; the route also leads to Cliff Cave and Embedded Tower."
+      },
+      "route 48": {
+        "offMap": true,
+        "label": "Rota 48",
+        "enLabel": "Route 48",
+        "versions": [
+          "heartgold",
+          "soulsilver"
+        ],
+        "description": "Esta rota liga a Rota 47 a Safari Zone Gate, fora do recorte oeste desta imagem.",
+        "enDescription": "This route connects Route 47 to Safari Zone Gate, outside the western crop of this image."
+      },
+      "embedded tower": {
+        "offMap": true,
+        "label": "Embedded Tower",
+        "enLabel": "Embedded Tower",
+        "versions": [
+          "heartgold",
+          "soulsilver"
+        ],
+        "description": "Fica na Rota 47, a oeste de Cianwood City, fora do recorte desta imagem. Os encontros continuam listados abaixo com suas condições.",
+        "enDescription": "Located on Route 47, west of Cianwood City, outside this image's crop. Encounters remain listed below with their conditions."
+      },
+      "pokeathlon dome": {
+        "coordinates": [34.3373, 44.4444],
+        "label": "Pokéathlon Dome",
+        "enLabel": "Pokéathlon Dome",
+        "versions": [
+          "heartgold",
+          "soulsilver"
+        ],
+        "description": "Instalação de competições acessada pela Rota 35, ao lado de National Park. Como o edifício não tem símbolo próprio nesta arte, o marcador indica a área de acesso de National Park.",
+        "enDescription": "A competition facility reached from Route 35, beside National Park. The building has no separate symbol in this artwork, so the marker shows the National Park access area."
+      },
+      "battle frontier": {
+        "coordinates": [8.4337, 38.5417],
+        "label": "Battle Frontier",
+        "enLabel": "Battle Frontier",
+        "versions": [
+          "heartgold",
+          "soulsilver"
+        ],
+        "description": "Instalação de batalhas a oeste de Olivine City, acessada pela Rota 40.",
+        "enDescription": "A battle facility west of Olivine City, reached from Route 40."
+      }
+    }
+  },
+  "kanto-hgss": {
+    "image": "img/kanto_HGSS_upscaled.png",
+    "versions": [
+      "heartgold",
+      "soulsilver"
+    ],
+    "points": {
+      "pallet town": [26, 70.1299],
+      "viridian city": [26, 54.5455],
+      "pewter city": [27, 35.0649],
+      "cerulean city": [66, 28.5714],
+      "vermilion city": [66, 59.7403],
+      "celadon city": [54, 44.1558],
+      "saffron city": [66, 44.1558],
+      "lavender town": [82, 44.1558],
+      "fuchsia city": [58, 75.3247],
+      "cinnabar island": [26, 85.7143],
+      "indigo plateau": [13.5, 27.9221],
+      "mt moon": [46, 28.5714],
+      "rock tunnel": [82, 28.5714],
+      "digletts cave": [
+        [26, 44.1558],
+        [70, 59.7403]
+      ],
+      "seafoam islands": [40, 85.7143],
+      "victory road": [13.5, 33.7662],
+      "power plant": [82, 35.0649],
+      "cerulean cave": [64, 28.5714],
+      "viridian forest": [26, 44.1558],
+      "route 1": [26, 62.987],
+      "route 2": [26, 46.7532],
+      "route 3": [35, 36.3636],
+      "route 4": [55.5, 28.5714],
+      "route 5": [66, 36.3636],
+      "route 6": [66, 53.2468],
+      "route 7": [60, 44.1558],
+      "route 8": [74.5, 44.1558],
+      "route 9": [75, 28.5714],
+      "route 10": [82, 38.961],
+      "route 11": [74.5, 59.7403],
+      "route 12": [82, 61.6883],
+      "route 13": [76, 75.3247],
+      "route 14": [70, 75.3247],
+      "route 15": [63, 75.3247],
+      "route 16": [44.5, 44.1558],
+      "route 17": [39, 64.2857],
+      "route 18": [49, 80.5195],
+      "route 19": [58, 82.4675],
+      "route 20": [49.5, 85.7143],
+      "route 21": [26, 77.9221],
+      "route 22": [20, 54.5455],
+      "route 24": [66, 20.1299],
+      "route 25": [72, 15.5844],
+      "route 26": [13.5, 64.2857],
+      "route 27": [7.5, 73.3766],
+      "route 28": [7.5, 54.5455]
+    },
+    "areaPoints": {
+      "route 2 north towards pewter city": [26, 40.2597],
+      "route 2 south towards viridian city": [26, 49.3506]
+    }
+  }
+}

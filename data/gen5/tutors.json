@@ -1,0 +1,816 @@
+{
+  "black-white": [
+    {
+      "category": "Tutores gratuitos",
+      "desc": "Golpes ensinados de graça, incluindo os Pledge no Pledge Grove e os prêmios do Pokémon World Tournament.",
+      "en": {
+        "category": "Free tutors",
+        "desc": "Moves taught for free, including the Pledge moves at the Pledge Grove and the Pokémon World Tournament rewards."
+      },
+      "tutors": [
+        {
+          "move": "relic-song",
+          "cost": "Grátis",
+          "location": "Café Sonata",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Café Sonata"
+          }
+        },
+        {
+          "move": "fire-pledge",
+          "cost": "Grátis",
+          "location": "Driftveil City",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "grass-pledge",
+          "cost": "Grátis",
+          "location": "Driftveil City",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "water-pledge",
+          "cost": "Grátis",
+          "location": "Driftveil City",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "secret-sword",
+          "cost": "Grátis",
+          "location": "Moor of Icirrus",
+          "type": "fighting",
+          "en": {
+            "cost": "Free",
+            "location": "Moor of Icirrus"
+          }
+        },
+        {
+          "move": "draco-meteor",
+          "cost": "Grátis",
+          "location": "Opelucid City",
+          "type": "dragon",
+          "en": {
+            "cost": "Free",
+            "location": "Opelucid City"
+          }
+        },
+        {
+          "move": "blast-burn",
+          "cost": "Grátis",
+          "location": "Rota 13",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Route 13"
+          }
+        },
+        {
+          "move": "frenzy-plant",
+          "cost": "Grátis",
+          "location": "Rota 13",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Route 13"
+          }
+        },
+        {
+          "move": "hydro-cannon",
+          "cost": "Grátis",
+          "location": "Rota 13",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Route 13"
+          }
+        }
+      ]
+    }
+  ],
+  "black-2-white-2": [
+    {
+      "category": "Tutores de fragmentos",
+      "desc": "Em Black 2/White 2, cada cidade tem um tutor com a sua cor de fragmento: Driftveil (vermelho), Lentimas (azul), Nacrene (verde) e Humilau (amarelo).",
+      "en": {
+        "category": "Shard tutors",
+        "desc": "In Black 2/White 2 each town has its own Shard color: Driftveil (red), Lentimas (blue), Nacrene (green) and Humilau (yellow)."
+      },
+      "tutors": [
+        {
+          "move": "bounce",
+          "cost": "4 Red Shards",
+          "location": "Driftveil City",
+          "type": "flying",
+          "en": {
+            "cost": "4 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "bug-bite",
+          "cost": "2 Red Shards",
+          "location": "Driftveil City",
+          "type": "bug",
+          "en": {
+            "cost": "2 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "covet",
+          "cost": "2 Red Shards",
+          "location": "Driftveil City",
+          "type": "normal",
+          "en": {
+            "cost": "2 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "drill-run",
+          "cost": "4 Red Shards",
+          "location": "Driftveil City",
+          "type": "ground",
+          "en": {
+            "cost": "4 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "dual-chop",
+          "cost": "6 Red Shards",
+          "location": "Driftveil City",
+          "type": "dragon",
+          "en": {
+            "cost": "6 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "fire-punch",
+          "cost": "10 Red Shards",
+          "location": "Driftveil City",
+          "type": "fire",
+          "en": {
+            "cost": "10 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "gunk-shot",
+          "cost": "8 Red Shards",
+          "location": "Driftveil City",
+          "type": "poison",
+          "en": {
+            "cost": "8 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "ice-punch",
+          "cost": "10 Red Shards",
+          "location": "Driftveil City",
+          "type": "ice",
+          "en": {
+            "cost": "10 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "iron-head",
+          "cost": "4 Red Shards",
+          "location": "Driftveil City",
+          "type": "steel",
+          "en": {
+            "cost": "4 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "low-kick",
+          "cost": "8 Red Shards",
+          "location": "Driftveil City",
+          "type": "fighting",
+          "en": {
+            "cost": "8 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "seed-bomb",
+          "cost": "6 Red Shards",
+          "location": "Driftveil City",
+          "type": "grass",
+          "en": {
+            "cost": "6 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "signal-beam",
+          "cost": "4 Red Shards",
+          "location": "Driftveil City",
+          "type": "bug",
+          "en": {
+            "cost": "4 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "super-fang",
+          "cost": "6 Red Shards",
+          "location": "Driftveil City",
+          "type": "normal",
+          "en": {
+            "cost": "6 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "thunder-punch",
+          "cost": "10 Red Shards",
+          "location": "Driftveil City",
+          "type": "electric",
+          "en": {
+            "cost": "10 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "uproar",
+          "cost": "6 Red Shards",
+          "location": "Driftveil City",
+          "type": "normal",
+          "en": {
+            "cost": "6 Red Shards",
+            "location": "Driftveil City"
+          }
+        },
+        {
+          "move": "bind",
+          "cost": "2 Yellow Shards",
+          "location": "Humilau City",
+          "type": "normal",
+          "en": {
+            "cost": "2 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "drain-punch",
+          "cost": "10 Yellow Shards",
+          "location": "Humilau City",
+          "type": "fighting",
+          "en": {
+            "cost": "10 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "giga-drain",
+          "cost": "10 Yellow Shards",
+          "location": "Humilau City",
+          "type": "grass",
+          "en": {
+            "cost": "10 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "heal-bell",
+          "cost": "4 Yellow Shards",
+          "location": "Humilau City",
+          "type": "normal",
+          "en": {
+            "cost": "4 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "heat-wave",
+          "cost": "10 Yellow Shards",
+          "location": "Humilau City",
+          "type": "fire",
+          "en": {
+            "cost": "10 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "knock-off",
+          "cost": "4 Yellow Shards",
+          "location": "Humilau City",
+          "type": "dark",
+          "en": {
+            "cost": "4 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "pain-split",
+          "cost": "10 Yellow Shards",
+          "location": "Humilau City",
+          "type": "normal",
+          "en": {
+            "cost": "10 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "role-play",
+          "cost": "8 Yellow Shards",
+          "location": "Humilau City",
+          "type": "psychic",
+          "en": {
+            "cost": "8 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "roost",
+          "cost": "6 Yellow Shards",
+          "location": "Humilau City",
+          "type": "flying",
+          "en": {
+            "cost": "6 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "sky-attack",
+          "cost": "8 Yellow Shards",
+          "location": "Humilau City",
+          "type": "flying",
+          "en": {
+            "cost": "8 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "snore",
+          "cost": "2 Yellow Shards",
+          "location": "Humilau City",
+          "type": "normal",
+          "en": {
+            "cost": "2 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "synthesis",
+          "cost": "6 Yellow Shards",
+          "location": "Humilau City",
+          "type": "grass",
+          "en": {
+            "cost": "6 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "tailwind",
+          "cost": "10 Yellow Shards",
+          "location": "Humilau City",
+          "type": "flying",
+          "en": {
+            "cost": "10 Yellow Shards",
+            "location": "Humilau City"
+          }
+        },
+        {
+          "move": "aqua-tail",
+          "cost": "8 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "water",
+          "en": {
+            "cost": "8 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "block",
+          "cost": "6 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "normal",
+          "en": {
+            "cost": "6 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "dark-pulse",
+          "cost": "10 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "dark",
+          "en": {
+            "cost": "10 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "dragon-pulse",
+          "cost": "10 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "dragon",
+          "en": {
+            "cost": "10 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "earth-power",
+          "cost": "8 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "ground",
+          "en": {
+            "cost": "8 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "electroweb",
+          "cost": "6 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "electric",
+          "en": {
+            "cost": "6 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "foul-play",
+          "cost": "8 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "dark",
+          "en": {
+            "cost": "8 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "gravity",
+          "cost": "10 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "psychic",
+          "en": {
+            "cost": "10 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "hyper-voice",
+          "cost": "6 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "normal",
+          "en": {
+            "cost": "6 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "icy-wind",
+          "cost": "6 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "ice",
+          "en": {
+            "cost": "6 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "iron-defense",
+          "cost": "2 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "steel",
+          "en": {
+            "cost": "2 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "iron-tail",
+          "cost": "6 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "steel",
+          "en": {
+            "cost": "6 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "last-resort",
+          "cost": "2 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "normal",
+          "en": {
+            "cost": "2 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "magic-coat",
+          "cost": "4 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "psychic",
+          "en": {
+            "cost": "4 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "magnet-rise",
+          "cost": "4 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "electric",
+          "en": {
+            "cost": "4 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "superpower",
+          "cost": "10 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "fighting",
+          "en": {
+            "cost": "10 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "zen-headbutt",
+          "cost": "8 Blue Shards",
+          "location": "Lentimas Town",
+          "type": "psychic",
+          "en": {
+            "cost": "8 Blue Shards",
+            "location": "Lentimas Town"
+          }
+        },
+        {
+          "move": "after-you",
+          "cost": "8 Green Shards",
+          "location": "Nacrene City",
+          "type": "normal",
+          "en": {
+            "cost": "8 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "endeavor",
+          "cost": "12 Green Shards",
+          "location": "Nacrene City",
+          "type": "normal",
+          "en": {
+            "cost": "12 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "gastro-acid",
+          "cost": "6 Green Shards",
+          "location": "Nacrene City",
+          "type": "poison",
+          "en": {
+            "cost": "6 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "helping-hand",
+          "cost": "8 Green Shards",
+          "location": "Nacrene City",
+          "type": "normal",
+          "en": {
+            "cost": "8 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "magic-room",
+          "cost": "8 Green Shards",
+          "location": "Nacrene City",
+          "type": "psychic",
+          "en": {
+            "cost": "8 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "outrage",
+          "cost": "10 Green Shards",
+          "location": "Nacrene City",
+          "type": "dragon",
+          "en": {
+            "cost": "10 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "recycle",
+          "cost": "10 Green Shards",
+          "location": "Nacrene City",
+          "type": "normal",
+          "en": {
+            "cost": "10 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "skill-swap",
+          "cost": "12 Green Shards",
+          "location": "Nacrene City",
+          "type": "psychic",
+          "en": {
+            "cost": "12 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "sleep-talk",
+          "cost": "12 Green Shards",
+          "location": "Nacrene City",
+          "type": "normal",
+          "en": {
+            "cost": "12 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "snatch",
+          "cost": "12 Green Shards",
+          "location": "Nacrene City",
+          "type": "dark",
+          "en": {
+            "cost": "12 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "spite",
+          "cost": "8 Green Shards",
+          "location": "Nacrene City",
+          "type": "ghost",
+          "en": {
+            "cost": "8 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "stealth-rock",
+          "cost": "10 Green Shards",
+          "location": "Nacrene City",
+          "type": "rock",
+          "en": {
+            "cost": "10 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "trick",
+          "cost": "10 Green Shards",
+          "location": "Nacrene City",
+          "type": "psychic",
+          "en": {
+            "cost": "10 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "wonder-room",
+          "cost": "8 Green Shards",
+          "location": "Nacrene City",
+          "type": "psychic",
+          "en": {
+            "cost": "8 Green Shards",
+            "location": "Nacrene City"
+          }
+        },
+        {
+          "move": "worry-seed",
+          "cost": "6 Green Shards",
+          "location": "Nacrene City",
+          "type": "grass",
+          "en": {
+            "cost": "6 Green Shards",
+            "location": "Nacrene City"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Tutores gratuitos",
+      "desc": "Golpes ensinados de graça, incluindo os Pledge no Pledge Grove e os prêmios do Pokémon World Tournament.",
+      "en": {
+        "category": "Free tutors",
+        "desc": "Moves taught for free, including the Pledge moves at the Pledge Grove and the Pokémon World Tournament rewards."
+      },
+      "tutors": [
+        {
+          "move": "relic-song",
+          "cost": "Grátis",
+          "location": "Café Sonata",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Café Sonata"
+          }
+        },
+        {
+          "move": "draco-meteor",
+          "cost": "Grátis",
+          "location": "Opelucid City",
+          "type": "dragon",
+          "en": {
+            "cost": "Free",
+            "location": "Opelucid City"
+          }
+        },
+        {
+          "move": "secret-sword",
+          "cost": "Grátis",
+          "location": "Pledge Grove",
+          "type": "fighting",
+          "en": {
+            "cost": "Free",
+            "location": "Pledge Grove"
+          }
+        },
+        {
+          "move": "blast-burn",
+          "cost": "Grátis",
+          "location": "Pokémon World Tournament",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Pokémon World Tournament"
+          }
+        },
+        {
+          "move": "fire-pledge",
+          "cost": "Grátis",
+          "location": "Pokémon World Tournament",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Pokémon World Tournament"
+          }
+        },
+        {
+          "move": "frenzy-plant",
+          "cost": "Grátis",
+          "location": "Pokémon World Tournament",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Pokémon World Tournament"
+          }
+        },
+        {
+          "move": "grass-pledge",
+          "cost": "Grátis",
+          "location": "Pokémon World Tournament",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Pokémon World Tournament"
+          }
+        },
+        {
+          "move": "hydro-cannon",
+          "cost": "Grátis",
+          "location": "Pokémon World Tournament",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Pokémon World Tournament"
+          }
+        },
+        {
+          "move": "water-pledge",
+          "cost": "Grátis",
+          "location": "Pokémon World Tournament",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Pokémon World Tournament"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,737 @@
+{
+ "schemaVersion": 1,
+ "region": "alola",
+ "islands": {
+  "melemele": {
+   "label": "Melemele",
+   "image": "img/alola/melemele.png"
+  },
+  "akala": {
+   "label": "Akala",
+   "image": "img/alola/akala.png"
+  },
+  "ulaula": {
+   "label": "Ula'ula",
+   "image": "img/alola/ulaula.png"
+  },
+  "poni": {
+   "label": "Poni",
+   "image": "img/alola/poni.png"
+  },
+  "outros": {
+   "label": "Outros locais",
+   "enLabel": "Other places",
+   "image": null
+  }
+ },
+ "points": {
+  "aetherhouse": {
+   "island": "ulaula",
+   "xy": [
+    16.49,
+    71.1
+   ],
+   "name": "Aether House"
+  },
+  "akalaoutskirts": {
+   "island": "akala",
+   "xy": [
+    41.9,
+    88.36
+   ],
+   "name": "Akala Outskirts"
+  },
+  "altarofthemoone": {
+   "island": "poni",
+   "xy": [
+    62.08,
+    42.66
+   ],
+   "name": "Altar of the Moone"
+  },
+  "altarofthesunne": {
+   "island": "poni",
+   "xy": [
+    62.08,
+    42.66
+   ],
+   "name": "Altar of the Sunne"
+  },
+  "ancientponipath": {
+   "island": "poni",
+   "xy": [
+    55.81,
+    70.04
+   ],
+   "name": "Ancient Poni Path"
+  },
+  "battleroyaldome": {
+   "island": "akala",
+   "xy": [
+    64.37,
+    42.33
+   ],
+   "name": "Battle Royal Dome"
+  },
+  "battletree": {
+   "island": "poni",
+   "xy": [
+    54.43,
+    9.13
+   ],
+   "name": "Battle Tree"
+  },
+  "berryfields": {
+   "island": "melemele",
+   "xy": [
+    15.57,
+    27.8
+   ],
+   "name": "Berry Fields"
+  },
+  "bigwavebeach": {
+   "island": "melemele",
+   "xy": [
+    6.15,
+    37.97
+   ],
+   "name": "Big Wave Beach"
+  },
+  "blushmountain": {
+   "island": "ulaula",
+   "xy": [
+    73.27,
+    54.9
+   ],
+   "name": "Blush Mountain"
+  },
+  "brooklethill": {
+   "island": "akala",
+   "xy": [
+    30.12,
+    40.79
+   ],
+   "name": "Brooklet Hill"
+  },
+  "diglettstunnel": {
+   "island": "akala",
+   "xy": [
+    35.02,
+    57.54
+   ],
+   "name": "Diglett's Tunnel"
+  },
+  "dividingpeaktunnel": {
+   "island": "akala",
+   "xy": [
+    66.21,
+    5.24
+   ],
+   "name": "Dividing Peak Tunnel"
+  },
+  "exeggutorisland": {
+   "island": "poni",
+   "xy": [
+    12.23,
+    72.42
+   ],
+   "name": "Exeggutor Island"
+  },
+  "hainadesert": {
+   "island": "ulaula",
+   "xy": [
+    55.59,
+    58.97
+   ],
+   "name": "Haina Desert"
+  },
+  "hanobeach": {
+   "island": "akala",
+   "xy": [
+    75.08,
+    73.66
+   ],
+   "name": "Hano Beach"
+  },
+  "hanograndresort": {
+   "island": "akala",
+   "xy": [
+    64.68,
+    68.93
+   ],
+   "name": "Hano Grand Resort"
+  },
+  "hauolicemetery": {
+   "island": "melemele",
+   "xy": [
+    22.54,
+    37.63
+   ],
+   "name": "Hau'oli Cemetery"
+  },
+  "hauolicity": {
+   "island": "melemele",
+   "xy": [
+    22.27,
+    61.53
+   ],
+   "name": "Hau'oli City"
+  },
+  "heaheabeach": {
+   "island": "akala",
+   "xy": [
+    27.52,
+    70.46
+   ],
+   "name": "Heahea Beach"
+  },
+  "heaheacity": {
+   "island": "akala",
+   "xy": [
+    33.18,
+    67.26
+   ],
+   "name": "Heahea City"
+  },
+  "hokulaniobservatory": {
+   "island": "ulaula",
+   "xy": [
+    40.82,
+    24.13
+   ],
+   "name": "Hokulani Observatory"
+  },
+  "ikitown": {
+   "island": "melemele",
+   "xy": [
+    38.39,
+    36.27
+   ],
+   "name": "Iki Town"
+  },
+  "kalaebay": {
+   "island": "melemele",
+   "xy": [
+    56.83,
+    30.0
+   ],
+   "name": "Kala'e Bay"
+  },
+  "kantoniangym": {
+   "island": "ulaula",
+   "xy": [
+    54.52,
+    31.35
+   ],
+   "name": "Kantonian Gym"
+  },
+  "konikonicity": {
+   "island": "akala",
+   "xy": [
+    15.14,
+    85.29
+   ],
+   "name": "Konikoni City"
+  },
+  "lakeofthemoone": {
+   "island": "ulaula",
+   "xy": [
+    25.0,
+    42.07
+   ],
+   "name": "Lake of the Moone"
+  },
+  "lakeofthesunne": {
+   "island": "ulaula",
+   "xy": [
+    25.0,
+    42.07
+   ],
+   "name": "Lake of the Sunne"
+  },
+  "lushjungle": {
+   "island": "akala",
+   "xy": [
+    50.15,
+    24.81
+   ],
+   "name": "Lush Jungle"
+  },
+  "mahalotrail": {
+   "island": "melemele",
+   "xy": [
+    38.93,
+    20.17
+   ],
+   "name": "Mahalo Trail"
+  },
+  "maliecity": {
+   "island": "ulaula",
+   "xy": [
+    58.24,
+    37.65
+   ],
+   "name": "Malie City"
+  },
+  "maliegarden": {
+   "island": "ulaula",
+   "xy": [
+    66.09,
+    33.33
+   ],
+   "name": "Malie Garden"
+  },
+  "melemelemeadow": {
+   "island": "melemele",
+   "xy": [
+    39.62,
+    10.51
+   ],
+   "name": "Melemele Meadow"
+  },
+  "melemelesea": {
+   "island": "melemele",
+   "xy": [
+    75.14,
+    85.08
+   ],
+   "name": "Melemele Sea"
+  },
+  "memorialhill": {
+   "island": "akala",
+   "xy": [
+    41.74,
+    82.86
+   ],
+   "name": "Memorial Hill"
+  },
+  "mounthokulani": {
+   "island": "ulaula",
+   "xy": [
+    42.42,
+    34.15
+   ],
+   "name": "Mount Hokulani"
+  },
+  "mountlanakila": {
+   "island": "ulaula",
+   "xy": [
+    37.9,
+    61.77
+   ],
+   "name": "Mount Lanakila"
+  },
+  "paniolaranch": {
+   "island": "akala",
+   "xy": [
+    46.94,
+    42.58
+   ],
+   "name": "Paniola Ranch"
+  },
+  "paniolatown": {
+   "island": "akala",
+   "xy": [
+    42.97,
+    48.59
+   ],
+   "name": "Paniola Town"
+  },
+  "pikachuvalley": {
+   "island": "akala",
+   "xy": [
+    42.2,
+    54.6
+   ],
+   "name": "Pikachu Valley"
+  },
+  "plainsgrotto": {
+   "island": "poni",
+   "xy": [
+    89.6,
+    55.36
+   ],
+   "name": "Plains Grotto"
+  },
+  "pokemonleague": {
+   "island": "ulaula",
+   "xy": [
+    37.77,
+    53.26
+   ],
+   "name": "Pokémon League"
+  },
+  "ponibeach": {
+   "island": "poni",
+   "xy": [
+    33.64,
+    59.13
+   ],
+   "name": "Poni Beach"
+  },
+  "ponibreakercoast": {
+   "island": "poni",
+   "xy": [
+    74.31,
+    78.97
+   ],
+   "name": "Poni Breaker Coast"
+  },
+  "ponicoast": {
+   "island": "poni",
+   "xy": [
+    90.37,
+    42.86
+   ],
+   "name": "Poni Coast"
+  },
+  "ponigauntlet": {
+   "island": "poni",
+   "xy": [
+    77.22,
+    21.03
+   ],
+   "name": "Poni Gauntlet"
+  },
+  "ponigrove": {
+   "island": "poni",
+   "xy": [
+    69.11,
+    65.48
+   ],
+   "name": "Poni Grove"
+  },
+  "ponimeadow": {
+   "island": "poni",
+   "xy": [
+    73.39,
+    42.46
+   ],
+   "name": "Poni Meadow"
+  },
+  "poniplains": {
+   "island": "poni",
+   "xy": [
+    84.71,
+    60.71
+   ],
+   "name": "Poni Plains"
+  },
+  "poniwilds": {
+   "island": "poni",
+   "xy": [
+    41.59,
+    56.55
+   ],
+   "name": "Poni Wilds"
+  },
+  "potown": {
+   "island": "ulaula",
+   "xy": [
+    18.62,
+    12.94
+   ],
+   "name": "Po Town"
+  },
+  "resolutioncave": {
+   "island": "poni",
+   "xy": [
+    72.94,
+    38.89
+   ],
+   "name": "Resolution Cave"
+  },
+  "route1": {
+   "island": "melemele",
+   "xy": [
+    55.33,
+    48.64
+   ],
+   "name": "Route 1"
+  },
+  "route10": {
+   "island": "ulaula",
+   "xy": [
+    50.27,
+    22.84
+   ],
+   "name": "Route 10"
+  },
+  "route11": {
+   "island": "ulaula",
+   "xy": [
+    63.43,
+    45.22
+   ],
+   "name": "Route 11"
+  },
+  "route12": {
+   "island": "ulaula",
+   "xy": [
+    83.11,
+    64.45
+   ],
+   "name": "Route 12"
+  },
+  "route13": {
+   "island": "ulaula",
+   "xy": [
+    54.92,
+    77.97
+   ],
+   "name": "Route 13"
+  },
+  "route14": {
+   "island": "ulaula",
+   "xy": [
+    36.57,
+    89.51
+   ],
+   "name": "Route 14"
+  },
+  "route15": {
+   "island": "ulaula",
+   "xy": [
+    21.81,
+    74.01
+   ],
+   "name": "Route 15"
+  },
+  "route16": {
+   "island": "ulaula",
+   "xy": [
+    16.36,
+    54.08
+   ],
+   "name": "Route 16"
+  },
+  "route17": {
+   "island": "ulaula",
+   "xy": [
+    28.19,
+    26.92
+   ],
+   "name": "Route 17"
+  },
+  "route2": {
+   "island": "melemele",
+   "xy": [
+    12.98,
+    35.42
+   ],
+   "name": "Route 2"
+  },
+  "route3": {
+   "island": "melemele",
+   "xy": [
+    30.87,
+    16.44
+   ],
+   "name": "Route 3"
+  },
+  "route4": {
+   "island": "akala",
+   "xy": [
+    39.45,
+    60.74
+   ],
+   "name": "Route 4"
+  },
+  "route5": {
+   "island": "akala",
+   "xy": [
+    48.78,
+    34.14
+   ],
+   "name": "Route 5"
+  },
+  "route6": {
+   "island": "akala",
+   "xy": [
+    51.68,
+    56.78
+   ],
+   "name": "Route 6"
+  },
+  "route7": {
+   "island": "akala",
+   "xy": [
+    77.52,
+    38.87
+   ],
+   "name": "Route 7"
+  },
+  "route8": {
+   "island": "akala",
+   "xy": [
+    50.0,
+    7.42
+   ],
+   "name": "Route 8"
+  },
+  "route9": {
+   "island": "akala",
+   "xy": [
+    17.28,
+    73.79
+   ],
+   "name": "Route 9"
+  },
+  "royalavenue": {
+   "island": "akala",
+   "xy": [
+    64.37,
+    52.17
+   ],
+   "name": "Royal Avenue"
+  },
+  "ruinsofabundance": {
+   "island": "ulaula",
+   "xy": [
+    56.65,
+    50.93
+   ],
+   "name": "Ruins of Abundance"
+  },
+  "ruinsofconflict": {
+   "island": "melemele",
+   "xy": [
+    39.48,
+    5.42
+   ],
+   "name": "Ruins of Conflict"
+  },
+  "ruinsofhope": {
+   "island": "poni",
+   "xy": [
+    81.8,
+    77.38
+   ],
+   "name": "Ruins of Hope"
+  },
+  "ruinsoflife": {
+   "island": "akala",
+   "xy": [
+    33.03,
+    93.22
+   ],
+   "name": "Ruins of Life"
+  },
+  "sandycave": {
+   "island": "melemele",
+   "xy": [
+    6.69,
+    34.41
+   ],
+   "name": "Sandy Cave"
+  },
+  "seafolkvillage": {
+   "island": "poni",
+   "xy": [
+    38.53,
+    82.74
+   ],
+   "name": "Seafolk Village"
+  },
+  "seawardcave": {
+   "island": "melemele",
+   "xy": [
+    45.08,
+    16.78
+   ],
+   "name": "Seaward Cave"
+  },
+  "shadyhouse": {
+   "island": "ulaula",
+   "xy": [
+    13.7,
+    8.51
+   ],
+   "name": "Shady House"
+  },
+  "tapuvillage": {
+   "island": "ulaula",
+   "xy": [
+    33.38,
+    78.67
+   ],
+   "name": "Tapu Village"
+  },
+  "tencarathill": {
+   "island": "melemele",
+   "xy": [
+    59.97,
+    77.29
+   ],
+   "name": "Ten Carat Hill"
+  },
+  "thriftymegamartabandonedsite": {
+   "island": "ulaula",
+   "xy": [
+    43.22,
+    86.95
+   ],
+   "name": "Thrifty Megamart Abandoned Site"
+  },
+  "trainersschool": {
+   "island": "melemele",
+   "xy": [
+    42.49,
+    59.66
+   ],
+   "name": "Trainers' School"
+  },
+  "ulaulabeach": {
+   "island": "ulaula",
+   "xy": [
+    86.7,
+    72.49
+   ],
+   "name": "Ula'ula Beach"
+  },
+  "ulaulameadow": {
+   "island": "ulaula",
+   "xy": [
+    13.16,
+    45.22
+   ],
+   "name": "Ula'ula Meadow"
+  },
+  "vastponicanyon": {
+   "island": "poni",
+   "xy": [
+    55.2,
+    39.48
+   ],
+   "name": "Vast Poni Canyon"
+  },
+  "verdantcavern": {
+   "island": "melemele",
+   "xy": [
+    20.36,
+    20.0
+   ],
+   "name": "Verdant Cavern"
+  },
+  "welavolcanopark": {
+   "island": "akala",
+   "xy": [
+    64.53,
+    23.66
+   ],
+   "name": "Wela Volcano Park"
+  }
+ },
+ "offMap": {
+  "aetherparadise": "Aether Paradise",
+  "pokepelagoisleabeens": "Poké Pelago (Isle Abeens)",
+  "ultraspace": "Ultra Space",
+  "ultraspacewilds": "Ultra Space Wilds",
+  "newmauville": "New Mauville",
+  "teamrocketscastle": "Team Rocket's Castle",
+  "ultramegalopolis": "Ultra Megalopolis"
+ },
+ "aliases": {
+  "trainersschoolalola": "trainersschool"
+ }
+}

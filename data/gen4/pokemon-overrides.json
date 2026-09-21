@@ -1,0 +1,104 @@
+{
+  "corrections": [
+    {
+      "pokemonId": 151,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza em nenhum dos cinco jogos. Só entra por evento de distribuição ou vindo da Geração 3 pelo Pal Park.",
+          "en": "Does not appear in the wild in any of the five games. It only arrives through a distribution event or from Generation 3 by way of Pal Park."
+        }
+      }
+    },
+    {
+      "pokemonId": 251,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Só por evento de distribuição. Em HeartGold e SoulSilver, o Celebi do evento abre a cena da Ilex Forest com o Giovanni.",
+          "en": "Distribution event only. In HeartGold and SoulSilver, the event Celebi unlocks the Ilex Forest scene with Giovanni."
+        }
+      }
+    },
+    {
+      "pokemonId": 360,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: nasce de um ovo de Wobbuffet segurando a Lax Incense na Day Care. Sem o item, o ovo vira outro Wobbuffet.",
+          "en": "Does not appear in the wild: it hatches from a Wobbuffet egg produced while a parent holds the Lax Incense at the Day Care. Without the item, the egg is another Wobbuffet."
+        }
+      }
+    },
+    {
+      "pokemonId": 377,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Só por transferência da Geração 3: não há Regi para capturar em Sinnoh nem em Johto.",
+          "en": "Transfer from Generation 3 only: there is no Regi to catch in Sinnoh or Johto."
+        }
+      }
+    },
+    {
+      "pokemonId": 378,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Só por transferência da Geração 3: não há Regi para capturar em Sinnoh nem em Johto.",
+          "en": "Transfer from Generation 3 only: there is no Regi to catch in Sinnoh or Johto."
+        }
+      }
+    },
+    {
+      "pokemonId": 379,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Só por transferência da Geração 3: não há Regi para capturar em Sinnoh nem em Johto.",
+          "en": "Transfer from Generation 3 only: there is no Regi to catch in Sinnoh or Johto."
+        }
+      }
+    },
+    {
+      "pokemonId": 385,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Só por evento de distribuição, ou vindo da Geração 3 pelo Pal Park.",
+          "en": "Distribution event only, or from Generation 3 by way of Pal Park."
+        }
+      }
+    },
+    {
+      "pokemonId": 386,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Só por evento de distribuição, ou vindo da Geração 3 pelo Pal Park.",
+          "en": "Distribution event only, or from Generation 3 by way of Pal Park."
+        }
+      }
+    },
+    {
+      "pokemonId": 487,
+      "fonte": "Bulbapedia — Giratina (Pokémon) e List of in-game event Pokémon in Pokémon Diamond and Pearl",
+      "motivo": "A PokéAPI não traz o encontro de Giratina em Diamond e Pearl, e a ficha ficava dizendo que ele não existe nesses jogos. Ele está na última sala da Turnback Cave, no nível 70, depois da Pokédex Nacional — em Platinum o encontro é outro (Distortion World, nível 47), e esse a PokéAPI tem.",
+      "changes": {
+        "locais": {
+          "diamond": {
+            "turnback cave after pillar 3": {
+              "static": { "min": 70, "max": 70, "chance": 100 }
+            }
+          },
+          "pearl": {
+            "turnback cave after pillar 3": {
+              "static": { "min": 70, "max": 70, "chance": 100 }
+            }
+          }
+        }
+      }
+    },
+    {
+      "pokemonId": 489,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não se captura e não evolui: nasce de um ovo do Manaphy (ou de outro Phione) cruzado com Ditto. E Phione nunca gera Manaphy.",
+          "en": "Cannot be caught and does not evolve: it hatches from an egg produced by Manaphy (or another Phione) bred with Ditto. And Phione never produces Manaphy."
+        }
+      }
+    }
+  ]
+}

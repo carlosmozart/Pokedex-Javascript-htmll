@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "status": "verified",
+    "description": "Itens de evolução usados na Gen 7, com locais em Sun/Moon e Ultra Sun/Ultra Moon.",
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Category:Evolution_items",
+    "verified": "2026-09-21"
+  },
+  "dawn-stone": {
+    "sun-moon": "Hau'oli City; Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)",
+    "ultra-sun-ultra-moon": "Royal Avenue; Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)"
+  },
+  "deep-sea-scale": {
+    "sun-moon": "Battle Tree (32 BP); Held by Chinchou, Relicanth",
+    "ultra-sun-ultra-moon": "Konikoni City; Battle Tree (32 BP); Held by Chinchou, Lanturn, Gorebyss, Relicanth, and Basculin (Blue-Striped) (5% chance each) (Ultra Moon)"
+  },
+  "deep-sea-tooth": {
+    "sun-moon": "Battle Tree (32 BP); Sharpedo",
+    "ultra-sun-ultra-moon": "Konikoni City; Battle Tree (32 BP); Held by Carvanha, Sharpedo, Huntail, and Basculin (Red-Striped) (5% chance each) (Ultra Sun)"
+  },
+  "dragon-scale": {
+    "sun-moon": "Battle Tree (32 BP); Held by Dratini, Dragonair and Dragonite (5% chance each)",
+    "ultra-sun-ultra-moon": "Kantonian Gym; Battle Tree (32 BP); Held by Dratini, Dragonair and Dragonite (5% chance each)"
+  },
+  "dubious-disc": {
+    "sun-moon": "Aether Paradise; Battle Tree (32 BP)",
+    "ultra-sun-ultra-moon": "Aether Paradise; Battle Tree (32 BP)"
+  },
+  "dusk-stone": {
+    "sun-moon": "Malie City (Moon), Poni Wilds; Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)",
+    "ultra-sun-ultra-moon": "Malie City (Ultra Moon), Poni Wilds; Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)"
+  },
+  "electirizer": {
+    "sun-moon": "Seafolk Village; Battle Tree (32 BP); Held by Elekid and Electabuzz (5% chance each)",
+    "ultra-sun-ultra-moon": "Seafolk Village; Battle Tree (32 BP); Held by Elekid and Electabuzz (5% chance each)"
+  },
+  "fire-stone": {
+    "sun-moon": "Diglett's Tunnel; Konikoni City, Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)",
+    "ultra-sun-ultra-moon": "Paniola Ranch, Diglett's Tunnel; Konikoni City, Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)"
+  },
+  "ice-stone": {
+    "sun-moon": "Po Town; Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)",
+    "ultra-sun-ultra-moon": "Po Town; Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)"
+  },
+  "kings-rock": {
+    "sun-moon": "Route 1 (Trainers' School); Battle Tree (32 BP); Held by Poliwhirl, Poliwrath, Politoed, Slowbro, Hariyama",
+    "ultra-sun-ultra-moon": "Route 1 (Trainers' School); Battle Tree (32 BP); Fishing at Ula'ula Island (Malie Garden, Route 13, Route 14, Route 15); Held by Poliwhirl, Poliwrath, Politoed, Slowbro, Hariyama, and Hawlucha (5% chance each)"
+  },
+  "leaf-stone": {
+    "sun-moon": "Konikoni City, Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)",
+    "ultra-sun-ultra-moon": "Konikoni City, Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)"
+  },
+  "magmarizer": {
+    "sun-moon": "Seafolk Village; Battle Tree (32 BP); Held by Magby and Magmar (5% chance each)",
+    "ultra-sun-ultra-moon": "Seafolk Village; Battle Tree (32 BP); Held by Magby and Magmar (5% chance each)"
+  },
+  "metal-coat": {
+    "sun-moon": "Held by Magnemite, Skarmory, and Beldum (5% chance each)",
+    "ultra-sun-ultra-moon": "Poni Gauntlet; Held by Magnemite, Skarmory, and Beldum (5% chance each)"
+  },
+  "moon-stone": {
+    "sun-moon": "Route 13, Haina Desert (Moon); Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting); Pickup (Lv. 11-100); Held by Cleffa, Clefairy, and Jigglypuff (5% chance each)",
+    "ultra-sun-ultra-moon": "Route 13, Haina Desert (Ultra Moon); Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting); Pickup (Lv. 11-100); Held by Cleffa, Clefairy, and Jigglypuff (5% chance each)"
+  },
+  "oval-stone": {
+    "sun-moon": "Paniola Ranch; Held by Happiny (50% chance)",
+    "ultra-sun-ultra-moon": "Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting); Ambush encounters (Chansey in Poni Plains); Held by Happiny (50% chance)"
+  },
+  "protector": {
+    "sun-moon": "Paniola Town; Battle Tree (32 BP)",
+    "ultra-sun-ultra-moon": "Paniola Town; Battle Tree (32 BP)"
+  },
+  "razor-claw": {
+    "sun-moon": "Held by Jangmo-o, Hakamo-o (5% chance each), and Kommo-o (50% chance)",
+    "ultra-sun-ultra-moon": "Tapu Village; Held by Jangmo-o, Hakamo-o (5% chance each), and Kommo-o (50% chance)"
+  },
+  "razor-fang": {
+    "sun-moon": "Held by Bruxish (5% chance)",
+    "ultra-sun-ultra-moon": "Held by Bruxish (5% chance)"
+  },
+  "reaper-cloth": {
+    "sun-moon": "Malie City; Battle Tree (32 BP)",
+    "ultra-sun-ultra-moon": "Malie City; Battle Tree (32 BP)"
+  },
+  "sachet": {
+    "sun-moon": "Konikoni City; Battle Tree (32 BP)",
+    "ultra-sun-ultra-moon": "Konikoni City; Battle Tree (32 BP)"
+  },
+  "shiny-stone": {
+    "sun-moon": "Malie City (Sun), Ancient Poni Path; Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)",
+    "ultra-sun-ultra-moon": "Malie City (Ultra Sun), Ancient Poni Path; Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)"
+  },
+  "sun-stone": {
+    "sun-moon": "Blush Mountain, Haina Desert (Sun); Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting); Pickup (Lv. 11-100)",
+    "ultra-sun-ultra-moon": "Blush Mountain, Haina Desert (Ultra Sun); Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting); Pickup (Lv. 11-100)"
+  },
+  "thunder-stone": {
+    "sun-moon": "Route 8; Konikoni City, Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)",
+    "ultra-sun-ultra-moon": "Route 9, Paniola Ranch, Ultra Plant (×6); Konikoni City, Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)"
+  },
+  "up-grade": {
+    "sun-moon": "Aether House; Battle Tree (32 BP)",
+    "ultra-sun-ultra-moon": "Aether House; Battle Tree (32 BP)"
+  },
+  "water-stone": {
+    "sun-moon": "Route 8; Konikoni City, Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)",
+    "ultra-sun-ultra-moon": "Route 8, Paniola Ranch; Konikoni City, Poké Pelago (Isle Aphun - Brilliant-Stone Hunting, Interesting-Item Hunting)"
+  },
+  "whipped-dream": {
+    "sun-moon": "Konikoni City; Battle Tree (32 BP)",
+    "ultra-sun-ultra-moon": "Konikoni City; Battle Tree (32 BP)"
+  }
+}

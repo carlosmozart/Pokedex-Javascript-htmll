@@ -1,0 +1,1078 @@
+{
+  "heartgold-soulsilver": [
+    {
+      "category": "Tutores de BP (Battle Frontier)",
+      "desc": "Nas barracas do Battle Frontier, em Sinnoh e em Johto, os golpes saem por Battle Points.",
+      "en": {
+        "category": "BP tutors (Battle Frontier)",
+        "desc": "At the Battle Frontier stalls in Sinnoh and Johto, these moves are taught for Battle Points."
+      },
+      "tutors": [
+        {
+          "move": "air-cutter",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "flying",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "ancient-power",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "rock",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "aqua-tail",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "water",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "block",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "normal",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "bounce",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "flying",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "bug-bite",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "bug",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "dive",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "water",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "earth-power",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "ground",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "endeavor",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "normal",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "fire-punch",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "fire",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "fury-cutter",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "bug",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "gastro-acid",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "poison",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "gravity",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "psychic",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "gunk-shot",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "poison",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "heal-bell",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "normal",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "heat-wave",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "fire",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "helping-hand",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "normal",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "ice-punch",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "ice",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "icy-wind",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "ice",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "iron-defense",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "steel",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "iron-head",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "steel",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "knock-off",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "dark",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "last-resort",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "normal",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "low-kick",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "fighting",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "magic-coat",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "psychic",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "magnet-rise",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "electric",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "mud-slap",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "ground",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "ominous-wind",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "ghost",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "outrage",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "dragon",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "pain-split",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "normal",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "role-play",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "psychic",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "rollout",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "rock",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "seed-bomb",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "grass",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "signal-beam",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "bug",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "sky-attack",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "flying",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "snore",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "normal",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "spite",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "ghost",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "string-shot",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "bug",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "sucker-punch",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "dark",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "super-fang",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "normal",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "superpower",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "fighting",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "swift",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "normal",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "synthesis",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "grass",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "tailwind",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "flying",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "thunder-punch",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "electric",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "trick",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "psychic",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "twister",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "dragon",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "uproar",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "normal",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "vacuum-wave",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "fighting",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "worry-seed",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "grass",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        },
+        {
+          "move": "zen-headbutt",
+          "cost": "BP",
+          "location": "Frontier Access",
+          "type": "psychic",
+          "en": {
+            "cost": "BP",
+            "location": "Frontier Access"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Tutores gratuitos",
+      "desc": "Personagens espalhados por Sinnoh e Johto que ensinam um golpe sem cobrar nada.",
+      "en": {
+        "category": "Free tutors",
+        "desc": "Characters around Sinnoh and Johto who teach a move at no cost."
+      },
+      "tutors": [
+        {
+          "move": "blast-burn",
+          "cost": "Grátis",
+          "location": "Blackthorn City",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Blackthorn City"
+          }
+        },
+        {
+          "move": "draco-meteor",
+          "cost": "Grátis",
+          "location": "Blackthorn City",
+          "type": "dragon",
+          "en": {
+            "cost": "Free",
+            "location": "Blackthorn City"
+          }
+        },
+        {
+          "move": "frenzy-plant",
+          "cost": "Grátis",
+          "location": "Blackthorn City",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Blackthorn City"
+          }
+        },
+        {
+          "move": "hydro-cannon",
+          "cost": "Grátis",
+          "location": "Blackthorn City",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Blackthorn City"
+          }
+        },
+        {
+          "move": "headbutt",
+          "cost": "Grátis",
+          "location": "Ilex Forest",
+          "type": "normal",
+          "en": {
+            "cost": "Free",
+            "location": "Ilex Forest"
+          }
+        }
+      ]
+    }
+  ],
+  "platinum": [
+    {
+      "category": "Tutores de fragmentos",
+      "desc": "Os tutores de Platinum e HeartGold/SoulSilver cobram fragmentos (Shards) achados na exploração.",
+      "en": {
+        "category": "Shard tutors",
+        "desc": "The Platinum and HeartGold/SoulSilver tutors charge Shards found while exploring."
+      },
+      "tutors": [
+        {
+          "move": "air-cutter",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "flying",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "dive",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "water",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "fire-punch",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "fire",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "fury-cutter",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "bug",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "ice-punch",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "ice",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "icy-wind",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "ice",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "knock-off",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "dark",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "ominous-wind",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "ghost",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "sucker-punch",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "dark",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "thunder-punch",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "electric",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "trick",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "psychic",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "vacuum-wave",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "fighting",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "zen-headbutt",
+          "cost": "Shards",
+          "location": "Rota 212",
+          "type": "psychic",
+          "en": {
+            "cost": "Shards",
+            "location": "Route 212"
+          }
+        },
+        {
+          "move": "helping-hand",
+          "cost": "Shards",
+          "location": "Snowpoint City",
+          "type": "normal",
+          "en": {
+            "cost": "Shards",
+            "location": "Snowpoint City"
+          }
+        },
+        {
+          "move": "last-resort",
+          "cost": "Shards",
+          "location": "Snowpoint City",
+          "type": "normal",
+          "en": {
+            "cost": "Shards",
+            "location": "Snowpoint City"
+          }
+        },
+        {
+          "move": "magnet-rise",
+          "cost": "Shards",
+          "location": "Snowpoint City",
+          "type": "electric",
+          "en": {
+            "cost": "Shards",
+            "location": "Snowpoint City"
+          }
+        },
+        {
+          "move": "snore",
+          "cost": "Shards",
+          "location": "Snowpoint City",
+          "type": "normal",
+          "en": {
+            "cost": "Shards",
+            "location": "Snowpoint City"
+          }
+        },
+        {
+          "move": "spite",
+          "cost": "Shards",
+          "location": "Snowpoint City",
+          "type": "ghost",
+          "en": {
+            "cost": "Shards",
+            "location": "Snowpoint City"
+          }
+        },
+        {
+          "move": "swift",
+          "cost": "Shards",
+          "location": "Snowpoint City",
+          "type": "normal",
+          "en": {
+            "cost": "Shards",
+            "location": "Snowpoint City"
+          }
+        },
+        {
+          "move": "synthesis",
+          "cost": "Shards",
+          "location": "Snowpoint City",
+          "type": "grass",
+          "en": {
+            "cost": "Shards",
+            "location": "Snowpoint City"
+          }
+        },
+        {
+          "move": "uproar",
+          "cost": "Shards",
+          "location": "Snowpoint City",
+          "type": "normal",
+          "en": {
+            "cost": "Shards",
+            "location": "Snowpoint City"
+          }
+        },
+        {
+          "move": "ancient-power",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "rock",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "aqua-tail",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "water",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "bounce",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "flying",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "earth-power",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "ground",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "endeavor",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "normal",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "gastro-acid",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "poison",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "gunk-shot",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "poison",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "heat-wave",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "fire",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "iron-defense",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "steel",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "iron-head",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "steel",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "mud-slap",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "ground",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "outrage",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "dragon",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "rollout",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "rock",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "seed-bomb",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "grass",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "signal-beam",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "bug",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "superpower",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "fighting",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        },
+        {
+          "move": "twister",
+          "cost": "Shards",
+          "location": "Survival Area",
+          "type": "dragon",
+          "en": {
+            "cost": "Shards",
+            "location": "Survival Area"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Tutores gratuitos",
+      "desc": "Personagens espalhados por Sinnoh e Johto que ensinam um golpe sem cobrar nada.",
+      "en": {
+        "category": "Free tutors",
+        "desc": "Characters around Sinnoh and Johto who teach a move at no cost."
+      },
+      "tutors": [
+        {
+          "move": "draco-meteor",
+          "cost": "Grátis",
+          "location": "Rota 210",
+          "type": "dragon",
+          "en": {
+            "cost": "Free",
+            "location": "Route 210"
+          }
+        },
+        {
+          "move": "blast-burn",
+          "cost": "Grátis",
+          "location": "Rota 228",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Route 228"
+          }
+        },
+        {
+          "move": "frenzy-plant",
+          "cost": "Grátis",
+          "location": "Rota 228",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Route 228"
+          }
+        },
+        {
+          "move": "hydro-cannon",
+          "cost": "Grátis",
+          "location": "Rota 228",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Route 228"
+          }
+        }
+      ]
+    }
+  ],
+  "diamond-pearl": [
+    {
+      "category": "Tutores gratuitos",
+      "desc": "Personagens espalhados por Sinnoh e Johto que ensinam um golpe sem cobrar nada.",
+      "en": {
+        "category": "Free tutors",
+        "desc": "Characters around Sinnoh and Johto who teach a move at no cost."
+      },
+      "tutors": [
+        {
+          "move": "draco-meteor",
+          "cost": "Grátis",
+          "location": "Rota 210",
+          "type": "dragon",
+          "en": {
+            "cost": "Free",
+            "location": "Route 210"
+          }
+        },
+        {
+          "move": "blast-burn",
+          "cost": "Grátis",
+          "location": "Rota 228",
+          "type": "fire",
+          "en": {
+            "cost": "Free",
+            "location": "Route 228"
+          }
+        },
+        {
+          "move": "frenzy-plant",
+          "cost": "Grátis",
+          "location": "Rota 228",
+          "type": "grass",
+          "en": {
+            "cost": "Free",
+            "location": "Route 228"
+          }
+        },
+        {
+          "move": "hydro-cannon",
+          "cost": "Grátis",
+          "location": "Rota 228",
+          "type": "water",
+          "en": {
+            "cost": "Free",
+            "location": "Route 228"
+          }
+        }
+      ]
+    }
+  ]
+}

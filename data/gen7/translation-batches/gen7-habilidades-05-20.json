@@ -1,0 +1,24 @@
+{
+  "abilities": {
+    "simple": "As mudanças de atributos recebidas pelo Pokémon são duplicadas.",
+    "skill-link": "Maximiza o número de vezes que golpes de múltiplos acertos atingem o alvo.",
+    "slow-start": "Durante cinco turnos, o Attack e o Speed do Pokémon são reduzidos pela metade.",
+    "slush-rush": "Aumenta o Speed do Pokémon durante uma tempestade de granizo.",
+    "sniper": "Fortalece os golpes que se tornam acertos críticos ao atacar.",
+    "solar-power": "Aumenta o Sp. Atk sob sol, mas reduz o HP a cada turno.",
+    "solid-rock": "Reduz o poder dos golpes super efetivos recebidos.",
+    "soul-heart": "Aumenta seu Sp. Atk sempre que um Pokémon desmaia.",
+    "soundproof": "O isolamento acústico do Pokémon o torna completamente imune a golpes baseados em som.",
+    "speed-boost": "Aumenta seu Speed a cada turno.",
+    "stakeout": "Dobra o dano causado ao substituto do alvo quando ele troca de posição.",
+    "stamina": "Aumenta o Defense quando o Pokémon é atingido por um golpe.",
+    "stance-change": "O Pokémon muda para Blade Forme ao usar um golpe de ataque e para Shield Forme ao usar King’s Shield.",
+    "static": "O Pokémon é carregado de eletricidade estática, então o contato com ele pode causar paralisia.",
+    "steadfast": "A determinação do Pokémon aumenta seu Speed sempre que ele recua.",
+    "steelworker": "Fortalece golpes do tipo Steel.",
+    "stench": "Ao liberar um odor desagradável durante o ataque, o Pokémon pode fazer o alvo recuar.",
+    "sticky-hold": "Os itens segurados pelo Pokémon ficam firmemente presos e não podem ser removidos por outros Pokémon.",
+    "storm-drain": "Atrai todos os golpes do tipo Water. Em vez de ser atingido, aumenta seu Sp. Atk.",
+    "strong-jaw": "A mandíbula forte do Pokémon aumenta o poder de seus golpes de mordida."
+  }
+}

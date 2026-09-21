@@ -1,0 +1,24 @@
+{
+  "abilities": {
+    "queenly-majesty": "Sua majestade pressiona os Pokémon adversários, impedindo-os de atacar com golpes de prioridade.",
+    "rattled": "Golpes dos tipos Dark, Ghost e Bug assustam o Pokémon e aumentam seu Speed.",
+    "receiver": "O Pokémon copia a habilidade de um aliado derrotado.",
+    "refrigerate": "Golpes do tipo Normal tornam-se do tipo Ice e têm seu poder ligeiramente aumentado.",
+    "rivalry": "Fica competitivo e causa mais dano a Pokémon do mesmo sexo, mas menos dano a Pokémon do sexo oposto.",
+    "rks-system": "Muda o tipo do Pokémon para corresponder ao disco de memória que ele segura.",
+    "rough-skin": "A pele áspera deste Pokémon causa dano ao atacante que entrar em contato com ele.",
+    "sand-force": "Aumenta o poder de golpes dos tipos Rock, Ground e Steel durante uma tempestade de areia.",
+    "sand-stream": "Quando entra na batalha, o Pokémon invoca uma tempestade de areia.",
+    "sap-sipper": "Aumenta o Attack quando é atingido por um golpe do tipo Grass, em vez de sofrer dano.",
+    "schooling": "Quando tem bastante HP, o Pokémon forma um cardume poderoso. Para de formar o cardume quando seu HP está baixo.",
+    "scrappy": "Permite que o Pokémon atinja Pokémon do tipo Ghost com golpes dos tipos Normal e Fighting.",
+    "serene-grace": "Aumenta a probabilidade de ocorrerem efeitos adicionais ao atacar.",
+    "shadow-shield": "Reduz o dano sofrido pelo Pokémon enquanto seu HP está cheio.",
+    "shadow-tag": "O Pokémon pisa na sombra do adversário para impedir que ele escape.",
+    "shed-skin": "O Pokémon pode curar suas próprias condições de status ao trocar de pele.",
+    "sheer-force": "Remove efeitos adicionais para aumentar o poder dos golpes ao atacar.",
+    "shell-armor": "Uma carapaça resistente protege o Pokémon contra acertos críticos.",
+    "shield-dust": "A poeira deste Pokémon bloqueia os efeitos adicionais dos golpes recebidos.",
+    "shields-down": "Quando seu HP chega à metade ou menos, a carapaça do Pokémon se rompe e ele fica agressivo."
+  }
+}

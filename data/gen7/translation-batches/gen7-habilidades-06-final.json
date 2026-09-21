@@ -1,0 +1,28 @@
+{
+  "abilities": {
+    "sturdy": "Não pode ser nocauteado com um único golpe. Golpes de nocaute instantâneo também não podem nocauteá-lo.",
+    "suction-cups": "O Pokémon usa ventosas para permanecer no lugar e anular golpes e itens que forçam uma troca.",
+    "super-luck": "A sorte do Pokémon aumenta as chances de acerto crítico de seus golpes.",
+    "swarm": "Fortalece golpes do tipo Bug quando o HP do Pokémon está baixo.",
+    "symbiosis": "O Pokémon passa seu item a um aliado que já usou o próprio item.",
+    "synchronize": "O atacante recebe a mesma condição de status se causar queimadura, envenenamento ou paralisia ao Pokémon.",
+    "thick-fat": "Uma camada de gordura espessa protege o Pokémon e reduz pela metade o dano recebido de golpes dos tipos Fire e Ice.",
+    "tinted-lens": "Permite que o Pokémon cause dano normal com golpes que seriam pouco efetivos.",
+    "torrent": "Fortalece golpes do tipo Water quando o HP do Pokémon está baixo.",
+    "trace": "Ao entrar na batalha, o Pokémon copia a habilidade de um Pokémon adversário.",
+    "triage": "Dá prioridade a golpes de cura.",
+    "truant": "Se usar um golpe, o Pokémon não poderá usar outro no turno seguinte.",
+    "unaware": "Ao atacar, o Pokémon ignora as mudanças de atributos do alvo.",
+    "unburden": "Aumenta o Speed quando o item segurado pelo Pokémon é usado ou perdido.",
+    "vital-spirit": "A vitalidade do Pokémon o impede de adormecer.",
+    "volt-absorb": "Restaura HP quando é atingido por um golpe do tipo Electric, em vez de sofrer dano.",
+    "water-absorb": "Restaura HP quando é atingido por um golpe do tipo Water, em vez de sofrer dano.",
+    "water-bubble": "Reduz o poder dos golpes do tipo Fire contra o Pokémon e impede que ele sofra uma queimadura.",
+    "water-compaction": "Aumenta muito o Defense do Pokémon quando ele é atingido por um golpe do tipo Water.",
+    "water-veil": "Uma camada de água cobre o Pokémon e o impede de sofrer uma queimadura.",
+    "weak-armor": "Golpes físicos reduzem o Defense do Pokémon, mas aumentam muito seu Speed.",
+    "white-smoke": "A fumaça branca protege o Pokémon e impede que outros Pokémon reduzam seus atributos.",
+    "wimp-out": "O Pokémon troca de posição por covardia quando seu HP chega à metade ou menos.",
+    "wonder-guard": "Seu poder misterioso permite que apenas golpes super efetivos atinjam o Pokémon."
+  }
+}

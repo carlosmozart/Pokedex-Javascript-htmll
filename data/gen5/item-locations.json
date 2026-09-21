@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "status": "verified",
+    "description": "Catálogo dos 24 itens de evolução usados pelas evoluções da Gen 5, com aquisição finita e métodos recorrentes separados por B/W e B2/W2.",
+    "catalog": "evolution-items",
+    "verified": "2026-09-13",
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Category:Items_in_Generation_V"
+  },
+  "fire-stone": {
+    "black-white": "Castelia City; Desert Resort (Dust clouds)",
+    "black-2-white-2": "Lentimas Town; Desert Resort"
+  },
+  "water-stone": {
+    "black-white": "Castelia City; Driftveil City (Dust clouds)",
+    "black-2-white-2": "Route 19; Clay Tunnel"
+  },
+  "thunder-stone": {
+    "black-white": "Chargestone Cave; Shopping Mall Nine (Dust clouds)",
+    "black-2-white-2": "Nimbasa City; Chargestone Cave"
+  },
+  "leaf-stone": {
+    "black-white": "Route 6 (×2)",
+    "black-2-white-2": "Route 7; Lostlorn Forest"
+  },
+  "moon-stone": {
+    "black-white": "Pinwheel Forest; Twist Mountain; Dust clouds; Pickup (Lv. 41–100); Black City/White Forest (Rosa); held by Clefairy, Clefable, and Lunatone (5% each)",
+    "black-2-white-2": "Route 6; Giant Chasm; Pickup (Lv. 41–100); Join Avenue (Antique Shop); Funfest Mission (What is the Real Price?); held by Clefairy, Clefable, and Lunatone (5% each); Dust clouds; Hidden Grottos (Routes 6 and 13; Abundant Shrine); transfer from Dream Radar"
+  },
+  "sun-stone": {
+    "black-white": "Nimbasa City; Relic Castle; Dust clouds; Pickup (Lv. 31–100); Black City/White Forest (Lena); held by Solrock (5%)",
+    "black-2-white-2": "Nimbasa City; Relic Castle; Giant Chasm; Pinwheel Forest; Pickup (Lv. 31–100); Join Avenue (Antique Shop); Funfest Mission (What is the Best Price?); held by Solrock (5%); Dust clouds; Hidden Grottos (Routes 6 and 13; Abundant Shrine); transfer from Dream Radar"
+  },
+  "dawn-stone": {
+    "black-white": "Route 10; Dust clouds; Black City/White Forest (Grace)",
+    "black-2-white-2": "Route 2; Dreamyard; Moor of Icirrus; Join Avenue (Antique Shop); Black City (Store 4); Funfest Mission (Do a Great Trade-Up!); Dust clouds; Hidden Grotto (Route 3); transfer from Dream Radar"
+  },
+  "dusk-stone": {
+    "black-white": "Route 10; Mistralton Cave; Dust clouds; Black City/White Forest (Herman)",
+    "black-2-white-2": "Strange House; Victory Road; Twist Mountain; Join Avenue (Antique Shop); Black City (Store 3); Funfest Mission (Find Mysterious Ores!); Dust clouds; Hidden Grottos (Routes 6 and 13; Abundant Shrine)"
+  },
+  "shiny-stone": {
+    "black-white": "Route 6; Dragonspiral Tower; Dust clouds; Black City/White Forest (Molly)",
+    "black-2-white-2": "Route 6; Abundant Shrine; Dragonspiral Tower; Undella Town; Join Avenue (Antique Shop); White Forest (Store 3); Funfest Mission (Find Mysterious Ores!); Dust clouds; Hidden Grottos (Routes 6 and 13; Abundant Shrine)"
+  },
+  "oval-stone": {
+    "black-white": "Challenger's Cave; Black City/White Forest (Carlos); Dust clouds; held by Happiny (50%)",
+    "black-2-white-2": "Dust clouds; White Forest (Store 4); Funfest Mission (Do a Great Trade-Up!)"
+  },
+  "prism-scale": {
+    "black-white": "Route 13; Undella Town; Pickup (Lv. 51–100)",
+    "black-2-white-2": "Route 1; Undella Town; Join Avenue (Antique Shop); Pickup (Lv. 51–100); hidden recurring item on Route 18"
+  },
+  "metal-coat": {
+    "black-white": "Twist Mountain; Route 13 (treasure hunter); held by Magnemite, Metang, Metagross, and Bronzong (5% each)",
+    "black-2-white-2": "Chargestone Cave; Clay Tunnel; Join Avenue (Antique Shop); Black City (Store 2); Funfest Mission (Do a Great Trade-Up!); held by Magnemite, Magneton, Metang, Metagross, Bronzor, Bronzong, and Magnezone (5% each)"
+  },
+  "dragon-scale": {
+    "black-white": "Route 18; Route 13 (treasure hunter); held by Horsea, Seadra, Dratini, Dragonair, Dragonite, and Kingdra (5% each)",
+    "black-2-white-2": "Victory Road; Join Avenue (Antique Shop); White Forest (Store 3); held by Horsea, Seadra, Dratini, Dragonair, Dragonite, and Kingdra (5% each)"
+  },
+  "kings-rock": {
+    "black-white": "Icirrus City; Route 13 (treasure hunter); Pickup (Lv. 11–30); held by Slowbro, Poliwhirl, Poliwrath, Politoed, and Slowking (5% each)",
+    "black-2-white-2": "Nuvema Town; Icirrus City; Join Avenue (Antique Shop); White Forest (Store 4); Pickup (Lv. 11–30); held by Poliwhirl, Poliwrath, Politoed, and Hariyama (5% each); transfer from Dream Radar"
+  },
+  "up-grade": {
+    "black-white": "Route 15; Route 13 (treasure hunter)",
+    "black-2-white-2": "Pinwheel Forest; Striaton City; Black City (Store 3); Join Avenue (Antique Shop); Funfest Mission (Not-Found Lost Items!)"
+  },
+  "dubious-disc": {
+    "black-white": "P2 Laboratory; Route 13 (treasure hunter)",
+    "black-2-white-2": "P2 Laboratory; Join Avenue (Antique Shop); Black City (Store 4); Funfest Mission (Not-Found Lost Items!)"
+  },
+  "electirizer": {
+    "black-white": "Route 13; Route 13 (treasure hunter)",
+    "black-2-white-2": "Plasma Frigate; Join Avenue (Antique Shop); Funfest Mission (Not-Found Lost Items!)"
+  },
+  "magmarizer": {
+    "black-white": "Route 13 (treasure hunter)",
+    "black-2-white-2": "Plasma Frigate; Join Avenue (Antique Shop); Funfest Mission (Forgotten Lost Items!)"
+  },
+  "protector": {
+    "black-white": "Route 11; Route 13 (treasure hunter)",
+    "black-2-white-2": "Wellspring Cave; Join Avenue (Antique Shop); Black City (Store 1)"
+  },
+  "razor-claw": {
+    "black-white": "Route 13; Route 13 (treasure hunter); Battle Subway (48 BP)",
+    "black-2-white-2": "Giant Chasm; Battle Subway/Pokémon World Tournament (8 BP)"
+  },
+  "razor-fang": {
+    "black-white": "Abundant Shrine; Route 13 (treasure hunter); Battle Subway (48 BP)",
+    "black-2-white-2": "Route 11; Battle Subway/Pokémon World Tournament (8 BP)"
+  },
+  "reaper-cloth": {
+    "black-white": "Route 14; Route 13 (treasure hunter)",
+    "black-2-white-2": "Dreamyard; Join Avenue (Antique Shop); Funfest Mission (Do a Great Trade-Up!)"
+  },
+  "deep-sea-tooth": {
+    "black-white": "Route 17; Route 13 (treasure hunter); held by Carvanha, Sharpedo, Huntail, and Red-Striped Basculin (5% each)",
+    "black-2-white-2": "Join Avenue (Antique Shop); White Forest (Store 1); Funfest Mission (What is the Best Price?); held by Carvanha, Sharpedo, Huntail, and Red-Striped Basculin (5% each)"
+  },
+  "deep-sea-scale": {
+    "black-white": "Route 13; Route 13 (treasure hunter); held by Chinchou, Lanturn, Gorebyss, Relicanth, and Blue-Striped Basculin (5% each)",
+    "black-2-white-2": "Join Avenue (Antique Shop); White Forest (Store 2); Funfest Mission (What is the Best Price?); held by Chinchou, Lanturn, Gorebyss, Relicanth, and Blue-Striped Basculin (5% each)"
+  }
+}

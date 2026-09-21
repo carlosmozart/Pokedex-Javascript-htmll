@@ -1,0 +1,238 @@
+{
+  "corrections": [
+    {
+      "pokemonId": 496,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Snivy.",
+          "en": "Not found in the wild: evolve Snivy."
+        }
+      }
+    },
+    {
+      "pokemonId": 497,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Snivy.",
+          "en": "Not found in the wild: evolve Snivy."
+        }
+      }
+    },
+    {
+      "pokemonId": 499,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Tepig.",
+          "en": "Not found in the wild: evolve Tepig."
+        }
+      }
+    },
+    {
+      "pokemonId": 500,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Tepig.",
+          "en": "Not found in the wild: evolve Tepig."
+        }
+      }
+    },
+    {
+      "pokemonId": 502,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Oshawott.",
+          "en": "Not found in the wild: evolve Oshawott."
+        }
+      }
+    },
+    {
+      "pokemonId": 503,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Oshawott.",
+          "en": "Not found in the wild: evolve Oshawott."
+        }
+      }
+    },
+    {
+      "pokemonId": 512,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Pansage.",
+          "en": "Not found in the wild: evolve Pansage."
+        }
+      }
+    },
+    {
+      "pokemonId": 514,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Pansear.",
+          "en": "Not found in the wild: evolve Pansear."
+        }
+      }
+    },
+    {
+      "pokemonId": 516,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Panpour.",
+          "en": "Not found in the wild: evolve Panpour."
+        }
+      }
+    },
+    {
+      "pokemonId": 528,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Woobat.",
+          "en": "Not found in the wild: evolve Woobat."
+        }
+      }
+    },
+    {
+      "pokemonId": 534,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Gurdurr.",
+          "en": "Not found in the wild: evolve Gurdurr."
+        }
+      }
+    },
+    {
+      "pokemonId": 553,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Krokorok.",
+          "en": "Not found in the wild: evolve Krokorok."
+        }
+      }
+    },
+    {
+      "pokemonId": 555,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Darumaka.",
+          "en": "Not found in the wild: evolve Darumaka."
+        }
+      }
+    },
+    {
+      "pokemonId": 565,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Tirtouga.",
+          "en": "Not found in the wild: evolve Tirtouga."
+        }
+      }
+    },
+    {
+      "pokemonId": 567,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Archen.",
+          "en": "Not found in the wild: evolve Archen."
+        }
+      }
+    },
+    {
+      "pokemonId": 589,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Karrablast.",
+          "en": "Not found in the wild: evolve Karrablast."
+        }
+      }
+    },
+    {
+      "pokemonId": 596,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Joltik.",
+          "en": "Not found in the wild: evolve Joltik."
+        }
+      }
+    },
+    {
+      "pokemonId": 598,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Ferroseed.",
+          "en": "Not found in the wild: evolve Ferroseed."
+        }
+      }
+    },
+    {
+      "pokemonId": 604,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Eelektrik.",
+          "en": "Not found in the wild: evolve Eelektrik."
+        }
+      }
+    },
+    {
+      "pokemonId": 608,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Litwick.",
+          "en": "Not found in the wild: evolve Litwick."
+        }
+      }
+    },
+    {
+      "pokemonId": 609,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Litwick.",
+          "en": "Not found in the wild: evolve Litwick."
+        }
+      }
+    },
+    {
+      "pokemonId": 617,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Shelmet.",
+          "en": "Not found in the wild: evolve Shelmet."
+        }
+      }
+    },
+    {
+      "pokemonId": 635,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza: evolua o Zweilous.",
+          "en": "Not found in the wild: evolve Zweilous."
+        }
+      }
+    },
+    {
+      "pokemonId": 647,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza em nenhum dos quatro jogos: só por evento de distribuição.",
+          "en": "Not found in the wild in any of the four games: distribution event only."
+        }
+      }
+    },
+    {
+      "pokemonId": 648,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza em nenhum dos quatro jogos: só por evento de distribuição.",
+          "en": "Not found in the wild in any of the four games: distribution event only."
+        }
+      }
+    },
+    {
+      "pokemonId": 649,
+      "changes": {
+        "notaEncontro": {
+          "pt": "Não aparece na natureza em nenhum dos quatro jogos: só por evento de distribuição.",
+          "en": "Not found in the wild in any of the four games: distribution event only."
+        }
+      }
+    }
+  ]
+}

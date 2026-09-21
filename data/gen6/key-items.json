@@ -1,0 +1,465 @@
+{
+  "x-y": [
+    {
+      "category": "Locomoção & Exploração",
+      "en": {
+        "category": "Getting Around & Exploring"
+      },
+      "items": [
+        {
+          "name": "Roller Skates",
+          "desc": "Em Santalune City, com a Roller Skater Rinka, depois de vencê-la.",
+          "en": {
+            "desc": "Santalune City (from Roller Skater Rinka after defeating her)"
+          }
+        },
+        {
+          "name": "Bicycle",
+          "desc": "Na loja de bicicletas de Cyllage City.",
+          "en": {
+            "desc": "Cyllage City bicycle shop"
+          }
+        },
+        {
+          "name": "Town Map",
+          "desc": "Em Vaniville Town, com a sua mãe, depois de receber o primeiro Pokémon.",
+          "en": {
+            "desc": "Vaniville Town (from Mom after receiving a first partner Pokémon)"
+          }
+        },
+        {
+          "name": "Dowsing Machine",
+          "desc": "Na Rota 8, com uma mulher, depois de passar pela Glittering Cave.",
+          "en": {
+            "desc": "Route 8 (from a woman after clearing Glittering Cave)"
+          }
+        },
+        {
+          "name": "Old Rod",
+          "desc": "Em Ambrette Town, com um pescador no aquário.",
+          "en": {
+            "desc": "Ambrette Town (from a fisherman in the aquarium)"
+          }
+        },
+        {
+          "name": "Good Rod",
+          "desc": "Em Coumarine City, com um Fisherman no estaleiro.",
+          "en": {
+            "desc": "Coumarine City (from a Fisherman in the shipyard)"
+          }
+        },
+        {
+          "name": "Super Rod",
+          "desc": "Na Rota 16, com um Fisherman dentro de um prédio.",
+          "en": {
+            "desc": "Route 16 (from Fisherman in building)"
+          }
+        },
+        {
+          "name": "Exp. Share",
+          "desc": "Em Santalune City, com a Alexa, depois de vencer a Viola.",
+          "en": {
+            "desc": "Santalune City (from Alexa after defeating Viola)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Mega Evolução & Batalha",
+      "en": {
+        "category": "Mega Evolution & Battle"
+      },
+      "items": [
+        {
+          "name": "Mega Ring",
+          "desc": "No topo da Tower of Mastery, com a Korrina, depois de vencê-la na batalha do Gym.",
+          "en": {
+            "desc": "Tower of Mastery top floor (from Korrina after defeating her in a Gym battle)"
+          }
+        },
+        {
+          "name": "Holo Caster",
+          "desc": "Já está na bolsa desde o começo do jogo.",
+          "en": {
+            "desc": "In Bag from beginning of game"
+          }
+        },
+        {
+          "name": "Vs. Recorder",
+          "desc": "Em Kiloude City, com um homem do lado de fora da estação do TMV.",
+          "en": {
+            "desc": "Kiloude City (from a man outside the TMV station)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "História",
+      "en": {
+        "category": "Story"
+      },
+      "items": [
+        {
+          "name": "Prof's Letter",
+          "desc": "Em Aquacorde Town, com o Tierno, depois de receber o primeiro Pokémon e a Pokédex.",
+          "en": {
+            "desc": "Aquacorde Town (from Tierno after receiving a first partner Pokémon and the Pokédex)"
+          }
+        },
+        {
+          "name": "Power Plant Pass",
+          "desc": "Na Rota 13, na pedra ao lado do Team Flare Grunt.",
+          "en": {
+            "desc": "Route 13 (in the rock next to the Team Flare Grunt)"
+          }
+        },
+        {
+          "name": "Elevator Key",
+          "desc": "No Lysandre Labs, com a Mable, depois de vencê-la.",
+          "en": {
+            "desc": "Lysandre Labs (from Mable after defeating her)"
+          }
+        },
+        {
+          "name": "Honor of Kalos",
+          "desc": "Em Lumiose City, com o Professor Sycamore, durante o desfile depois de entrar no Hall of Fame.",
+          "en": {
+            "desc": "Lumiose City (from Professor Sycamore after entering the Hall of Fame during the parade)"
+          }
+        },
+        {
+          "name": "Looker Ticket",
+          "desc": "Em Lumiose City: Pokémon Center da Magenta Plaza, Prism Tower, Herboriste, Hotel Richissime e Lumiose Museum.",
+          "en": {
+            "desc": "Magenta Plaza Pokémon Center; Prism Tower; Herboriste; Hotel Richissime; Lumiose Museum"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Formas & Lendários",
+      "en": {
+        "category": "Forms & Legendaries"
+      },
+      "items": [
+        {
+          "name": "Gracidea",
+          "desc": "Em Snowbelle City, com Shaymin na equipe.",
+          "en": {
+            "desc": "Snowbelle City; requires Shaymin in the party."
+          }
+        },
+        {
+          "name": "Reveal Glass",
+          "desc": "Na Reflection Cave, com um cientista, ao mostrar Tornadus, Thundurus ou Landorus.",
+          "en": {
+            "desc": "Reflection Cave (from a scientist if shown Tornadus, Thundurus or Landorus)"
+          }
+        },
+        {
+          "name": "DNA Splicers",
+          "desc": "Em Kiloude City, com uma Punk Girl, ao mostrar um Kyurem.",
+          "en": {
+            "desc": "Kiloude City (from a Punk Girl in the second north easternmost house of when she is shown a Kyurem)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Recompensas",
+      "en": {
+        "category": "Rewards"
+      },
+      "items": [
+        {
+          "name": "Poké Radar",
+          "desc": "No 2º andar do laboratório do Professor Sycamore, com um Scientist, depois de entrar no Hall of Fame.",
+          "en": {
+            "desc": "Sycamore Pokémon Lab 2F (from a Scientist after entering the Hall of Fame)"
+          }
+        },
+        {
+          "name": "TMV Pass",
+          "desc": "Na Lumiose Station, com o Professor Sycamore, depois de entrar no Hall of Fame.",
+          "en": {
+            "desc": "Lumiose Station (from Professor Sycamore after entering the Hall of Fame)"
+          }
+        },
+        {
+          "name": "Oval Charm",
+          "desc": "No 3º andar do laboratório do Professor Sycamore, ao completar a Pokédex de Kalos (sem Articuno, Zapdos, Moltres e Mewtwo).",
+          "en": {
+            "desc": "Sycamore Pokémon Lab 3F (from Professor Sycamore after completing the Kalos Pokédex, excluding Articuno, Zapdos, Moltres and Mewtwo)"
+          }
+        },
+        {
+          "name": "Shiny Charm",
+          "desc": "No 3º andar do laboratório do Professor Sycamore, ao completar a Pokédex Nacional.",
+          "en": {
+            "desc": "Sycamore Pokémon Lab 3F (from Professor Sycamore after completing the National Pokédex)"
+          }
+        }
+      ]
+    }
+  ],
+  "omega-ruby-alpha-sapphire": [
+    {
+      "category": "Locomoção & Exploração",
+      "en": {
+        "category": "Getting Around & Exploring"
+      },
+      "items": [
+        {
+          "name": "Mach Bike",
+          "desc": "Na Rydel's Cycles. Você escolhe entre ela e a Acro Bike e pode trocar a qualquer momento na loja.",
+          "en": {
+            "desc": "Rydel's Cycles (choice between this and Acro Bike; can switch at any time by returning the other bike)"
+          }
+        },
+        {
+          "name": "Acro Bike",
+          "desc": "Na Rydel's Cycles. Você escolhe entre ela e a Mach Bike e pode trocar a qualquer momento na loja.",
+          "en": {
+            "desc": "Rydel's Cycles (choice between this and Mach Bike; can switch at any time by returning the other bike)"
+          }
+        },
+        {
+          "name": "Dowsing Machine",
+          "desc": "Na Rota 110, com Brendan ou May, depois de vencê-los.",
+          "en": {
+            "desc": "Route 110 (from Brendan/May after defeating them)"
+          }
+        },
+        {
+          "name": "Go-Goggles",
+          "desc": "Em Lavaridge Town, com Brendan ou May, depois de obter a Heat Badge.",
+          "en": {
+            "desc": "Lavaridge Town (from Brendan/May after obtaining the Heat Badge)"
+          }
+        },
+        {
+          "name": "Devon Scuba Gear",
+          "desc": "Em Mossdeep City, com o Steven, depois de obter a Mind Badge.",
+          "en": {
+            "desc": "Mossdeep City (from Steven after obtaining Mind Badge)"
+          }
+        },
+        {
+          "name": "Old Rod",
+          "desc": "Em Dewford Town, com um pescador na praia.",
+          "en": {
+            "desc": "Dewford Town (from a fisherman on the beach)"
+          }
+        },
+        {
+          "name": "Good Rod",
+          "desc": "Na Rota 118, com um Fisherman na margem direita do rio.",
+          "en": {
+            "desc": "Route 118 (from a Fisherman on the right side of the river)"
+          }
+        },
+        {
+          "name": "Super Rod",
+          "desc": "Em Mossdeep City, com um Fisherman na casa a leste do Gym.",
+          "en": {
+            "desc": "Mossdeep City (from Fisherman inside house east of Gym)"
+          }
+        },
+        {
+          "name": "Exp. Share",
+          "desc": "Em Petalburg Woods, com um funcionário da Devon, depois de vencer a Team Magma (OR) ou a Team Aqua (AS).",
+          "en": {
+            "desc": "Petalburg Woods (from Devon employee after defeating Team Magma (OR)/Aqua Grunt (AS))"
+          }
+        },
+        {
+          "name": "Wailmer Pail",
+          "desc": "Na Pretty Petal flower shop, com a dona da loja.",
+          "en": {
+            "desc": "Pretty Petal flower shop (from the shop's owner)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Mega Evolução & Voo",
+      "en": {
+        "category": "Mega Evolution & Soaring"
+      },
+      "items": [
+        {
+          "name": "Mega Bracelet",
+          "desc": "Em Southern Island, com o Steven, depois que Latias (AS) ou Latios (OR) se junta a você.",
+          "en": {
+            "desc": "Southern Island (from Steven after Latias (AS) or Latios (OR) joins)"
+          }
+        },
+        {
+          "name": "Eon Flute",
+          "desc": "Em Sootopolis City, com o Steven, depois do incidente com Kyogre ou Groudon.",
+          "en": {
+            "desc": "Sootopolis City (from Steven after Kyogre/Groudon incident)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "História",
+      "en": {
+        "category": "Story"
+      },
+      "items": [
+        {
+          "name": "Letter",
+          "desc": "Na Devon Corporation, com o Mr. Stone.",
+          "en": {
+            "desc": "Devon Corporation (from Mr. Stone)"
+          }
+        },
+        {
+          "name": "Devon Parts",
+          "desc": "Na Rusturf Tunnel, depois de vencer o Team Magma Grunt (OR) ou o Team Aqua Grunt (AS).",
+          "en": {
+            "desc": "Rusturf Tunnel (from Team Magma Grunt (OR)/Team Aqua Grunt (AS) after defeating him)"
+          }
+        },
+        {
+          "name": "Meteorite",
+          "desc": "No Mt. Chimney, com o Maxie (OR) ou o Archie (AS), depois de vencê-lo.",
+          "en": {
+            "desc": "Mt. Chimney (from Maxie (OR)/Archie (AS) after defeating him)"
+          }
+        },
+        {
+          "name": "Devon Scope",
+          "desc": "Na Rota 120, com o Steven.",
+          "en": {
+            "desc": "Route 120 (from Steven)"
+          }
+        },
+        {
+          "name": "Magma Suit",
+          "desc": "Em Sootopolis City, com o Maxie, durante o incidente com Groudon (só em Omega Ruby).",
+          "en": {
+            "desc": "Sootopolis City (from Maxie during Groudon incident) (OR)"
+          }
+        },
+        {
+          "name": "Aqua Suit",
+          "desc": "Em Sootopolis City, com o Archie, durante o incidente com Kyogre (só em Alpha Sapphire).",
+          "en": {
+            "desc": "Sootopolis City (from Archie during Kyogre incident) (AS)"
+          }
+        },
+        {
+          "name": "Meteorite Shard",
+          "desc": "Na Granite Cave, com a Zinnia, depois de vencê-la.",
+          "en": {
+            "desc": "Granite Cave (from Zinnia after defeating her)"
+          }
+        },
+        {
+          "name": "S.S. Ticket",
+          "desc": "Em Littleroot Town, com o Norman, depois de completar o Delta Episode.",
+          "en": {
+            "desc": "Littleroot Town (from Norman after completing the Delta Episode)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Concursos",
+      "en": {
+        "category": "Contests"
+      },
+      "items": [
+        {
+          "name": "Contest Pass",
+          "desc": "Em Slateport City.",
+          "en": {
+            "desc": "Slateport City"
+          }
+        },
+        {
+          "name": "Pokéblock Kit",
+          "desc": "Em Slateport City, com a Lisia, depois do incidente no Oceanic Museum.",
+          "en": {
+            "desc": "Slateport City (from Lisia after the Oceanic Museum incident)"
+          }
+        },
+        {
+          "name": "Contest Costume",
+          "desc": "Em qualquer Contest Hall, com a Lisia, ao se aproximar do balcão de inscrição.",
+          "en": {
+            "desc": "Any Contest Hall (from Lisia upon approaching the registration desk)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Formas & Lendários",
+      "en": {
+        "category": "Forms & Legendaries"
+      },
+      "items": [
+        {
+          "name": "Gracidea",
+          "desc": "Na Rota 123, com Shaymin na equipe.",
+          "en": {
+            "desc": "Route 123; requires Shaymin in the party."
+          }
+        },
+        {
+          "name": "Reveal Glass",
+          "desc": "Em Mauville City, com uma vendedora de espelhos, ao mostrar Tornadus, Thundurus ou Landorus.",
+          "en": {
+            "desc": "Mauville City (from a mirror saleswoman if shown Tornadus, Thundurus or Landorus)"
+          }
+        },
+        {
+          "name": "DNA Splicers",
+          "desc": "Na Gnarled Den, escondido no lado esquerdo da sala.",
+          "en": {
+            "desc": "Gnarled Den (on the left side of the room (hidden))"
+          }
+        },
+        {
+          "name": "Prison Bottle",
+          "desc": "Em qualquer Poké Mart, com o caixa do lado de fora do balcão, levando Hoopa na equipe.",
+          "en": {
+            "desc": "Any Poké Mart (from Cashier standing outside the counter when Hoopa is in the party and brought to the Poké Mart)"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Recompensas",
+      "en": {
+        "category": "Rewards"
+      },
+      "items": [
+        {
+          "name": "Vs. Recorder",
+          "desc": "Em Mauville City, com um homem dentro do Battle Institute.",
+          "en": {
+            "desc": "Mauville City (from a man inside the Battle Institute)"
+          }
+        },
+        {
+          "name": "Oval Charm",
+          "desc": "No laboratório do Professor Birch, em Littleroot Town, ao completar a Pokédex de Hoenn.",
+          "en": {
+            "desc": "Professor Birch's Lab (from Professor Birch after completing the Hoenn Pokédex)"
+          }
+        },
+        {
+          "name": "Shiny Charm",
+          "desc": "No laboratório do Professor Birch, em Littleroot Town, ao completar a Pokédex Nacional.",
+          "en": {
+            "desc": "Professor Birch's Lab (from Professor Birch after completing the National Pokédex)"
+          }
+        }
+      ]
+    }
+  ]
+}
