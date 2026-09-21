@@ -42,6 +42,8 @@ export const dom = {
     gridModal: document.querySelector('#grid-modal'),
     gridContainer: document.querySelector('#grid-container'),
     gridGenNumber: document.querySelector('#grid-gen-number'),
+    toast: document.querySelector('#toast'),
+    toastMessage: document.querySelector('#toast-message'),
     
     matchupsContainer: document.querySelector('.matchups-container'),
     evolutionContainer: document.querySelector('.evolution-container'),
@@ -127,7 +129,7 @@ export const renderEvolutions = async (speciesData) => {
         return;
     }
 
-    let html = '<div style="display:flex; flex-direction:column; gap: 15px; width: 100%;">';
+    let html = '<div style="display:flex; flex-wrap: wrap; justify-content: center; gap: 15px; width: 100%;">';
     
     for (let link of links) {
         const fromData = await fetchPokemonData(link.fromId);
@@ -184,6 +186,56 @@ export const resetUI = () => {
     dom.btnFav.classList.remove('active');
 };
 
+export const showToast = (message) => {
+    if (!dom.toast) return;
+    dom.toastMessage.textContent = message;
+    dom.toast.classList.remove('hidden');
+    setTimeout(() => {
+        dom.toast.classList.add('hidden');
+    }, 3000);
+};
+
+const updateBasicInfo = (data) => {
+    dom.pokemonName.innerHTML = data.name;
+    dom.pokemonNumber.innerHTML = `#${String(data.id).padStart(3, '0')}`;
+    dom.pokemonImage.src = getPokemonSprite(data, false);
+    dom.pokemonHeight.innerHTML = `${(data.height / 10).toFixed(1)} m`;
+    dom.pokemonWeight.innerHTML = `${(data.weight / 10).toFixed(1)} kg`;
+    const mainAbility = data.abilities.find(a => !a.is_hidden) || data.abilities[0];
+    dom.pokemonAbility.innerHTML = mainAbility ? mainAbility.ability.name.replace('-', ' ') : 'N/A';
+};
+
+const updateTypes = (types) => {
+    const primaryType = types[0].type.name;
+    dom.dynamicBg.className = '';
+    dom.dynamicBg.style.backgroundColor = `var(--type-${primaryType})`;
+
+    dom.badge1.textContent = typeTranslations[primaryType] || primaryType;
+    dom.badge1.className = `pokemon-type-badge badge1 badge-${primaryType}`;
+    dom.badge1.style.display = 'block';
+
+    if (types[1]) {
+        const secondaryType = types[1].type.name;
+        dom.badge2.textContent = typeTranslations[secondaryType] || secondaryType;
+        dom.badge2.className = `pokemon-type-badge badge2 badge-${secondaryType}`;
+        dom.badge2.style.display = 'block';
+    } else {
+        dom.badge2.style.display = 'none';
+    }
+};
+
+const updateDescriptionAndCategory = (speciesData) => {
+    let genusObj = speciesData.genera.find(g => g.language.name === state.currentLang || (state.currentLang === 'pt' && g.language.name === 'pt-BR'));
+    if (!genusObj && state.currentLang === 'pt') genusObj = speciesData.genera.find(g => g.language.name === 'es');
+    if (!genusObj) genusObj = speciesData.genera.find(g => g.language.name === 'en');
+    dom.pokemonCategory.innerHTML = genusObj ? genusObj.genus : 'Pokémon';
+
+    let flavorObj = speciesData.flavor_text_entries.find(entry => entry.language.name === state.currentLang || (state.currentLang === 'pt' && entry.language.name === 'pt-BR'));
+    if (!flavorObj && state.currentLang === 'pt') flavorObj = speciesData.flavor_text_entries.find(entry => entry.language.name === 'es');
+    if (!flavorObj) flavorObj = speciesData.flavor_text_entries.find(entry => entry.language.name === 'en');
+    dom.pokemonDesc.innerHTML = flavorObj ? flavorObj.flavor_text.replace(/[\n\f]/g, ' ') : 'Descrição indisponível.';
+};
+
 export const renderPokemon = async (pokemon) => {
     dom.loadingOverlay.classList.add('active');
     state.isShiny = false;
@@ -197,52 +249,10 @@ export const renderPokemon = async (pokemon) => {
         state.currentPokemonData = data;
         state.searchPokemon = data.id;
 
-        const primaryType = data.types[0].type.name;
-        dom.dynamicBg.className = '';
-        dom.dynamicBg.style.backgroundColor = `var(--type-${primaryType})`;
-
-        dom.pokemonName.innerHTML = data.name;
-        dom.pokemonNumber.innerHTML = `#${String(data.id).padStart(3, '0')}`;
         updateFavButton(data.id);
-
-        dom.pokemonImage.src = getPokemonSprite(data, false);
-
-        dom.badge1.textContent = typeTranslations[primaryType] || primaryType;
-        dom.badge1.className = `pokemon-type-badge badge1 badge-${primaryType}`;
-        dom.badge1.style.display = 'block';
-
-        if (data.types[1]) {
-            const secondaryType = data.types[1].type.name;
-            dom.badge2.textContent = typeTranslations[secondaryType] || secondaryType;
-            dom.badge2.className = `pokemon-type-badge badge2 badge-${secondaryType}`;
-            dom.badge2.style.display = 'block';
-        } else {
-            dom.badge2.style.display = 'none';
-        }
-
-        let genusObj = speciesData.genera.find(g => g.language.name === state.currentLang || (state.currentLang === 'pt' && g.language.name === 'pt-BR'));
-        if (!genusObj && state.currentLang === 'pt') {
-            genusObj = speciesData.genera.find(g => g.language.name === 'es');
-        }
-        if (!genusObj) {
-            genusObj = speciesData.genera.find(g => g.language.name === 'en');
-        }
-        dom.pokemonCategory.innerHTML = genusObj ? genusObj.genus : 'Pokémon';
-
-        dom.pokemonHeight.innerHTML = `${(data.height / 10).toFixed(1)} m`;
-        dom.pokemonWeight.innerHTML = `${(data.weight / 10).toFixed(1)} kg`;
-
-        const mainAbility = data.abilities.find(a => !a.is_hidden) || data.abilities[0];
-        dom.pokemonAbility.innerHTML = mainAbility ? mainAbility.ability.name.replace('-', ' ') : 'N/A';
-
-        let flavorObj = speciesData.flavor_text_entries.find(entry => entry.language.name === state.currentLang || (state.currentLang === 'pt' && entry.language.name === 'pt-BR'));
-        if (!flavorObj && state.currentLang === 'pt') {
-            flavorObj = speciesData.flavor_text_entries.find(entry => entry.language.name === 'es');
-        }
-        if (!flavorObj) {
-            flavorObj = speciesData.flavor_text_entries.find(entry => entry.language.name === 'en');
-        }
-        dom.pokemonDesc.innerHTML = flavorObj ? flavorObj.flavor_text.replace(/[\n\f]/g, ' ') : 'Descrição indisponível.';
+        updateBasicInfo(data);
+        updateTypes(data.types);
+        updateDescriptionAndCategory(speciesData);
 
         renderStats(data.stats);
         renderTypeMatchups(data.types);
@@ -253,6 +263,11 @@ export const renderPokemon = async (pokemon) => {
     } else {
         state.currentPokemonData = null;
         resetUI();
+        if (!navigator.onLine || !pokemon) {
+            showToast('Erro de Conexão: Não foi possível obter os dados.');
+        } else {
+            showToast('Pokémon não encontrado.');
+        }
     }
     
     dom.loadingOverlay.classList.remove('active');

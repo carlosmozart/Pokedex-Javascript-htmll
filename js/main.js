@@ -1,7 +1,7 @@
 import { state, saveLang, saveSpriteMode, toggleFavorite } from './state.js';
 import { generationsConfig } from './config.js';
 import { allPokemonNames, loadAllPokemon, fetchPokemonData } from './api.js';
-import { getPokemonSprite, playCry } from './utils.js';
+import { getPokemonSprite, playCry, debounce } from './utils.js';
 import { dom, initTheme, renderPokemon, updateFavButton } from './ui.js';
 
 if (dom.langSelect) dom.langSelect.value = state.currentLang;
@@ -46,9 +46,13 @@ dom.btnFav.addEventListener('click', () => {
 
 dom.tabBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-        dom.tabBtns.forEach(b => b.classList.remove('active'));
+        dom.tabBtns.forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+        });
         dom.tabContents.forEach(c => c.classList.remove('active'));
         btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
         document.getElementById(btn.dataset.target).classList.add('active');
     });
 });
@@ -74,7 +78,7 @@ const initObserver = () => {
 };
 
 dom.btnOpenGrid.addEventListener('click', () => {
-    dom.gridModal.classList.remove('hidden');
+    dom.gridModal.showModal();
     dom.gridGenNumber.textContent = state.currentGenId;
     dom.gridContainer.innerHTML = '';
     
@@ -94,7 +98,7 @@ dom.btnOpenGrid.addEventListener('click', () => {
             <span class="grid-card-name">...</span>
         `;
         card.addEventListener('click', () => {
-            dom.gridModal.classList.add('hidden');
+            dom.gridModal.close();
             renderPokemon(i);
         });
         dom.gridContainer.appendChild(card);
@@ -103,7 +107,7 @@ dom.btnOpenGrid.addEventListener('click', () => {
 });
 
 dom.btnCloseGrid.addEventListener('click', () => {
-    dom.gridModal.classList.add('hidden');
+    dom.gridModal.close();
 });
 
 dom.form.addEventListener('submit', (event) => {
@@ -129,9 +133,12 @@ dom.form.addEventListener('submit', (event) => {
     }
 });
 
-dom.input.addEventListener('input', () => {
+let currentFocus = -1;
+
+const onInput = debounce(() => {
     const val = dom.input.value.trim().toLowerCase();
     dom.autocompleteList.innerHTML = '';
+    currentFocus = -1;
     
     if (!val) {
         dom.autocompleteList.classList.add('hidden');
@@ -160,7 +167,39 @@ dom.input.addEventListener('input', () => {
             dom.autocompleteList.classList.add('hidden');
         }
     }
+}, 200);
+
+dom.input.addEventListener('input', onInput);
+
+dom.input.addEventListener('keydown', (e) => {
+    let x = dom.autocompleteList.getElementsByTagName('li');
+    if (e.key === 'ArrowDown') {
+        currentFocus++;
+        addActive(x);
+    } else if (e.key === 'ArrowUp') {
+        currentFocus--;
+        addActive(x);
+    } else if (e.key === 'Enter') {
+        if (currentFocus > -1) {
+            e.preventDefault();
+            if (x && x[currentFocus]) x[currentFocus].click();
+        }
+    }
 });
+
+function addActive(x) {
+    if (!x || x.length === 0) return false;
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    x[currentFocus].classList.add('autocomplete-active');
+}
+
+function removeActive(x) {
+    for (let i = 0; i < x.length; i++) {
+        x[i].classList.remove('autocomplete-active');
+    }
+}
 
 document.addEventListener('click', (event) => {
     if (!event.target.closest('.search-input-wrapper')) {

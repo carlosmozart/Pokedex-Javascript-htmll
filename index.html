@@ -111,10 +111,10 @@
 
             <!-- TABS (Abas) -->
             <div class="tabs-container">
-                <div class="tabs-header">
-                    <button class="tab-btn active" data-target="tab-stats">Estatísticas</button>
-                    <button class="tab-btn" data-target="tab-matchups">Fraquezas</button>
-                    <button class="tab-btn" data-target="tab-evolution">Evoluções</button>
+                <div class="tabs-header" role="tablist">
+                    <button class="tab-btn active" data-target="tab-stats" role="tab" aria-selected="true" aria-controls="tab-stats">Estatísticas</button>
+                    <button class="tab-btn" data-target="tab-matchups" role="tab" aria-selected="false" aria-controls="tab-matchups">Fraquezas</button>
+                    <button class="tab-btn" data-target="tab-evolution" role="tab" aria-selected="false" aria-controls="tab-evolution">Evoluções</button>
                 </div>
                 <div class="tabs-body">
                     <!-- Tab: Stats Base -->
@@ -178,7 +178,7 @@
     </main>
 
     <!-- Grid Modal -->
-    <div id="grid-modal" class="grid-modal hidden">
+    <dialog id="grid-modal" class="grid-modal">
         <div class="grid-modal-content glass">
             <div class="grid-modal-header">
                 <h2>Galeria de Pokémons (Gen <span id="grid-gen-number">1</span>)</h2>
@@ -188,6 +188,11 @@
                 <!-- Preenchido via JS (Lazy Load) -->
             </div>
         </div>
+    </dialog>
+
+    <!-- Toast de Notificação -->
+    <div id="toast" class="toast hidden">
+        <span id="toast-message"></span>
     </div>
 </body>
 </html>

@@ -177,7 +177,7 @@ body {
 .autocomplete-item:last-child {
     border-bottom: none;
 }
-.autocomplete-item:hover {
+.autocomplete-item:hover, .autocomplete-active {
     background: var(--glass-bg);
 }
 
@@ -467,8 +467,9 @@ body {
 .matchup-mult { background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 5px; }
 
 /* Grid Modal */
-.grid-modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; display: flex; justify-content: center; align-items: center; background: rgba(0,0,0,0.7); backdrop-filter: blur(5px); opacity: 1; transition: opacity 0.3s; }
-.grid-modal.hidden { opacity: 0; pointer-events: none; }
+.grid-modal { border: none; background: transparent; padding: 0; margin: auto; width: 100%; height: 100%; max-width: 100vw; max-height: 100vh; justify-content: center; align-items: center; }
+.grid-modal[open] { display: flex; }
+.grid-modal::backdrop { background: rgba(0,0,0,0.7); backdrop-filter: blur(5px); }
 .grid-modal-content { width: 90%; max-width: 800px; height: 85%; background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 20px; display: flex; flex-direction: column; overflow: hidden; backdrop-filter: blur(15px); }
 .grid-modal-header { display: flex; justify-content: space-between; align-items: center; padding: 20px; border-bottom: 1px solid var(--glass-border); }
 .grid-container { padding: 20px; display: grid; grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: 15px; overflow-y: auto; flex: 1; }
@@ -480,3 +481,25 @@ body {
 
 /* Favorite State */
 .btn-fav.active { color: #ff4757; text-shadow: 0 0 10px rgba(255, 71, 87, 0.8); }
+
+/* Toast */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff4757;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: translateY(0);
+    opacity: 1;
+    font-weight: bold;
+}
+.toast.hidden {
+    transform: translateY(100px);
+    opacity: 0;
+    pointer-events: none;
+}
