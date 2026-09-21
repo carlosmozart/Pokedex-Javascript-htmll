@@ -52,7 +52,10 @@ export const dom = {
 };
 
 export const initTheme = () => {
-    const savedTheme = localStorage.getItem('pokedex-theme') || 'dark';
+    let savedTheme = 'dark';
+    try {
+        savedTheme = localStorage.getItem('pokedex-theme') || 'dark';
+    } catch (e) {}
     document.documentElement.setAttribute('data-theme', savedTheme);
     dom.themeToggle.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
 };

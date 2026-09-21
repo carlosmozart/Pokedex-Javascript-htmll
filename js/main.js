@@ -20,7 +20,9 @@ dom.themeToggle.addEventListener('click', () => {
     const currentTheme = document.documentElement.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('pokedex-theme', newTheme);
+    try {
+        localStorage.setItem('pokedex-theme', newTheme);
+    } catch (e) {}
     dom.themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
 });
 

@@ -1,21 +1,37 @@
+const safeGetItem = (key, defaultValue) => {
+    try {
+        return localStorage.getItem(key) || defaultValue;
+    } catch (e) {
+        return defaultValue;
+    }
+};
+
+const safeSetItem = (key, value) => {
+    try {
+        localStorage.setItem(key, value);
+    } catch (e) {
+        // Ignora no modo anônimo
+    }
+};
+
 export const state = {
     searchPokemon: 1,
     currentGenId: 1,
     isShiny: false,
     currentPokemonData: null,
-    currentLang: localStorage.getItem('pokedex-lang') || 'pt',
-    spriteMode: localStorage.getItem('pokedex-sprite-mode') || 'classic',
-    favoriteList: JSON.parse(localStorage.getItem('pokedex-favorites') || '[]')
+    currentLang: safeGetItem('pokedex-lang', 'pt'),
+    spriteMode: safeGetItem('pokedex-sprite-mode', 'classic'),
+    favoriteList: JSON.parse(safeGetItem('pokedex-favorites', '[]'))
 };
 
 export const saveLang = (lang) => {
     state.currentLang = lang;
-    localStorage.setItem('pokedex-lang', lang);
+    safeSetItem('pokedex-lang', lang);
 };
 
 export const saveSpriteMode = (mode) => {
     state.spriteMode = mode;
-    localStorage.setItem('pokedex-sprite-mode', mode);
+    safeSetItem('pokedex-sprite-mode', mode);
 };
 
 export const toggleFavorite = (id) => {
@@ -24,5 +40,5 @@ export const toggleFavorite = (id) => {
     } else {
         state.favoriteList.push(id);
     }
-    localStorage.setItem('pokedex-favorites', JSON.stringify(state.favoriteList));
+    safeSetItem('pokedex-favorites', JSON.stringify(state.favoriteList));
 };
