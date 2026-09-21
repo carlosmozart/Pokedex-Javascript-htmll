@@ -50,6 +50,23 @@ dom.btnShiny.addEventListener('click', () => {
     }
 });
 
+dom.btnVoice.addEventListener('click', () => {
+    if ('speechSynthesis' in window && state.currentPokemonData) {
+        window.speechSynthesis.cancel();
+        const textToRead = `${dom.pokemonName.textContent}. ${dom.pokemonDesc.textContent}`;
+        const utterance = new SpeechSynthesisUtterance(textToRead);
+        
+        if (state.currentLang === 'pt') utterance.lang = 'pt-BR';
+        else if (state.currentLang === 'es') utterance.lang = 'es-ES';
+        else utterance.lang = 'en-US';
+        
+        utterance.rate = 1.05;
+        utterance.pitch = 0.95;
+        
+        window.speechSynthesis.speak(utterance);
+    }
+});
+
 dom.btnFav.addEventListener('click', () => {
     if (!state.currentPokemonData) return;
     const id = state.currentPokemonData.id;
@@ -276,4 +293,17 @@ function handleSwipe() {
 // Boot
 initTheme();
 loadAllPokemon();
-renderPokemon(state.searchPokemon);
+if (state.searchPokemon) {
+    renderPokemon(state.searchPokemon);
+}
+
+// 3D Tilt Holográfico
+if (typeof VanillaTilt !== 'undefined' && pokemonCard) {
+    VanillaTilt.init(pokemonCard, {
+        max: 8,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.25,
+        scale: 1.02
+    });
+}

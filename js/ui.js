@@ -27,8 +27,9 @@ export const dom = {
     autocompleteList: document.getElementById('autocomplete-list'),
     btnPrev: document.querySelector('.btn-prev'),
     btnNext: document.querySelector('.btn-next'),
-    btnRandom: document.querySelector('.btn-random'),
+    btnFav: document.querySelector('#btn-fav'),
     btnShiny: document.querySelector('#btn-shiny'),
+    btnVoice: document.querySelector('#btn-voice'),
     btnCry: document.querySelector('#btn-cry'),
     btnFav: document.querySelector('#btn-fav'),
     btnOpenGrid: document.querySelector('#btn-open-grid'),
@@ -66,26 +67,52 @@ export const updateFavButton = (id) => {
     }
 };
 
-export const renderStats = (stats) => {
-    const maxStat = 255;
-    const statBars = [
-        { valEl: dom.hpVal, barEl: dom.hpBar }, { valEl: dom.atkVal, barEl: dom.atkBar },
-        { valEl: dom.defVal, barEl: dom.defBar }, { valEl: dom.spaVal, barEl: dom.spaBar },
-        { valEl: dom.spdVal, barEl: dom.spdBar }, { valEl: dom.speVal, barEl: dom.speBar }
-    ];
-    
-    // Zera as larguras primeiro para forçar a transição animada a partir do zero
-    statBars.forEach(bar => {
-        bar.barEl.style.width = '0%';
-    });
+let radarChart = null;
 
-    setTimeout(() => {
-        stats.forEach((stat, index) => {
-            const value = stat.base_stat;
-            statBars[index].valEl.textContent = value;
-            statBars[index].barEl.style.width = `${Math.min((value / maxStat) * 100, 100)}%`;
+export const renderStats = (stats) => {
+    const ctx = document.getElementById('stats-radar');
+    if (!ctx) return;
+    
+    const statValues = stats.map(stat => stat.base_stat);
+    const primaryColor = getComputedStyle(document.documentElement).getPropertyValue(`--type-${state.currentPokemonData.types[0].type.name}`).trim() || '#FF5959';
+
+    if (radarChart) {
+        radarChart.data.datasets[0].data = statValues;
+        radarChart.data.datasets[0].backgroundColor = `${primaryColor}88`; // 88 is hex for 53% opacity
+        radarChart.data.datasets[0].borderColor = primaryColor;
+        radarChart.update();
+    } else {
+        radarChart = new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ['HP', 'Ataque', 'Defesa', 'Velocidade', 'Defesa Esp.', 'Ataque Esp.'],
+                datasets: [{
+                    label: 'Status Base',
+                    data: [statValues[0], statValues[1], statValues[2], statValues[5], statValues[4], statValues[3]], // Reordered for better shape
+                    backgroundColor: `${primaryColor}88`,
+                    borderColor: primaryColor,
+                    pointBackgroundColor: '#fff',
+                    pointBorderColor: primaryColor,
+                    pointHoverBackgroundColor: primaryColor,
+                    pointHoverBorderColor: '#fff',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        angleLines: { color: 'rgba(255, 255, 255, 0.2)' },
+                        grid: { color: 'rgba(255, 255, 255, 0.2)' },
+                        pointLabels: { color: 'var(--text-color)', font: { size: 11, family: 'Inter' } },
+                        ticks: { display: false, min: 0, max: 255 }
+                    }
+                },
+                plugins: { legend: { display: false } }
+            }
         });
-    }, 50);
+    }
 };
 
 export const renderTypeMatchups = async (types) => {
@@ -212,12 +239,25 @@ const updateBasicInfo = (data) => {
     dom.pokemonAbility.innerHTML = mainAbility ? mainAbility.ability.name.replace('-', ' ') : 'N/A';
 };
 
-const updateTypes = (types) => {
+const updateTypes = (types, speciesData) => {
     const primaryType = types[0].type.name;
     const secondaryType = types[1] ? types[1].type.name : primaryType;
+    
+    // Usa a cor baseada na espécie ou fallback para o tipo primário
+    const speciesColor = speciesData && speciesData.color ? speciesData.color.name : primaryType;
+
+    // Converte nome de cor nativo da PokeAPI para var se existir, se não usa a nativa
+    const colorMap = {
+        'red': '#FF5959', 'blue': '#58ABF6', 'yellow': '#FAE078',
+        'green': '#A7DB8D', 'black': '#705746', 'brown': '#B1736C',
+        'purple': '#9F5BBA', 'gray': '#B7B7CE', 'white': '#E2E2E2', 'pink': '#FA92B2'
+    };
+    
+    const bgPrimary = colorMap[speciesColor] || `var(--type-${primaryType})`;
+    const bgSecondary = `var(--type-${secondaryType})`;
 
     dom.dynamicBg.className = '';
-    dom.dynamicBg.style.backgroundImage = `var(--pattern-dots), linear-gradient(135deg, var(--type-${primaryType}) 0%, var(--type-${secondaryType}) 100%)`;
+    dom.dynamicBg.style.backgroundImage = `var(--pattern-dots), linear-gradient(135deg, ${bgPrimary} 0%, ${bgSecondary} 100%)`;
 
     dom.badge1.textContent = typeTranslations[primaryType] || primaryType;
     dom.badge1.className = `pokemon-type-badge badge1 badge-${primaryType}`;
@@ -272,7 +312,7 @@ export const renderPokemon = async (pokemon) => {
 
         updateFavButton(data.id);
         updateBasicInfo(data);
-        updateTypes(data.types);
+        updateTypes(data.types, speciesData);
         updateDescriptionAndCategory(speciesData);
 
         renderStats(data.stats);

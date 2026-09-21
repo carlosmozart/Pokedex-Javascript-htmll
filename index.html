@@ -7,6 +7,11 @@
     <title>Pokédex Moderna</title>
     <link rel="icon" href="./favicons/favicon-16x16.png">
     <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- Ultra-Premium CDNs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    
     <script type="module" src="./js/main.js"></script>
 </head>
 <body>
@@ -73,7 +78,8 @@
                 <div class="image-controls">
                     <button id="btn-fav" class="btn-icon btn-fav" title="Favoritar">🤍</button>
                     <button id="btn-shiny" class="btn-icon" title="Alternar Shiny">✨</button>
-                    <button id="btn-cry" class="btn-icon" title="Tocar Cry">🔊</button>
+                    <button id="btn-voice" class="btn-icon" title="Ouvir Pokedex">🔊</button>
+                    <button id="btn-cry" class="btn-icon" title="Tocar Cry">🎵</button>
                 </div>
             </div>
 
@@ -114,37 +120,8 @@
                 <div class="tabs-body">
                     <!-- Tab: Stats Base -->
                     <div id="tab-stats" class="tab-content active">
-                        <div class="pokemon-stats">
-                            <div class="stat-row">
-                                <span class="stat-label">HP</span>
-                                <span class="stat-value hp-val">0</span>
-                                <div class="stat-bar"><div class="stat-fill stat-hp" style="width: 0%;"></div></div>
-                            </div>
-                            <div class="stat-row">
-                                <span class="stat-label">ATK</span>
-                                <span class="stat-value atk-val">0</span>
-                                <div class="stat-bar"><div class="stat-fill stat-atk" style="width: 0%;"></div></div>
-                            </div>
-                            <div class="stat-row">
-                                <span class="stat-label">DEF</span>
-                                <span class="stat-value def-val">0</span>
-                                <div class="stat-bar"><div class="stat-fill stat-def" style="width: 0%;"></div></div>
-                            </div>
-                            <div class="stat-row">
-                                <span class="stat-label">SPA</span>
-                                <span class="stat-value spa-val">0</span>
-                                <div class="stat-bar"><div class="stat-fill stat-spa" style="width: 0%;"></div></div>
-                            </div>
-                            <div class="stat-row">
-                                <span class="stat-label">SPD</span>
-                                <span class="stat-value spd-val">0</span>
-                                <div class="stat-bar"><div class="stat-fill stat-spd" style="width: 0%;"></div></div>
-                            </div>
-                            <div class="stat-row">
-                                <span class="stat-label">SPE</span>
-                                <span class="stat-value spe-val">0</span>
-                                <div class="stat-bar"><div class="stat-fill stat-spe" style="width: 0%;"></div></div>
-                            </div>
+                        <div class="pokemon-stats-radar" style="position: relative; width: 100%; height: 260px; display: flex; justify-content: center; align-items: center;">
+                            <canvas id="stats-radar"></canvas>
                         </div>
                     </div>
                     
