@@ -36,9 +36,13 @@ export const getPokemonSprite = (data, shiny) => {
         
         const genInfo = genMap[state.currentGenId];
         if (genInfo && data.sprites.versions[genInfo[0]] && data.sprites.versions[genInfo[0]][genInfo[1]]) {
-            spriteUrl = shiny 
-                ? data.sprites.versions[genInfo[0]][genInfo[1]].front_shiny 
-                : data.sprites.versions[genInfo[0]][genInfo[1]].front_default;
+            const versionSprites = data.sprites.versions[genInfo[0]][genInfo[1]];
+            
+            if (shiny) {
+                spriteUrl = versionSprites.front_shiny_transparent || versionSprites.front_shiny;
+            } else {
+                spriteUrl = versionSprites.front_transparent || versionSprites.front_default;
+            }
         }
     }
 
