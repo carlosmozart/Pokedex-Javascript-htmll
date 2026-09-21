@@ -21,12 +21,33 @@ export const getPokemonSprite = (data, shiny) => {
         spriteUrl = shiny ? data.sprites.other.showdown.front_shiny : data.sprites.other.showdown.front_default;
     } 
     
-    // Se for modo clássico ou o 3D não existir, usa a imagem PNG padrão (sempre transparente)
+    // Se for modo clássico (2D), tenta pegar a gen específica selecionada
+    if (!spriteUrl && state.spriteMode === 'classic') {
+        const genMap = {
+            1: ['generation-i', 'yellow'],
+            2: ['generation-ii', 'crystal'],
+            3: ['generation-iii', 'emerald'],
+            4: ['generation-iv', 'platinum'],
+            5: ['generation-v', 'black-white'],
+            6: ['generation-vi', 'omegaruby-alphasapphire'],
+            7: ['generation-vii', 'ultra-sun-ultra-moon'],
+            8: ['generation-viii', 'icons'] // Note: Gen 8 has limited 2D sprites in API
+        };
+        
+        const genInfo = genMap[state.currentGenId];
+        if (genInfo && data.sprites.versions[genInfo[0]] && data.sprites.versions[genInfo[0]][genInfo[1]]) {
+            spriteUrl = shiny 
+                ? data.sprites.versions[genInfo[0]][genInfo[1]].front_shiny 
+                : data.sprites.versions[genInfo[0]][genInfo[1]].front_default;
+        }
+    }
+
+    // Fallback normal caso o sprite 2D/3D não exista (ex: Pokémon mais novo que a geração selecionada)
     if (!spriteUrl) {
         spriteUrl = shiny ? data.sprites.front_shiny : data.sprites.front_default;
     }
 
-    // Fallback final para official-artwork caso não exista sprite clássico
+    // Fallback final para official-artwork
     if (!spriteUrl) {
         spriteUrl = shiny ? 
             (data.sprites.other['official-artwork'].front_shiny || data.sprites.front_shiny) :

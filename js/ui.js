@@ -38,7 +38,6 @@ export const dom = {
     langSelect: document.querySelector('#lang-select'),
     spriteSelect: document.querySelector('#sprite-select'),
     dynamicBg: document.querySelector('#dynamic-bg'),
-    loadingOverlay: document.querySelector('#loading-overlay'),
     gridModal: document.querySelector('#grid-modal'),
     gridContainer: document.querySelector('#grid-container'),
     gridGenNumber: document.querySelector('#grid-gen-number'),
@@ -74,11 +73,19 @@ export const renderStats = (stats) => {
         { valEl: dom.defVal, barEl: dom.defBar }, { valEl: dom.spaVal, barEl: dom.spaBar },
         { valEl: dom.spdVal, barEl: dom.spdBar }, { valEl: dom.speVal, barEl: dom.speBar }
     ];
-    stats.forEach((stat, index) => {
-        const value = stat.base_stat;
-        statBars[index].valEl.textContent = value;
-        statBars[index].barEl.style.width = `${Math.min((value / maxStat) * 100, 100)}%`;
+    
+    // Zera as larguras primeiro para forçar a transição animada a partir do zero
+    statBars.forEach(bar => {
+        bar.barEl.style.width = '0%';
     });
+
+    setTimeout(() => {
+        stats.forEach((stat, index) => {
+            const value = stat.base_stat;
+            statBars[index].valEl.textContent = value;
+            statBars[index].barEl.style.width = `${Math.min((value / maxStat) * 100, 100)}%`;
+        });
+    }, 50);
 };
 
 export const renderTypeMatchups = async (types) => {
@@ -207,15 +214,16 @@ const updateBasicInfo = (data) => {
 
 const updateTypes = (types) => {
     const primaryType = types[0].type.name;
+    const secondaryType = types[1] ? types[1].type.name : primaryType;
+
     dom.dynamicBg.className = '';
-    dom.dynamicBg.style.backgroundColor = `var(--type-${primaryType})`;
+    dom.dynamicBg.style.backgroundImage = `var(--pattern-dots), linear-gradient(135deg, var(--type-${primaryType}) 0%, var(--type-${secondaryType}) 100%)`;
 
     dom.badge1.textContent = typeTranslations[primaryType] || primaryType;
     dom.badge1.className = `pokemon-type-badge badge1 badge-${primaryType}`;
     dom.badge1.style.display = 'block';
 
     if (types[1]) {
-        const secondaryType = types[1].type.name;
         dom.badge2.textContent = typeTranslations[secondaryType] || secondaryType;
         dom.badge2.className = `pokemon-type-badge badge2 badge-${secondaryType}`;
         dom.badge2.style.display = 'block';
@@ -237,7 +245,20 @@ const updateDescriptionAndCategory = (speciesData) => {
 };
 
 export const renderPokemon = async (pokemon) => {
-    dom.loadingOverlay.classList.add('active');
+    const skeletonElements = [
+        dom.pokemonName, dom.pokemonNumber, dom.pokemonHeight, 
+        dom.pokemonWeight, dom.pokemonCategory, dom.pokemonAbility, 
+        dom.pokemonDesc
+    ];
+    
+    skeletonElements.forEach(el => {
+        el.classList.add('skeleton');
+        el.innerHTML = 'Carregando...';
+    });
+    
+    dom.pokemonImage.classList.remove('pop-in');
+    dom.pokemonImage.src = './images/miss.png';
+
     state.isShiny = false;
     dom.btnShiny.style.transform = 'scale(1)';
     dom.btnShiny.style.background = 'var(--btn-bg)';
@@ -257,6 +278,12 @@ export const renderPokemon = async (pokemon) => {
         renderStats(data.stats);
         renderTypeMatchups(data.types);
         renderEvolutions(speciesData);
+        
+        skeletonElements.forEach(el => el.classList.remove('skeleton'));
+        
+        // Ativa a animação de entrada do sprite
+        void dom.pokemonImage.offsetWidth; // Trigger reflow
+        dom.pokemonImage.classList.add('pop-in');
 
         playCry(data);
         dom.input.value = '';
@@ -268,7 +295,6 @@ export const renderPokemon = async (pokemon) => {
         } else {
             showToast('Pokémon não encontrado.');
         }
+        skeletonElements.forEach(el => el.classList.remove('skeleton'));
     }
-    
-    dom.loadingOverlay.classList.remove('active');
 };

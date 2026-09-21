@@ -34,6 +34,19 @@ dom.btnShiny.addEventListener('click', () => {
         dom.pokemonImage.src = getPokemonSprite(state.currentPokemonData, state.isShiny);
         dom.btnShiny.style.transform = state.isShiny ? 'scale(1.2)' : 'scale(1)';
         dom.btnShiny.style.background = state.isShiny ? 'var(--type-electric)' : 'var(--btn-bg)';
+        
+        if (state.isShiny) {
+            const container = dom.pokemonImage.parentElement;
+            for (let i = 0; i < 7; i++) {
+                const sparkle = document.createElement('div');
+                sparkle.className = 'sparkle';
+                sparkle.style.left = `${Math.random() * 80 + 10}%`;
+                sparkle.style.top = `${Math.random() * 80 + 10}%`;
+                sparkle.style.animationDelay = `${Math.random() * 0.2}s`;
+                container.appendChild(sparkle);
+                setTimeout(() => sparkle.remove(), 1200);
+            }
+        }
     }
 });
 
@@ -231,6 +244,34 @@ document.addEventListener('keydown', (event) => {
     if (event.key === 'ArrowLeft') dom.btnPrev.click();
     if (event.key === 'ArrowRight') dom.btnNext.click();
 });
+
+// Swipe Gestures
+let touchStartX = 0;
+let touchEndX = 0;
+const pokemonCard = document.querySelector('.pokemon-card');
+
+if (pokemonCard) {
+    pokemonCard.addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+    });
+
+    pokemonCard.addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    });
+}
+
+function handleSwipe() {
+    const swipeThreshold = 50;
+    if (touchEndX < touchStartX - swipeThreshold) {
+        // Swipe Left -> Next
+        dom.btnNext.click();
+    }
+    if (touchEndX > touchStartX + swipeThreshold) {
+        // Swipe Right -> Prev
+        dom.btnPrev.click();
+    }
+}
 
 // Boot
 initTheme();
