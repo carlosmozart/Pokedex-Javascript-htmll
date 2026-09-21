@@ -79,13 +79,25 @@ export const renderStats = (stats) => {
         if (!ctx) return;
         
         const statValues = stats.map(stat => stat.base_stat);
+        const reorderedData = [statValues[0], statValues[1], statValues[2], statValues[5], statValues[4], statValues[3]];
+        
+        const labelsWithValues = [
+            ['HP', statValues[0]], 
+            ['Ataque', statValues[1]], 
+            ['Defesa', statValues[2]], 
+            ['Velocidade', statValues[5]], 
+            ['Defesa Esp.', statValues[4]], 
+            ['Ataque Esp.', statValues[3]]
+        ];
+
         let primaryColor = '#FF5959';
         if (state.currentPokemonData && state.currentPokemonData.types) {
             primaryColor = getComputedStyle(document.documentElement).getPropertyValue(`--type-${state.currentPokemonData.types[0].type.name}`).trim() || '#FF5959';
         }
 
         if (radarChart) {
-            radarChart.data.datasets[0].data = statValues;
+            radarChart.data.labels = labelsWithValues;
+            radarChart.data.datasets[0].data = reorderedData;
             radarChart.data.datasets[0].backgroundColor = `${primaryColor}88`; // 88 is hex for 53% opacity
             radarChart.data.datasets[0].borderColor = primaryColor;
             radarChart.update();
@@ -93,10 +105,10 @@ export const renderStats = (stats) => {
             radarChart = new Chart(ctx, {
                 type: 'radar',
                 data: {
-                    labels: ['HP', 'Ataque', 'Defesa', 'Velocidade', 'Defesa Esp.', 'Ataque Esp.'],
+                    labels: labelsWithValues,
                     datasets: [{
                         label: 'Status Base',
-                        data: [statValues[0], statValues[1], statValues[2], statValues[5], statValues[4], statValues[3]], // Reordered for better shape
+                        data: reorderedData,
                         backgroundColor: `${primaryColor}88`,
                         borderColor: primaryColor,
                         pointBackgroundColor: '#fff',
@@ -111,15 +123,11 @@ export const renderStats = (stats) => {
                     maintainAspectRatio: false,
                     scales: {
                         r: {
-                            angleLines: { color: 'rgba(255, 255, 255, 0.2)' },
-                            grid: { color: 'rgba(255, 255, 255, 0.2)' },
+                            angleLines: { color: 'rgba(255, 255, 255, 0.15)' },
+                            grid: { color: 'rgba(255, 255, 255, 0.15)' },
                             pointLabels: { color: 'var(--text-color)', font: { size: 11, family: 'Inter', weight: 'bold' } },
                             ticks: { 
-                                display: true, 
-                                backdropColor: 'transparent', 
-                                color: 'rgba(255, 255, 255, 0.6)', 
-                                font: { size: 10, family: 'Inter' },
-                                stepSize: 50,
+                                display: false,
                                 min: 0, 
                                 max: 255 
                             }
