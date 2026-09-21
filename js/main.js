@@ -323,13 +323,35 @@ if (state.searchPokemon) {
     renderPokemon(state.searchPokemon);
 }
 
-// 3D Tilt Holográfico
-if (typeof VanillaTilt !== 'undefined' && pokemonCard) {
-    VanillaTilt.init(pokemonCard, {
-        max: 8,
-        speed: 400,
-        glare: true,
-        "max-glare": 0.25,
-        scale: 1.02
-    });
-}
+// 3D Tilt Holográfico: reservado para ponteiro/mouse em telas maiores.
+// Em touch ou com redução de movimento, o swipe e a acessibilidade têm prioridade.
+const tiltMediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+let tiltEnabled = false;
+
+const updateCardTilt = () => {
+    if (!pokemonCard || typeof VanillaTilt === 'undefined') return;
+
+    const isTouchDevice = window.matchMedia('(pointer: coarse)').matches ||
+        'ontouchstart' in window;
+    const shouldEnable = !isTouchDevice &&
+        window.innerWidth >= 768 &&
+        !tiltMediaQuery.matches;
+
+    if (shouldEnable && !tiltEnabled) {
+        VanillaTilt.init(pokemonCard, {
+            max: 8,
+            speed: 400,
+            glare: true,
+            'max-glare': 0.25,
+            scale: 1.02
+        });
+        tiltEnabled = true;
+    } else if (!shouldEnable && tiltEnabled) {
+        pokemonCard.vanillaTilt?.destroy();
+        tiltEnabled = false;
+    }
+};
+
+updateCardTilt();
+window.addEventListener('resize', updateCardTilt, { passive: true });
+tiltMediaQuery.addEventListener?.('change', updateCardTilt);
