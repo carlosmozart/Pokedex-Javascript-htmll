@@ -27,6 +27,7 @@ export const dom = {
     autocompleteList: document.getElementById('autocomplete-list'),
     btnPrev: document.querySelector('.btn-prev'),
     btnNext: document.querySelector('.btn-next'),
+    btnRandom: document.querySelector('.btn-random'),
     btnFav: document.querySelector('#btn-fav'),
     btnShiny: document.querySelector('#btn-shiny'),
     btnVoice: document.querySelector('#btn-voice'),
@@ -310,16 +311,22 @@ export const renderPokemon = async (pokemon) => {
     ];
     
     skeletonElements.forEach(el => {
-        el.classList.add('skeleton');
-        el.innerHTML = 'Carregando...';
+        if (el) {
+            el.classList.add('skeleton');
+            el.innerHTML = 'Carregando...';
+        }
     });
     
-    dom.pokemonImage.classList.remove('pop-in');
-    dom.pokemonImage.src = './images/miss.png';
+    if (dom.pokemonImage) {
+        dom.pokemonImage.classList.remove('pop-in');
+        dom.pokemonImage.src = './images/miss.png';
+    }
 
     state.isShiny = false;
-    dom.btnShiny.style.transform = 'scale(1)';
-    dom.btnShiny.style.background = 'var(--btn-bg)';
+    if (dom.btnShiny) {
+        dom.btnShiny.style.transform = 'scale(1)';
+        dom.btnShiny.style.background = 'var(--btn-bg)';
+    }
 
     const data = await fetchPokemonData(pokemon);
     const speciesData = await fetchSpeciesData(pokemon);
@@ -337,14 +344,16 @@ export const renderPokemon = async (pokemon) => {
         renderTypeMatchups(data.types);
         renderEvolutions(speciesData);
         
-        skeletonElements.forEach(el => el.classList.remove('skeleton'));
+        skeletonElements.forEach(el => { if (el) el.classList.remove('skeleton'); });
         
         // Ativa a animação de entrada do sprite
-        void dom.pokemonImage.offsetWidth; // Trigger reflow
-        dom.pokemonImage.classList.add('pop-in');
+        if (dom.pokemonImage) {
+            void dom.pokemonImage.offsetWidth; // Trigger reflow
+            dom.pokemonImage.classList.add('pop-in');
+        }
 
         playCry(data);
-        dom.input.value = '';
+        if (dom.input) dom.input.value = '';
     } else {
         state.currentPokemonData = null;
         resetUI();
@@ -353,6 +362,6 @@ export const renderPokemon = async (pokemon) => {
         } else {
             showToast('Pokémon não encontrado.');
         }
-        skeletonElements.forEach(el => el.classList.remove('skeleton'));
+        skeletonElements.forEach(el => { if (el) el.classList.remove('skeleton'); });
     }
 };

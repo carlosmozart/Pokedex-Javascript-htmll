@@ -7,16 +7,16 @@ import { dom, initTheme, renderPokemon, updateFavButton } from './ui.js';
 if (dom.langSelect) dom.langSelect.value = state.currentLang;
 if (dom.spriteSelect) dom.spriteSelect.value = state.spriteMode;
 
-dom.langSelect.addEventListener('change', (e) => {
+dom.langSelect?.addEventListener('change', (e) => {
     saveLang(e.target.value);
     if(state.currentPokemonData) renderPokemon(state.searchPokemon);
 });
-dom.spriteSelect.addEventListener('change', (e) => {
+dom.spriteSelect?.addEventListener('change', (e) => {
     saveSpriteMode(e.target.value);
     if(state.currentPokemonData) renderPokemon(state.searchPokemon);
 });
 
-dom.themeToggle.addEventListener('click', () => {
+dom.themeToggle?.addEventListener('click', () => {
     const currentTheme = document.documentElement.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', newTheme);
@@ -26,11 +26,11 @@ dom.themeToggle.addEventListener('click', () => {
     dom.themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
 });
 
-dom.btnCry.addEventListener('click', () => {
+dom.btnCry?.addEventListener('click', () => {
     if (state.currentPokemonData) playCry(state.currentPokemonData);
 });
 
-dom.btnShiny.addEventListener('click', () => {
+dom.btnShiny?.addEventListener('click', () => {
     state.isShiny = !state.isShiny;
     if (state.currentPokemonData) {
         dom.pokemonImage.src = getPokemonSprite(state.currentPokemonData, state.isShiny);
@@ -52,7 +52,7 @@ dom.btnShiny.addEventListener('click', () => {
     }
 });
 
-dom.btnVoice.addEventListener('click', () => {
+dom.btnVoice?.addEventListener('click', () => {
     if ('speechSynthesis' in window && state.currentPokemonData) {
         window.speechSynthesis.cancel();
         const textToRead = `${dom.pokemonName.textContent}. ${dom.pokemonDesc.textContent}`;
@@ -69,14 +69,14 @@ dom.btnVoice.addEventListener('click', () => {
     }
 });
 
-dom.btnFav.addEventListener('click', () => {
+dom.btnFav?.addEventListener('click', () => {
     if (!state.currentPokemonData) return;
     const id = state.currentPokemonData.id;
     toggleFavorite(id);
     updateFavButton(id);
 });
 
-dom.tabBtns.forEach(btn => {
+dom.tabBtns?.forEach(btn => {
     btn.addEventListener('click', () => {
         dom.tabBtns.forEach(b => {
             b.classList.remove('active');
@@ -109,7 +109,7 @@ const initObserver = () => {
     }, { root: dom.gridContainer, rootMargin: '100px' });
 };
 
-dom.btnOpenGrid.addEventListener('click', () => {
+dom.btnOpenGrid?.addEventListener('click', () => {
     dom.gridModal.showModal();
     dom.gridGenNumber.textContent = state.currentGenId;
     dom.gridContainer.innerHTML = '';
@@ -138,11 +138,11 @@ dom.btnOpenGrid.addEventListener('click', () => {
     }
 });
 
-dom.btnCloseGrid.addEventListener('click', () => {
+dom.btnCloseGrid?.addEventListener('click', () => {
     dom.gridModal.close();
 });
 
-dom.form.addEventListener('submit', (event) => {
+dom.form?.addEventListener('submit', (event) => {
     event.preventDefault();
     const val = dom.input.value.trim().toLowerCase();
     if (val) {
@@ -201,9 +201,9 @@ const onInput = debounce(() => {
     }
 }, 200);
 
-dom.input.addEventListener('input', onInput);
+dom.input?.addEventListener('input', onInput);
 
-dom.input.addEventListener('keydown', (e) => {
+dom.input?.addEventListener('keydown', (e) => {
     let x = dom.autocompleteList.getElementsByTagName('li');
     if (e.key === 'ArrowDown') {
         currentFocus++;
@@ -239,19 +239,19 @@ document.addEventListener('click', (event) => {
     }
 });
 
-dom.btnPrev.addEventListener('click', () => {
+dom.btnPrev?.addEventListener('click', () => {
     if (state.searchPokemon > 1) renderPokemon(state.searchPokemon - 1);
 });
-dom.btnNext.addEventListener('click', () => {
+dom.btnNext?.addEventListener('click', () => {
     const currentLimit = generationsConfig[state.currentGenId].limit;
     if (state.searchPokemon < currentLimit) renderPokemon(state.searchPokemon + 1);
 });
-dom.btnRandom.addEventListener('click', () => {
+dom.btnRandom?.addEventListener('click', () => {
     const currentLimit = generationsConfig[state.currentGenId].limit;
     const randomId = Math.floor(Math.random() * currentLimit) + 1;
     renderPokemon(randomId);
 });
-dom.genSelect.addEventListener('change', (event) => {
+dom.genSelect?.addEventListener('change', (event) => {
     state.currentGenId = parseInt(event.target.value);
     const newLimit = generationsConfig[state.currentGenId].limit;
     if (state.searchPokemon > newLimit) state.searchPokemon = 1;

@@ -49,7 +49,7 @@ export const loadAllPokemon = async () => {
 
         const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10000');
         const data = await response.json();
-        allPokemonNames = data.results.map(p => p.name);
+        allPokemonNames = data.results.map((p, index) => ({ name: p.name, id: index + 1 }));
         safeSessionSet('all_pokemon_names', JSON.stringify(allPokemonNames));
     } catch (error) {
         console.error("Erro ao carregar lista de nomes", error);

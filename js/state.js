@@ -6,6 +6,15 @@ const safeGetItem = (key, defaultValue) => {
     }
 };
 
+const safeGetJSON = (key, defaultValue) => {
+    try {
+        const val = localStorage.getItem(key);
+        return val ? JSON.parse(val) : defaultValue;
+    } catch (e) {
+        return defaultValue;
+    }
+};
+
 const safeSetItem = (key, value) => {
     try {
         localStorage.setItem(key, value);
@@ -21,7 +30,7 @@ export const state = {
     currentPokemonData: null,
     currentLang: safeGetItem('pokedex-lang', 'pt'),
     spriteMode: safeGetItem('pokedex-sprite-mode', 'classic'),
-    favoriteList: JSON.parse(safeGetItem('pokedex-favorites', '[]'))
+    favoriteList: safeGetJSON('pokedex-favorites', [])
 };
 
 export const saveLang = (lang) => {
