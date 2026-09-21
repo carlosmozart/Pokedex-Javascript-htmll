@@ -1,0 +1,9 @@
+{
+  "name": "pokedex-javascript-html",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check js/main.js && node --check js/api.js && node --check js/ui.js && node --check js/utils.js"
+  }
+}

@@ -28,7 +28,6 @@ export const dom = {
     btnPrev: document.querySelector('.btn-prev'),
     btnNext: document.querySelector('.btn-next'),
     btnRandom: document.querySelector('.btn-random'),
-    btnFav: document.querySelector('#btn-fav'),
     btnShiny: document.querySelector('#btn-shiny'),
     btnVoice: document.querySelector('#btn-voice'),
     btnCry: document.querySelector('#btn-cry'),
@@ -73,6 +72,14 @@ export const updateFavButton = (id) => {
 };
 
 let radarChart = null;
+let renderRequestId = 0;
+
+const escapeHtml = (value) => String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
 
 export const renderStats = (stats) => {
     try {
@@ -143,11 +150,12 @@ export const renderStats = (stats) => {
     }
 };
 
-export const renderTypeMatchups = async (types) => {
+export const renderTypeMatchups = async (types, requestId = renderRequestId) => {
     dom.matchupsContainer.innerHTML = '<div class="spinner"></div>';
     
     const typePromises = types.map(t => fetchTypeData(t.type.name));
     const typeResults = await Promise.all(typePromises);
+    if (requestId !== renderRequestId) return;
     
     const multiplierMap = {};
     Object.keys(typeTranslations).forEach(t => multiplierMap[t] = 1);
@@ -166,15 +174,15 @@ export const renderTypeMatchups = async (types) => {
         let multClass = mult === 4 ? 'mult-4' : mult === 2 ? 'mult-2' : mult === 0.5 ? 'mult-05' : mult === 0.25 ? 'mult-025' : 'mult-0';
         html += `
             <div class="matchup-item badge-${type} ${multClass}">
-                <span>${typeTranslations[type]}</span>
-                <span class="matchup-mult">x${mult}</span>
+                <span>${escapeHtml(typeTranslations[type] || type)}</span>
+                <span class="matchup-mult">x${escapeHtml(mult)}</span>
             </div>
         `;
     }
     dom.matchupsContainer.innerHTML = html || '<span>Sem fraquezas/vantagens notáveis.</span>';
 };
 
-export const renderEvolutions = async (speciesData, pokemonData) => {
+export const renderEvolutions = async (speciesData, pokemonData, requestId = renderRequestId) => {
     dom.evolutionContainer.innerHTML = '<div class="spinner"></div>';
     
     // Suporte aos dados locais offline (array embutido)
@@ -184,9 +192,10 @@ export const renderEvolutions = async (speciesData, pokemonData) => {
             return;
         }
 
-        let html = '<div style="display:flex; flex-wrap: wrap; justify-content: center; gap: 15px; width: 100%;">';
+        let html = '<div class="evolution-list">';
         
         for (let link of pokemonData._localEvolutions) {
+            if (requestId !== renderRequestId) return;
             const fromId = link.de;
             const toId = link.para;
             const fromNameObj = allPokemonNames.find(p => p.id === fromId);
@@ -199,20 +208,20 @@ export const renderEvolutions = async (speciesData, pokemonData) => {
             const methodStr = link.nivel ? `Lvl ${link.nivel}` : (link.gatilho || 'Evolui');
             
             html += `
-                <div style="display:flex; align-items:center; justify-content: center; gap: 10px; background: var(--stat-bar-bg); padding: 10px; border-radius: 10px;">
+                <div class="evolution-card">
                     <div class="evo-item" data-id="${fromId}">
                         <img src="${fromSprite}" class="evo-img">
-                        <span class="evo-name">${fromName}</span>
+                        <span class="evo-name">${escapeHtml(fromName)}</span>
                     </div>
                     
-                    <div style="display:flex; flex-direction:column; align-items:center; font-size: 0.75rem; color: var(--text-muted); font-weight: bold; width: 80px; text-align: center;">
+                    <div class="evolution-method">
                         <span>➔</span>
-                        <span>${methodStr}</span>
+                        <span>${escapeHtml(methodStr)}</span>
                     </div>
 
                     <div class="evo-item" data-id="${toId}">
                         <img src="${toSprite}" class="evo-img">
-                        <span class="evo-name">${toName}</span>
+                        <span class="evo-name">${escapeHtml(toName)}</span>
                     </div>
                 </div>
             `;
@@ -243,29 +252,31 @@ export const renderEvolutions = async (speciesData, pokemonData) => {
         return;
     }
 
-    let html = '<div style="display:flex; flex-wrap: wrap; justify-content: center; gap: 15px; width: 100%;">';
+    let html = '<div class="evolution-list">';
     
     for (let link of links) {
+        if (requestId !== renderRequestId) return;
         const fromData = await fetchPokemonData(link.fromId);
         const toData = await fetchPokemonData(link.toId);
+        if (requestId !== renderRequestId) return;
         const fromSprite = fromData ? fromData.sprites.front_default : './images/miss.png';
         const toSprite = toData ? toData.sprites.front_default : './images/miss.png';
 
         html += `
-            <div style="display:flex; align-items:center; justify-content: center; gap: 10px; background: var(--stat-bar-bg); padding: 10px; border-radius: 10px;">
+            <div class="evolution-card">
                 <div class="evo-item" data-id="${link.fromId}">
                     <img src="${fromSprite}" class="evo-img">
-                    <span class="evo-name">${link.fromName}</span>
+                        <span class="evo-name">${escapeHtml(link.fromName)}</span>
                 </div>
                 
-                <div style="display:flex; flex-direction:column; align-items:center; font-size: 0.75rem; color: var(--text-muted); font-weight: bold; width: 80px; text-align: center;">
+                <div class="evolution-method">
                     <span>➔</span>
-                    <span>${link.method}</span>
+                    <span>${escapeHtml(link.method)}</span>
                 </div>
 
                 <div class="evo-item" data-id="${link.toId}">
                     <img src="${toSprite}" class="evo-img">
-                    <span class="evo-name">${link.toName}</span>
+                        <span class="evo-name">${escapeHtml(link.toName)}</span>
                 </div>
             </div>
         `;
@@ -305,44 +316,44 @@ export const renderMoves = (pokemonData) => {
     const tmHmMoves = moves.filter(m => m.m === 'machine' || m.m === 'tutor');
     
     let html = `
-        <div style="max-height: 250px; overflow-y: auto; padding-right: 10px;" class="moves-scroll">
-            <h4 style="margin-bottom: 10px; color: var(--text-color);">Por Nível (Level-up)</h4>
-            <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 0.85rem; text-align: left;">
-                <tr style="border-bottom: 1px solid var(--border-color); color: var(--text-muted);">
-                    <th style="padding: 5px;">Nv.</th>
-                    <th style="padding: 5px;">Golpe</th>
+        <div class="moves-scroll">
+            <h4 class="moves-heading">Por Nível (Level-up)</h4>
+            <table class="moves-table moves-level-table">
+                <tr class="moves-header">
+                    <th>Nv.</th>
+                    <th>Golpe</th>
                 </tr>
     `;
     
     if (levelUpMoves.length > 0) {
         levelUpMoves.forEach(m => {
             html += `
-                <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                    <td style="padding: 5px; font-weight: bold; color: var(--text-color);">${m.l}</td>
-                    <td style="padding: 5px; text-transform: capitalize;">${m.n.replace('-', ' ')}</td>
+                <tr class="moves-row">
+                    <td class="move-level">${escapeHtml(m.l)}</td>
+                    <td class="move-name">${escapeHtml(m.n.replace('-', ' '))}</td>
                 </tr>
             `;
         });
     } else {
-        html += `<tr><td colspan="2" style="padding: 5px;">Nenhum</td></tr>`;
+        html += '<tr><td colspan="2" class="moves-empty">Nenhum</td></tr>';
     }
     html += `</table>`;
     
     html += `
-            <h4 style="margin-bottom: 10px; color: var(--text-color);">TM / Tutor</h4>
-            <table style="width: 100%; border-collapse: collapse; font-size: 0.85rem; text-align: left;">
+            <h4 class="moves-heading">TM / Tutor</h4>
+            <table class="moves-table">
     `;
     if (tmHmMoves.length > 0) {
         tmHmMoves.forEach(m => {
             html += `
-                <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                    <td style="padding: 5px; font-weight: bold; color: var(--text-muted);">${m.m === 'machine' ? 'TM' : 'Tutor'}</td>
-                    <td style="padding: 5px; text-transform: capitalize;">${m.n.replace('-', ' ')}</td>
+                <tr class="moves-row">
+                    <td class="move-kind">${m.m === 'machine' ? 'TM' : 'Tutor'}</td>
+                    <td class="move-name">${escapeHtml(m.n.replace('-', ' '))}</td>
                 </tr>
             `;
         });
     } else {
-        html += `<tr><td colspan="2" style="padding: 5px;">Nenhum</td></tr>`;
+        html += '<tr><td colspan="2" class="moves-empty">Nenhum</td></tr>';
     }
     
     html += `</table></div>`;
@@ -380,13 +391,14 @@ export const showToast = (message) => {
 };
 
 const updateBasicInfo = (data) => {
-    dom.pokemonName.innerHTML = data.name;
-    dom.pokemonNumber.innerHTML = `#${String(data.id).padStart(3, '0')}`;
-    dom.pokemonImage.src = getPokemonSprite(data, false);
-    dom.pokemonHeight.innerHTML = `${(data.height / 10).toFixed(1)} m`;
-    dom.pokemonWeight.innerHTML = `${(data.weight / 10).toFixed(1)} kg`;
-    const mainAbility = data.abilities.find(a => !a.is_hidden) || data.abilities[0];
-    dom.pokemonAbility.innerHTML = mainAbility ? mainAbility.ability.name.replace('-', ' ') : 'N/A';
+    dom.pokemonName.textContent = data.name;
+    dom.pokemonNumber.textContent = `#${String(data.id).padStart(3, '0')}`;
+    dom.pokemonImage.src = getPokemonSprite(data, false) || './images/miss.png';
+    dom.pokemonHeight.textContent = `${(Number(data.height) / 10 || 0).toFixed(1)} m`;
+    dom.pokemonWeight.textContent = `${(Number(data.weight) / 10 || 0).toFixed(1)} kg`;
+    const abilities = Array.isArray(data.abilities) ? data.abilities : [];
+    const mainAbility = abilities.find(a => !a.is_hidden) || abilities[0];
+    dom.pokemonAbility.textContent = mainAbility?.ability?.name?.replace('-', ' ') || 'N/A';
 };
 
 const updateTypes = (types, speciesData) => {
@@ -428,18 +440,21 @@ const updateTypes = (types, speciesData) => {
 };
 
 const updateDescriptionAndCategory = (speciesData) => {
-    let genusObj = speciesData.genera.find(g => g.language.name === state.currentLang || (state.currentLang === 'pt' && g.language.name === 'pt-BR'));
-    if (!genusObj && state.currentLang === 'pt') genusObj = speciesData.genera.find(g => g.language.name === 'es');
-    if (!genusObj) genusObj = speciesData.genera.find(g => g.language.name === 'en');
-    dom.pokemonCategory.innerHTML = genusObj ? genusObj.genus : 'Pokémon';
+    const genera = Array.isArray(speciesData?.genera) ? speciesData.genera : [];
+    const entries = Array.isArray(speciesData?.flavor_text_entries) ? speciesData.flavor_text_entries : [];
+    let genusObj = genera.find(g => g.language?.name === state.currentLang || (state.currentLang === 'pt' && g.language?.name === 'pt-BR'));
+    if (!genusObj && state.currentLang === 'pt') genusObj = genera.find(g => g.language?.name === 'es');
+    if (!genusObj) genusObj = genera.find(g => g.language?.name === 'en');
+    dom.pokemonCategory.textContent = genusObj ? genusObj.genus : 'Pokémon';
 
-    let flavorObj = speciesData.flavor_text_entries.find(entry => entry.language.name === state.currentLang || (state.currentLang === 'pt' && entry.language.name === 'pt-BR'));
-    if (!flavorObj && state.currentLang === 'pt') flavorObj = speciesData.flavor_text_entries.find(entry => entry.language.name === 'es');
-    if (!flavorObj) flavorObj = speciesData.flavor_text_entries.find(entry => entry.language.name === 'en');
-    dom.pokemonDesc.innerHTML = flavorObj ? flavorObj.flavor_text.replace(/[\n\f]/g, ' ') : 'Descrição indisponível.';
+    let flavorObj = entries.find(entry => entry.language?.name === state.currentLang || (state.currentLang === 'pt' && entry.language?.name === 'pt-BR'));
+    if (!flavorObj && state.currentLang === 'pt') flavorObj = entries.find(entry => entry.language?.name === 'es');
+    if (!flavorObj) flavorObj = entries.find(entry => entry.language?.name === 'en');
+    dom.pokemonDesc.textContent = flavorObj?.flavor_text?.replace(/[\n\f]/g, ' ') || 'Descrição indisponível.';
 };
 
 export const renderPokemon = async (pokemon) => {
+    const requestId = ++renderRequestId;
     const skeletonElements = [
         dom.pokemonName, dom.pokemonNumber, dom.pokemonHeight, 
         dom.pokemonWeight, dom.pokemonCategory, dom.pokemonAbility, 
@@ -471,6 +486,9 @@ export const renderPokemon = async (pokemon) => {
         const data = await fetchPokemonData(pokemon);
         const speciesData = await fetchSpeciesData(pokemon);
 
+        // Ignora respostas antigas quando o usuário navega rapidamente.
+        if (requestId !== renderRequestId) return;
+
         if (data && speciesData) {
             state.currentPokemonData = data;
             state.searchPokemon = data.id;
@@ -481,8 +499,8 @@ export const renderPokemon = async (pokemon) => {
             updateDescriptionAndCategory(speciesData);
 
             renderStats(data.stats || []);
-            renderTypeMatchups(data.types || []);
-            renderEvolutions(speciesData, data);
+            renderTypeMatchups(data.types || [], requestId);
+            renderEvolutions(speciesData, data, requestId);
             renderMoves(data);
             
             skeletonElements.forEach(el => { if (el) el.classList.remove('skeleton'); });

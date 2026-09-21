@@ -95,6 +95,7 @@ dom.tabBtns?.forEach(btn => {
 });
 
 let observer;
+let lastFocusedElement = null;
 const initObserver = () => {
     if (observer) observer.disconnect();
     observer = new IntersectionObserver((entries) => {
@@ -115,7 +116,9 @@ const initObserver = () => {
 };
 
 dom.btnOpenGrid?.addEventListener('click', () => {
+    lastFocusedElement = document.activeElement;
     dom.gridModal.showModal();
+    dom.btnCloseGrid?.focus();
     dom.gridGenNumber.textContent = state.currentGenId;
     dom.gridContainer.innerHTML = '';
     
@@ -145,6 +148,10 @@ dom.btnOpenGrid?.addEventListener('click', () => {
 
 dom.btnCloseGrid?.addEventListener('click', () => {
     dom.gridModal.close();
+});
+
+dom.gridModal?.addEventListener('close', () => {
+    if (lastFocusedElement instanceof HTMLElement) lastFocusedElement.focus();
 });
 
 dom.form?.addEventListener('submit', (event) => {
@@ -264,6 +271,10 @@ dom.genSelect?.addEventListener('change', (event) => {
 });
 
 document.addEventListener('keydown', (event) => {
+    const target = event.target;
+    if (target instanceof HTMLElement &&
+        (target.matches('input, textarea, select, [contenteditable="true"]') ||
+         target.closest('dialog'))) return;
     if (event.key === 'ArrowLeft') dom.btnPrev?.click();
     if (event.key === 'ArrowRight') dom.btnNext?.click();
 });

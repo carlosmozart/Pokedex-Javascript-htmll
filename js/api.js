@@ -3,6 +3,11 @@ import { state } from './state.js';
 export const pokemonCache = new Map();
 export let allPokemonNames = [];
 
+const readJson = async (response) => {
+    if (!response || !response.ok) return null;
+    try { return await response.json(); } catch (error) { return null; }
+};
+
 const safeSessionGet = (key) => {
     try { return sessionStorage.getItem(key); } catch (e) { return null; }
 };
@@ -26,7 +31,8 @@ export const fetchWithCache = async (url, cacheKey) => {
     try {
         const response = await fetch(url);
         if (!response.ok) throw new Error('Not found');
-        const data = await response.json();
+        const data = await readJson(response);
+        if (!data) return null;
         pokemonCache.set(cacheKey, data);
         safeSessionSet(cacheKey, JSON.stringify(data));
         return data;
@@ -99,7 +105,8 @@ export const fetchTranslations = async (lang, genId) => {
     try {
         const response = await fetch(`./data/gen${genId}/i18n/${lang}.json`);
         if (response.ok) {
-            const data = await response.json();
+            const data = await readJson(response);
+            if (!data) return null;
             safeSessionSet(cacheKey, JSON.stringify(data));
             return data;
         }
@@ -131,7 +138,8 @@ export const fetchPokemonData = async (pokemon) => {
         try {
             const response = await fetch(`./data/gen${targetGen}/pokemon/${id}.json`);
             if (response.ok) {
-                const rawLocal = await response.json();
+                const rawLocal = await readJson(response);
+                if (!rawLocal || !rawLocal.id || !rawLocal.nome) throw new Error('Dados locais inválidos');
                 const adapted = adaptLocalToPokeAPI(rawLocal);
                 safeSessionSet(cacheKey, JSON.stringify(adapted));
                 return adapted;
@@ -160,7 +168,8 @@ export const fetchSpeciesData = async (pokemon) => {
         try {
             const response = await fetch(`./data/gen${targetGen}/pokemon/${id}.json`);
             if (response.ok) {
-                const rawLocal = await response.json();
+                const rawLocal = await readJson(response);
+                if (!rawLocal || !rawLocal.id || !rawLocal.nome) throw new Error('Dados locais inválidos');
                 
                 let translatedDesc = null;
                 const i18n = await fetchTranslations(state.currentLang, targetGen);
@@ -191,9 +200,30 @@ export const loadAllPokemon = async () => {
             } catch(e) {}
         }
 
-        const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10000');
-        const data = await response.json();
-        allPokemonNames = data.results.map((p, index) => ({ name: p.name, id: index + 1 }));
+        // A base local contém os nomes e IDs das gerações 3–7. Isso evita uma
+        // requisição inicial pesada à PokéAPI e mantém o autocomplete offline.
+        const generationResults = await Promise.all(
+            [3, 4, 5, 6, 7].map(async genId => {
+                const response = await fetch(`./data/gen${genId}/pokedex.json`);
+                if (!response.ok) throw new Error(`Arquivo local da geração ${genId} indisponível`);
+                const data = await readJson(response);
+                if (!Array.isArray(data)) throw new Error(`Dados locais da geração ${genId} inválidos`);
+                return data;
+            })
+        );
+
+        const namesById = new Map();
+        generationResults.flat().forEach(pokemon => {
+            if (pokemon && Number.isInteger(pokemon.id) && pokemon.nome) {
+                namesById.set(pokemon.id, {
+                    id: pokemon.id,
+                    name: String(pokemon.nome).toLowerCase()
+                });
+            }
+        });
+
+        allPokemonNames = [...namesById.values()].sort((a, b) => a.id - b.id);
+        if (allPokemonNames.length === 0) throw new Error('Nenhum nome local encontrado');
         safeSessionSet('all_pokemon_names', JSON.stringify(allPokemonNames));
     } catch (error) {
         console.error("Erro ao carregar lista de nomes", error);
