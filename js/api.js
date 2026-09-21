@@ -1,14 +1,24 @@
 export const pokemonCache = new Map();
 export let allPokemonNames = [];
 
+const safeSessionGet = (key) => {
+    try { return sessionStorage.getItem(key); } catch (e) { return null; }
+};
+
+const safeSessionSet = (key, value) => {
+    try { sessionStorage.setItem(key, value); } catch (e) {}
+};
+
 export const fetchWithCache = async (url, cacheKey) => {
     if (pokemonCache.has(cacheKey)) return pokemonCache.get(cacheKey);
     
-    const sessionData = sessionStorage.getItem(cacheKey);
+    const sessionData = safeSessionGet(cacheKey);
     if (sessionData) {
-        const parsed = JSON.parse(sessionData);
-        pokemonCache.set(cacheKey, parsed);
-        return parsed;
+        try {
+            const parsed = JSON.parse(sessionData);
+            pokemonCache.set(cacheKey, parsed);
+            return parsed;
+        } catch(e) {}
     }
 
     try {
@@ -16,7 +26,7 @@ export const fetchWithCache = async (url, cacheKey) => {
         if (!response.ok) throw new Error('Not found');
         const data = await response.json();
         pokemonCache.set(cacheKey, data);
-        try { sessionStorage.setItem(cacheKey, JSON.stringify(data)); } catch (e) {}
+        safeSessionSet(cacheKey, JSON.stringify(data));
         return data;
     } catch (error) {
         return null;
@@ -29,17 +39,19 @@ export const fetchTypeData = (type) => fetchWithCache(`https://pokeapi.co/api/v2
 
 export const loadAllPokemon = async () => {
     try {
-        const cachedNames = sessionStorage.getItem('all_pokemon_names');
+        const cachedNames = safeSessionGet('all_pokemon_names');
         if (cachedNames) {
-            allPokemonNames = JSON.parse(cachedNames);
-            return;
+            try {
+                allPokemonNames = JSON.parse(cachedNames);
+                return;
+            } catch(e) {}
         }
 
         const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10000');
         const data = await response.json();
         allPokemonNames = data.results.map(p => p.name);
-        try { sessionStorage.setItem('all_pokemon_names', JSON.stringify(allPokemonNames)); } catch (e) {}
-    } catch (e) {
-        console.error("Failed to load pokemon list for search", e);
+        safeSessionSet('all_pokemon_names', JSON.stringify(allPokemonNames));
+    } catch (error) {
+        console.error("Erro ao carregar lista de nomes", error);
     }
 };
