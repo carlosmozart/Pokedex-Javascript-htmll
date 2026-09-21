@@ -41,35 +41,52 @@ const adaptLocalToPokeAPI = (local) => {
         name: local.nome,
         height: local.altura,
         weight: local.peso,
-        types: local.tipos.map(t => ({ type: { name: t } })),
+        types: (local.tipos || []).map(t => ({ type: { name: t } })),
         stats: [
-            { base_stat: local.stats.hp, stat: { name: 'hp' } },
-            { base_stat: local.stats.attack, stat: { name: 'attack' } },
-            { base_stat: local.stats.defense, stat: { name: 'defense' } },
-            { base_stat: local.stats["special-attack"], stat: { name: 'special-attack' } },
-            { base_stat: local.stats["special-defense"], stat: { name: 'special-defense' } },
-            { base_stat: local.stats.speed, stat: { name: 'speed' } }
+            { base_stat: local.stats ? local.stats.hp : 0, stat: { name: 'hp' } },
+            { base_stat: local.stats ? local.stats.attack : 0, stat: { name: 'attack' } },
+            { base_stat: local.stats ? local.stats.defense : 0, stat: { name: 'defense' } },
+            { base_stat: local.stats ? local.stats["special-attack"] : 0, stat: { name: 'special-attack' } },
+            { base_stat: local.stats ? local.stats["special-defense"] : 0, stat: { name: 'special-defense' } },
+            { base_stat: local.stats ? local.stats.speed : 0, stat: { name: 'speed' } }
         ],
-        abilities: local.habilidades.map(h => ({ is_hidden: h.oculta, ability: { name: h.nome } })),
-        cries: local.cries,
+        abilities: (local.habilidades || []).map(h => ({ is_hidden: h.oculta, ability: { name: h.nome } })),
+        cries: local.cries || null,
         sprites: { front_default: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${local.id}.png` },
         _isLocal: true,
-        _localEvolutions: local.evolucoes
+        _localEvolutions: local.evolucoes || []
     };
 };
 
-const adaptLocalToPokeAPISpecies = (local) => {
+const adaptLocalToPokeAPISpecies = (local, translatedDesc) => {
+    const desc = translatedDesc || local.descricao || "Descrição indisponível.";
     return {
-        color: { name: local.tipos[0] }, // Fallback para tipo primário
+        color: { name: local.tipos && local.tipos[0] ? local.tipos[0] : 'normal' },
         genera: [
-            { genus: local.categoria, language: { name: 'pt-BR' } },
-            { genus: local.categoria, language: { name: 'en' } }
+            { genus: local.categoria || 'Pokémon', language: { name: 'pt-BR' } },
+            { genus: local.categoria || 'Pokémon', language: { name: 'en' } }
         ],
         flavor_text_entries: [
-            { flavor_text: local.descricao, language: { name: 'pt-BR' } },
-            { flavor_text: local.descricao, language: { name: 'en' } }
+            { flavor_text: desc, language: { name: 'pt-BR' } },
+            { flavor_text: desc, language: { name: 'en' } }
         ]
     };
+};
+
+export const fetchTranslations = async (lang, genId) => {
+    const cacheKey = `i18n_${lang}_g${genId}`;
+    const cached = safeSessionGet(cacheKey);
+    if (cached) return JSON.parse(cached);
+    
+    try {
+        const response = await fetch(`./data/gen${genId}/i18n/${lang}.json`);
+        if (response.ok) {
+            const data = await response.json();
+            safeSessionSet(cacheKey, JSON.stringify(data));
+            return data;
+        }
+    } catch (e) {}
+    return null;
 };
 
 const resolvePokemonId = (pokemon) => {
@@ -80,48 +97,57 @@ const resolvePokemonId = (pokemon) => {
 };
 
 export const fetchPokemonData = async (pokemon) => {
-    if (state.currentGenId >= 3 && state.currentGenId <= 7) {
-        const id = resolvePokemonId(pokemon);
-        if (id && id <= 807) {
-            const cacheKey = `local_poke_${id}_g${state.currentGenId}`;
-            const cached = safeSessionGet(cacheKey);
-            if (cached) return JSON.parse(cached);
-            
-            try {
-                const response = await fetch(`./data/gen${state.currentGenId}/pokemon/${id}.json`);
-                if (response.ok) {
-                    const rawLocal = await response.json();
-                    const adapted = adaptLocalToPokeAPI(rawLocal);
-                    safeSessionSet(cacheKey, JSON.stringify(adapted));
-                    return adapted;
-                }
-            } catch (e) {
-                console.warn("Failed to fetch local pokemon data", e);
+    const id = resolvePokemonId(pokemon);
+    if (id && id <= 807) {
+        let targetGen = state.currentGenId;
+        if (targetGen < 3 || targetGen > 7) targetGen = 7;
+        
+        const cacheKey = `local_poke_${id}_g${targetGen}`;
+        const cached = safeSessionGet(cacheKey);
+        if (cached) return JSON.parse(cached);
+        
+        try {
+            const response = await fetch(`./data/gen${targetGen}/pokemon/${id}.json`);
+            if (response.ok) {
+                const rawLocal = await response.json();
+                const adapted = adaptLocalToPokeAPI(rawLocal);
+                safeSessionSet(cacheKey, JSON.stringify(adapted));
+                return adapted;
             }
+        } catch (e) {
+            console.warn("Failed to fetch local pokemon data", e);
         }
     }
     return fetchWithCache(`https://pokeapi.co/api/v2/pokemon/${pokemon}`, `poke_${pokemon}`);
 };
 
 export const fetchSpeciesData = async (pokemon) => {
-    if (state.currentGenId >= 3 && state.currentGenId <= 7) {
-        const id = resolvePokemonId(pokemon);
-        if (id && id <= 807) {
-            const cacheKey = `local_spec_${id}_g${state.currentGenId}`;
-            const cached = safeSessionGet(cacheKey);
-            if (cached) return JSON.parse(cached);
-            
-            try {
-                const response = await fetch(`./data/gen${state.currentGenId}/pokemon/${id}.json`);
-                if (response.ok) {
-                    const rawLocal = await response.json();
-                    const adapted = adaptLocalToPokeAPISpecies(rawLocal);
-                    safeSessionSet(cacheKey, JSON.stringify(adapted));
-                    return adapted;
+    const id = resolvePokemonId(pokemon);
+    if (id && id <= 807) {
+        let targetGen = state.currentGenId;
+        if (targetGen < 3 || targetGen > 7) targetGen = 7;
+        
+        const cacheKey = `local_spec_${id}_g${targetGen}_${state.currentLang}`;
+        const cached = safeSessionGet(cacheKey);
+        if (cached) return JSON.parse(cached);
+        
+        try {
+            const response = await fetch(`./data/gen${targetGen}/pokemon/${id}.json`);
+            if (response.ok) {
+                const rawLocal = await response.json();
+                
+                let translatedDesc = null;
+                const i18n = await fetchTranslations(state.currentLang, targetGen);
+                if (i18n && i18n.pokedex && i18n.pokedex[id]) {
+                    translatedDesc = i18n.pokedex[id];
                 }
-            } catch (e) {
-                console.warn("Failed to fetch local species data", e);
+                
+                const adapted = adaptLocalToPokeAPISpecies(rawLocal, translatedDesc);
+                safeSessionSet(cacheKey, JSON.stringify(adapted));
+                return adapted;
             }
+        } catch (e) {
+            console.warn("Failed to fetch local species data", e);
         }
     }
     return fetchWithCache(`https://pokeapi.co/api/v2/pokemon-species/${pokemon}`, `spec_${pokemon}`);

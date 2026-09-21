@@ -123,13 +123,13 @@ export const renderStats = (stats) => {
                     maintainAspectRatio: false,
                     scales: {
                         r: {
+                            min: 0,
+                            max: 255,
                             angleLines: { color: 'rgba(255, 255, 255, 0.15)' },
                             grid: { color: 'rgba(255, 255, 255, 0.15)' },
                             pointLabels: { color: 'var(--text-color)', font: { size: 11, family: 'Inter', weight: 'bold' } },
                             ticks: { 
-                                display: false,
-                                min: 0, 
-                                max: 255 
+                                display: false
                             }
                         }
                     },
