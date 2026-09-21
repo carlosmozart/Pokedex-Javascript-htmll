@@ -75,7 +75,10 @@ export const renderStats = (stats) => {
         if (!ctx) return;
         
         const statValues = stats.map(stat => stat.base_stat);
-        const primaryColor = getComputedStyle(document.documentElement).getPropertyValue(`--type-${state.currentPokemonData.types[0].type.name}`).trim() || '#FF5959';
+        let primaryColor = '#FF5959';
+        if (state.currentPokemonData && state.currentPokemonData.types) {
+            primaryColor = getComputedStyle(document.documentElement).getPropertyValue(`--type-${state.currentPokemonData.types[0].type.name}`).trim() || '#FF5959';
+        }
 
         if (radarChart) {
             radarChart.data.datasets[0].data = statValues;
@@ -106,8 +109,16 @@ export const renderStats = (stats) => {
                         r: {
                             angleLines: { color: 'rgba(255, 255, 255, 0.2)' },
                             grid: { color: 'rgba(255, 255, 255, 0.2)' },
-                            pointLabels: { color: 'var(--text-color)', font: { size: 11, family: 'Inter' } },
-                            ticks: { display: false, min: 0, max: 255 }
+                            pointLabels: { color: 'var(--text-color)', font: { size: 11, family: 'Inter', weight: 'bold' } },
+                            ticks: { 
+                                display: true, 
+                                backdropColor: 'transparent', 
+                                color: 'rgba(255, 255, 255, 0.6)', 
+                                font: { size: 10, family: 'Inter' },
+                                stepSize: 50,
+                                min: 0, 
+                                max: 255 
+                            }
                         }
                     },
                     plugins: { legend: { display: false } }
