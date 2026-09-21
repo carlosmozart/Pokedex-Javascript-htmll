@@ -35,7 +35,7 @@ export const getPokemonSprite = (data, shiny) => {
         };
         
         const genInfo = genMap[state.currentGenId];
-        if (genInfo && data.sprites.versions && data.sprites.versions[genInfo[0]] && data.sprites.versions[genInfo[0]][genInfo[1]]) {
+        if (genInfo && data.sprites?.versions && data.sprites.versions[genInfo[0]] && data.sprites.versions[genInfo[0]][genInfo[1]]) {
             const versionSprites = data.sprites.versions[genInfo[0]][genInfo[1]];
             
             if (shiny) {

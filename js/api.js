@@ -42,6 +42,30 @@ export const fetchWithCache = async (url, cacheKey) => {
 };
 
 const adaptLocalToPokeAPI = (local) => {
+    const spriteVersions = {
+        'generation-i': { 'red-blue': 'red-blue', yellow: 'yellow' },
+        'generation-ii': { crystal: 'crystal' },
+        'generation-iii': { emerald: 'emerald' },
+        'generation-iv': { platinum: 'platinum' },
+        'generation-v': { 'black-white': 'black-white' },
+        'generation-vi': { 'omegaruby-alphasapphire': 'omegaruby-alphasapphire' },
+        'generation-vii': { 'ultra-sun-ultra-moon': 'ultra-sun-ultra-moon' },
+        'generation-viii': { icons: 'icons' }
+    };
+    const versions = {};
+    Object.entries(spriteVersions).forEach(([generation, games]) => {
+        versions[generation] = {};
+        Object.entries(games).forEach(([game, directory]) => {
+            const base = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/${generation}/${directory}`;
+            versions[generation][game] = {
+                front_default: `${base}/${local.id}.png`,
+                front_shiny: `${base}/shiny/${local.id}.png`,
+                front_transparent: `${base}/${local.id}.png`,
+                front_shiny_transparent: `${base}/shiny/${local.id}.png`
+            };
+        });
+    });
+
     return {
         id: local.id,
         name: local.nome,
@@ -61,6 +85,7 @@ const adaptLocalToPokeAPI = (local) => {
         sprites: { 
             front_default: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${local.id}.png`,
             front_shiny: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${local.id}.png`,
+            versions,
             other: {
                 showdown: {
                     front_default: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/${local.id}.gif`,
@@ -127,7 +152,7 @@ export const fetchPokemonData = async (pokemon) => {
         let targetGen = state.currentGenId;
         if (targetGen < 3 || targetGen > 7) targetGen = 7;
         
-        const cacheKey = `local_poke_v2_${id}_g${targetGen}`;
+        const cacheKey = `local_poke_v3_${id}_g${targetGen}`;
         const cached = safeSessionGet(cacheKey);
         if (cached) {
             try {
@@ -157,7 +182,7 @@ export const fetchSpeciesData = async (pokemon) => {
         let targetGen = state.currentGenId;
         if (targetGen < 3 || targetGen > 7) targetGen = 7;
         
-        const cacheKey = `local_spec_${id}_g${targetGen}_${state.currentLang}`;
+        const cacheKey = `local_spec_v3_${id}_g${targetGen}_${state.currentLang}`;
         const cached = safeSessionGet(cacheKey);
         if (cached) {
             try {
