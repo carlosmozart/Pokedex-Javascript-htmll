@@ -52,7 +52,20 @@ const adaptLocalToPokeAPI = (local) => {
         ],
         abilities: (local.habilidades || []).map(h => ({ is_hidden: h.oculta, ability: { name: h.nome } })),
         cries: local.cries || null,
-        sprites: { front_default: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${local.id}.png` },
+        sprites: { 
+            front_default: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${local.id}.png`,
+            front_shiny: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${local.id}.png`,
+            other: {
+                showdown: {
+                    front_default: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/${local.id}.gif`,
+                    front_shiny: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/${local.id}.gif`
+                },
+                'official-artwork': {
+                    front_default: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${local.id}.png`,
+                    front_shiny: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/${local.id}.png`
+                }
+            }
+        },
         _isLocal: true,
         _localEvolutions: local.evolucoes || [],
         _rawLocal: local
@@ -107,7 +120,7 @@ export const fetchPokemonData = async (pokemon) => {
         let targetGen = state.currentGenId;
         if (targetGen < 3 || targetGen > 7) targetGen = 7;
         
-        const cacheKey = `local_poke_${id}_g${targetGen}`;
+        const cacheKey = `local_poke_v2_${id}_g${targetGen}`;
         const cached = safeSessionGet(cacheKey);
         if (cached) {
             try {
