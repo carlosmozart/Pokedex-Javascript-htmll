@@ -70,48 +70,52 @@ export const updateFavButton = (id) => {
 let radarChart = null;
 
 export const renderStats = (stats) => {
-    const ctx = document.getElementById('stats-radar');
-    if (!ctx) return;
-    
-    const statValues = stats.map(stat => stat.base_stat);
-    const primaryColor = getComputedStyle(document.documentElement).getPropertyValue(`--type-${state.currentPokemonData.types[0].type.name}`).trim() || '#FF5959';
+    try {
+        const ctx = document.getElementById('stats-radar');
+        if (!ctx) return;
+        
+        const statValues = stats.map(stat => stat.base_stat);
+        const primaryColor = getComputedStyle(document.documentElement).getPropertyValue(`--type-${state.currentPokemonData.types[0].type.name}`).trim() || '#FF5959';
 
-    if (radarChart) {
-        radarChart.data.datasets[0].data = statValues;
-        radarChart.data.datasets[0].backgroundColor = `${primaryColor}88`; // 88 is hex for 53% opacity
-        radarChart.data.datasets[0].borderColor = primaryColor;
-        radarChart.update();
-    } else {
-        radarChart = new Chart(ctx, {
-            type: 'radar',
-            data: {
-                labels: ['HP', 'Ataque', 'Defesa', 'Velocidade', 'Defesa Esp.', 'Ataque Esp.'],
-                datasets: [{
-                    label: 'Status Base',
-                    data: [statValues[0], statValues[1], statValues[2], statValues[5], statValues[4], statValues[3]], // Reordered for better shape
-                    backgroundColor: `${primaryColor}88`,
-                    borderColor: primaryColor,
-                    pointBackgroundColor: '#fff',
-                    pointBorderColor: primaryColor,
-                    pointHoverBackgroundColor: primaryColor,
-                    pointHoverBorderColor: '#fff',
-                    borderWidth: 2
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                scales: {
-                    r: {
-                        angleLines: { color: 'rgba(255, 255, 255, 0.2)' },
-                        grid: { color: 'rgba(255, 255, 255, 0.2)' },
-                        pointLabels: { color: 'var(--text-color)', font: { size: 11, family: 'Inter' } },
-                        ticks: { display: false, min: 0, max: 255 }
-                    }
+        if (radarChart) {
+            radarChart.data.datasets[0].data = statValues;
+            radarChart.data.datasets[0].backgroundColor = `${primaryColor}88`; // 88 is hex for 53% opacity
+            radarChart.data.datasets[0].borderColor = primaryColor;
+            radarChart.update();
+        } else {
+            radarChart = new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['HP', 'Ataque', 'Defesa', 'Velocidade', 'Defesa Esp.', 'Ataque Esp.'],
+                    datasets: [{
+                        label: 'Status Base',
+                        data: [statValues[0], statValues[1], statValues[2], statValues[5], statValues[4], statValues[3]], // Reordered for better shape
+                        backgroundColor: `${primaryColor}88`,
+                        borderColor: primaryColor,
+                        pointBackgroundColor: '#fff',
+                        pointBorderColor: primaryColor,
+                        pointHoverBackgroundColor: primaryColor,
+                        pointHoverBorderColor: '#fff',
+                        borderWidth: 2
+                    }]
                 },
-                plugins: { legend: { display: false } }
-            }
-        });
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        r: {
+                            angleLines: { color: 'rgba(255, 255, 255, 0.2)' },
+                            grid: { color: 'rgba(255, 255, 255, 0.2)' },
+                            pointLabels: { color: 'var(--text-color)', font: { size: 11, family: 'Inter' } },
+                            ticks: { display: false, min: 0, max: 255 }
+                        }
+                    },
+                    plugins: { legend: { display: false } }
+                }
+            });
+        }
+    } catch (error) {
+        console.error('Erro ao renderizar gráfico:', error);
     }
 };
 
