@@ -319,6 +319,11 @@ const updateBasicInfo = (data) => {
 };
 
 const updateTypes = (types, speciesData) => {
+    if (!types || types.length === 0) {
+        dom.badge1.style.display = 'none';
+        dom.badge2.style.display = 'none';
+        return;
+    }
     const primaryType = types[0].type.name;
     const secondaryType = types[1] ? types[1].type.name : primaryType;
     
@@ -370,58 +375,68 @@ export const renderPokemon = async (pokemon) => {
         dom.pokemonDesc
     ];
     
-    skeletonElements.forEach(el => {
-        if (el) {
-            el.classList.add('skeleton');
-            el.innerHTML = 'Carregando...';
-        }
-    });
-    
-    if (dom.pokemonImage) {
-        dom.pokemonImage.classList.remove('pop-in');
-        dom.pokemonImage.src = './images/miss.png';
-    }
-
-    state.isShiny = false;
-    if (dom.btnShiny) {
-        dom.btnShiny.style.transform = 'scale(1)';
-        dom.btnShiny.style.background = 'var(--btn-bg)';
-    }
-
-    const data = await fetchPokemonData(pokemon);
-    const speciesData = await fetchSpeciesData(pokemon);
-
-    if (data && speciesData) {
-        state.currentPokemonData = data;
-        state.searchPokemon = data.id;
-
-        updateFavButton(data.id);
-        updateBasicInfo(data);
-        updateTypes(data.types, speciesData);
-        updateDescriptionAndCategory(speciesData);
-
-        renderStats(data.stats);
-        renderTypeMatchups(data.types);
-        renderEvolutions(speciesData, data);
+    try {
+        skeletonElements.forEach(el => {
+            if (el) {
+                el.classList.add('skeleton');
+                if (el.tagName !== 'IMG') {
+                    if (el === dom.pokemonNumber) el.innerHTML = '#000';
+                    else el.innerHTML = 'Carregando...';
+                }
+            }
+        });
         
-        skeletonElements.forEach(el => { if (el) el.classList.remove('skeleton'); });
-        
-        // Ativa a animação de entrada do sprite
         if (dom.pokemonImage) {
-            void dom.pokemonImage.offsetWidth; // Trigger reflow
-            dom.pokemonImage.classList.add('pop-in');
+            dom.pokemonImage.classList.remove('pop-in');
+            dom.pokemonImage.src = './images/miss.png';
         }
 
-        playCry(data);
-        if (dom.input) dom.input.value = '';
-    } else {
-        state.currentPokemonData = null;
-        resetUI();
-        if (!navigator.onLine || !pokemon) {
-            showToast('Erro de Conexão: Não foi possível obter os dados.');
-        } else {
-            showToast('Pokémon não encontrado.');
+        state.isShiny = false;
+        if (dom.btnShiny) {
+            dom.btnShiny.style.transform = 'scale(1)';
+            dom.btnShiny.style.background = 'var(--btn-bg)';
         }
+
+        const data = await fetchPokemonData(pokemon);
+        const speciesData = await fetchSpeciesData(pokemon);
+
+        if (data && speciesData) {
+            state.currentPokemonData = data;
+            state.searchPokemon = data.id;
+
+            updateFavButton(data.id);
+            updateBasicInfo(data);
+            updateTypes(data.types || [], speciesData);
+            updateDescriptionAndCategory(speciesData);
+
+            renderStats(data.stats || []);
+            renderTypeMatchups(data.types || []);
+            renderEvolutions(speciesData, data);
+            
+            skeletonElements.forEach(el => { if (el) el.classList.remove('skeleton'); });
+            
+            // Ativa a animação de entrada do sprite
+            if (dom.pokemonImage) {
+                void dom.pokemonImage.offsetWidth; // Trigger reflow
+                dom.pokemonImage.classList.add('pop-in');
+            }
+
+            playCry(data);
+            if (dom.input) dom.input.value = '';
+        } else {
+            state.currentPokemonData = null;
+            resetUI();
+            if (!navigator.onLine || !pokemon) {
+                showToast('Erro de Conexão: Não foi possível obter os dados.');
+            } else {
+                showToast('Pokémon não encontrado.');
+            }
+            skeletonElements.forEach(el => { if (el) el.classList.remove('skeleton'); });
+        }
+    } catch (e) {
+        console.error("FATAL ERROR in renderPokemon:", e);
+        resetUI();
         skeletonElements.forEach(el => { if (el) el.classList.remove('skeleton'); });
+        showToast('Erro interno ao carregar o Pokémon.');
     }
 };

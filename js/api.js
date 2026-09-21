@@ -76,7 +76,11 @@ const adaptLocalToPokeAPISpecies = (local, translatedDesc) => {
 export const fetchTranslations = async (lang, genId) => {
     const cacheKey = `i18n_${lang}_g${genId}`;
     const cached = safeSessionGet(cacheKey);
-    if (cached) return JSON.parse(cached);
+    if (cached) {
+        try {
+            return JSON.parse(cached);
+        } catch(e) {}
+    }
     
     try {
         const response = await fetch(`./data/gen${genId}/i18n/${lang}.json`);
@@ -104,7 +108,11 @@ export const fetchPokemonData = async (pokemon) => {
         
         const cacheKey = `local_poke_${id}_g${targetGen}`;
         const cached = safeSessionGet(cacheKey);
-        if (cached) return JSON.parse(cached);
+        if (cached) {
+            try {
+                return JSON.parse(cached);
+            } catch(e) {}
+        }
         
         try {
             const response = await fetch(`./data/gen${targetGen}/pokemon/${id}.json`);
@@ -129,7 +137,11 @@ export const fetchSpeciesData = async (pokemon) => {
         
         const cacheKey = `local_spec_${id}_g${targetGen}_${state.currentLang}`;
         const cached = safeSessionGet(cacheKey);
-        if (cached) return JSON.parse(cached);
+        if (cached) {
+            try {
+                return JSON.parse(cached);
+            } catch(e) {}
+        }
         
         try {
             const response = await fetch(`./data/gen${targetGen}/pokemon/${id}.json`);
